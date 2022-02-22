@@ -1,0 +1,55 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn38
+User: fglessge
+StartTime: 2022-02-15 12:32:17
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrd0U1OwzAQQOEThfE4CWnFih+1BNEQoZBFN5ZDXSci2JY9BvX2qBxjTvD06UEiHw3Y6HOAMF+SmhdrE8zTBI5yWE2C8Xmaep+o086DFNjAiAjHF0Np8F3usnrYG7dbVjJRHQMVUgjyrTurITvz2NcKy8GMxbc+2ajDfHg9FOFC86I3yplfG5dT0J9f8J5d2+70umJzTd2/Pf1URf9xLSqUiCXgVlSyUVgjSglCCAEUjVF4E72nO+CBEaw0vN5IThpWmJITpuKEqTlhbjlhGk6YDSfM9h/zBwuANQY= --sampleIdentifier ZJetsToNuNu_BGenFilter_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 12
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       76.16529083251953        33L                      9L                       1244.9090576171875       23799L                   
+2                         1L                       84.42355346679688        33L                      9L                       1374.227294921875        26241L                   
+3                         1L                       29.65289306640625        33L                      9L                       481.4545593261719        9156L                    
+4                         1L                       4.223140716552734        33L                      9L                       68.09091186523438        1304L                    
+5                         1L                       2.2706611156463623       33L                      9L                       33.59090805053711        617L                     
+6                         1L                       2.2727272510528564       33L                      9L                       35.09090805053711        649L                     
+7                         1L                       16.285123825073242       33L                      9L                       259.0                    4910L                    
+8                         1L                       27.301652908325195       33L                      9L                       439.5454406738281        8310L                    
+9                         1L                       15.702479362487793       33L                      9L                       252.0                    4809L                    
+10                        1L                       116.07025146484375       33L                      9L                       1912.1817626953125       36668L                   
+11                        1L                       9.092975616455078        33L                      9L                       149.5                    2876L                    
+12                        1L                       220.0826416015625        33L                      9L                       3621.54541015625         69436L                   
+[34m sum                      12L                      603.5433912277222        396L                     108L                     9871.136253356934        188775L                   [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/ZJetsToNuNu_BGenFilter_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_09c7ce5ab59662463422fc4f39709534ef66191a14481404eff659fd_000000_000000_0000_0_0c47244184d85f45ea9ff23c18eda8c2e53800c8631fdf248790abd2.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: end of processing. time  Tue Feb 15 12:32:36 2022
+INFO: throughput: INPUT: 0.0000/s, OUTPUT: 0.0000/s 
+INFO: number of trees processed: 0
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:32:36 2022  events read: 0
+ > [34m[0m 0 (?%) => /scratch/fglessge//hadd/ZJetsToNuNu_BGenFilter_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_09c7ce5ab59662463422fc4f39709534ef66191a14481404eff659fd_000000_000000_0000_0_0c47244184d85f45ea9ff23c18eda8c2e53800c8631fdf248790abd2.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//ZJetsToNuNu_BGenFilter_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_09c7ce5ab59662463422fc4f39709534ef66191a14481404eff659fd_000000_000000_0000_0_0c47244184d85f45ea9ff23c18eda8c2e53800c8631fdf248790abd2.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:32:36
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

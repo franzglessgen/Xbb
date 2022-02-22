@@ -1,0 +1,55 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn39
+User: fglessge
+StartTime: 2022-02-11 17:53:57
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrN1EsKwjAQANAT1ZlJ7Ce4VKELKxVqt6HF0BS0CUla7O0FTzE3eKsHMblgYApu9eDtHrWdpymCHUdY0urfJkJfj2PrYroPiwOBVEBPpDcJj/NF112OmFyJqLt1MefntWurhjTJzvTZZ3hNYfC2uTWZ35Odhwq0+SbKNgJSmAupSeVSKkBEhBSM0SQOwbl0Ao42ydh2ZGzLGdsKxraSsa1ibFN8bYx7E/i3/QBgWvdX --sampleIdentifier QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_12.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_13.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_14.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_15.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_16.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_17.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_18.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_19.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_2.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_20.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_12.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_12.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_13.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_14.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_15.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_16.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_17.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_18.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_19.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_2.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT500to700_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/_ext1-v1/190523_195339/0000/tree_20.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:25
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

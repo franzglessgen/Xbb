@@ -1,0 +1,64 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn36
+User: fglessge
+StartTime: 2022-02-15 12:34:45
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrV0k0KwjAQhuET6Uz6k1bcuerG4qJ04WZINCQF6YQkRby96MIzOBf4ePh4IRdODnziLUIMr0xh8T5DsBbWssWHyzAP1l44l9GsDBWqDmalwPvrQMPEpxNdJx63caOzqlpS9eRmivwMzlN8lbCYHszdPZeyuyVjaTUrf1bot9BrUAfUqAk7rJseEBGhJOdI7RNzOcK/M1GIU8qflRBnLcTZCHG2MpxC8hRSp5A4hbSpZTA7GcxeBvPwZb4BgwhFWQ== --sampleIdentifier ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 15
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         4L                       29.686933517456055       132L                     36L                      2429.37255859375         198803L                  
+2                         4L                       29.836261749267578       132L                     36L                      2441.5927734375          199803L                  
+3                         4L                       29.66961097717285        132L                     36L                      2427.955078125           198687L                  
+4                         4L                       29.686933517456055       132L                     36L                      2429.37255859375         198803L                  
+5                         4L                       29.561946868896484       132L                     36L                      2419.14453125            197966L                  
+6                         4L                       29.811922073364258       132L                     36L                      2439.600830078125        199640L                  
+7                         4L                       29.19728660583496        132L                     36L                      2389.30322265625         195524L                  
+8                         4L                       29.66961097717285        132L                     36L                      2427.955078125           198687L                  
+9                         4L                       29.86762046813965        132L                     36L                      2444.158935546875        200013L                  
+10                        4L                       29.502962112426758       132L                     36L                      2414.317626953125        197571L                  
+11                        4L                       29.64527130126953        132L                     36L                      2425.96337890625         198524L                  
+12                        4L                       29.53760528564453        132L                     36L                      2417.152587890625        197803L                  
+13                        4L                       29.53760528564453        132L                     36L                      2417.152587890625        197803L                  
+14                        4L                       29.607192993164062       132L                     36L                      2422.84716796875         198269L                  
+15                        4L                       29.728595733642578       132L                     36L                      2432.781982421875        199082L                  
+[34m sum                      60L                      444.54735946655273       1980L                    540L                     36378.6708984375         2976978L                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/tree_edf17d54b1eeb80b8764d16862a34c62d0146fabb534398b1e1b198e_000000_000000_0000_0_4793bf97d1bdd02c3b8a4c99979e28bb322ca21311c3f6e61fd69aec.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: switching trees --> 4 (=26.7 %, ETA: 0.2 min, INPUT: 0.222010132223/s, OUTPUT: 0.0/s )
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 7 (=46.7 %, ETA: 0.1 min, INPUT: 0.63084664644/s, OUTPUT: 0.42056443096/s )
+INFO: switching trees --> 11 (=73.3 %, ETA: 0.0 min, INPUT: 0.808412508747/s, OUTPUT: 0.60630938156/s )
+INFO: switching trees --> 14 (=93.3 %, ETA: 0.0 min, INPUT: 0.973327153131/s, OUTPUT: 0.778661722505/s )
+INFO: end of processing. time  Tue Feb 15 12:34:51 2022
+INFO: throughput: INPUT: 0.9732/s, OUTPUT: 0.9732/s 
+INFO: number of trees processed: 4
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:34:51 2022  events read: 5
+ > [34m[0m 5 (100.0%) => /scratch/fglessge//hadd/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/tree_edf17d54b1eeb80b8764d16862a34c62d0146fabb534398b1e1b198e_000000_000000_0000_0_4793bf97d1bdd02c3b8a4c99979e28bb322ca21311c3f6e61fd69aec.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/tree_edf17d54b1eeb80b8764d16862a34c62d0146fabb534398b1e1b198e_000000_000000_0000_0_4793bf97d1bdd02c3b8a4c99979e28bb322ca21311c3f6e61fd69aec.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:34:52
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

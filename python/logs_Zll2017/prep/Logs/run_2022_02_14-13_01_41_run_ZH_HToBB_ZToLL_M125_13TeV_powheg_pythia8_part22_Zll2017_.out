@@ -1,0 +1,240 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn71
+User: fglessge
+StartTime: 2022-02-14 13:19:45
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections Prep.Step1 --fileList base64:eNo9zLEOgjAQANAv0ruCUlyZGNA4NAwsl1ablsT0mvYI4e+Nix/wHlTh4iEU3jLkeFSKawgVonOQZMsfX2EenXtylYdNDA0qDbNSsIw0Gh4GWgxPE91VcyXVGj9T5j36QPmQuNoe7Nvvq5xexTpKNvFvoL/uW1A37LAj1IgXDYiIIMV70ufCLF/q2DWZ --sampleIdentifier ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//prep/config//submission_20220214_130141.ini --inputDir PREPin --outputDir PREPout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+TClass::Init:0: RuntimeWarning: no dictionary for class ROOT::TIOFeatures is available
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/adewit-crab_nano2017_ZH_HToBB_83/190606_070047/0000/tree_7.root
+INput samples:	root://eoscms.cern.ch/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting/
+collections to add: ['Prep.Step1']
+after parsing: ['VHbbCommon.Clean', 'VHbbCommon.JetSmearer', 'VHbbCommon.JECcorrelator', 'Prep.LeptonSelection']
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://eoscms.cern.ch//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root[0m
+INFO: # files chained: 0
+trying fallback... 1
+FO: root://eoscms.cern.ch///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/adewit-crab_nano2017_ZH_HToBB_83/190606_070047/0000/tree_7.root
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1                        354.67785568347625       33                       9                        3966.839265199999        49934L                   
+2                         1                        356.93658837277303       33                       9                        3984.032160799999        50252L                   
+3                         1                        356.3967654658971        33                       9                        3970.716094599999        50176L                   
+4                         1                        348.0010986773789        33                       9                        3876.323726599999        48994L                   
+[34m sum                      4                        1416.0123081995253       132                      36                       15797.911247199996       199356L                   [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: scale/smear parameters: 1.0 0.022 0.051 0.068
+DEBUG: skip adding branch: Jet_pt_jesFlavorQCDUp
+DEBUG: skip adding branch: Jet_mass_jesFlavorQCDUp
+DEBUG: skip adding branch: MET_pt_jesFlavorQCDUp
+DEBUG: skip adding branch: MET_phi_jesFlavorQCDUp
+DEBUG: skip adding branch: FatJet_pt_jesFlavorQCDUp
+DEBUG: skip adding branch: FatJet_msoftdrop_jesFlavorQCDUp
+DEBUG: skip adding branch: Jet_pt_jesFlavorQCDDown
+DEBUG: skip adding branch: Jet_mass_jesFlavorQCDDown
+DEBUG: skip adding branch: MET_pt_jesFlavorQCDDown
+DEBUG: skip adding branch: MET_phi_jesFlavorQCDDown
+DEBUG: skip adding branch: FatJet_pt_jesFlavorQCDDown
+DEBUG: skip adding branch: FatJet_msoftdrop_jesFlavorQCDDown
+DEBUG: skip adding branch: Jet_pt_jesRelativeBalUp
+DEBUG: skip adding branch: Jet_mass_jesRelativeBalUp
+DEBUG: skip adding branch: MET_pt_jesRelativeBalUp
+DEBUG: skip adding branch: MET_phi_jesRelativeBalUp
+DEBUG: skip adding branch: FatJet_pt_jesRelativeBalUp
+DEBUG: skip adding branch: FatJet_msoftdrop_jesRelativeBalUp
+DEBUG: skip adding branch: Jet_pt_jesRelativeBalDown
+DEBUG: skip adding branch: Jet_mass_jesRelativeBalDown
+DEBUG: skip adding branch: MET_pt_jesRelativeBalDown
+DEBUG: skip adding branch: MET_phi_jesRelativeBalDown
+DEBUG: skip adding branch: FatJet_pt_jesRelativeBalDown
+DEBUG: skip adding branch: FatJet_msoftdrop_jesRelativeBalDown
+DEBUG: sample identifier: ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8  lep flav {'SingleElectron': 3, 'MET': 4, 'SingleMuon': 2, 'DoubleMuon': 0, 'DoubleEG': 1}  ->  UNDEFINED LEPTON FLAVOR!!
+ > Drop:0
+ > JetSmearer:2
+ > JECcorrelator:0
+ > VHbbSelection:7
+OUTPUT TREES:
+ >  /scratch/fglessge//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/2ee8e7780f7e49eb860cd9ef8c4ca75f/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: Jet_PtRegScaleUp, Jet_PtRegScaleDown, Jet_PtRegSmearUp, Jet_PtRegSmearDown, Jet_pt_jesBBEC1Up, Jet_mass_jesBBEC1Up, MET_pt_jesBBEC1Up, MET_phi_jesBBEC1Up, FatJet_pt_jesBBEC1Up, FatJet_msoftdrop_jesBBEC1Up, Jet_pt_jesBBEC1Down, Jet_mass_jesBBEC1Down, MET_pt_jesBBEC1Down, MET_phi_jesBBEC1Down, FatJet_pt_jesBBEC1Down, FatJet_msoftdrop_jesBBEC1Down, Jet_pt_jesHFUp, Jet_mass_jesHFUp, MET_pt_jesHFUp, MET_phi_jesHFUp, FatJet_pt_jesHFUp, FatJet_msoftdrop_jesHFUp, Jet_pt_jesHFDown, Jet_mass_jesHFDown, MET_pt_jesHFDown, MET_phi_jesHFDown, FatJet_pt_jesHFDown, FatJet_msoftdrop_jesHFDown, Jet_pt_jesEC2Up, Jet_mass_jesEC2Up, MET_pt_jesEC2Up, MET_phi_jesEC2Up, FatJet_pt_jesEC2Up, FatJet_msoftdrop_jesEC2Up, Jet_pt_jesEC2Down, Jet_mass_jesEC2Down, MET_pt_jesEC2Down, MET_phi_jesEC2Down, FatJet_pt_jesEC2Down, FatJet_msoftdrop_jesEC2Down, Jet_pt_jesBBEC1_2017Up, Jet_mass_jesBBEC1_2017Up, MET_pt_jesBBEC1_2017Up, MET_phi_jesBBEC1_2017Up, FatJet_pt_jesBBEC1_2017Up, FatJet_msoftdrop_jesBBEC1_2017Up, Jet_pt_jesBBEC1_2017Down, Jet_mass_jesBBEC1_2017Down, MET_pt_jesBBEC1_2017Down, MET_phi_jesBBEC1_2017Down, FatJet_pt_jesBBEC1_2017Down, FatJet_msoftdrop_jesBBEC1_2017Down, Jet_pt_jesAbsolute_2017Up, Jet_mass_jesAbsolute_2017Up, MET_pt_jesAbsolute_2017Up, MET_phi_jesAbsolute_2017Up, FatJet_pt_jesAbsolute_2017Up, FatJet_msoftdrop_jesAbsolute_2017Up, Jet_pt_jesAbsolute_2017Down, Jet_mass_jesAbsolute_2017Down, MET_pt_jesAbsolute_2017Down, MET_phi_jesAbsolute_2017Down, FatJet_pt_jesAbsolute_2017Down, FatJet_msoftdrop_jesAbsolute_2017Down, Jet_pt_jesRelativeSample_2017Up, Jet_mass_jesRelativeSample_2017Up, MET_pt_jesRelativeSample_2017Up, MET_phi_jesRelativeSample_2017Up, FatJet_pt_jesRelativeSample_2017Up, FatJet_msoftdrop_jesRelativeSample_2017Up, Jet_pt_jesRelativeSample_2017Down, Jet_mass_jesRelativeSample_2017Down, MET_pt_jesRelativeSample_2017Down, MET_phi_jesRelativeSample_2017Down, FatJet_pt_jesRelativeSample_2017Down, FatJet_msoftdrop_jesRelativeSample_2017Down, Jet_pt_jesEC2_2017Up, Jet_mass_jesEC2_2017Up, MET_pt_jesEC2_2017Up, MET_phi_jesEC2_2017Up, FatJet_pt_jesEC2_2017Up, FatJet_msoftdrop_jesEC2_2017Up, Jet_pt_jesEC2_2017Down, Jet_mass_jesEC2_2017Down, MET_pt_jesEC2_2017Down, MET_phi_jesEC2_2017Down, FatJet_pt_jesEC2_2017Down, FatJet_msoftdrop_jesEC2_2017Down, Jet_pt_jesHF_2017Up, Jet_mass_jesHF_2017Up, MET_pt_jesHF_2017Up, MET_phi_jesHF_2017Up, FatJet_pt_jesHF_2017Up, FatJet_msoftdrop_jesHF_2017Up, Jet_pt_jesHF_2017Down, Jet_mass_jesHF_2017Down, MET_pt_jesHF_2017Down, MET_phi_jesHF_2017Down, FatJet_pt_jesHF_2017Down, FatJet_msoftdrop_jesHF_2017Down, Jet_pt_jesAbsoluteUp, Jet_mass_jesAbsoluteUp, MET_pt_jesAbsoluteUp, MET_phi_jesAbsoluteUp, FatJet_pt_jesAbsoluteUp, FatJet_msoftdrop_jesAbsoluteUp, Jet_pt_jesAbsoluteDown, Jet_mass_jesAbsoluteDown, MET_pt_jesAbsoluteDown, MET_phi_jesAbsoluteDown, FatJet_pt_jesAbsoluteDown, FatJet_msoftdrop_jesAbsoluteDown, isZee, isZmm, isWmunu, isWenu, isZnn, vLidx, lepMetDPhi, V_mt, V_pt, V_eta, V_phi, V_mass
+ADD NEW BRANCHES:
+ > [32mJet_PtRegScaleUp[256]         [0m function:[33mfillVectorBranch[0m
+ > [32mJet_PtRegScaleDown[256]       [0m function:[33mfillVectorBranch[0m
+ > [32mJet_PtRegSmearUp[256]         [0m function:[33mfillVectorBranch[0m
+ > [32mJet_PtRegSmearDown[256]       [0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesBBEC1Up[256]        [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesBBEC1Up[256]      [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesBBEC1Up             [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesBBEC1Up            [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesBBEC1Up[50]      [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesBBEC1Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesBBEC1Down[256]      [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesBBEC1Down[256]    [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesBBEC1Down           [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesBBEC1Down          [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesBBEC1Down[50]    [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesBBEC1Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesHFUp[256]           [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesHFUp[256]         [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesHFUp                [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesHFUp               [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesHFUp[50]         [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesHFUp[50]  [0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesHFDown[256]         [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesHFDown[256]       [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesHFDown              [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesHFDown             [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesHFDown[50]       [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesHFDown[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesEC2Up[256]          [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesEC2Up[256]        [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesEC2Up               [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesEC2Up              [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesEC2Up[50]        [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesEC2Up[50] [0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesEC2Down[256]        [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesEC2Down[256]      [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesEC2Down             [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesEC2Down            [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesEC2Down[50]      [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesEC2Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesBBEC1_2017Up[256]   [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesBBEC1_2017Up[256] [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesBBEC1_2017Up        [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesBBEC1_2017Up       [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesBBEC1_2017Up[50] [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesBBEC1_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesBBEC1_2017Down[256] [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesBBEC1_2017Down[256][0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesBBEC1_2017Down      [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesBBEC1_2017Down     [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesBBEC1_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesBBEC1_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesAbsolute_2017Up[256][0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesAbsolute_2017Up[256][0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesAbsolute_2017Up     [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesAbsolute_2017Up    [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesAbsolute_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesAbsolute_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesAbsolute_2017Down[256][0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesAbsolute_2017Down[256][0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesAbsolute_2017Down   [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesAbsolute_2017Down  [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesAbsolute_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesAbsolute_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesRelativeSample_2017Up[256][0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesRelativeSample_2017Up[256][0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesRelativeSample_2017Up[0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesRelativeSample_2017Up[0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesRelativeSample_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesRelativeSample_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesRelativeSample_2017Down[256][0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesRelativeSample_2017Down[256][0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesRelativeSample_2017Down[0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesRelativeSample_2017Down[0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesRelativeSample_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesRelativeSample_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesEC2_2017Up[256]     [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesEC2_2017Up[256]   [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesEC2_2017Up          [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesEC2_2017Up         [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesEC2_2017Up[50]   [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesEC2_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesEC2_2017Down[256]   [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesEC2_2017Down[256] [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesEC2_2017Down        [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesEC2_2017Down       [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesEC2_2017Down[50] [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesEC2_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesHF_2017Up[256]      [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesHF_2017Up[256]    [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesHF_2017Up           [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesHF_2017Up          [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesHF_2017Up[50]    [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesHF_2017Up[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesHF_2017Down[256]    [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesHF_2017Down[256]  [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesHF_2017Down         [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesHF_2017Down        [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesHF_2017Down[50]  [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesHF_2017Down[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesAbsoluteUp[256]     [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesAbsoluteUp[256]   [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesAbsoluteUp          [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesAbsoluteUp         [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesAbsoluteUp[50]   [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesAbsoluteUp[50][0m function:[33mfillVectorBranch[0m
+ > [32mJet_pt_jesAbsoluteDown[256]   [0m function:[33mfillVectorBranch[0m
+ > [32mJet_mass_jesAbsoluteDown[256] [0m function:[33mfillVectorBranch[0m
+ > [32mMET_pt_jesAbsoluteDown        [0m function:[33mgetBranch[0m
+ > [32mMET_phi_jesAbsoluteDown       [0m function:[33mgetBranch[0m
+ > [32mFatJet_pt_jesAbsoluteDown[50] [0m function:[33mfillVectorBranch[0m
+ > [32mFatJet_msoftdrop_jesAbsoluteDown[50][0m function:[33mfillVectorBranch[0m
+ > [32misZee                         [0m function:[33mgetBranch[0m
+ > [32misZmm                         [0m function:[33mgetBranch[0m
+ > [32misWmunu                       [0m function:[33mgetBranch[0m
+ > [32misWenu                        [0m function:[33mgetBranch[0m
+ > [32misZnn                         [0m function:[33mgetBranch[0m
+ > [32mvLidx[2]                      [0m function:[33mfillVectorBranch[0m
+ > [32mlepMetDPhi                    [0m function:[33mgetBranch[0m
+ > [32mV_mt                          [0m function:[33mgetBranch[0m
+ > [32mV_pt                          [0m function:[33mgetBranch[0m
+ > [32mV_eta                         [0m function:[33mgetBranch[0m
+ > [32mV_phi                         [0m function:[33mgetBranch[0m
+ > [32mV_mass                        [0m function:[33mgetBranch[0m
+------------------
+ start processing 
+------------------
+INFO: time  Mon Feb 14 13:20:07 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Mon Feb 14 14:05:38 2022
+INFO: throughput: INPUT: 45.8668/s, OUTPUT: 10.8565/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Mon Feb 14 14:05:38 2022  events read: 125249
+ > [34m[0m 29646 (23.6696500571%) => /scratch/fglessge//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/2ee8e7780f7e49eb860cd9ef8c4ca75f/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root
+INFO: statistics:
+  fail_lepton_selection :  4071.0
+cut-flow:
+  beginning           125249
+  HLT                 98434
+  Leptons             98429
+  Channel             58049
+  Vector boson        53978
+  Vpt                 29646
+  Jets                0
+  end                 29646
+efficiency: 0.236696500571
+copy  /scratch/fglessge//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/2ee8e7780f7e49eb860cd9ef8c4ca75f/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting//ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/tree_adewit-crab_nano2017_ZH_HToBB_83_190606_070047_0000_7_4544125e6d82162539363fb2a8bf90424a41eb6c630ac28a73f06779.root
+INFO: max memory used (MB): 463.9
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-14 14:05:41
+duration (real time): 45 minutes
+--- OK ---
+
+Exiting runAll.sh
+

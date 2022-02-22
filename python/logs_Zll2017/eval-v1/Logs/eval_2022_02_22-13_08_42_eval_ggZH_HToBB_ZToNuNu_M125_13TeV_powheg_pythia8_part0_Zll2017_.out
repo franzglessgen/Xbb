@@ -1,0 +1,17 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: eval
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn31
+User: fglessge
+StartTime: 2022-02-22 13:09:06
+
+Parsing files in Zll2017config...
+
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-22 13:09:06
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

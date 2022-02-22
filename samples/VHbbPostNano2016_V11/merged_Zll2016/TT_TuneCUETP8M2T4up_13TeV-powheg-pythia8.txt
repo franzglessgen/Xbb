@@ -1,0 +1,14 @@
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_15.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_6.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_4.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_2.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_8.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_7.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_11.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_9.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_12.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_5.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_1.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_3.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_16.root
+/store/user/scoopers/VHbbPostNano2016_V1/TT_TuneCUETP8M2T4up_13TeV-powheg-pythia8/RunIISummer16MiniAODv2-PUMoriond17-80X-VHbbPostNano2016_V1/180209_130941/0000/tree_14.root

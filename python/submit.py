@@ -572,7 +572,7 @@ def PrintProcessedFiles(path, subfolder, sampleFileList, prepOUT = None):
 if opts.task == 'prep' or opts.task == 'checkprep':
 
     pathOUT = config.get("Directories", "PREPout")
-    samplefiles = config.get('Directories', 'samplefiles')
+    samplefiles = config.get('Directories','samplefiles')
     info = ParseInfo(samples_path=pathOUT, config=config)
     sampleIdentifiers = filterSampleList(info.getSampleIdentifiers(), samplesList)
 
@@ -584,7 +584,7 @@ if opts.task == 'prep' or opts.task == 'checkprep':
     # process all sample identifiers (correspond to folders with ROOT files)
     for sampleIdentifier in sampleIdentifiers:
         try:
-            sampleFileList = filelist(samplefiles, sampleIdentifier)
+	    sampleFileList = filelist(samplefiles, sampleIdentifier)
         except:
             print "\x1b[31mERROR:", sampleIdentifier, " could not be found!\x1b[0m"
             continue
@@ -900,7 +900,6 @@ if opts.task == 'sysnew' or opts.task == 'checksysnew' or opts.task == 'run':
         for sampleIdentifier in sampleIdentifiers:
             try:
                 sampleFileList = filelist(samplefiles, sampleIdentifier)
-
                 # filter to run only on specific files
                 if opts.files is not None:
                     fileListFilter = opts.files.split(",")
@@ -909,7 +908,7 @@ if opts.task == 'sysnew' or opts.task == 'checksysnew' or opts.task == 'run':
                         print "=> no files match the criteria, skip this chunk"
                         continue
             except:
-                print "\x1b[31mERROR: sample", sampleIdentifier, " does not exist => skip.\x1b[0m"
+		print "\x1b[31mERROR: sample", sampleIdentifier, " does not exist => skip.\x1b[0m"
                 continue
 
             # specified with -N option
@@ -982,8 +981,11 @@ if opts.task == 'sysnew' or opts.task == 'checksysnew' or opts.task == 'run':
                     if sampleIdentifier in jobDependencyDict and chunkNumber in jobDependencyDict[sampleIdentifier]:
                         jobDict['dependency'] = jobDependencyDict[sampleIdentifier][chunkNumber]
 
-                    # submit
-                    batchJob = submit(jobName, jobDict)
+                    
+
+		    # submit
+                    print(jobName)
+		    batchJob = submit(jobName, jobDict)
 
                     jobID = batchJob.jobID() if batchJob else -1
                     if jobID > -1:

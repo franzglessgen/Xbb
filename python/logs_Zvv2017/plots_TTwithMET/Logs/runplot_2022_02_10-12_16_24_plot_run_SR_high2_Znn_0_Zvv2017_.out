@@ -1,0 +1,243 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: runplot
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn56
+User: fglessge
+StartTime: 2022-02-10 12:16:28
+
+Parsing files in Zvv2017config...
+
+python ./run_plot.py --regions SR_high2_Znn --vars parity,nAddJets302p4puid7jetid4,Hmass_noFSR,Vmt_ext,Hmass_0to500,Hpt,countNoWeight,Vtype,min_MET_MHT,FatJet_Pt,deltaEtabbWithFSR,minDeltaPhiJetMET_0lep_addJetExists,METphi,parityBDTDNN,Hj1_btag_WP,Hmass_SR,Vmt,BDT_VZ_Zvv_BOOSTFinal_wdB,Heta,FatJet_mSD,Hj0_btag_WP,dPhi_H_MET,Hmass_0to900,btagWP2D,addJetMaxPt_0lep_addJetExists,nAddJetCloseToMET,countGenWeight,run,nAddJetFarFromMET,Vpt,DeepAK8_bbVSlight,nVertices,BDT_Zvv_BOOSTFinal_wdB,max_pt_fsr,rho,deltaPhibbWithFSR,nAddJetTransverse,Hphi,SA5,count,LeptonSelection,min_pt_fsr,tkmetphi,Hj1_btag,Hmass,addJetMaxBtag_WP_0lep_addJetExists,MET,Hpt_noFSR,nFSRrecovered,dPhi_MET_tkMET,Hj0_btag --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zvv2017//plots_TTwithMET/config//submission_20220210_121624.ini
+INFO: loaded VHbbNameSpace: /t3home/fglessge/CMSSW_10_1_0/src//Xbb/interface/VHbbNameSpace_h.so
+INFO: starting plot for region [34mSR_high2_Znn[0m, variables:
+  > parity
+  > nAddJets302p4puid7jetid4
+  > Hmass_noFSR
+  > Vmt_ext
+  > Hmass_0to500
+  > Hpt
+  > countNoWeight
+  > Vtype
+  > min_MET_MHT
+  > FatJet_Pt
+  > deltaEtabbWithFSR
+  > minDeltaPhiJetMET_0lep_addJetExists
+  > METphi
+  > parityBDTDNN
+  > Hj1_btag_WP
+  > Hmass_SR
+  > Vmt
+  > BDT_VZ_Zvv_BOOSTFinal_wdB
+  > Heta
+  > FatJet_mSD
+  > Hj0_btag_WP
+  > dPhi_H_MET
+  > Hmass_0to900
+  > btagWP2D
+  > addJetMaxPt_0lep_addJetExists
+  > nAddJetCloseToMET
+  > countGenWeight
+  > run
+  > nAddJetFarFromMET
+  > Vpt
+  > DeepAK8_bbVSlight
+  > nVertices
+  > BDT_Zvv_BOOSTFinal_wdB
+  > max_pt_fsr
+  > rho
+  > deltaPhibbWithFSR
+  > nAddJetTransverse
+  > Hphi
+  > SA5
+  > count
+  > LeptonSelection
+  > min_pt_fsr
+  > tkmetphi
+  > Hj1_btag
+  > Hmass
+  > addJetMaxBtag_WP_0lep_addJetExists
+  > MET
+  > Hpt_noFSR
+  > nFSRrecovered
+  > dPhi_MET_tkMET
+  > Hj0_btag
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mERROR: sampleTree not available for  MET , run caching again!![0m
+Traceback (most recent call last):
+  File "./run_plot.py", line 201, in <module>
+    plotter.prepare()
+  File "./run_plot.py", line 152, in prepare
+    raise Exception("CachedTreeMissing")
+Exception: CachedTreeMissing
+--------------------------------------------------------------------------------
+exit code: 1
+EndTime: 2022-02-10 12:16:33
+duration (real time): 0 minutes
+--- RETRY ---
+python ./run_plot.py --regions SR_high2_Znn --vars parity,nAddJets302p4puid7jetid4,Hmass_noFSR,Vmt_ext,Hmass_0to500,Hpt,countNoWeight,Vtype,min_MET_MHT,FatJet_Pt,deltaEtabbWithFSR,minDeltaPhiJetMET_0lep_addJetExists,METphi,parityBDTDNN,Hj1_btag_WP,Hmass_SR,Vmt,BDT_VZ_Zvv_BOOSTFinal_wdB,Heta,FatJet_mSD,Hj0_btag_WP,dPhi_H_MET,Hmass_0to900,btagWP2D,addJetMaxPt_0lep_addJetExists,nAddJetCloseToMET,countGenWeight,run,nAddJetFarFromMET,Vpt,DeepAK8_bbVSlight,nVertices,BDT_Zvv_BOOSTFinal_wdB,max_pt_fsr,rho,deltaPhibbWithFSR,nAddJetTransverse,Hphi,SA5,count,LeptonSelection,min_pt_fsr,tkmetphi,Hj1_btag,Hmass,addJetMaxBtag_WP_0lep_addJetExists,MET,Hpt_noFSR,nFSRrecovered,dPhi_MET_tkMET,Hj0_btag --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zvv2017//plots_TTwithMET/config//submission_20220210_121624.ini
+INFO: loaded VHbbNameSpace: /t3home/fglessge/CMSSW_10_1_0/src//Xbb/interface/VHbbNameSpace_h.so
+INFO: starting plot for region [34mSR_high2_Znn[0m, variables:
+  > parity
+  > nAddJets302p4puid7jetid4
+  > Hmass_noFSR
+  > Vmt_ext
+  > Hmass_0to500
+  > Hpt
+  > countNoWeight
+  > Vtype
+  > min_MET_MHT
+  > FatJet_Pt
+  > deltaEtabbWithFSR
+  > minDeltaPhiJetMET_0lep_addJetExists
+  > METphi
+  > parityBDTDNN
+  > Hj1_btag_WP
+  > Hmass_SR
+  > Vmt
+  > BDT_VZ_Zvv_BOOSTFinal_wdB
+  > Heta
+  > FatJet_mSD
+  > Hj0_btag_WP
+  > dPhi_H_MET
+  > Hmass_0to900
+  > btagWP2D
+  > addJetMaxPt_0lep_addJetExists
+  > nAddJetCloseToMET
+  > countGenWeight
+  > run
+  > nAddJetFarFromMET
+  > Vpt
+  > DeepAK8_bbVSlight
+  > nVertices
+  > BDT_Zvv_BOOSTFinal_wdB
+  > max_pt_fsr
+  > rho
+  > deltaPhibbWithFSR
+  > nAddJetTransverse
+  > Hphi
+  > SA5
+  > count
+  > LeptonSelection
+  > min_pt_fsr
+  > tkmetphi
+  > Hj1_btag
+  > Hmass
+  > addJetMaxBtag_WP_0lep_addJetExists
+  > MET
+  > Hpt_noFSR
+  > nFSRrecovered
+  > dPhi_MET_tkMET
+  > Hj0_btag
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mWARNING: no section 'Plot:SR_high2_Znn' in config, using defaults.[0m
+[31mERROR: sampleTree not available for  MET , run caching again!![0m
+Traceback (most recent call last):
+  File "./run_plot.py", line 201, in <module>
+    plotter.prepare()
+  File "./run_plot.py", line 152, in prepare
+    raise Exception("CachedTreeMissing")
+Exception: CachedTreeMissing
+exit code: 1
+duration (real time): 0 minutes, including retry
+
+Exiting runAll.sh
+

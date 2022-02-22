@@ -1,0 +1,52 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn36
+User: fglessge
+StartTime: 2022-02-15 12:34:35
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 8 --fileList base64:eNrFzUsKwjAURuEV1f/eWNuIM2nRkYiDToORkAglt+QhuHupm+j0nMGHXCQ5+CR1wRK+2YS39xnBWsRSl9llTFdr75LL7RkFirjHxIxBqp3deMGjxjWem/VzO7iXItbNhzWBj9SqzjCR3hOIiFCSc+awSyLlhG30blO9/+s/t+p2Zw== --sampleIdentifier DoubleEG --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 3
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      
+1                         16383518L                
+2                         18150156L                
+3                         20867558L                
+[34m sum                      55401232L                 [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/DoubleEG/tree_d509e341bb10c4e9732d41fbafddce09cb184175594b13f4630ad386_000000_000000_0000_8_7b861dbc6c729f026acbd0d76ee794e77da4f69f8dc2bd7fa470a729.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 12:34:38 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 1 (=33.3 %, ETA: 0.0 min, INPUT: 3872.86302698/s, OUTPUT: 3870.64362123/s )
+INFO: switching trees --> 2 (=66.7 %, ETA: 0.0 min, INPUT: 4104.47574878/s, OUTPUT: 4103.40464342/s )
+INFO: end of processing. time  Tue Feb 15 12:34:39 2022
+INFO: throughput: INPUT: 4347.2704/s, OUTPUT: 4347.2704/s 
+INFO: number of trees processed: 3
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:34:39 2022  events read: 5547
+ > [34m[0m 5547 (100.0%) => /scratch/fglessge//hadd/DoubleEG/tree_d509e341bb10c4e9732d41fbafddce09cb184175594b13f4630ad386_000000_000000_0000_8_7b861dbc6c729f026acbd0d76ee794e77da4f69f8dc2bd7fa470a729.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//DoubleEG/tree_d509e341bb10c4e9732d41fbafddce09cb184175594b13f4630ad386_000000_000000_0000_8_7b861dbc6c729f026acbd0d76ee794e77da4f69f8dc2bd7fa470a729.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:34:40
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

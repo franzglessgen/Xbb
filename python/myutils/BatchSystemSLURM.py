@@ -98,6 +98,7 @@ class BatchSystemSLURM(BatchSystem):
         self.nJobsProcessed += 1
         self.submitPreprocess(job, repDict)
 
+
         runscript = self.getRunScriptCommand(repDict)
         logPaths = self.getLogPaths(repDict)
 
@@ -107,8 +108,9 @@ class BatchSystemSLURM(BatchSystem):
             if repDict['queue'] == 'all.q':
                 timeLimit = '0-10:00'
             elif repDict['queue'] == 'long.q':
-                timeLimit = '1-00:00'
-            elif repDict['queue'] == 'twodays.q':
+		timeLimit = '1-00:00'
+        	partitionAuto = "long"     
+	    elif repDict['queue'] == 'twodays.q':
                 timeLimit = '2-00:00'
             elif repDict['queue'] == 'threedays.q':
                 timeLimit = '3-00:00'

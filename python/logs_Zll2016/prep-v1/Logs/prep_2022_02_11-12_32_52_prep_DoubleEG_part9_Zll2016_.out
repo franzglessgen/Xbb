@@ -1,0 +1,92 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn50
+User: fglessge
+StartTime: 2022-02-11 17:53:35
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrF07sKwkAQheEnimdms4kJthGtRCzSBleWRAg7YS+Cby/Bh5j2/MVXHaQs0WOOUjZsyzdNy3ueExbnEHLZVp8wXp27S8q3ZxAY4hYjMwYpbvXnCx4l7ONQ7Z3t4F+GuKs+3NXgnqxpJ+praxsQESFH7yfmQxTJJyjxRpevdXmryze6fKvLH3X5TpfvVfn/7X/Yj42P --sampleIdentifier DoubleEG --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+TNetXNGFile::Init:0: RuntimeWarning: file root://t3dcachedb03.psi.ch//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting/DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_12_f6530756a9d05247e91c32d8de45fa60447a4f5238dfc6bf18d88afd.root probably not closed, trying to recover
+TNetXNGFile::Init:0: RuntimeWarning: no keys recovered, file has been made a Zombie
+Error in <TNetXNGFile::TNetXNGFile>: Object is in 'zombie' state
+TClass::Init:0: RuntimeWarning: no dictionary for class ROOT::TIOFeatures is available
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_11.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_12_f6530756a9d05247e91c32d8de45fa60447a4f5238dfc6bf18d88afd.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_12.root with cut: 1
+[1;34m	 before cuts	 137839[1;m
+[1;32m	 survived	 137839[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_12_f6530756a9d05247e91c32d8de45fa60447a4f5238dfc6bf18d88afd.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_13_cae5e20cdc29af56ad72c24305cc9676f336bc4f5418ffd9c161f93d.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_13.root with cut: 1
+[1;34m	 before cuts	 143409[1;m
+[1;32m	 survived	 143409[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_13_cae5e20cdc29af56ad72c24305cc9676f336bc4f5418ffd9c161f93d.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_14_6d59a801a8b8244e12c8030b27d8a0267c764958a8773f7912cdc354.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_14.root with cut: 1
+[1;34m	 before cuts	 143240[1;m
+[1;32m	 survived	 143240[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_14_6d59a801a8b8244e12c8030b27d8a0267c764958a8773f7912cdc354.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_15_c5166c1c0632cefa216df105480379058f5a890eca023bff73e28530.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_15.root with cut: 1
+[1;34m	 before cuts	 140156[1;m
+[1;32m	 survived	 140156[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_15_c5166c1c0632cefa216df105480379058f5a890eca023bff73e28530.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_16_4d98b8f63b400adb460b62aa6dea175f11c19c6d5a9d1c227f40e055.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_16.root with cut: 1
+[1;34m	 before cuts	 138646[1;m
+[1;32m	 survived	 138646[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_16_4d98b8f63b400adb460b62aa6dea175f11c19c6d5a9d1c227f40e055.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_17_cdc092cf4770443dc3b11e52e434dedf251f1da8639fe5c89d70116f.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_17.root with cut: 1
+[1;34m	 before cuts	 124826[1;m
+[1;32m	 survived	 124826[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_17_cdc092cf4770443dc3b11e52e434dedf251f1da8639fe5c89d70116f.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_18_b05905716c22db23320c1623fb5a86e999fc864ef02709692e4e8353.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_18.root with cut: 1
+[1;34m	 before cuts	 134671[1;m
+[1;32m	 survived	 134671[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_18_b05905716c22db23320c1623fb5a86e999fc864ef02709692e4e8353.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_19_3ab8b7d65231aad0fca03dae609dcce2104a7cc009e47ae92b4a6f0b.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_19.root with cut: 1
+[1;34m	 before cuts	 144222[1;m
+[1;32m	 survived	 144222[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_19_3ab8b7d65231aad0fca03dae609dcce2104a7cc009e47ae92b4a6f0b.root [0m
+checking if the copy worked
+outputFileName /tmp/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_2_bd199b0dadd782e0121cb1e564d7a2a11b14c8be3fc42beff9b7d36c.root
+
+	 copy file: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_2.root with cut: 1
+[1;34m	 before cuts	 141333[1;m
+[1;32m	 survived	 141333[1;m
+copy to final location:[34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2016_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2016D-Nano14Dec2018-v183_190426_093445_0000_2_bd199b0dadd782e0121cb1e564d7a2a11b14c8be3fc42beff9b7d36c.root [0m
+checking if the copy worked
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 18:27:59
+duration (real time): 34 minutes
+--- OK ---
+
+Exiting runAll.sh
+

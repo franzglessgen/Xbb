@@ -1,0 +1,105 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn51
+User: fglessge
+StartTime: 2022-02-15 17:27:11
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections KinematicFit.fitter --fileList base64:eNolx7EOgyAUQNEvsu+BCji3Q9No42BMOhFeQWnSCgEc/Psm7V1OLuQSkoM1hT1C9EfW/rWuGTwRbGWPb5dhvhKNIZe72QJwZBJmxuDyuLmSp9D3eqha1NepEoglKEQ97Zs7j61m9eTm6mPsmkz0Qz9U8Sj+ZRTQ0lK3cCOVFLVUFvliWWNRduSe1CxMcMtrwYxSnIuOhHiqzrQE+Ev/+R2U5JxuTimE8gW1fj/u --sampleIdentifier DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//kinfit/config//submission_20220215_172539.ini --inputDir KINFITin --outputDir KINFITout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root
+INput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/kinfit_out
+collections to add: ['KinematicFit.fitter']
+after parsing: ['KinematicFit.fitter']
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys//DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b_000000_000000_0000_4_9a901ed6b77eb304a4a192b900e9cb084f33a6732a377d3466fd30d5.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys//DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b_000000_000000_0000_4_9a901ed6b77eb304a4a192b900e9cb084f33a6732a377d3466fd30d5.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys//DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b_000000_000000_0000_4_9a901ed6b77eb304a4a192b900e9cb084f33a6732a377d3466fd30d5.root[0m
+INFO: # files chained: 0
+trying fallback... 1
+FO: root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root[0m
+INFO: # files chained: 0
+[31mERROR: file does not exist or is broken, will be SKIPPED![0m
+Traceback (most recent call last):
+  File "./sys_new.py", line 301, in <module>
+    xr.run()
+  File "./sys_new.py", line 281, in run
+    raise Exception("ProcessingIncomplete")
+Exception: ProcessingIncomplete
+--------------------------------------------------------------------------------
+exit code: 1
+EndTime: 2022-02-15 17:27:22
+duration (real time): 0 minutes
+--- RETRY ---
+python ./sys_new.py --addCollections KinematicFit.fitter --fileList base64:eNolx7EOgyAUQNEvsu+BCji3Q9No42BMOhFeQWnSCgEc/Psm7V1OLuQSkoM1hT1C9EfW/rWuGTwRbGWPb5dhvhKNIZe72QJwZBJmxuDyuLmSp9D3eqha1NepEoglKEQ97Zs7j61m9eTm6mPsmkz0Qz9U8Sj+ZRTQ0lK3cCOVFLVUFvliWWNRduSe1CxMcMtrwYxSnIuOhHiqzrQE+Ev/+R2U5JxuTimE8gW1fj/u --sampleIdentifier DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//kinfit/config//submission_20220215_172539.ini --inputDir KINFITin --outputDir KINFITout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root
+INput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/kinfit_out
+collections to add: ['KinematicFit.fitter']
+after parsing: ['KinematicFit.fitter']
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys//DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b_000000_000000_0000_4_9a901ed6b77eb304a4a192b900e9cb084f33a6732a377d3466fd30d5.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys//DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b_000000_000000_0000_4_9a901ed6b77eb304a4a192b900e9cb084f33a6732a377d3466fd30d5.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys//DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b_000000_000000_0000_4_9a901ed6b77eb304a4a192b900e9cb084f33a6732a377d3466fd30d5.root[0m
+INFO: # files chained: 0
+trying fallback... 1
+FO: root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/bf5b9f2a7876378d02fd14d079becb4f162d2361a882269b66c89a5b/000000_000000/0000/tree_4.root[0m
+INFO: # files chained: 0
+[31mERROR: file does not exist or is broken, will be SKIPPED![0m
+Traceback (most recent call last):
+  File "./sys_new.py", line 301, in <module>
+    xr.run()
+  File "./sys_new.py", line 281, in run
+    raise Exception("ProcessingIncomplete")
+Exception: ProcessingIncomplete
+exit code: 1
+duration (real time): 0 minutes, including retry
+
+Exiting runAll.sh
+

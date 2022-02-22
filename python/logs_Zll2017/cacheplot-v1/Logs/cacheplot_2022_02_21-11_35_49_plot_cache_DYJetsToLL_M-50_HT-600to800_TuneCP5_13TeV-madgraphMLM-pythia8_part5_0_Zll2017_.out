@@ -1,0 +1,1136 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: cacheplot
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn33
+User: fglessge
+StartTime: 2022-02-21 11:36:05
+
+Parsing files in Zll2017config...
+
+python ./cache_plot.py --regions SR_low_Zmm,SR_low_Zee,SR_med_Zmm_0j,SR_med_Zee_0j,SR_med_Zmm_ge1j,SR_med_Zee_ge1j,SR_high1_Zmm,SR_high2_Zmm,SR_high1_Zee,SR_high2_Zee,Zlf_low_Zmm,Zlf_low_Zee,Zlf_med_Zmm,Zlf_med_Zee,Zlf_high_Zmm,Zlf_high_Zee,Zhf_low_Zmm,Zhf_low_Zee,Zhf_med_Zmm,Zhf_med_Zee,Zhf_high_Zmm,Zhf_high_Zee,ttbar_low_Zmm,ttbar_low_Zee,ttbar_med_Zmm,ttbar_med_Zee,ttbar_high_Zmm,ttbar_high_Zee,SR_high1_Zee_BOOST,SR_high2_Zee_BOOST,SR_high1_Zmm_BOOST,SR_high2_Zmm_BOOST,Zlf_high_Zee_BOOST,Zlf_high_Zmm_BOOST,Zhf_high_Zmm_BOOST,Zhf_high_Zee_BOOST,ttbar_high_Zmm_BOOST,ttbar_high_Zee_BOOST --splitFilesChunkSize 1 --splitFilesChunks 8 --chunkNumber 5 --fileList base64:eNpNiMtqAjEUQL9ovDePycNtXUjR4mIQ2k24SW4cQc0wiYX+fcFuejbncNZa+xagq5wozZwjqs3Srps0bwV6DbA8SoO/A+neoK/X70QdWq8rw7PxCuVy49YuDOd9jPB1u73iVFv/oEeVKGw4CwESJQY0AR3EWluH3ec79zbVwyEchxHDfhoMYq8OMUzPB7+dxiDUxOfhTvmy0jIfD8dh+enzlRz0lTnEMkZfJFlnjbIuoyxZ6IzWR05RF2FklsoIck5K46MxyXkaY8AX/xV08ORRcDbRWo4KNWkSXkaPyD5FdLooRcYqScrarLQxJSvM42attf8Cvclkzg== --sampleIdentifier DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//cacheplot-v1/config//submission_20220221_113549.ini
+INFO: loaded VHbbNameSpace: /t3home/fglessge/CMSSW_10_1_0/src//Xbb/interface/VHbbNameSpace_h.so
+REGION:                  CUT:
+ >  ttbar_med_Zmm        (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 10 && (V_mass < 75 || V_mass > 120) && Jet_btagDeepB[hJidx[0]] > 0.8001 && Jet_btagDeepB[hJidx[1]] > 0.1522 && H_mass < 250)) && isZmm && (V_pt>=150.0&&V_pt<250.0)
+ >  SR_high2_Zmm         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZmm && (V_pt>=400.0)
+ >  SR_high1_Zmm         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZmm && (V_pt>=250.0 && V_pt<400)
+ >  SR_low_Zee           (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZee && (V_pt>=75.0&&V_pt<150.0)
+ >  ttbar_med_Zee        (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 10 && (V_mass < 75 || V_mass > 120) && Jet_btagDeepB[hJidx[0]] > 0.8001 && Jet_btagDeepB[hJidx[1]] > 0.1522 && H_mass < 250)) && isZee && (V_pt>=150.0&&V_pt<250.0)
+ >  Zlf_med_Zee          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75. && V_mass < 105. && Jet_btagDeepB[hJidx[0]] < 0.1522 && Jet_btagDeepB[hJidx[1]] < 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && (H_mass > 90 && H_mass < 150))) && isZee && (V_pt>=150.0&&V_pt<250.0)
+ >  SR_high1_Zee         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZee && (V_pt>=250.0 && V_pt<400)
+ >  SR_high1_Zmm_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>=250 && V_pt<400) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && (FatJet_Msoftdrop[Hbb_fjidx] > 90 && FatJet_Msoftdrop[Hbb_fjidx] < 150)) && isZmm
+ >  SR_low_Zmm           (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZmm && (V_pt>=75.0&&V_pt<150.0)
+ >  SR_high2_Zmm_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>400) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && (FatJet_Msoftdrop[Hbb_fjidx] > 90 && FatJet_Msoftdrop[Hbb_fjidx] < 150)) && isZmm
+ >  Zhf_low_Zee          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 85. && V_mass < 97. && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass < 90 || H_mass > 150)) && isZee && (V_pt>=75.0&&V_pt<150.0)
+ >  Zlf_low_Zee          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75. && V_mass < 105. && Jet_btagDeepB[hJidx[0]] < 0.1522 && Jet_btagDeepB[hJidx[1]] < 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && (H_mass > 90 && H_mass < 150))) && isZee && (V_pt>=75.0&&V_pt<150.0)
+ >  SR_med_Zmm_ge1j      (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZmm && (V_pt>=150.0&&V_pt<250.0) && (Sum$(Jet_Pt>30&&abs(Jet_eta)<2.4&&(Jet_puId>6||Jet_Pt>50)&&Jet_jetId>4&&Jet_lepFilter&&Iteration$!=hJidx[0]&&Iteration$!=hJidx[1])>0)
+ >  ttbar_high_Zmm_BOOST (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && FatJet_Msoftdrop[Hbb_fjidx] > 50 && (V_mass<75 || V_mass>105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8)) && isZmm
+ >  ttbar_low_Zee        (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 10 && (V_mass < 75 || V_mass > 120) && Jet_btagDeepB[hJidx[0]] > 0.8001 && Jet_btagDeepB[hJidx[1]] > 0.1522 && H_mass < 250)) && isZee && (V_pt>=75.0&&V_pt<150.0)
+ >  Zlf_high_Zmm_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && (FatJet_Msoftdrop[Hbb_fjidx] > 90  && FatJet_Msoftdrop[Hbb_fjidx] < 150) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]<0.8)) && isZmm
+ >  ttbar_high_Zee       (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 10 && (V_mass < 75 || V_mass > 120) && Jet_btagDeepB[hJidx[0]] > 0.8001 && Jet_btagDeepB[hJidx[1]] > 0.1522 && H_mass < 250)) && isZee && (V_pt>=250.0)
+ >  SR_high2_Zee         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZee && (V_pt>=400.0)
+ >  SR_med_Zmm_0j        (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZmm && (V_pt>=150.0&&V_pt<250.0) && (Sum$(Jet_Pt>30&&abs(Jet_eta)<2.4&&(Jet_puId>6||Jet_Pt>50)&&Jet_jetId>4&&Jet_lepFilter&&Iteration$!=hJidx[0]&&Iteration$!=hJidx[1])==0)
+ >  Zlf_high_Zee_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && (FatJet_Msoftdrop[Hbb_fjidx] > 90  && FatJet_Msoftdrop[Hbb_fjidx] < 150) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]<0.8)) && isZee
+ >  Zlf_low_Zmm          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75. && V_mass < 105. && Jet_btagDeepB[hJidx[0]] < 0.1522 && Jet_btagDeepB[hJidx[1]] < 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && (H_mass > 90 && H_mass < 150))) && isZmm && (V_pt>=75.0&&V_pt<150.0)
+ >  SR_med_Zee_ge1j      (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZee && (V_pt>=150.0&&V_pt<250.0) && (Sum$(Jet_Pt>30&&abs(Jet_eta)<2.4&&(Jet_puId>6||Jet_Pt>50)&&Jet_jetId>4&&Jet_lepFilter&&Iteration$!=hJidx[0]&&Iteration$!=hJidx[1])>0)
+ >  SR_high2_Zee_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>400) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && (FatJet_Msoftdrop[Hbb_fjidx] > 90 && FatJet_Msoftdrop[Hbb_fjidx] < 150)) && isZee
+ >  ttbar_low_Zmm        (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 10 && (V_mass < 75 || V_mass > 120) && Jet_btagDeepB[hJidx[0]] > 0.8001 && Jet_btagDeepB[hJidx[1]] > 0.1522 && H_mass < 250)) && isZmm && (V_pt>=75.0&&V_pt<150.0)
+ >  Zhf_med_Zmm          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 85. && V_mass < 97. && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass < 90 || H_mass > 150)) && isZmm && (V_pt>=150.0&&V_pt<250.0)
+ >  Zhf_high_Zee         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 85. && V_mass < 97. && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass < 90 || H_mass > 150)) && isZee && (V_pt>=250.0)
+ >  SR_high1_Zee_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>=250 && V_pt<400) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && (FatJet_Msoftdrop[Hbb_fjidx] > 90 && FatJet_Msoftdrop[Hbb_fjidx] < 150)) && isZee
+ >  Zhf_low_Zmm          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 85. && V_mass < 97. && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass < 90 || H_mass > 150)) && isZmm && (V_pt>=75.0&&V_pt<150.0)
+ >  Zhf_high_Zee_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && ( (FatJet_Msoftdrop[Hbb_fjidx] > 50 &&  FatJet_Msoftdrop[Hbb_fjidx] < 90) || (FatJet_Msoftdrop[Hbb_fjidx] > 150) &&  FatJet_Msoftdrop[Hbb_fjidx] < 250)) && isZee
+ >  ttbar_high_Zmm       (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 10 && (V_mass < 75 || V_mass > 120) && Jet_btagDeepB[hJidx[0]] > 0.8001 && Jet_btagDeepB[hJidx[1]] > 0.1522 && H_mass < 250)) && isZmm && (V_pt>=250.0)
+ >  ttbar_high_Zee_BOOST (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && FatJet_Msoftdrop[Hbb_fjidx] > 50 && (V_mass<75 || V_mass>105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8)) && isZee
+ >  Zlf_high_Zmm         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75. && V_mass < 105. && Jet_btagDeepB[hJidx[0]] < 0.1522 && Jet_btagDeepB[hJidx[1]] < 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && (H_mass > 90 && H_mass < 150))) && isZmm && (V_pt>=250.0)
+ >  SR_med_Zee_0j        (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75 && V_mass < 105 && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass > 90 && H_mass < 150)) && isZee && (V_pt>=150.0&&V_pt<250.0) && (Sum$(Jet_Pt>30&&abs(Jet_eta)<2.4&&(Jet_puId>6||Jet_Pt>50)&&Jet_jetId>4&&Jet_lepFilter&&Iteration$!=hJidx[0]&&Iteration$!=hJidx[1])==0)
+ >  Zhf_high_Zmm         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 85. && V_mass < 97. && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass < 90 || H_mass > 150)) && isZmm && (V_pt>=250.0)
+ >  Zlf_med_Zmm          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75. && V_mass < 105. && Jet_btagDeepB[hJidx[0]] < 0.1522 && Jet_btagDeepB[hJidx[1]] < 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && (H_mass > 90 && H_mass < 150))) && isZmm && (V_pt>=150.0&&V_pt<250.0)
+ >  Zlf_high_Zee         (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 75. && V_mass < 105. && Jet_btagDeepB[hJidx[0]] < 0.1522 && Jet_btagDeepB[hJidx[1]] < 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && (H_mass > 90 && H_mass < 150))) && isZee && (V_pt>=250.0)
+ >  Zhf_high_Zmm_BOOST   (((Hbb_fjidx>-1) && (!(resolvedSR||resolvedCR)||(boostedSR&&resolvedCR))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && ( (FatJet_Msoftdrop[Hbb_fjidx] > 50 &&  FatJet_Msoftdrop[Hbb_fjidx] < 90) || (FatJet_Msoftdrop[Hbb_fjidx] > 150) &&  FatJet_Msoftdrop[Hbb_fjidx] < 250)) && isZmm
+ >  Zhf_med_Zee          (((hJidx[0]>-1&&hJidx[1]>-1) && !(boostedSR&&!resolvedSR)) && ((H_mass>50) && V_mass > 85. && V_mass < 97. && Jet_btagDeepB[hJidx[0]] > 0.4941 && Jet_btagDeepB[hJidx[1]] > 0.1522 && VHbb::deltaPhi(H_phi, V_phi) > 2.5 && H_mass < 250) && (H_mass < 90 || H_mass > 150)) && isZee && (V_pt>=150.0&&V_pt<250.0)
+KEEP: ['FatJet_tau3', 'FatJet_lepFilter', 'kinFit_V_mass_fit', 'DNN_201008_VHLegacyDNN2017V11_Zll_Apr2020v6final_Multi_low_Zll', 'kinFit_H_mass_fit', 'muonSF_trigger', 'BDT_VZ_Zll_BOOSTFinal_wdB', 'Jet_leptonPtRel', 'GenBs_phi', 'Jet_mass_nom', 'muonSF', 'Jet_btagDeepB', 'FatJet_Msoftdrop', 'vLidx', 'TkMET_phi', 'puWeightUp', 'hJets_FSRrecovered_dEta', 'deltaR', 'Pileup_nTrueInt', 'kinFit_H_mass_fit_noJetMass', 'kinFit_H_eta_fit', 'resolvedCR', 'GenJet_eta', 'twoFVmass', 'GenPart_eta', 'Muon_phi', 'weightJetPUID', 'GenPart', 'resolved', 'twoFVpt', 'm_inv3', 'FatJet_tau1', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'electron', 'nFSRrecovered', 'MET_Pt_uncorrected', 'SA2', 'METFixEE2017_pt', 'top_mass2_05_top', 'DoubleMu', 'SA5', 'V_mass', 'bTagWeightDoubleB', 'GenBs_eta', 'FatJet_tau2', 'Muon_eta', 'fixedGridRhoFastjetAll', 'top_mass_reco_neutrino_pz', 'top_mass_reco_neutrino_py', 'top_mass_reco_neutrino_px', 'bTagWeight', 'BDT_Wlv_BOOSTFinal_nodB', 'Muon_corrected_pt', 'DNN_200924_VHLegacyDNN2017V11_Zll_Apr2020v6final_SR_medhigh_Zll', 'H_phi', 'Jet_PtRegUp', 'htJet30', 'kinFit_V_phi_fit', 'GenJet_pt', 'H_mass_jerReg', 'MHT_pt', 'weight', 'Muon_pfRelIso04_all', 'weightLOtoNLO_LHEVptV2', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'kinFit_V_pt_fit', 'Nominal', 'H_mass_noFSR', 'EWKwSIG', 'LHE_Nuds', 'nVetoElectrons', 'electronSF', 'event', 'hJets_1_pt_FSRrecovered_jerReg_Down', 'V_pt', 'Electron_phi', 'EWKwVJets', 'isZmm', 'Jet_btagDeepFlavB', 'FatJet_deepTagMD_HbbvsQCD', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'DNN_bEnrichedSamplesAsSignal', 'ATan2', 'Jet_pt', 'abs', 'boosted', 'isZee', 'V_phi', 'kinFit_n_recoil_jets_fit', 'GenPart_pdgId', 'kinFit_H_mass_sigma_fit', 'H_mass_fit_corr', 'hJets_FSRrecovered_dPhi', 'None', 'nAddLeptons', 'run', 'tkMet_phi', 'H_eta', 'Electron_mva', 'FatJet_deepTagMD_TvsQCD', 'BDT', 'nAddLep15_2p5', 'BDT_DNN2017V11_ZllHigh_Mjj_v1', 'V_mt', 'H_pt', 'Muon_mvaId', 'electronSF_IdIso', 'isWenu', 'GenPart_statusFlags', 'BDT_Zll_BOOSTFinal_wdB', 'LHE_Nb', 'LHE_Nc', 'DNN_201006_VHLegacyDNN2017V11_Zll_Apr2020v6final_VV_SR_medhigh_Zll', 'Cos', 'Jet_jetId', 'Muon_pt', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'SA10', 'Muon_softMvaId', 'Vtype', 'FatJet_eta', 'Electron_mvaTTH', 'electronSF_trigger', 'Sqrt', 'nFatJet', 'hJets_0_pt_FSRrecovered_jerReg_Up', 'MET_Pt', 'bTagWeightDeepCSV', 'LHE_weights_scale_wgt', 'Jet_vtxPt', 'top_mass2_05_neutrino', 'Jet_btag', 'Electron_eta', 'FatJet_Pt', 'DY_specialWeight', 'Jet_mcIdx', 'boostedSR', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'Jet_leadTrackPt', 'PV_npvs', 'TkMET_pt', 'deltaPhi', 'minDphiJetMet', 'hJets_0_pt_FSRrecovered_jerReg_Down', 'MET_Phi', 'GenPart_pt', 'muonSF_Iso', 'Jet_leptonPt', 'nGenStatus2bHad', 'nVetoMuons', 'weightLOtoNLO_2016', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'weightLOtoNLO_LHEVptV3', 'DNN', 'kinFit_HVdPhi_fit', 'weightLOtoNLO_LHEVptV7', 'isBoosted', 'Jet_Pt', 'top_mass_reco_neutrino_solver_branch', 'MET_phi', 'PrefireWeight', 'resolvedSR', 'LHE_', 'EWKW', 'kinFit', 'FatJet_deepTagMD_bbvsLight', 'dPhiLepMet', 'isData', 'Muon_mass', 'weight_mettrigSF', 'SoftActivity', 'nGen', 'kinFit_H_phi_fit', 'H_noReg_mass', 'FatJet_phi', 'puWeightDown', 'Jet_chHEF', 'luminosityBlock', 'hJidx', 'EWKw', 'GenB', 'Jet_PtRegDown', 'TVector2', 'Electron_pt', 'Min', 'BDT_Wlv_BOOSTFinal_wdB', 'is', 'DNN_201008_VHLegacyDNN2017V11_Zll_Apr2020v6final_Multi_medhigh_Zll', 'V_eta', 'btagWeight', 'isZnn', 'Jet_lepFilter', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'GenPart_status', 'Sin', 'isWmunu', 'DNN_201006_VHLegacyDNN2017V11_Zll_Apr2020v6final_VV_SR_low_Zll', 'Electron_pfRelIso03_all', 'hJets_0_pt_FSRrecovered', 'fabs', 'min', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'kinFit_jjVPtRatio_fit', 'GenBs_pt', 'MET_pt', 'METFix', 'FatJet_msoftdrop_corr_PUPPI', 'Phi_mpi_pi', 'genWeight', 'kinFit_hJets_pt_1_fit', 'Jet_neHEF', 'H_pt_noFSR', 'hJets_1_pt_FSRrecovered_jerReg_Up', 'Muon_mvaTTH', 'Jet_eta', 'GenJet_numBHadrons', 'TMath', 'H_mass', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass', 'puWeight', 'Jet_vtxMass', 'LHEScaleWeight', 'Jet_leptonDeltaR', 'kinFit_H_pt_fit', 'kinFit_V_eta_fit', 'kinFit_hJets_pt_0_fit', 'DNN_200924_VHLegacyDNN2017V11_Zll_Apr2020v6final_SR_low_Zll', 'V_', 'max', 'Jet_PtReg', 'top_mass_reco_neutrino_E', 'muonSF_Id', 'GenJetAK8_nBhadrons', 'VHbb', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso', 'SoftActivityJetNjets5', 'MET_Phi_uncorrected', 'nAddJet']
+********************************************************************************
+  DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8
+********************************************************************************
+DOES NOT EXIST: /scratch/fglessge/
+INFO: found  8  files.
+INFO: reading part  5  of  8
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+[34m sum                      1L                       844016.0                 33L                      9L                       838966.0                 844016L                   [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: found  8  files.
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_031322570c8d71b736b2a00941ba23a3e8cb936efd9afdf47fb8f7dd_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_2103d40ea521175d669493b4e3a1a528a54a78b85612a6548aa928e9_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_bd116639db0a110a599334eecd31133109c2beb47324da3311e135da_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_0ec84ca3ac10bf3884a4294d1116c4da2241b072f72b02cd883fd9a1_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4be1a4d7878ec7952e2d267affc5776f3c3f2b9a90a198669b74084f_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_8b6edfade74dcbb2768f22d4f2949f48f467c46b66fd26e113480529_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_02a3ab796268f8006316656c7fcc30edbe8e903e364f380248fcf182_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_eb34ea9d59c200135df0bcb73a3bd45a1627942d8fca18e854edaa4e_5of8.root [0m
+INFO: already cached! <myutils.NewTreeCache.TreeCache instance at 0x7fb1368f3e60> ( 191455f8d3e1b171c0903be4a364dfeb052520178735e0f15b856d5d )
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_309ab3c0bf892c26de13aa8e2c3750ccdf3ae9bd0751b580f9b4bf76_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_c0d161e627734b8760dba8a87eb2dc86ee59a0005638f5875ea1f196_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_8faa0f3ea7404bb2b1c53f516ffc82928e1a9098d056c8d29ca3b65a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_0265ecf196874ff8b6fc6b93a3c7922c29a08f67fb5238818fe958cb_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_9e24005c08c983343781ec32c72aed6f5521f3d52df790a9d3faf5c4_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a154a06f878c01c5959d80777ec4bf219bf1aea3c615f86f449aa514_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_c51a6463d053ed6841470d755905c3dd3de4d0a229f698ec781f21d6_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_445d93f9d1f2e44058d540d451f67eda9ce700efc71c1a9703957501_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_1a8675db94f10dce349f6d04a486687e3947853d4a3e291a33d55423_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_ed8ceb8474115353825d018f03dea1e47a0001599db9645aedb12f4b_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_1ef2a8fdcdc5979b966a8dd1fdd7b1cf952ed323c1bcfb8284596418_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_b892f238e2b059c0291c754844f47f8e2979bedea314a3784a8905fb_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_36404b81e54811479dcd4ada43bcaa8e49db39813fb2a230c61a133d_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_7de30dad90c6abe4a26092e3df3e50b0150e123ad50a120dc1f8f2ec_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_e264703d39d687f1d31fd6b75ff813da412b02ec99b2cccd40a972ba_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a44505d17df231f8f6bf071dd665bf9076e0f2fe1562cb5949818da1_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a1fb2741ef95c656552dd7050ee39de5e2eb316718cb077b87d644eb_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_22a38cb7b140b0b77e1d641d0a2c04e50e6596cf56621985b6806a26_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7587141d6fa77bbde212d2dd9e4b98e9c85b558ed3af9cfaba052e45_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_2b3fd5ff766418e47ac1f7f99ffff2a9bb20a88ca3f9654dc0b1c9b4_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_bae6a2ed2d21850b55a558ec84346d57aa18a31adddc5c0a7fb5b22f_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_e8904e4ce762efe20a2fecc18b3975bf73a0719e41de0d754c7bccb8_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_bd4c9823684a5c29ca18f80d939d61552b2d2d5107b8f03e8a614039_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_1ca693715f58a65f49674d3bc93a532a183f5f08eb9dbee64e01971c_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4e836b5a12196ca2f93a779bc492e1bbfe70e55a5812bad2d87ff2aa_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4d9ce9e51cd27d788399e079eaa4fa378fffe17185d66825e6a2021b_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_3bb212ae1f09a8645341b81d858cce6757c42efe98d87c2b23c5d241_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_e08e15db1bcf5b2c9775c1b3f837ccdb91ed84742f611c0e7b9e9892_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_udsg[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a350abf4b5ce2c3aa888cecd642214b24fba3dccd406fdaed9fbd140_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_daa6d92269bcfb6f5243c6fe3adf22f204deddf4baaad9a590617fe8_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_bf9e80f742af47255c2b565bdd02bfe2c61375ba4559d83593987159_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_17f0f225f73e27cbbd9ff49bcc4bb02e668e70a935c0b9523b054ef6_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_cdbdea6577ffc240f087388e5707bc3fae8c4dec348d90a9f5ce85fd_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_d135f489609646bcb75c90c20b2ebd08c79dca866782df2be58b1504_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_e74cc1c39149548434328c19f2ed82546447b0786565329218168b25_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_412399e408661a0dab7272b8b4ce8634392ed2e36b6ba0f9d2f7e225_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_e538c310e0b849cea93d5f7506560425493d8ecfcbce3a7a682cd343_5of8.root [0m
+INFO: already cached! <myutils.NewTreeCache.TreeCache instance at 0x7fb136954cf8> ( 216fab3de9d6fd64703a38595b0c8f38a268ddb55f873b4f785217e8 )
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_ed57cd5586a27f3ad9fd1552170f3d5c068410cdd103f3b64b4d9dfc_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_8138cab9a497807cb1674546329b588c7de0ca480fbdec3a63d705d2_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_586e546929ee89ac49b7243e6da48f50407508746af0bc1b33cc7227_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_2b4c112638b84407c8872bae32a1a9548766a47473fb4b8e4bfea1b6_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_7aa1dfc66512c0b3ba638a087034cb9697396c75c12c4dc211680c71_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4e5f0ee51e78365ce4673a8726d1f80576f04b99918dcca25bfde13f_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_c426fa026787685df9ec44c5647eb35c89e89502a91450fb0ecd1610_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_95c112e7f45439a0ce14b9dcebbf015e5037bcb9f8bb8063c8c4b446_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7e22e2575810dad16cc6298ec1d6082dc1142f43820f09e84bbb6da9_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_5a404f7006f2df8d0dbb3deb40487d170ddbeec188dffc12c363f429_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_3777c00f7850d30176fe883d54a47a1b2136774a1e5ee923cd461207_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_868010e3d1a73b2c2ce08ca8ee862244d794c165de1034413e1a8539_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a3b43e22943895fe92c96634994ff4755637db0ae712d41c24c7a735_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_349500121befd206701dc412d9d225df5d7a257575e94960a8b1cadd_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4475c6f5962e126a3865214e3f19559fcf5d9c28d72bd1035b1165de_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_518ff95ab502407493cc090c3df23e78ba3116f80a1274c01cbfa62a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_925adc9b0019c49aef18ef86e02ac1a62eecdc7c7ba1ec660b33e10a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_7498564a1425e92a261b316a36aec65ec74f939a0e7f28c24b733e87_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a9ed42ef245de19846c0a315ac490ffa6372fa773720fb959b64c0cb_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_3394ad47065c8ac38747b7bb654a28f07c72acfe52f7e8228c9a2e49_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_419282d977dab2439d9fe46e10ab6e8b6a95687ab8e8be438998f6e2_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_81ade0f64754eb44f80f3100a5888c357649f298c9084716c168446a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_86bc453df53b6e04d9001b74d9875c055775c3cab4eade55be990dcf_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_51d25b499b9aae5d59c7a64dbbe3a0d99a5df0d881d15f21003f2caf_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_411a4bb3274aed520440609e84373265ed51723efd0f656590f98827_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_227a1b593edc0819dcaac259c3a9f7d29589e322567d07c42b87ae12_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_3d2205c73f7032d45ea3a85d6045860bb008b64bcb2a9f9ae301c15e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_4c48fb80e2cc3ab8da7a497604926402b4dcf93e208aec5dc0c072c1_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_0b_c[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_f181d7f0ea2bd6e22224c5a58fd03788d442bcababe9d503906c1568_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_17b21fbf62c82b2b0200cb2437be1d505e477373ebe459fdc5d59239_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7dfcfa3d21eb95c449c0e4afd362505a98869dab303738f2a2abd55d_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_d57a9454e369041566bc019bb302b41f22e43cb8f332c0a2c427aac5_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_2fc5e9352b56e4c54f195e18a9aa0b4e17a03392d58a1c1e77757d13_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_bc6fbb8e1f1d233a496ae5c0f086321ea5386e04ace3f681adb3838e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_030d18c9e779a1907bdf1618455c4a177b2eaf6ce3d6b5b08feaedf7_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_11cd70b31d05e3bc29e8bd45d129ecf668975df921b81aec15cd044f_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_07c30f07c8d1baa3532a601dcd2adba31425a06298d093da48a2bac7_5of8.root [0m
+INFO: already cached! <myutils.NewTreeCache.TreeCache instance at 0x7fb136933cf8> ( 24313247e65cdcfa2357ed0d7fd898bd262fedaab993416bd30e8d1d )
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_c2d7d2d44c919b915397c80c86c11dde7f60e46be25b9f8e2d82b9a8_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_51b4b98654b37815b87e1e8cd4827a51726f5c9f0b68a1402c2000e6_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_b9cb8dd5ce5e5de372f635feb6e58b2e1da9f86f05ad5af88d57f197_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_b5a6ac48c0e7acc31e743f9b61b298dd5c8b14107c45910d5f247a63_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_e35a0a1519d1c5749599178e67e83fb18bebd1c542cff68631bfb7c2_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_ef90e1d3d624290df497ebaad4a846f075584de3b4adcb1f4a70af2a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_b9ef94ae362bfdb71f32ca42db3fd6987f4ffdbba753e2c73ea1d8b1_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7d857285f009d1030ad1f2233e7bc90638ae720dabb15b65fb01834e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_99d6fe6178f5dd0faa07f4425f958c82a1e7a2fbe49deb3cb498d1c0_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_df139d258ee6e57ba505c2cb39d3dc4b37e4506932d16c17b714696c_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_e0455822ae9e3e06d646635134ac6c1ef25df33d35a2dc4e0c027261_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_0860f3179f4eaf6b7fb386019ebf9015aff61d03b722b69166c8a3e9_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_d1a1b60d3cf3b5ecf018a1f91b1ade96d111f6a1b539008a9c90b2c9_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_4c1a78f2c7dcea220441abc7ccfeed025f79ed727664fff6ab904fb9_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7894b6e53d25acbf20917f80244d05201814cd2756373e1bad95df81_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_8a6c88b6e611ac717a5fb9f082cc26bdb4c093aa3b8e07b1c0c8c56a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4d64536ddc4ed5925052bfbbd3551f18adf123f2e8cca3d33d28a3b3_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_4cdca7d44aefefb9adab0d90785c511f82f209d2b2c7d9af6decaa80_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_bac68a105ab997286e280fc33c1b1af79a5ed27b813abdb6504ae3c4_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_eaa75dbba82277ed646961531f06b0fae1139ca8e6a5d3398d95cd00_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_41e30f57a40ce011f87069ca5ea688fe3bcf5ae4dd60d1286383e4cd_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_a223f62b955c5ede1be5d8b35e547c27434bd6537abfd93c4664b406_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_97baa9e2fe9b881c2be11228bd939622b3cbfb0aec80c38d0df9fa0f_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_08789f481729704db05e3526ef6d18dd5099e5b1f43a308fe94a4cf3_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_95bd167baaf8ad30203bfea4f39b98e480f27ebc34897a5efbf69a3e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_043ed48405d35fa57ac78f2341b4238d4ca5aef0cad5ccb253fade90_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_5c9416d85811f3273b3e337ac0fa1997c7b5a949f79b611f1ce81ba2_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_40e0d209e897798f2517fafe8dcc5db9f0b990c0c3987677fa9df901_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_1b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_6df2ad8ceec1dd16981c140f09feeca523ccd98184afce2c7db2ed23_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_ee9c258c3949c0d5e5eff277850612282ed8dde7b8ef744e7cd69309_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_47d8f5b2550a8d83ad1be41840bd8068436ed2ad8c7cb16460d262f3_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7f3fcf839436997506ba0a90d37562d88a1eeae7fa6fa6b717b9d6c6_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_55501bde96003b3b5061f8966b3b6e61fc7405acc31bb90aed983d62_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_45b9a06e0130ced755571d7545ada714ad6356bb349b94992dd56f8e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_4f90fab76e83cd111627ad3f69ec824b0f968f1696e63dc19279ff97_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_eb2524275fafc270e63263f47d669f0330fc95a7dd5e996c11ac3bef_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_1c3f9a34f6dc71f05740d47badfad3271b5372b03fa7b9f95096f307_5of8.root [0m
+INFO: already cached! <myutils.NewTreeCache.TreeCache instance at 0x7fb136991878> ( 8f8248a6c4c36144ee3971fdcff2d6163a8e8c667d32bbe598ea26e2 )
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_025deadb0fefc4836eafcacc64713ad2892239a90a72f5886015f042_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_9095c31aa119e34aad887016f4c88dd4c34713d0e30ddf426aef6a95_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_9c256de06c084e9ba6c6f4ce95acd1aa1e2805fef8f81922a90619f6_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_5f54fd025656e255d137af9988818abf73da053b970301a7e083289b_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_90aa84d2bd3ca394d471b04a8e6521670f01d0ae966ad6e50a50f626_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_d2b1af8d97059dbbfb65e65d4e5c2c5cc7cbae90836928bc76da3cbd_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_961b02aa019ad7e587c8894d8c82f2b695a454b960406d03ddec5a65_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_6746f1df788c4f17ef8a12dead26cd8d0c72b17c6742b3bcf9b62742_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_8ce6369f637b5f6e07eb21315704d8eda8b0a5dfca4eec197dce0e1e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_05197e6ccb85362463da4dd4f4cf0e5bf2e62eb750b694b309b0017e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_71fd71d712dc8dd5522528c634f606c0c4ab74014b7611007447dc1e_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_fd14209bf9aa033ae1b3481d42b8ea19b094f13e82ef0026ae015a2f_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7631ea8b1f77c87243c4569492faac3857255506442becbb6b9a6408_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_2b450ed0f7548e28034acf8ee0ed07341bd4db23e80204bff56d7294_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_d160735ac12dd82f6336adb5be609aedb9763bcaeab48f1d010df6f2_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_24f7abc30702fa33d40fbd9ac10845da4d60bd06fd312fcc4d9f04bb_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_fa3684eb414a4d720faad7ca6c0440416ac9f98bb6cfe23d54daf58a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_adb4133a51708bebeb0cc6d4e0e851042e74642b2f6aeffabc867952_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_a07fae780118a7d133b566a538d4f54b43a67d79a9d1de2457a249ca_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_a7c4e7d9d0b7f5ce5bd8d75039a14c6ba70e2d21ace7bba00021146a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_10272f93284156ab87065bf6c806bea4d82750a553d4dd4fd6176f98_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_5b4ef9517e5546eae81846bc0367edb61f9aa51749485e6993c2fb56_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7838688d45761706841d66d49a4978e260f0b6f75fa7b4160e930201_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_e3d550acec12aebb080710f84f7815d62fa79003a8f26c74f5665b5a_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_e4da820d8c83346594b4be56d647af549e03c63d349bfc5a1ed7adbe_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_7eef3e2d58dbe80d6c3926d6c78da68449ec3fe3cefb5fd4a2a4e5cb_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_80279b981ad42c707eb7ff62c51e4c574cc28ea76c7817e4276278b5_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((Hbb_fjidx>-1)&&(!(resolvedSR||resolvedCR)||(bo...]of8  is  /scratch/fglessge//tmp_2c0800df3cf885cd3e6c2e651223b8c1ea664f40826554562e73df81_5of8.root [0m
+[32mDEBUG: output file for  HT600to800ZJets_2b[((((hJidx[0]>-1&&hJidx[1]>-1)&&!(boostedSR&&!resol...]of8  is  /scratch/fglessge//tmp_22f875ab9fca9de5095ac48395a70bb551519e74be1fe06651440bac_5of8.root [0m
+OUTPUT TREES:
+ >  /scratch/fglessge//tmp_031322570c8d71b736b2a00941ba23a3e8cb936efd9afdf47fb8f7dd_5of8.root  <==  plot:ttbar_med_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(246 more chars)
+ >  /scratch/fglessge//tmp_2103d40ea521175d669493b4e3a1a528a54a78b85612a6548aa928e9_5of8.root  <==  plot:SR_high2_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(288 more chars)
+ >  /scratch/fglessge//tmp_bd116639db0a110a599334eecd31133109c2beb47324da3311e135da_5of8.root  <==  plot:SR_high1_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_0ec84ca3ac10bf3884a4294d1116c4da2241b072f72b02cd883fd9a1_5of8.root  <==  plot:SR_low_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(299 more chars)
+ >  /scratch/fglessge//tmp_4be1a4d7878ec7952e2d267affc5776f3c3f2b9a90a198669b74084f_5of8.root  <==  plot:ttbar_med_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(246 more chars)
+ >  /scratch/fglessge//tmp_8b6edfade74dcbb2768f22d4f2949f48f467c46b66fd26e113480529_5of8.root  <==  plot:Zlf_med_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(286 more chars)
+ >  /scratch/fglessge//tmp_02a3ab796268f8006316656c7fcc30edbe8e903e364f380248fcf182_5of8.root  <==  plot:SR_high1_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_eb34ea9d59c200135df0bcb73a3bd45a1627942d8fca18e854edaa4e_5of8.root  <==  plot:SR_high1_Zmm_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(319 more chars)
+ >  /scratch/fglessge//tmp_309ab3c0bf892c26de13aa8e2c3750ccdf3ae9bd0751b580f9b4bf76_5of8.root  <==  plot:SR_high2_Zmm_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(306 more chars)
+ >  /scratch/fglessge//tmp_c0d161e627734b8760dba8a87eb2dc86ee59a0005638f5875ea1f196_5of8.root  <==  plot:Zhf_low_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_8faa0f3ea7404bb2b1c53f516ffc82928e1a9098d056c8d29ca3b65a_5of8.root  <==  plot:Zlf_low_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(285 more chars)
+ >  /scratch/fglessge//tmp_0265ecf196874ff8b6fc6b93a3c7922c29a08f67fb5238818fe958cb_5of8.root  <==  plot:SR_med_Zmm_ge1j_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(438 more chars)
+ >  /scratch/fglessge//tmp_9e24005c08c983343781ec32c72aed6f5521f3d52df790a9d3faf5c4_5of8.root  <==  plot:ttbar_high_Zmm_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(267 more chars)
+ >  /scratch/fglessge//tmp_a154a06f878c01c5959d80777ec4bf219bf1aea3c615f86f449aa514_5of8.root  <==  plot:ttbar_low_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(245 more chars)
+ >  /scratch/fglessge//tmp_c51a6463d053ed6841470d755905c3dd3de4d0a229f698ec781f21d6_5of8.root  <==  plot:Zlf_high_Zmm_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(307 more chars)
+ >  /scratch/fglessge//tmp_445d93f9d1f2e44058d540d451f67eda9ce700efc71c1a9703957501_5of8.root  <==  plot:ttbar_high_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(234 more chars)
+ >  /scratch/fglessge//tmp_1a8675db94f10dce349f6d04a486687e3947853d4a3e291a33d55423_5of8.root  <==  plot:SR_high2_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(288 more chars)
+ >  /scratch/fglessge//tmp_ed8ceb8474115353825d018f03dea1e47a0001599db9645aedb12f4b_5of8.root  <==  plot:SR_med_Zmm_0j_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(439 more chars)
+ >  /scratch/fglessge//tmp_1ef2a8fdcdc5979b966a8dd1fdd7b1cf952ed323c1bcfb8284596418_5of8.root  <==  plot:Zlf_high_Zee_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(307 more chars)
+ >  /scratch/fglessge//tmp_b892f238e2b059c0291c754844f47f8e2979bedea314a3784a8905fb_5of8.root  <==  plot:Zlf_low_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(285 more chars)
+ >  /scratch/fglessge//tmp_36404b81e54811479dcd4ada43bcaa8e49db39813fb2a230c61a133d_5of8.root  <==  plot:SR_med_Zee_ge1j_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(438 more chars)
+ >  /scratch/fglessge//tmp_7de30dad90c6abe4a26092e3df3e50b0150e123ad50a120dc1f8f2ec_5of8.root  <==  plot:SR_high2_Zee_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(306 more chars)
+ >  /scratch/fglessge//tmp_e264703d39d687f1d31fd6b75ff813da412b02ec99b2cccd40a972ba_5of8.root  <==  plot:ttbar_low_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(245 more chars)
+ >  /scratch/fglessge//tmp_a44505d17df231f8f6bf071dd665bf9076e0f2fe1562cb5949818da1_5of8.root  <==  plot:Zhf_med_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(301 more chars)
+ >  /scratch/fglessge//tmp_a1fb2741ef95c656552dd7050ee39de5e2eb316718cb077b87d644eb_5of8.root  <==  plot:Zhf_high_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(289 more chars)
+ >  /scratch/fglessge//tmp_22a38cb7b140b0b77e1d641d0a2c04e50e6596cf56621985b6806a26_5of8.root  <==  plot:SR_high1_Zee_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(319 more chars)
+ >  /scratch/fglessge//tmp_7587141d6fa77bbde212d2dd9e4b98e9c85b558ed3af9cfaba052e45_5of8.root  <==  plot:Zhf_low_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_2b3fd5ff766418e47ac1f7f99ffff2a9bb20a88ca3f9654dc0b1c9b4_5of8.root  <==  plot:Zhf_high_Zee_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(386 more chars)
+ >  /scratch/fglessge//tmp_bae6a2ed2d21850b55a558ec84346d57aa18a31adddc5c0a7fb5b22f_5of8.root  <==  plot:ttbar_high_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(234 more chars)
+ >  /scratch/fglessge//tmp_e8904e4ce762efe20a2fecc18b3975bf73a0719e41de0d754c7bccb8_5of8.root  <==  plot:ttbar_high_Zee_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(267 more chars)
+ >  /scratch/fglessge//tmp_bd4c9823684a5c29ca18f80d939d61552b2d2d5107b8f03e8a614039_5of8.root  <==  plot:Zlf_high_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(274 more chars)
+ >  /scratch/fglessge//tmp_1ca693715f58a65f49674d3bc93a532a183f5f08eb9dbee64e01971c_5of8.root  <==  plot:SR_med_Zee_0j_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(439 more chars)
+ >  /scratch/fglessge//tmp_4e836b5a12196ca2f93a779bc492e1bbfe70e55a5812bad2d87ff2aa_5of8.root  <==  plot:Zhf_high_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(289 more chars)
+ >  /scratch/fglessge//tmp_4d9ce9e51cd27d788399e079eaa4fa378fffe17185d66825e6a2021b_5of8.root  <==  plot:Zlf_med_Zmm_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(286 more chars)
+ >  /scratch/fglessge//tmp_3bb212ae1f09a8645341b81d858cce6757c42efe98d87c2b23c5d241_5of8.root  <==  plot:Zlf_high_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(274 more chars)
+ >  /scratch/fglessge//tmp_e08e15db1bcf5b2c9775c1b3f837ccdb91ed84742f611c0e7b9e9892_5of8.root  <==  plot:Zhf_high_Zmm_BOOST_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((Hbb...(386 more chars)
+ >  /scratch/fglessge//tmp_a350abf4b5ce2c3aa888cecd642214b24fba3dccd406fdaed9fbd140_5of8.root  <==  plot:Zhf_med_Zee_HT600to800ZJets_0b_udsg  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6<1)', '(((hJi...(301 more chars)
+ >  /scratch/fglessge//tmp_daa6d92269bcfb6f5243c6fe3adf22f204deddf4baaad9a590617fe8_5of8.root  <==  plot:ttbar_med_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(246 more chars)
+ >  /scratch/fglessge//tmp_bf9e80f742af47255c2b565bdd02bfe2c61375ba4559d83593987159_5of8.root  <==  plot:SR_high2_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(288 more chars)
+ >  /scratch/fglessge//tmp_17f0f225f73e27cbbd9ff49bcc4bb02e668e70a935c0b9523b054ef6_5of8.root  <==  plot:SR_high1_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_cdbdea6577ffc240f087388e5707bc3fae8c4dec348d90a9f5ce85fd_5of8.root  <==  plot:SR_low_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(299 more chars)
+ >  /scratch/fglessge//tmp_d135f489609646bcb75c90c20b2ebd08c79dca866782df2be58b1504_5of8.root  <==  plot:ttbar_med_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(246 more chars)
+ >  /scratch/fglessge//tmp_e74cc1c39149548434328c19f2ed82546447b0786565329218168b25_5of8.root  <==  plot:Zlf_med_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(286 more chars)
+ >  /scratch/fglessge//tmp_412399e408661a0dab7272b8b4ce8634392ed2e36b6ba0f9d2f7e225_5of8.root  <==  plot:SR_high1_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_e538c310e0b849cea93d5f7506560425493d8ecfcbce3a7a682cd343_5of8.root  <==  plot:SR_high1_Zmm_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(319 more chars)
+ >  /scratch/fglessge//tmp_ed57cd5586a27f3ad9fd1552170f3d5c068410cdd103f3b64b4d9dfc_5of8.root  <==  plot:SR_high2_Zmm_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(306 more chars)
+ >  /scratch/fglessge//tmp_8138cab9a497807cb1674546329b588c7de0ca480fbdec3a63d705d2_5of8.root  <==  plot:Zhf_low_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_586e546929ee89ac49b7243e6da48f50407508746af0bc1b33cc7227_5of8.root  <==  plot:Zlf_low_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(285 more chars)
+ >  /scratch/fglessge//tmp_2b4c112638b84407c8872bae32a1a9548766a47473fb4b8e4bfea1b6_5of8.root  <==  plot:SR_med_Zmm_ge1j_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(438 more chars)
+ >  /scratch/fglessge//tmp_7aa1dfc66512c0b3ba638a087034cb9697396c75c12c4dc211680c71_5of8.root  <==  plot:ttbar_high_Zmm_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(267 more chars)
+ >  /scratch/fglessge//tmp_4e5f0ee51e78365ce4673a8726d1f80576f04b99918dcca25bfde13f_5of8.root  <==  plot:ttbar_low_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(245 more chars)
+ >  /scratch/fglessge//tmp_c426fa026787685df9ec44c5647eb35c89e89502a91450fb0ecd1610_5of8.root  <==  plot:Zlf_high_Zmm_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(307 more chars)
+ >  /scratch/fglessge//tmp_95c112e7f45439a0ce14b9dcebbf015e5037bcb9f8bb8063c8c4b446_5of8.root  <==  plot:ttbar_high_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(234 more chars)
+ >  /scratch/fglessge//tmp_7e22e2575810dad16cc6298ec1d6082dc1142f43820f09e84bbb6da9_5of8.root  <==  plot:SR_high2_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(288 more chars)
+ >  /scratch/fglessge//tmp_5a404f7006f2df8d0dbb3deb40487d170ddbeec188dffc12c363f429_5of8.root  <==  plot:SR_med_Zmm_0j_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(439 more chars)
+ >  /scratch/fglessge//tmp_3777c00f7850d30176fe883d54a47a1b2136774a1e5ee923cd461207_5of8.root  <==  plot:Zlf_high_Zee_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(307 more chars)
+ >  /scratch/fglessge//tmp_868010e3d1a73b2c2ce08ca8ee862244d794c165de1034413e1a8539_5of8.root  <==  plot:Zlf_low_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(285 more chars)
+ >  /scratch/fglessge//tmp_a3b43e22943895fe92c96634994ff4755637db0ae712d41c24c7a735_5of8.root  <==  plot:SR_med_Zee_ge1j_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(438 more chars)
+ >  /scratch/fglessge//tmp_349500121befd206701dc412d9d225df5d7a257575e94960a8b1cadd_5of8.root  <==  plot:SR_high2_Zee_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(306 more chars)
+ >  /scratch/fglessge//tmp_4475c6f5962e126a3865214e3f19559fcf5d9c28d72bd1035b1165de_5of8.root  <==  plot:ttbar_low_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(245 more chars)
+ >  /scratch/fglessge//tmp_518ff95ab502407493cc090c3df23e78ba3116f80a1274c01cbfa62a_5of8.root  <==  plot:Zhf_med_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(301 more chars)
+ >  /scratch/fglessge//tmp_925adc9b0019c49aef18ef86e02ac1a62eecdc7c7ba1ec660b33e10a_5of8.root  <==  plot:Zhf_high_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(289 more chars)
+ >  /scratch/fglessge//tmp_7498564a1425e92a261b316a36aec65ec74f939a0e7f28c24b733e87_5of8.root  <==  plot:SR_high1_Zee_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(319 more chars)
+ >  /scratch/fglessge//tmp_a9ed42ef245de19846c0a315ac490ffa6372fa773720fb959b64c0cb_5of8.root  <==  plot:Zhf_low_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(300 more chars)
+ >  /scratch/fglessge//tmp_3394ad47065c8ac38747b7bb654a28f07c72acfe52f7e8228c9a2e49_5of8.root  <==  plot:Zhf_high_Zee_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(386 more chars)
+ >  /scratch/fglessge//tmp_419282d977dab2439d9fe46e10ab6e8b6a95687ab8e8be438998f6e2_5of8.root  <==  plot:ttbar_high_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(234 more chars)
+ >  /scratch/fglessge//tmp_81ade0f64754eb44f80f3100a5888c357649f298c9084716c168446a_5of8.root  <==  plot:ttbar_high_Zee_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(267 more chars)
+ >  /scratch/fglessge//tmp_86bc453df53b6e04d9001b74d9875c055775c3cab4eade55be990dcf_5of8.root  <==  plot:Zlf_high_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(274 more chars)
+ >  /scratch/fglessge//tmp_51d25b499b9aae5d59c7a64dbbe3a0d99a5df0d881d15f21003f2caf_5of8.root  <==  plot:SR_med_Zee_0j_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(439 more chars)
+ >  /scratch/fglessge//tmp_411a4bb3274aed520440609e84373265ed51723efd0f656590f98827_5of8.root  <==  plot:Zhf_high_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(289 more chars)
+ >  /scratch/fglessge//tmp_227a1b593edc0819dcaac259c3a9f7d29589e322567d07c42b87ae12_5of8.root  <==  plot:Zlf_med_Zmm_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(286 more chars)
+ >  /scratch/fglessge//tmp_3d2205c73f7032d45ea3a85d6045860bb008b64bcb2a9f9ae301c15e_5of8.root  <==  plot:Zlf_high_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(274 more chars)
+ >  /scratch/fglessge//tmp_4c48fb80e2cc3ab8da7a497604926402b4dcf93e208aec5dc0c072c1_5of8.root  <==  plot:Zhf_high_Zmm_BOOST_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((Hbb...(386 more chars)
+ >  /scratch/fglessge//tmp_f181d7f0ea2bd6e22224c5a58fd03788d442bcababe9d503906c1568_5of8.root  <==  plot:Zhf_med_Zee_HT600to800ZJets_0b_c  cut:  ['(nGenBpt25eta2p6<1&&nGenDpt25eta2p6>0)', '(((hJi...(301 more chars)
+ >  /scratch/fglessge//tmp_17b21fbf62c82b2b0200cb2437be1d505e477373ebe459fdc5d59239_5of8.root  <==  plot:ttbar_med_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(228 more chars)
+ >  /scratch/fglessge//tmp_7dfcfa3d21eb95c449c0e4afd362505a98869dab303738f2a2abd55d_5of8.root  <==  plot:SR_high2_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(270 more chars)
+ >  /scratch/fglessge//tmp_d57a9454e369041566bc019bb302b41f22e43cb8f332c0a2c427aac5_5of8.root  <==  plot:SR_high1_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(282 more chars)
+ >  /scratch/fglessge//tmp_2fc5e9352b56e4c54f195e18a9aa0b4e17a03392d58a1c1e77757d13_5of8.root  <==  plot:SR_low_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(281 more chars)
+ >  /scratch/fglessge//tmp_bc6fbb8e1f1d233a496ae5c0f086321ea5386e04ace3f681adb3838e_5of8.root  <==  plot:ttbar_med_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(228 more chars)
+ >  /scratch/fglessge//tmp_030d18c9e779a1907bdf1618455c4a177b2eaf6ce3d6b5b08feaedf7_5of8.root  <==  plot:Zlf_med_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(268 more chars)
+ >  /scratch/fglessge//tmp_11cd70b31d05e3bc29e8bd45d129ecf668975df921b81aec15cd044f_5of8.root  <==  plot:SR_high1_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(282 more chars)
+ >  /scratch/fglessge//tmp_07c30f07c8d1baa3532a601dcd2adba31425a06298d093da48a2bac7_5of8.root  <==  plot:SR_high1_Zmm_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(301 more chars)
+ >  /scratch/fglessge//tmp_c2d7d2d44c919b915397c80c86c11dde7f60e46be25b9f8e2d82b9a8_5of8.root  <==  plot:SR_high2_Zmm_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(288 more chars)
+ >  /scratch/fglessge//tmp_51b4b98654b37815b87e1e8cd4827a51726f5c9f0b68a1402c2000e6_5of8.root  <==  plot:Zhf_low_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(282 more chars)
+ >  /scratch/fglessge//tmp_b9cb8dd5ce5e5de372f635feb6e58b2e1da9f86f05ad5af88d57f197_5of8.root  <==  plot:Zlf_low_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(267 more chars)
+ >  /scratch/fglessge//tmp_b5a6ac48c0e7acc31e743f9b61b298dd5c8b14107c45910d5f247a63_5of8.root  <==  plot:SR_med_Zmm_ge1j_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(420 more chars)
+ >  /scratch/fglessge//tmp_e35a0a1519d1c5749599178e67e83fb18bebd1c542cff68631bfb7c2_5of8.root  <==  plot:ttbar_high_Zmm_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(249 more chars)
+ >  /scratch/fglessge//tmp_ef90e1d3d624290df497ebaad4a846f075584de3b4adcb1f4a70af2a_5of8.root  <==  plot:ttbar_low_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(227 more chars)
+ >  /scratch/fglessge//tmp_b9ef94ae362bfdb71f32ca42db3fd6987f4ffdbba753e2c73ea1d8b1_5of8.root  <==  plot:Zlf_high_Zmm_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(289 more chars)
+ >  /scratch/fglessge//tmp_7d857285f009d1030ad1f2233e7bc90638ae720dabb15b65fb01834e_5of8.root  <==  plot:ttbar_high_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(216 more chars)
+ >  /scratch/fglessge//tmp_99d6fe6178f5dd0faa07f4425f958c82a1e7a2fbe49deb3cb498d1c0_5of8.root  <==  plot:SR_high2_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(270 more chars)
+ >  /scratch/fglessge//tmp_df139d258ee6e57ba505c2cb39d3dc4b37e4506932d16c17b714696c_5of8.root  <==  plot:SR_med_Zmm_0j_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(421 more chars)
+ >  /scratch/fglessge//tmp_e0455822ae9e3e06d646635134ac6c1ef25df33d35a2dc4e0c027261_5of8.root  <==  plot:Zlf_high_Zee_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(289 more chars)
+ >  /scratch/fglessge//tmp_0860f3179f4eaf6b7fb386019ebf9015aff61d03b722b69166c8a3e9_5of8.root  <==  plot:Zlf_low_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(267 more chars)
+ >  /scratch/fglessge//tmp_d1a1b60d3cf3b5ecf018a1f91b1ade96d111f6a1b539008a9c90b2c9_5of8.root  <==  plot:SR_med_Zee_ge1j_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(420 more chars)
+ >  /scratch/fglessge//tmp_4c1a78f2c7dcea220441abc7ccfeed025f79ed727664fff6ab904fb9_5of8.root  <==  plot:SR_high2_Zee_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(288 more chars)
+ >  /scratch/fglessge//tmp_7894b6e53d25acbf20917f80244d05201814cd2756373e1bad95df81_5of8.root  <==  plot:ttbar_low_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(227 more chars)
+ >  /scratch/fglessge//tmp_8a6c88b6e611ac717a5fb9f082cc26bdb4c093aa3b8e07b1c0c8c56a_5of8.root  <==  plot:Zhf_med_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(283 more chars)
+ >  /scratch/fglessge//tmp_4d64536ddc4ed5925052bfbbd3551f18adf123f2e8cca3d33d28a3b3_5of8.root  <==  plot:Zhf_high_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(271 more chars)
+ >  /scratch/fglessge//tmp_4cdca7d44aefefb9adab0d90785c511f82f209d2b2c7d9af6decaa80_5of8.root  <==  plot:SR_high1_Zee_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(301 more chars)
+ >  /scratch/fglessge//tmp_bac68a105ab997286e280fc33c1b1af79a5ed27b813abdb6504ae3c4_5of8.root  <==  plot:Zhf_low_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(282 more chars)
+ >  /scratch/fglessge//tmp_eaa75dbba82277ed646961531f06b0fae1139ca8e6a5d3398d95cd00_5of8.root  <==  plot:Zhf_high_Zee_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(368 more chars)
+ >  /scratch/fglessge//tmp_41e30f57a40ce011f87069ca5ea688fe3bcf5ae4dd60d1286383e4cd_5of8.root  <==  plot:ttbar_high_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(216 more chars)
+ >  /scratch/fglessge//tmp_a223f62b955c5ede1be5d8b35e547c27434bd6537abfd93c4664b406_5of8.root  <==  plot:ttbar_high_Zee_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(249 more chars)
+ >  /scratch/fglessge//tmp_97baa9e2fe9b881c2be11228bd939622b3cbfb0aec80c38d0df9fa0f_5of8.root  <==  plot:Zlf_high_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(256 more chars)
+ >  /scratch/fglessge//tmp_08789f481729704db05e3526ef6d18dd5099e5b1f43a308fe94a4cf3_5of8.root  <==  plot:SR_med_Zee_0j_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(421 more chars)
+ >  /scratch/fglessge//tmp_95bd167baaf8ad30203bfea4f39b98e480f27ebc34897a5efbf69a3e_5of8.root  <==  plot:Zhf_high_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(271 more chars)
+ >  /scratch/fglessge//tmp_043ed48405d35fa57ac78f2341b4238d4ca5aef0cad5ccb253fade90_5of8.root  <==  plot:Zlf_med_Zmm_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(268 more chars)
+ >  /scratch/fglessge//tmp_5c9416d85811f3273b3e337ac0fa1997c7b5a949f79b611f1ce81ba2_5of8.root  <==  plot:Zlf_high_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(256 more chars)
+ >  /scratch/fglessge//tmp_40e0d209e897798f2517fafe8dcc5db9f0b990c0c3987677fa9df901_5of8.root  <==  plot:Zhf_high_Zmm_BOOST_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((Hbb_fjidx>-1) && (!(r...(368 more chars)
+ >  /scratch/fglessge//tmp_6df2ad8ceec1dd16981c140f09feeca523ccd98184afce2c7db2ed23_5of8.root  <==  plot:Zhf_med_Zee_HT600to800ZJets_1b  cut:  ['(nGenBpt25eta2p6==1)', '(((hJidx[0]>-1&&hJidx[1]...(283 more chars)
+ >  /scratch/fglessge//tmp_ee9c258c3949c0d5e5eff277850612282ed8dde7b8ef744e7cd69309_5of8.root  <==  plot:ttbar_med_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(227 more chars)
+ >  /scratch/fglessge//tmp_47d8f5b2550a8d83ad1be41840bd8068436ed2ad8c7cb16460d262f3_5of8.root  <==  plot:SR_high2_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(269 more chars)
+ >  /scratch/fglessge//tmp_7f3fcf839436997506ba0a90d37562d88a1eeae7fa6fa6b717b9d6c6_5of8.root  <==  plot:SR_high1_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(281 more chars)
+ >  /scratch/fglessge//tmp_55501bde96003b3b5061f8966b3b6e61fc7405acc31bb90aed983d62_5of8.root  <==  plot:SR_low_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(280 more chars)
+ >  /scratch/fglessge//tmp_45b9a06e0130ced755571d7545ada714ad6356bb349b94992dd56f8e_5of8.root  <==  plot:ttbar_med_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(227 more chars)
+ >  /scratch/fglessge//tmp_4f90fab76e83cd111627ad3f69ec824b0f968f1696e63dc19279ff97_5of8.root  <==  plot:Zlf_med_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(267 more chars)
+ >  /scratch/fglessge//tmp_eb2524275fafc270e63263f47d669f0330fc95a7dd5e996c11ac3bef_5of8.root  <==  plot:SR_high1_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(281 more chars)
+ >  /scratch/fglessge//tmp_1c3f9a34f6dc71f05740d47badfad3271b5372b03fa7b9f95096f307_5of8.root  <==  plot:SR_high1_Zmm_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(300 more chars)
+ >  /scratch/fglessge//tmp_025deadb0fefc4836eafcacc64713ad2892239a90a72f5886015f042_5of8.root  <==  plot:SR_high2_Zmm_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(287 more chars)
+ >  /scratch/fglessge//tmp_9095c31aa119e34aad887016f4c88dd4c34713d0e30ddf426aef6a95_5of8.root  <==  plot:Zhf_low_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(281 more chars)
+ >  /scratch/fglessge//tmp_9c256de06c084e9ba6c6f4ce95acd1aa1e2805fef8f81922a90619f6_5of8.root  <==  plot:Zlf_low_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(266 more chars)
+ >  /scratch/fglessge//tmp_5f54fd025656e255d137af9988818abf73da053b970301a7e083289b_5of8.root  <==  plot:SR_med_Zmm_ge1j_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(419 more chars)
+ >  /scratch/fglessge//tmp_90aa84d2bd3ca394d471b04a8e6521670f01d0ae966ad6e50a50f626_5of8.root  <==  plot:ttbar_high_Zmm_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(248 more chars)
+ >  /scratch/fglessge//tmp_d2b1af8d97059dbbfb65e65d4e5c2c5cc7cbae90836928bc76da3cbd_5of8.root  <==  plot:ttbar_low_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(226 more chars)
+ >  /scratch/fglessge//tmp_961b02aa019ad7e587c8894d8c82f2b695a454b960406d03ddec5a65_5of8.root  <==  plot:Zlf_high_Zmm_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(288 more chars)
+ >  /scratch/fglessge//tmp_6746f1df788c4f17ef8a12dead26cd8d0c72b17c6742b3bcf9b62742_5of8.root  <==  plot:ttbar_high_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(215 more chars)
+ >  /scratch/fglessge//tmp_8ce6369f637b5f6e07eb21315704d8eda8b0a5dfca4eec197dce0e1e_5of8.root  <==  plot:SR_high2_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(269 more chars)
+ >  /scratch/fglessge//tmp_05197e6ccb85362463da4dd4f4cf0e5bf2e62eb750b694b309b0017e_5of8.root  <==  plot:SR_med_Zmm_0j_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(420 more chars)
+ >  /scratch/fglessge//tmp_71fd71d712dc8dd5522528c634f606c0c4ab74014b7611007447dc1e_5of8.root  <==  plot:Zlf_high_Zee_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(288 more chars)
+ >  /scratch/fglessge//tmp_fd14209bf9aa033ae1b3481d42b8ea19b094f13e82ef0026ae015a2f_5of8.root  <==  plot:Zlf_low_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(266 more chars)
+ >  /scratch/fglessge//tmp_7631ea8b1f77c87243c4569492faac3857255506442becbb6b9a6408_5of8.root  <==  plot:SR_med_Zee_ge1j_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(419 more chars)
+ >  /scratch/fglessge//tmp_2b450ed0f7548e28034acf8ee0ed07341bd4db23e80204bff56d7294_5of8.root  <==  plot:SR_high2_Zee_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(287 more chars)
+ >  /scratch/fglessge//tmp_d160735ac12dd82f6336adb5be609aedb9763bcaeab48f1d010df6f2_5of8.root  <==  plot:ttbar_low_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(226 more chars)
+ >  /scratch/fglessge//tmp_24f7abc30702fa33d40fbd9ac10845da4d60bd06fd312fcc4d9f04bb_5of8.root  <==  plot:Zhf_med_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(282 more chars)
+ >  /scratch/fglessge//tmp_fa3684eb414a4d720faad7ca6c0440416ac9f98bb6cfe23d54daf58a_5of8.root  <==  plot:Zhf_high_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(270 more chars)
+ >  /scratch/fglessge//tmp_adb4133a51708bebeb0cc6d4e0e851042e74642b2f6aeffabc867952_5of8.root  <==  plot:SR_high1_Zee_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(300 more chars)
+ >  /scratch/fglessge//tmp_a07fae780118a7d133b566a538d4f54b43a67d79a9d1de2457a249ca_5of8.root  <==  plot:Zhf_low_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(281 more chars)
+ >  /scratch/fglessge//tmp_a7c4e7d9d0b7f5ce5bd8d75039a14c6ba70e2d21ace7bba00021146a_5of8.root  <==  plot:Zhf_high_Zee_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(367 more chars)
+ >  /scratch/fglessge//tmp_10272f93284156ab87065bf6c806bea4d82750a553d4dd4fd6176f98_5of8.root  <==  plot:ttbar_high_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(215 more chars)
+ >  /scratch/fglessge//tmp_5b4ef9517e5546eae81846bc0367edb61f9aa51749485e6993c2fb56_5of8.root  <==  plot:ttbar_high_Zee_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(248 more chars)
+ >  /scratch/fglessge//tmp_7838688d45761706841d66d49a4978e260f0b6f75fa7b4160e930201_5of8.root  <==  plot:Zlf_high_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(255 more chars)
+ >  /scratch/fglessge//tmp_e3d550acec12aebb080710f84f7815d62fa79003a8f26c74f5665b5a_5of8.root  <==  plot:SR_med_Zee_0j_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(420 more chars)
+ >  /scratch/fglessge//tmp_e4da820d8c83346594b4be56d647af549e03c63d349bfc5a1ed7adbe_5of8.root  <==  plot:Zhf_high_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(270 more chars)
+ >  /scratch/fglessge//tmp_7eef3e2d58dbe80d6c3926d6c78da68449ec3fe3cefb5fd4a2a4e5cb_5of8.root  <==  plot:Zlf_med_Zmm_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(267 more chars)
+ >  /scratch/fglessge//tmp_80279b981ad42c707eb7ff62c51e4c574cc28ea76c7817e4276278b5_5of8.root  <==  plot:Zlf_high_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(255 more chars)
+ >  /scratch/fglessge//tmp_2c0800df3cf885cd3e6c2e651223b8c1ea664f40826554562e73df81_5of8.root  <==  plot:Zhf_high_Zmm_BOOST_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((Hbb_fjidx>-1) && (!(re...(367 more chars)
+ >  /scratch/fglessge//tmp_22f875ab9fca9de5095ac48395a70bb551519e74be1fe06651440bac_5of8.roError in <TTree::SetBranchStatus>: No branch name is matching wildcard -> DoubleMu*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *BDT*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> top_mass2_05_neutrino*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> nAddJet*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> FitCorr*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *DNN*
+ot  <==  plot:Zhf_med_Zee_HT600to800ZJets_2b  cut:  ['(nGenBpt25eta2p6>1)', '(((hJidx[0]>-1&&hJidx[1]>...(282 more chars)
+FORMULAS:
+listOfBranchesToKeep    ['PrefireWeight', 'kinFit_V_mass_fit', 'DNN_201008_VHLegacyDNN2017V11_Zll_Apr2020v6final_Multi_low_Zll', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'muonSF_trigger', 'BDT_VZ_Zll_BOOSTFinal_wdB', 'LHE_', 'GenBs_phi', 'Jet_btagDeepB', 'muonSF', 'nGen*', 'kinFit_V_pt_fit', 'FatJet_Msoftdrop', 'vLidx', 'DoubleMu*', 'EWKW', 'Jet_PtReg*', 'puWeightUp', 'hJets_FSRrecovered_dEta', 'deltaR', '*BDT*', 'Pileup_nTrueInt', 'electronSF_IdIso', 'is*', 'GenJet_eta', 'MET_pt', 'GenPart_eta', 'hJets_1_pt_FSRrecovered', 'Muon_phi', 'weightJetPUID', 'GenPart', 'resolved', 'kinFit_H_mass_fit_noJetMass', 'GenJet_numBHadrons', 'muonSF*', 'm_inv3', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'electron', 'nFSRrecovered', 'MET_Pt_uncorrected', 'SA2', 'METFixEE2017_pt', 'top_mass2_05_top', 'DoubleMu', 'SA5', 'bTagWeightDoubleB', 'GenBs_eta', 'Muon_eta', 'fixedGridRhoFastjetAll', 'weight*', 'top_mass_reco_neutrino_pz', 'top_mass_reco_neutrino_py', 'top_mass_reco_neutrino_px', 'bTagWeight', 'BDT_Wlv_BOOSTFinal_nodB', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'top_mass2_05_neutrino*', 'Muon_corrected_pt', 'DNN_200924_VHLegacyDNN2017V11_Zll_Apr2020v6final_SR_medhigh_Zll', 'H_phi', 'Jet_PtRegUp', 'Jet_vtxMass', 'htJet30', 'nAddJet*', 'GenJet_pt', 'H_mass_jerReg', 'LHE_weights_scale_wgt', 'weight', 'Muon_pfRelIso04_all', 'HLT_PFMET120_PFMHT120_IDTight', 'Cos', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'Nominal', 'H_mass_noFSR', 'EWKwSIG', 'run', 'electronSF', 'event', 'hJets_1_pt_FSRrecovered_jerReg_Down', 'Muon_mvaTTH', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'Electron_phi', 'puWeightDown', 'FatJet_tau1', 'FatJet_tau2', 'FatJet_tau3', 'kinFit_H_mass_fit', 'Jet_puId', 'DNN_bEnrichedSamplesAsSignal', 'ATan2', 'Jet_pt', 'abs', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'resolvedCR', 'isZee', 'V_phi', 'kinFit_n_recoil_jets_fit', 'GenPart_pdgId', 'kinFit_H_mass_sigma_fit', 'H_mass_fit_corr', 'hJets_FSRrecovered_dPhi', 'None', 'nAddLeptons', 'LHE_Nuds', 'nGenBpt25eta2p6', 'FatJet_deepTagMD_HbbvsQCD', 'H_eta', 'nVetoElectrons', 'FatJet_deepTagMD_TvsQCD', 'BDT', 'nAddLep15_2p5', 'luminosityBlock', 'BDT_DNN2017V11_ZllHigh_Mjj_v1', 'tkMet_phi', 'GenJetAK8_nBhadrons', 'V_mt', 'H_pt', 'Muon_mvaId', 'puWeight', 'GenPart_statusFlags', 'BDT_Zll_BOOSTFinal_wdB', 'LHE_Nb', 'LHE_Nc', 'LHE_Njets', 'SoftActivity*', 'V_mass', 'Muon_pt', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'DNN_200924_VHLegacyDNN2017V11_Zll_Apr2020v6final_SR_low_Zll', 'Jet_PtRegDown', 'kinFit*', 'V_*', 'Muon_softMvaId', 'Jet_mass_nom', 'TVector2', 'Electron_mvaTTH', 'electronSF_trigger', 'FitCorr*', 'Sqrt', 'nFatJet', 'hJets_0_pt_FSRrecovered_jerReg_Up', 'MET_Pt', 'bTagWeightDeepCSV', 'MHT_pt', 'Jet_vtxPt', 'top_mass2_05_neutrino', 'Jet_btag', 'deltaPhi', 'FatJet_Pt', 'DY_specialWeight', 'Jet_mcIdx', 'boostedSR', 'kinFit_H_eta_fit', 'Jet_leadTrackPt', 'minDphiJetMet', 'resolved*', 'TkMET_pt', 'Min', 'Electron_eta', 'H_pt_noFSR', 'PV_npvs', 'hJets_0_pt_FSRrecovered_jerReg_Down', 'MET_Phi', 'hJets_1_pt_FSRrecovered_jerReg_Up', 'GenPart_pt', 'LHE_*', 'boosted*', 'is', 'Jet_leptonPt', 'nGenStatus2bHad', 'nVetoMuons', 'weightLOtoNLO_2016', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'weightLOtoNLO_LHEVptV3', 'weightLOtoNLO_LHEVptV2', 'weightLOtoNLO_LHEVptV7', 'isBoosted', 'Jet_Pt', 'MET_phi', 'FatJet_lepFilter', 'resolvedSR', 'Jet_leptonPtRel', 'btagWeight*', 'TkMET_phi', 'kinFit', 'FatJet_deepTagMD_bbvsLight', 'kinFit_V_phi_fit', '*DNN*', 'isData', 'Muon_mass', 'weight_mettrigSF', 'SoftActivity', 'nGen', 'kinFit_H_phi_fit', 'H_noReg_mass', 'FatJet_phi', 'EWKwVJets', 'isZnn', 'top_mass_reco_neutrino_solver_branch', 'hJidx', 'EWKw', 'GenB', 'SA10', 'FatJet_eta', 'GenPart*', 'MET_Phi_uncorrected', 'Jet_phi', 'twoFVpt', 'Vtype', 'BDT_Wlv_BOOSTFinal_wdB', 'muonSF_Iso', 'V_eta', 'btagWeight', 'Jet_chHEF', 'Jet_lepFilter', 'Jet_btag*', 'Electron_pt', 'DNN_201008_VHLegacyDNN2017V11_Zll_Apr2020v6final_Multi_medhigh_Zll', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'Jet_jetId', 'GenPart_status', 'Sin', 'isWmunu', 'DNN_201006_VHLegacyDNN2017V11_Zll_Apr2020v6final_VV_SR_low_Zll', 'nGenBs', 'hJets_0_pt_FSRrecovered', 'fabs', 'min', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'kinFit_jjVPtRatio_fit', 'GenBs_pt', 'twoFVmass', 'METFix', 'METFix*', 'FatJet_msoftdrop_corr_PUPPI', 'Phi_mpi_pi', 'genWeight', 'kinFit_hJets_pt_1_fit', 'Jet_neHEF', 'eTrigSFWeight_doubleEle80x', 'DNN', 'V_pt', 'Jet_eta', 'nGenDpt25eta2p6', 'boosted', 'Electron_mva', 'TMath', 'H_mass', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass', 'bTagWeight*', 'isWenu', 'DNN_201006_VHLegacyDNN2017V11_Zll_Apr2020v6final_VV_SR_medhigh_Zll', 'Electron_pfRelIso03_all', 'dPhiLepMet', 'Jet_leptonDeltaR', 'kinFit_H_pt_fit', 'kinFit_V_eta_fit', 'kinFit_hJets_pt_0_fit', 'LHEScaleWeight', 'V_', 'max', 'Jet_PtReg', 'top_mass_reco_neutrino_E', 'muonSF_Id', 'puWeight*', 'kinFit_HVdPhi_fit', 'VHbb', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'isZmm', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso', 'SoftActivityJetNjets5', 'H_mass_jerReg*', 'Jet_btagDeepFlavB', 'nAddJet']
+INFO: reduced number of enabled branches from 3710  to 191  (branches with wildcards may not be correctly counted)
+INFO: branches: 188 branches: [35mweightLOtoNLO[0m, [35mboosted[0m, [35mMETFixEE2017[0m, [35mhJidx[0m, 17 like [34mJet_*[0m, [35mnGen[0m, [35mis[0m, [35mnGenStatus2bHad[0m, [35mnFatJet[0m, [35mbtagWeight[0m, [35mVtype[0m, 4 like [34mmuonSF_*[0m, [35mbTagWeightDeepCSV[0m, [35mEWKwSIG[0m, [35mDY[0m, [35mvLidx[0m, 3 like [34melectronSF_*[0m, [35mevent[0m, 3 like [34mGenBs_*[0m, [35mpuWeightDown[0m, [35mpuWeightUp[0m, [35misWmunu[0m, [35mnGenBs[0m, [35mPV[0m, [35mweight[0m, [35mEWKwVJets[0m, [35misZmm[0m, [35mtop[0m, 3 like [34mGenJet_*[0m, [35mDoubleMu[0m, [35mboostedSR[0m, 8 like [34mhJets_*[0m, 6 like [34mElectron_*[0m, [35mSoftActivityJetNjets5[0m, [35mMETFix[0m, [35mresolvedCR[0m, [35mresolvedSR[0m, [35mweightJetPUID[0m, [35misZnn[0m, 6 like [34mGenPart_*[0m, [35mgenWeight[0m, [35mresolved[0m, 7 like [34mLHE_*[0m, [35mnAddLeptons[0m, [35mrun[0m, [35msampleIndex[0m, 2 like [34mTkMET_*[0m, [35mnGenDpt25eta2p6[0m, 8 like [34mH_*[0m, [35mDNN[0m, [35mFitCorr[0m, [35misBoosted[0m, [35mBDT[0m, [35melectron[0m, [35mnFSRrecovered[0m, [35mPrefireWeight[0m, 6 like [34mV_*[0m, [35mpuWeight[0m, [35mMHT[0m, [35mHbb[0m, 16 like [34mkinFit_*[0m, [35mSA5[0m, [35mbTagWeightDoubleB[0m, 9 like [34mMuon_*[0m, [35misData[0m, [35misWenu[0m, [35mfixedGridRhoFastjetAll[0m, 9 like [34mHLT_*[0m, [35misZee[0m, [35mbTagWeight[0m, 6 like [34mMET_*[0m, [35mLHEScaleWeight[0m, 11 like [34mFatJet_*[0m, [35mluminosityBlock[0m, [35mnGenBpt25eta2p6[0m, [35mPileup[0m, [35mEWKw[0m, [35mSoftActivity[0m, [35mGenB[0m, [35mGenJetAK8[0m, [35mnAddJet[0m
+------------------
+ start processing 
+------------------
+INFO: time  Mon Feb 21 11:37:25 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Mon Feb 21 11:50:39 2022
+INFO: throughput: INPUT: 212.8723/s, OUTPUT: 12.6250/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  True
+INFO: trees in memory destroyed!
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_031322570c8d71b736b2a00941ba23a3e8cb936efd9afdf47fb8f7dd_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_031322570c8d71b736b2a00941ba23a3e8cb936efd9afdf47fb8f7dd_5of8.root
+DELETE: /scratch/fglessge//tmp_031322570c8d71b736b2a00941ba23a3e8cb936efd9afdf47fb8f7dd_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_2103d40ea521175d669493b4e3a1a528a54a78b85612a6548aa928e9_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_2103d40ea521175d669493b4e3a1a528a54a78b85612a6548aa928e9_5of8.root
+DELETE: /scratch/fglessge//tmp_2103d40ea521175d669493b4e3a1a528a54a78b85612a6548aa928e9_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_bd116639db0a110a599334eecd31133109c2beb47324da3311e135da_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_bd116639db0a110a599334eecd31133109c2beb47324da3311e135da_5of8.root
+DELETE: /scratch/fglessge//tmp_bd116639db0a110a599334eecd31133109c2beb47324da3311e135da_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_0ec84ca3ac10bf3884a4294d1116c4da2241b072f72b02cd883fd9a1_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_0ec84ca3ac10bf3884a4294d1116c4da2241b072f72b02cd883fd9a1_5of8.root
+DELETE: /scratch/fglessge//tmp_0ec84ca3ac10bf3884a4294d1116c4da2241b072f72b02cd883fd9a1_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4be1a4d7878ec7952e2d267affc5776f3c3f2b9a90a198669b74084f_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4be1a4d7878ec7952e2d267affc5776f3c3f2b9a90a198669b74084f_5of8.root
+DELETE: /scratch/fglessge//tmp_4be1a4d7878ec7952e2d267affc5776f3c3f2b9a90a198669b74084f_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_8b6edfade74dcbb2768f22d4f2949f48f467c46b66fd26e113480529_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_8b6edfade74dcbb2768f22d4f2949f48f467c46b66fd26e113480529_5of8.root
+DELETE: /scratch/fglessge//tmp_8b6edfade74dcbb2768f22d4f2949f48f467c46b66fd26e113480529_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_02a3ab796268f8006316656c7fcc30edbe8e903e364f380248fcf182_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_02a3ab796268f8006316656c7fcc30edbe8e903e364f380248fcf182_5of8.root
+DELETE: /scratch/fglessge//tmp_02a3ab796268f8006316656c7fcc30edbe8e903e364f380248fcf182_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_eb34ea9d59c200135df0bcb73a3bd45a1627942d8fca18e854edaa4e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_eb34ea9d59c200135df0bcb73a3bd45a1627942d8fca18e854edaa4e_5of8.root
+DELETE: /scratch/fglessge//tmp_eb34ea9d59c200135df0bcb73a3bd45a1627942d8fca18e854edaa4e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_309ab3c0bf892c26de13aa8e2c3750ccdf3ae9bd0751b580f9b4bf76_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_309ab3c0bf892c26de13aa8e2c3750ccdf3ae9bd0751b580f9b4bf76_5of8.root
+DELETE: /scratch/fglessge//tmp_309ab3c0bf892c26de13aa8e2c3750ccdf3ae9bd0751b580f9b4bf76_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_c0d161e627734b8760dba8a87eb2dc86ee59a0005638f5875ea1f196_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_c0d161e627734b8760dba8a87eb2dc86ee59a0005638f5875ea1f196_5of8.root
+DELETE: /scratch/fglessge//tmp_c0d161e627734b8760dba8a87eb2dc86ee59a0005638f5875ea1f196_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_8faa0f3ea7404bb2b1c53f516ffc82928e1a9098d056c8d29ca3b65a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_8faa0f3ea7404bb2b1c53f516ffc82928e1a9098d056c8d29ca3b65a_5of8.root
+DELETE: /scratch/fglessge//tmp_8faa0f3ea7404bb2b1c53f516ffc82928e1a9098d056c8d29ca3b65a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_0265ecf196874ff8b6fc6b93a3c7922c29a08f67fb5238818fe958cb_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_0265ecf196874ff8b6fc6b93a3c7922c29a08f67fb5238818fe958cb_5of8.root
+DELETE: /scratch/fglessge//tmp_0265ecf196874ff8b6fc6b93a3c7922c29a08f67fb5238818fe958cb_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_9e24005c08c983343781ec32c72aed6f5521f3d52df790a9d3faf5c4_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_9e24005c08c983343781ec32c72aed6f5521f3d52df790a9d3faf5c4_5of8.root
+DELETE: /scratch/fglessge//tmp_9e24005c08c983343781ec32c72aed6f5521f3d52df790a9d3faf5c4_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a154a06f878c01c5959d80777ec4bf219bf1aea3c615f86f449aa514_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a154a06f878c01c5959d80777ec4bf219bf1aea3c615f86f449aa514_5of8.root
+DELETE: /scratch/fglessge//tmp_a154a06f878c01c5959d80777ec4bf219bf1aea3c615f86f449aa514_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_c51a6463d053ed6841470d755905c3dd3de4d0a229f698ec781f21d6_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_c51a6463d053ed6841470d755905c3dd3de4d0a229f698ec781f21d6_5of8.root
+DELETE: /scratch/fglessge//tmp_c51a6463d053ed6841470d755905c3dd3de4d0a229f698ec781f21d6_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_445d93f9d1f2e44058d540d451f67eda9ce700efc71c1a9703957501_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_445d93f9d1f2e44058d540d451f67eda9ce700efc71c1a9703957501_5of8.root
+DELETE: /scratch/fglessge//tmp_445d93f9d1f2e44058d540d451f67eda9ce700efc71c1a9703957501_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_1a8675db94f10dce349f6d04a486687e3947853d4a3e291a33d55423_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_1a8675db94f10dce349f6d04a486687e3947853d4a3e291a33d55423_5of8.root
+DELETE: /scratch/fglessge//tmp_1a8675db94f10dce349f6d04a486687e3947853d4a3e291a33d55423_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_ed8ceb8474115353825d018f03dea1e47a0001599db9645aedb12f4b_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_ed8ceb8474115353825d018f03dea1e47a0001599db9645aedb12f4b_5of8.root
+DELETE: /scratch/fglessge//tmp_ed8ceb8474115353825d018f03dea1e47a0001599db9645aedb12f4b_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_1ef2a8fdcdc5979b966a8dd1fdd7b1cf952ed323c1bcfb8284596418_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_1ef2a8fdcdc5979b966a8dd1fdd7b1cf952ed323c1bcfb8284596418_5of8.root
+DELETE: /scratch/fglessge//tmp_1ef2a8fdcdc5979b966a8dd1fdd7b1cf952ed323c1bcfb8284596418_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_b892f238e2b059c0291c754844f47f8e2979bedea314a3784a8905fb_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_b892f238e2b059c0291c754844f47f8e2979bedea314a3784a8905fb_5of8.root
+DELETE: /scratch/fglessge//tmp_b892f238e2b059c0291c754844f47f8e2979bedea314a3784a8905fb_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_36404b81e54811479dcd4ada43bcaa8e49db39813fb2a230c61a133d_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_36404b81e54811479dcd4ada43bcaa8e49db39813fb2a230c61a133d_5of8.root
+DELETE: /scratch/fglessge//tmp_36404b81e54811479dcd4ada43bcaa8e49db39813fb2a230c61a133d_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7de30dad90c6abe4a26092e3df3e50b0150e123ad50a120dc1f8f2ec_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7de30dad90c6abe4a26092e3df3e50b0150e123ad50a120dc1f8f2ec_5of8.root
+DELETE: /scratch/fglessge//tmp_7de30dad90c6abe4a26092e3df3e50b0150e123ad50a120dc1f8f2ec_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e264703d39d687f1d31fd6b75ff813da412b02ec99b2cccd40a972ba_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e264703d39d687f1d31fd6b75ff813da412b02ec99b2cccd40a972ba_5of8.root
+DELETE: /scratch/fglessge//tmp_e264703d39d687f1d31fd6b75ff813da412b02ec99b2cccd40a972ba_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a44505d17df231f8f6bf071dd665bf9076e0f2fe1562cb5949818da1_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a44505d17df231f8f6bf071dd665bf9076e0f2fe1562cb5949818da1_5of8.root
+DELETE: /scratch/fglessge//tmp_a44505d17df231f8f6bf071dd665bf9076e0f2fe1562cb5949818da1_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a1fb2741ef95c656552dd7050ee39de5e2eb316718cb077b87d644eb_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a1fb2741ef95c656552dd7050ee39de5e2eb316718cb077b87d644eb_5of8.root
+DELETE: /scratch/fglessge//tmp_a1fb2741ef95c656552dd7050ee39de5e2eb316718cb077b87d644eb_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_22a38cb7b140b0b77e1d641d0a2c04e50e6596cf56621985b6806a26_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_22a38cb7b140b0b77e1d641d0a2c04e50e6596cf56621985b6806a26_5of8.root
+DELETE: /scratch/fglessge//tmp_22a38cb7b140b0b77e1d641d0a2c04e50e6596cf56621985b6806a26_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7587141d6fa77bbde212d2dd9e4b98e9c85b558ed3af9cfaba052e45_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7587141d6fa77bbde212d2dd9e4b98e9c85b558ed3af9cfaba052e45_5of8.root
+DELETE: /scratch/fglessge//tmp_7587141d6fa77bbde212d2dd9e4b98e9c85b558ed3af9cfaba052e45_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_2b3fd5ff766418e47ac1f7f99ffff2a9bb20a88ca3f9654dc0b1c9b4_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_2b3fd5ff766418e47ac1f7f99ffff2a9bb20a88ca3f9654dc0b1c9b4_5of8.root
+DELETE: /scratch/fglessge//tmp_2b3fd5ff766418e47ac1f7f99ffff2a9bb20a88ca3f9654dc0b1c9b4_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_bae6a2ed2d21850b55a558ec84346d57aa18a31adddc5c0a7fb5b22f_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_bae6a2ed2d21850b55a558ec84346d57aa18a31adddc5c0a7fb5b22f_5of8.root
+DELETE: /scratch/fglessge//tmp_bae6a2ed2d21850b55a558ec84346d57aa18a31adddc5c0a7fb5b22f_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e8904e4ce762efe20a2fecc18b3975bf73a0719e41de0d754c7bccb8_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e8904e4ce762efe20a2fecc18b3975bf73a0719e41de0d754c7bccb8_5of8.root
+DELETE: /scratch/fglessge//tmp_e8904e4ce762efe20a2fecc18b3975bf73a0719e41de0d754c7bccb8_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_bd4c9823684a5c29ca18f80d939d61552b2d2d5107b8f03e8a614039_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_bd4c9823684a5c29ca18f80d939d61552b2d2d5107b8f03e8a614039_5of8.root
+DELETE: /scratch/fglessge//tmp_bd4c9823684a5c29ca18f80d939d61552b2d2d5107b8f03e8a614039_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_1ca693715f58a65f49674d3bc93a532a183f5f08eb9dbee64e01971c_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_1ca693715f58a65f49674d3bc93a532a183f5f08eb9dbee64e01971c_5of8.root
+DELETE: /scratch/fglessge//tmp_1ca693715f58a65f49674d3bc93a532a183f5f08eb9dbee64e01971c_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4e836b5a12196ca2f93a779bc492e1bbfe70e55a5812bad2d87ff2aa_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4e836b5a12196ca2f93a779bc492e1bbfe70e55a5812bad2d87ff2aa_5of8.root
+DELETE: /scratch/fglessge//tmp_4e836b5a12196ca2f93a779bc492e1bbfe70e55a5812bad2d87ff2aa_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4d9ce9e51cd27d788399e079eaa4fa378fffe17185d66825e6a2021b_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4d9ce9e51cd27d788399e079eaa4fa378fffe17185d66825e6a2021b_5of8.root
+DELETE: /scratch/fglessge//tmp_4d9ce9e51cd27d788399e079eaa4fa378fffe17185d66825e6a2021b_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_3bb212ae1f09a8645341b81d858cce6757c42efe98d87c2b23c5d241_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_3bb212ae1f09a8645341b81d858cce6757c42efe98d87c2b23c5d241_5of8.root
+DELETE: /scratch/fglessge//tmp_3bb212ae1f09a8645341b81d858cce6757c42efe98d87c2b23c5d241_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e08e15db1bcf5b2c9775c1b3f837ccdb91ed84742f611c0e7b9e9892_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e08e15db1bcf5b2c9775c1b3f837ccdb91ed84742f611c0e7b9e9892_5of8.root
+DELETE: /scratch/fglessge//tmp_e08e15db1bcf5b2c9775c1b3f837ccdb91ed84742f611c0e7b9e9892_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a350abf4b5ce2c3aa888cecd642214b24fba3dccd406fdaed9fbd140_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a350abf4b5ce2c3aa888cecd642214b24fba3dccd406fdaed9fbd140_5of8.root
+DELETE: /scratch/fglessge//tmp_a350abf4b5ce2c3aa888cecd642214b24fba3dccd406fdaed9fbd140_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_daa6d92269bcfb6f5243c6fe3adf22f204deddf4baaad9a590617fe8_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_daa6d92269bcfb6f5243c6fe3adf22f204deddf4baaad9a590617fe8_5of8.root
+DELETE: /scratch/fglessge//tmp_daa6d92269bcfb6f5243c6fe3adf22f204deddf4baaad9a590617fe8_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_bf9e80f742af47255c2b565bdd02bfe2c61375ba4559d83593987159_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_bf9e80f742af47255c2b565bdd02bfe2c61375ba4559d83593987159_5of8.root
+DELETE: /scratch/fglessge//tmp_bf9e80f742af47255c2b565bdd02bfe2c61375ba4559d83593987159_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_17f0f225f73e27cbbd9ff49bcc4bb02e668e70a935c0b9523b054ef6_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_17f0f225f73e27cbbd9ff49bcc4bb02e668e70a935c0b9523b054ef6_5of8.root
+DELETE: /scratch/fglessge//tmp_17f0f225f73e27cbbd9ff49bcc4bb02e668e70a935c0b9523b054ef6_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_cdbdea6577ffc240f087388e5707bc3fae8c4dec348d90a9f5ce85fd_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_cdbdea6577ffc240f087388e5707bc3fae8c4dec348d90a9f5ce85fd_5of8.root
+DELETE: /scratch/fglessge//tmp_cdbdea6577ffc240f087388e5707bc3fae8c4dec348d90a9f5ce85fd_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_d135f489609646bcb75c90c20b2ebd08c79dca866782df2be58b1504_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_d135f489609646bcb75c90c20b2ebd08c79dca866782df2be58b1504_5of8.root
+DELETE: /scratch/fglessge//tmp_d135f489609646bcb75c90c20b2ebd08c79dca866782df2be58b1504_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e74cc1c39149548434328c19f2ed82546447b0786565329218168b25_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e74cc1c39149548434328c19f2ed82546447b0786565329218168b25_5of8.root
+DELETE: /scratch/fglessge//tmp_e74cc1c39149548434328c19f2ed82546447b0786565329218168b25_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_412399e408661a0dab7272b8b4ce8634392ed2e36b6ba0f9d2f7e225_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_412399e408661a0dab7272b8b4ce8634392ed2e36b6ba0f9d2f7e225_5of8.root
+DELETE: /scratch/fglessge//tmp_412399e408661a0dab7272b8b4ce8634392ed2e36b6ba0f9d2f7e225_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e538c310e0b849cea93d5f7506560425493d8ecfcbce3a7a682cd343_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e538c310e0b849cea93d5f7506560425493d8ecfcbce3a7a682cd343_5of8.root
+DELETE: /scratch/fglessge//tmp_e538c310e0b849cea93d5f7506560425493d8ecfcbce3a7a682cd343_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_ed57cd5586a27f3ad9fd1552170f3d5c068410cdd103f3b64b4d9dfc_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_ed57cd5586a27f3ad9fd1552170f3d5c068410cdd103f3b64b4d9dfc_5of8.root
+DELETE: /scratch/fglessge//tmp_ed57cd5586a27f3ad9fd1552170f3d5c068410cdd103f3b64b4d9dfc_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_8138cab9a497807cb1674546329b588c7de0ca480fbdec3a63d705d2_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_8138cab9a497807cb1674546329b588c7de0ca480fbdec3a63d705d2_5of8.root
+DELETE: /scratch/fglessge//tmp_8138cab9a497807cb1674546329b588c7de0ca480fbdec3a63d705d2_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_586e546929ee89ac49b7243e6da48f50407508746af0bc1b33cc7227_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_586e546929ee89ac49b7243e6da48f50407508746af0bc1b33cc7227_5of8.root
+DELETE: /scratch/fglessge//tmp_586e546929ee89ac49b7243e6da48f50407508746af0bc1b33cc7227_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_2b4c112638b84407c8872bae32a1a9548766a47473fb4b8e4bfea1b6_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_2b4c112638b84407c8872bae32a1a9548766a47473fb4b8e4bfea1b6_5of8.root
+DELETE: /scratch/fglessge//tmp_2b4c112638b84407c8872bae32a1a9548766a47473fb4b8e4bfea1b6_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7aa1dfc66512c0b3ba638a087034cb9697396c75c12c4dc211680c71_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7aa1dfc66512c0b3ba638a087034cb9697396c75c12c4dc211680c71_5of8.root
+DELETE: /scratch/fglessge//tmp_7aa1dfc66512c0b3ba638a087034cb9697396c75c12c4dc211680c71_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4e5f0ee51e78365ce4673a8726d1f80576f04b99918dcca25bfde13f_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4e5f0ee51e78365ce4673a8726d1f80576f04b99918dcca25bfde13f_5of8.root
+DELETE: /scratch/fglessge//tmp_4e5f0ee51e78365ce4673a8726d1f80576f04b99918dcca25bfde13f_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_c426fa026787685df9ec44c5647eb35c89e89502a91450fb0ecd1610_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_c426fa026787685df9ec44c5647eb35c89e89502a91450fb0ecd1610_5of8.root
+DELETE: /scratch/fglessge//tmp_c426fa026787685df9ec44c5647eb35c89e89502a91450fb0ecd1610_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_95c112e7f45439a0ce14b9dcebbf015e5037bcb9f8bb8063c8c4b446_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_95c112e7f45439a0ce14b9dcebbf015e5037bcb9f8bb8063c8c4b446_5of8.root
+DELETE: /scratch/fglessge//tmp_95c112e7f45439a0ce14b9dcebbf015e5037bcb9f8bb8063c8c4b446_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7e22e2575810dad16cc6298ec1d6082dc1142f43820f09e84bbb6da9_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7e22e2575810dad16cc6298ec1d6082dc1142f43820f09e84bbb6da9_5of8.root
+DELETE: /scratch/fglessge//tmp_7e22e2575810dad16cc6298ec1d6082dc1142f43820f09e84bbb6da9_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_5a404f7006f2df8d0dbb3deb40487d170ddbeec188dffc12c363f429_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_5a404f7006f2df8d0dbb3deb40487d170ddbeec188dffc12c363f429_5of8.root
+DELETE: /scratch/fglessge//tmp_5a404f7006f2df8d0dbb3deb40487d170ddbeec188dffc12c363f429_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_3777c00f7850d30176fe883d54a47a1b2136774a1e5ee923cd461207_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_3777c00f7850d30176fe883d54a47a1b2136774a1e5ee923cd461207_5of8.root
+DELETE: /scratch/fglessge//tmp_3777c00f7850d30176fe883d54a47a1b2136774a1e5ee923cd461207_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_868010e3d1a73b2c2ce08ca8ee862244d794c165de1034413e1a8539_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_868010e3d1a73b2c2ce08ca8ee862244d794c165de1034413e1a8539_5of8.root
+DELETE: /scratch/fglessge//tmp_868010e3d1a73b2c2ce08ca8ee862244d794c165de1034413e1a8539_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a3b43e22943895fe92c96634994ff4755637db0ae712d41c24c7a735_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a3b43e22943895fe92c96634994ff4755637db0ae712d41c24c7a735_5of8.root
+DELETE: /scratch/fglessge//tmp_a3b43e22943895fe92c96634994ff4755637db0ae712d41c24c7a735_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_349500121befd206701dc412d9d225df5d7a257575e94960a8b1cadd_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_349500121befd206701dc412d9d225df5d7a257575e94960a8b1cadd_5of8.root
+DELETE: /scratch/fglessge//tmp_349500121befd206701dc412d9d225df5d7a257575e94960a8b1cadd_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4475c6f5962e126a3865214e3f19559fcf5d9c28d72bd1035b1165de_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4475c6f5962e126a3865214e3f19559fcf5d9c28d72bd1035b1165de_5of8.root
+DELETE: /scratch/fglessge//tmp_4475c6f5962e126a3865214e3f19559fcf5d9c28d72bd1035b1165de_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_518ff95ab502407493cc090c3df23e78ba3116f80a1274c01cbfa62a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_518ff95ab502407493cc090c3df23e78ba3116f80a1274c01cbfa62a_5of8.root
+DELETE: /scratch/fglessge//tmp_518ff95ab502407493cc090c3df23e78ba3116f80a1274c01cbfa62a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_925adc9b0019c49aef18ef86e02ac1a62eecdc7c7ba1ec660b33e10a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_925adc9b0019c49aef18ef86e02ac1a62eecdc7c7ba1ec660b33e10a_5of8.root
+DELETE: /scratch/fglessge//tmp_925adc9b0019c49aef18ef86e02ac1a62eecdc7c7ba1ec660b33e10a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7498564a1425e92a261b316a36aec65ec74f939a0e7f28c24b733e87_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7498564a1425e92a261b316a36aec65ec74f939a0e7f28c24b733e87_5of8.root
+DELETE: /scratch/fglessge//tmp_7498564a1425e92a261b316a36aec65ec74f939a0e7f28c24b733e87_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a9ed42ef245de19846c0a315ac490ffa6372fa773720fb959b64c0cb_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a9ed42ef245de19846c0a315ac490ffa6372fa773720fb959b64c0cb_5of8.root
+DELETE: /scratch/fglessge//tmp_a9ed42ef245de19846c0a315ac490ffa6372fa773720fb959b64c0cb_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_3394ad47065c8ac38747b7bb654a28f07c72acfe52f7e8228c9a2e49_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_3394ad47065c8ac38747b7bb654a28f07c72acfe52f7e8228c9a2e49_5of8.root
+DELETE: /scratch/fglessge//tmp_3394ad47065c8ac38747b7bb654a28f07c72acfe52f7e8228c9a2e49_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_419282d977dab2439d9fe46e10ab6e8b6a95687ab8e8be438998f6e2_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_419282d977dab2439d9fe46e10ab6e8b6a95687ab8e8be438998f6e2_5of8.root
+DELETE: /scratch/fglessge//tmp_419282d977dab2439d9fe46e10ab6e8b6a95687ab8e8be438998f6e2_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_81ade0f64754eb44f80f3100a5888c357649f298c9084716c168446a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_81ade0f64754eb44f80f3100a5888c357649f298c9084716c168446a_5of8.root
+DELETE: /scratch/fglessge//tmp_81ade0f64754eb44f80f3100a5888c357649f298c9084716c168446a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_86bc453df53b6e04d9001b74d9875c055775c3cab4eade55be990dcf_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_86bc453df53b6e04d9001b74d9875c055775c3cab4eade55be990dcf_5of8.root
+DELETE: /scratch/fglessge//tmp_86bc453df53b6e04d9001b74d9875c055775c3cab4eade55be990dcf_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_51d25b499b9aae5d59c7a64dbbe3a0d99a5df0d881d15f21003f2caf_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_51d25b499b9aae5d59c7a64dbbe3a0d99a5df0d881d15f21003f2caf_5of8.root
+DELETE: /scratch/fglessge//tmp_51d25b499b9aae5d59c7a64dbbe3a0d99a5df0d881d15f21003f2caf_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_411a4bb3274aed520440609e84373265ed51723efd0f656590f98827_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_411a4bb3274aed520440609e84373265ed51723efd0f656590f98827_5of8.root
+DELETE: /scratch/fglessge//tmp_411a4bb3274aed520440609e84373265ed51723efd0f656590f98827_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_227a1b593edc0819dcaac259c3a9f7d29589e322567d07c42b87ae12_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_227a1b593edc0819dcaac259c3a9f7d29589e322567d07c42b87ae12_5of8.root
+DELETE: /scratch/fglessge//tmp_227a1b593edc0819dcaac259c3a9f7d29589e322567d07c42b87ae12_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_3d2205c73f7032d45ea3a85d6045860bb008b64bcb2a9f9ae301c15e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_3d2205c73f7032d45ea3a85d6045860bb008b64bcb2a9f9ae301c15e_5of8.root
+DELETE: /scratch/fglessge//tmp_3d2205c73f7032d45ea3a85d6045860bb008b64bcb2a9f9ae301c15e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4c48fb80e2cc3ab8da7a497604926402b4dcf93e208aec5dc0c072c1_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4c48fb80e2cc3ab8da7a497604926402b4dcf93e208aec5dc0c072c1_5of8.root
+DELETE: /scratch/fglessge//tmp_4c48fb80e2cc3ab8da7a497604926402b4dcf93e208aec5dc0c072c1_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_f181d7f0ea2bd6e22224c5a58fd03788d442bcababe9d503906c1568_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_f181d7f0ea2bd6e22224c5a58fd03788d442bcababe9d503906c1568_5of8.root
+DELETE: /scratch/fglessge//tmp_f181d7f0ea2bd6e22224c5a58fd03788d442bcababe9d503906c1568_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_17b21fbf62c82b2b0200cb2437be1d505e477373ebe459fdc5d59239_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_17b21fbf62c82b2b0200cb2437be1d505e477373ebe459fdc5d59239_5of8.root
+DELETE: /scratch/fglessge//tmp_17b21fbf62c82b2b0200cb2437be1d505e477373ebe459fdc5d59239_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7dfcfa3d21eb95c449c0e4afd362505a98869dab303738f2a2abd55d_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7dfcfa3d21eb95c449c0e4afd362505a98869dab303738f2a2abd55d_5of8.root
+DELETE: /scratch/fglessge//tmp_7dfcfa3d21eb95c449c0e4afd362505a98869dab303738f2a2abd55d_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_d57a9454e369041566bc019bb302b41f22e43cb8f332c0a2c427aac5_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_d57a9454e369041566bc019bb302b41f22e43cb8f332c0a2c427aac5_5of8.root
+DELETE: /scratch/fglessge//tmp_d57a9454e369041566bc019bb302b41f22e43cb8f332c0a2c427aac5_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_2fc5e9352b56e4c54f195e18a9aa0b4e17a03392d58a1c1e77757d13_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_2fc5e9352b56e4c54f195e18a9aa0b4e17a03392d58a1c1e77757d13_5of8.root
+DELETE: /scratch/fglessge//tmp_2fc5e9352b56e4c54f195e18a9aa0b4e17a03392d58a1c1e77757d13_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_bc6fbb8e1f1d233a496ae5c0f086321ea5386e04ace3f681adb3838e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_bc6fbb8e1f1d233a496ae5c0f086321ea5386e04ace3f681adb3838e_5of8.root
+DELETE: /scratch/fglessge//tmp_bc6fbb8e1f1d233a496ae5c0f086321ea5386e04ace3f681adb3838e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_030d18c9e779a1907bdf1618455c4a177b2eaf6ce3d6b5b08feaedf7_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_030d18c9e779a1907bdf1618455c4a177b2eaf6ce3d6b5b08feaedf7_5of8.root
+DELETE: /scratch/fglessge//tmp_030d18c9e779a1907bdf1618455c4a177b2eaf6ce3d6b5b08feaedf7_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_11cd70b31d05e3bc29e8bd45d129ecf668975df921b81aec15cd044f_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_11cd70b31d05e3bc29e8bd45d129ecf668975df921b81aec15cd044f_5of8.root
+DELETE: /scratch/fglessge//tmp_11cd70b31d05e3bc29e8bd45d129ecf668975df921b81aec15cd044f_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_07c30f07c8d1baa3532a601dcd2adba31425a06298d093da48a2bac7_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_07c30f07c8d1baa3532a601dcd2adba31425a06298d093da48a2bac7_5of8.root
+DELETE: /scratch/fglessge//tmp_07c30f07c8d1baa3532a601dcd2adba31425a06298d093da48a2bac7_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_c2d7d2d44c919b915397c80c86c11dde7f60e46be25b9f8e2d82b9a8_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_c2d7d2d44c919b915397c80c86c11dde7f60e46be25b9f8e2d82b9a8_5of8.root
+DELETE: /scratch/fglessge//tmp_c2d7d2d44c919b915397c80c86c11dde7f60e46be25b9f8e2d82b9a8_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_51b4b98654b37815b87e1e8cd4827a51726f5c9f0b68a1402c2000e6_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_51b4b98654b37815b87e1e8cd4827a51726f5c9f0b68a1402c2000e6_5of8.root
+DELETE: /scratch/fglessge//tmp_51b4b98654b37815b87e1e8cd4827a51726f5c9f0b68a1402c2000e6_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_b9cb8dd5ce5e5de372f635feb6e58b2e1da9f86f05ad5af88d57f197_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_b9cb8dd5ce5e5de372f635feb6e58b2e1da9f86f05ad5af88d57f197_5of8.root
+DELETE: /scratch/fglessge//tmp_b9cb8dd5ce5e5de372f635feb6e58b2e1da9f86f05ad5af88d57f197_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_b5a6ac48c0e7acc31e743f9b61b298dd5c8b14107c45910d5f247a63_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_b5a6ac48c0e7acc31e743f9b61b298dd5c8b14107c45910d5f247a63_5of8.root
+DELETE: /scratch/fglessge//tmp_b5a6ac48c0e7acc31e743f9b61b298dd5c8b14107c45910d5f247a63_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e35a0a1519d1c5749599178e67e83fb18bebd1c542cff68631bfb7c2_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e35a0a1519d1c5749599178e67e83fb18bebd1c542cff68631bfb7c2_5of8.root
+DELETE: /scratch/fglessge//tmp_e35a0a1519d1c5749599178e67e83fb18bebd1c542cff68631bfb7c2_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_ef90e1d3d624290df497ebaad4a846f075584de3b4adcb1f4a70af2a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_ef90e1d3d624290df497ebaad4a846f075584de3b4adcb1f4a70af2a_5of8.root
+DELETE: /scratch/fglessge//tmp_ef90e1d3d624290df497ebaad4a846f075584de3b4adcb1f4a70af2a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_b9ef94ae362bfdb71f32ca42db3fd6987f4ffdbba753e2c73ea1d8b1_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_b9ef94ae362bfdb71f32ca42db3fd6987f4ffdbba753e2c73ea1d8b1_5of8.root
+DELETE: /scratch/fglessge//tmp_b9ef94ae362bfdb71f32ca42db3fd6987f4ffdbba753e2c73ea1d8b1_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7d857285f009d1030ad1f2233e7bc90638ae720dabb15b65fb01834e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7d857285f009d1030ad1f2233e7bc90638ae720dabb15b65fb01834e_5of8.root
+DELETE: /scratch/fglessge//tmp_7d857285f009d1030ad1f2233e7bc90638ae720dabb15b65fb01834e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_99d6fe6178f5dd0faa07f4425f958c82a1e7a2fbe49deb3cb498d1c0_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_99d6fe6178f5dd0faa07f4425f958c82a1e7a2fbe49deb3cb498d1c0_5of8.root
+DELETE: /scratch/fglessge//tmp_99d6fe6178f5dd0faa07f4425f958c82a1e7a2fbe49deb3cb498d1c0_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_df139d258ee6e57ba505c2cb39d3dc4b37e4506932d16c17b714696c_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_df139d258ee6e57ba505c2cb39d3dc4b37e4506932d16c17b714696c_5of8.root
+DELETE: /scratch/fglessge//tmp_df139d258ee6e57ba505c2cb39d3dc4b37e4506932d16c17b714696c_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e0455822ae9e3e06d646635134ac6c1ef25df33d35a2dc4e0c027261_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e0455822ae9e3e06d646635134ac6c1ef25df33d35a2dc4e0c027261_5of8.root
+DELETE: /scratch/fglessge//tmp_e0455822ae9e3e06d646635134ac6c1ef25df33d35a2dc4e0c027261_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_0860f3179f4eaf6b7fb386019ebf9015aff61d03b722b69166c8a3e9_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_0860f3179f4eaf6b7fb386019ebf9015aff61d03b722b69166c8a3e9_5of8.root
+DELETE: /scratch/fglessge//tmp_0860f3179f4eaf6b7fb386019ebf9015aff61d03b722b69166c8a3e9_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_d1a1b60d3cf3b5ecf018a1f91b1ade96d111f6a1b539008a9c90b2c9_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_d1a1b60d3cf3b5ecf018a1f91b1ade96d111f6a1b539008a9c90b2c9_5of8.root
+DELETE: /scratch/fglessge//tmp_d1a1b60d3cf3b5ecf018a1f91b1ade96d111f6a1b539008a9c90b2c9_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4c1a78f2c7dcea220441abc7ccfeed025f79ed727664fff6ab904fb9_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4c1a78f2c7dcea220441abc7ccfeed025f79ed727664fff6ab904fb9_5of8.root
+DELETE: /scratch/fglessge//tmp_4c1a78f2c7dcea220441abc7ccfeed025f79ed727664fff6ab904fb9_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7894b6e53d25acbf20917f80244d05201814cd2756373e1bad95df81_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7894b6e53d25acbf20917f80244d05201814cd2756373e1bad95df81_5of8.root
+DELETE: /scratch/fglessge//tmp_7894b6e53d25acbf20917f80244d05201814cd2756373e1bad95df81_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_8a6c88b6e611ac717a5fb9f082cc26bdb4c093aa3b8e07b1c0c8c56a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_8a6c88b6e611ac717a5fb9f082cc26bdb4c093aa3b8e07b1c0c8c56a_5of8.root
+DELETE: /scratch/fglessge//tmp_8a6c88b6e611ac717a5fb9f082cc26bdb4c093aa3b8e07b1c0c8c56a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4d64536ddc4ed5925052bfbbd3551f18adf123f2e8cca3d33d28a3b3_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4d64536ddc4ed5925052bfbbd3551f18adf123f2e8cca3d33d28a3b3_5of8.root
+DELETE: /scratch/fglessge//tmp_4d64536ddc4ed5925052bfbbd3551f18adf123f2e8cca3d33d28a3b3_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4cdca7d44aefefb9adab0d90785c511f82f209d2b2c7d9af6decaa80_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4cdca7d44aefefb9adab0d90785c511f82f209d2b2c7d9af6decaa80_5of8.root
+DELETE: /scratch/fglessge//tmp_4cdca7d44aefefb9adab0d90785c511f82f209d2b2c7d9af6decaa80_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_bac68a105ab997286e280fc33c1b1af79a5ed27b813abdb6504ae3c4_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_bac68a105ab997286e280fc33c1b1af79a5ed27b813abdb6504ae3c4_5of8.root
+DELETE: /scratch/fglessge//tmp_bac68a105ab997286e280fc33c1b1af79a5ed27b813abdb6504ae3c4_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_eaa75dbba82277ed646961531f06b0fae1139ca8e6a5d3398d95cd00_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_eaa75dbba82277ed646961531f06b0fae1139ca8e6a5d3398d95cd00_5of8.root
+DELETE: /scratch/fglessge//tmp_eaa75dbba82277ed646961531f06b0fae1139ca8e6a5d3398d95cd00_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_41e30f57a40ce011f87069ca5ea688fe3bcf5ae4dd60d1286383e4cd_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_41e30f57a40ce011f87069ca5ea688fe3bcf5ae4dd60d1286383e4cd_5of8.root
+DELETE: /scratch/fglessge//tmp_41e30f57a40ce011f87069ca5ea688fe3bcf5ae4dd60d1286383e4cd_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a223f62b955c5ede1be5d8b35e547c27434bd6537abfd93c4664b406_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a223f62b955c5ede1be5d8b35e547c27434bd6537abfd93c4664b406_5of8.root
+DELETE: /scratch/fglessge//tmp_a223f62b955c5ede1be5d8b35e547c27434bd6537abfd93c4664b406_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_97baa9e2fe9b881c2be11228bd939622b3cbfb0aec80c38d0df9fa0f_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_97baa9e2fe9b881c2be11228bd939622b3cbfb0aec80c38d0df9fa0f_5of8.root
+DELETE: /scratch/fglessge//tmp_97baa9e2fe9b881c2be11228bd939622b3cbfb0aec80c38d0df9fa0f_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_08789f481729704db05e3526ef6d18dd5099e5b1f43a308fe94a4cf3_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_08789f481729704db05e3526ef6d18dd5099e5b1f43a308fe94a4cf3_5of8.root
+DELETE: /scratch/fglessge//tmp_08789f481729704db05e3526ef6d18dd5099e5b1f43a308fe94a4cf3_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_95bd167baaf8ad30203bfea4f39b98e480f27ebc34897a5efbf69a3e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_95bd167baaf8ad30203bfea4f39b98e480f27ebc34897a5efbf69a3e_5of8.root
+DELETE: /scratch/fglessge//tmp_95bd167baaf8ad30203bfea4f39b98e480f27ebc34897a5efbf69a3e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_043ed48405d35fa57ac78f2341b4238d4ca5aef0cad5ccb253fade90_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_043ed48405d35fa57ac78f2341b4238d4ca5aef0cad5ccb253fade90_5of8.root
+DELETE: /scratch/fglessge//tmp_043ed48405d35fa57ac78f2341b4238d4ca5aef0cad5ccb253fade90_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_5c9416d85811f3273b3e337ac0fa1997c7b5a949f79b611f1ce81ba2_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_5c9416d85811f3273b3e337ac0fa1997c7b5a949f79b611f1ce81ba2_5of8.root
+DELETE: /scratch/fglessge//tmp_5c9416d85811f3273b3e337ac0fa1997c7b5a949f79b611f1ce81ba2_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_40e0d209e897798f2517fafe8dcc5db9f0b990c0c3987677fa9df901_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_40e0d209e897798f2517fafe8dcc5db9f0b990c0c3987677fa9df901_5of8.root
+DELETE: /scratch/fglessge//tmp_40e0d209e897798f2517fafe8dcc5db9f0b990c0c3987677fa9df901_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_6df2ad8ceec1dd16981c140f09feeca523ccd98184afce2c7db2ed23_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_6df2ad8ceec1dd16981c140f09feeca523ccd98184afce2c7db2ed23_5of8.root
+DELETE: /scratch/fglessge//tmp_6df2ad8ceec1dd16981c140f09feeca523ccd98184afce2c7db2ed23_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_ee9c258c3949c0d5e5eff277850612282ed8dde7b8ef744e7cd69309_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_ee9c258c3949c0d5e5eff277850612282ed8dde7b8ef744e7cd69309_5of8.root
+DELETE: /scratch/fglessge//tmp_ee9c258c3949c0d5e5eff277850612282ed8dde7b8ef744e7cd69309_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_47d8f5b2550a8d83ad1be41840bd8068436ed2ad8c7cb16460d262f3_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_47d8f5b2550a8d83ad1be41840bd8068436ed2ad8c7cb16460d262f3_5of8.root
+DELETE: /scratch/fglessge//tmp_47d8f5b2550a8d83ad1be41840bd8068436ed2ad8c7cb16460d262f3_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7f3fcf839436997506ba0a90d37562d88a1eeae7fa6fa6b717b9d6c6_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7f3fcf839436997506ba0a90d37562d88a1eeae7fa6fa6b717b9d6c6_5of8.root
+DELETE: /scratch/fglessge//tmp_7f3fcf839436997506ba0a90d37562d88a1eeae7fa6fa6b717b9d6c6_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_55501bde96003b3b5061f8966b3b6e61fc7405acc31bb90aed983d62_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_55501bde96003b3b5061f8966b3b6e61fc7405acc31bb90aed983d62_5of8.root
+DELETE: /scratch/fglessge//tmp_55501bde96003b3b5061f8966b3b6e61fc7405acc31bb90aed983d62_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_45b9a06e0130ced755571d7545ada714ad6356bb349b94992dd56f8e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_45b9a06e0130ced755571d7545ada714ad6356bb349b94992dd56f8e_5of8.root
+DELETE: /scratch/fglessge//tmp_45b9a06e0130ced755571d7545ada714ad6356bb349b94992dd56f8e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_4f90fab76e83cd111627ad3f69ec824b0f968f1696e63dc19279ff97_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_4f90fab76e83cd111627ad3f69ec824b0f968f1696e63dc19279ff97_5of8.root
+DELETE: /scratch/fglessge//tmp_4f90fab76e83cd111627ad3f69ec824b0f968f1696e63dc19279ff97_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_eb2524275fafc270e63263f47d669f0330fc95a7dd5e996c11ac3bef_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_eb2524275fafc270e63263f47d669f0330fc95a7dd5e996c11ac3bef_5of8.root
+DELETE: /scratch/fglessge//tmp_eb2524275fafc270e63263f47d669f0330fc95a7dd5e996c11ac3bef_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_1c3f9a34f6dc71f05740d47badfad3271b5372b03fa7b9f95096f307_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_1c3f9a34f6dc71f05740d47badfad3271b5372b03fa7b9f95096f307_5of8.root
+DELETE: /scratch/fglessge//tmp_1c3f9a34f6dc71f05740d47badfad3271b5372b03fa7b9f95096f307_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_025deadb0fefc4836eafcacc64713ad2892239a90a72f5886015f042_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_025deadb0fefc4836eafcacc64713ad2892239a90a72f5886015f042_5of8.root
+DELETE: /scratch/fglessge//tmp_025deadb0fefc4836eafcacc64713ad2892239a90a72f5886015f042_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_9095c31aa119e34aad887016f4c88dd4c34713d0e30ddf426aef6a95_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_9095c31aa119e34aad887016f4c88dd4c34713d0e30ddf426aef6a95_5of8.root
+DELETE: /scratch/fglessge//tmp_9095c31aa119e34aad887016f4c88dd4c34713d0e30ddf426aef6a95_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_9c256de06c084e9ba6c6f4ce95acd1aa1e2805fef8f81922a90619f6_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_9c256de06c084e9ba6c6f4ce95acd1aa1e2805fef8f81922a90619f6_5of8.root
+DELETE: /scratch/fglessge//tmp_9c256de06c084e9ba6c6f4ce95acd1aa1e2805fef8f81922a90619f6_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_5f54fd025656e255d137af9988818abf73da053b970301a7e083289b_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_5f54fd025656e255d137af9988818abf73da053b970301a7e083289b_5of8.root
+DELETE: /scratch/fglessge//tmp_5f54fd025656e255d137af9988818abf73da053b970301a7e083289b_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_90aa84d2bd3ca394d471b04a8e6521670f01d0ae966ad6e50a50f626_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_90aa84d2bd3ca394d471b04a8e6521670f01d0ae966ad6e50a50f626_5of8.root
+DELETE: /scratch/fglessge//tmp_90aa84d2bd3ca394d471b04a8e6521670f01d0ae966ad6e50a50f626_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_d2b1af8d97059dbbfb65e65d4e5c2c5cc7cbae90836928bc76da3cbd_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_d2b1af8d97059dbbfb65e65d4e5c2c5cc7cbae90836928bc76da3cbd_5of8.root
+DELETE: /scratch/fglessge//tmp_d2b1af8d97059dbbfb65e65d4e5c2c5cc7cbae90836928bc76da3cbd_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_961b02aa019ad7e587c8894d8c82f2b695a454b960406d03ddec5a65_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_961b02aa019ad7e587c8894d8c82f2b695a454b960406d03ddec5a65_5of8.root
+DELETE: /scratch/fglessge//tmp_961b02aa019ad7e587c8894d8c82f2b695a454b960406d03ddec5a65_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_6746f1df788c4f17ef8a12dead26cd8d0c72b17c6742b3bcf9b62742_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_6746f1df788c4f17ef8a12dead26cd8d0c72b17c6742b3bcf9b62742_5of8.root
+DELETE: /scratch/fglessge//tmp_6746f1df788c4f17ef8a12dead26cd8d0c72b17c6742b3bcf9b62742_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_8ce6369f637b5f6e07eb21315704d8eda8b0a5dfca4eec197dce0e1e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_8ce6369f637b5f6e07eb21315704d8eda8b0a5dfca4eec197dce0e1e_5of8.root
+DELETE: /scratch/fglessge//tmp_8ce6369f637b5f6e07eb21315704d8eda8b0a5dfca4eec197dce0e1e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_05197e6ccb85362463da4dd4f4cf0e5bf2e62eb750b694b309b0017e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_05197e6ccb85362463da4dd4f4cf0e5bf2e62eb750b694b309b0017e_5of8.root
+DELETE: /scratch/fglessge//tmp_05197e6ccb85362463da4dd4f4cf0e5bf2e62eb750b694b309b0017e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_71fd71d712dc8dd5522528c634f606c0c4ab74014b7611007447dc1e_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_71fd71d712dc8dd5522528c634f606c0c4ab74014b7611007447dc1e_5of8.root
+DELETE: /scratch/fglessge//tmp_71fd71d712dc8dd5522528c634f606c0c4ab74014b7611007447dc1e_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_fd14209bf9aa033ae1b3481d42b8ea19b094f13e82ef0026ae015a2f_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_fd14209bf9aa033ae1b3481d42b8ea19b094f13e82ef0026ae015a2f_5of8.root
+DELETE: /scratch/fglessge//tmp_fd14209bf9aa033ae1b3481d42b8ea19b094f13e82ef0026ae015a2f_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7631ea8b1f77c87243c4569492faac3857255506442becbb6b9a6408_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7631ea8b1f77c87243c4569492faac3857255506442becbb6b9a6408_5of8.root
+DELETE: /scratch/fglessge//tmp_7631ea8b1f77c87243c4569492faac3857255506442becbb6b9a6408_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_2b450ed0f7548e28034acf8ee0ed07341bd4db23e80204bff56d7294_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_2b450ed0f7548e28034acf8ee0ed07341bd4db23e80204bff56d7294_5of8.root
+DELETE: /scratch/fglessge//tmp_2b450ed0f7548e28034acf8ee0ed07341bd4db23e80204bff56d7294_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_d160735ac12dd82f6336adb5be609aedb9763bcaeab48f1d010df6f2_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_d160735ac12dd82f6336adb5be609aedb9763bcaeab48f1d010df6f2_5of8.root
+DELETE: /scratch/fglessge//tmp_d160735ac12dd82f6336adb5be609aedb9763bcaeab48f1d010df6f2_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_24f7abc30702fa33d40fbd9ac10845da4d60bd06fd312fcc4d9f04bb_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_24f7abc30702fa33d40fbd9ac10845da4d60bd06fd312fcc4d9f04bb_5of8.root
+DELETE: /scratch/fglessge//tmp_24f7abc30702fa33d40fbd9ac10845da4d60bd06fd312fcc4d9f04bb_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_fa3684eb414a4d720faad7ca6c0440416ac9f98bb6cfe23d54daf58a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_fa3684eb414a4d720faad7ca6c0440416ac9f98bb6cfe23d54daf58a_5of8.root
+DELETE: /scratch/fglessge//tmp_fa3684eb414a4d720faad7ca6c0440416ac9f98bb6cfe23d54daf58a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_adb4133a51708bebeb0cc6d4e0e851042e74642b2f6aeffabc867952_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_adb4133a51708bebeb0cc6d4e0e851042e74642b2f6aeffabc867952_5of8.root
+DELETE: /scratch/fglessge//tmp_adb4133a51708bebeb0cc6d4e0e851042e74642b2f6aeffabc867952_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a07fae780118a7d133b566a538d4f54b43a67d79a9d1de2457a249ca_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a07fae780118a7d133b566a538d4f54b43a67d79a9d1de2457a249ca_5of8.root
+DELETE: /scratch/fglessge//tmp_a07fae780118a7d133b566a538d4f54b43a67d79a9d1de2457a249ca_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_a7c4e7d9d0b7f5ce5bd8d75039a14c6ba70e2d21ace7bba00021146a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_a7c4e7d9d0b7f5ce5bd8d75039a14c6ba70e2d21ace7bba00021146a_5of8.root
+DELETE: /scratch/fglessge//tmp_a7c4e7d9d0b7f5ce5bd8d75039a14c6ba70e2d21ace7bba00021146a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_10272f93284156ab87065bf6c806bea4d82750a553d4dd4fd6176f98_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_10272f93284156ab87065bf6c806bea4d82750a553d4dd4fd6176f98_5of8.root
+DELETE: /scratch/fglessge//tmp_10272f93284156ab87065bf6c806bea4d82750a553d4dd4fd6176f98_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_5b4ef9517e5546eae81846bc0367edb61f9aa51749485e6993c2fb56_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_5b4ef9517e5546eae81846bc0367edb61f9aa51749485e6993c2fb56_5of8.root
+DELETE: /scratch/fglessge//tmp_5b4ef9517e5546eae81846bc0367edb61f9aa51749485e6993c2fb56_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7838688d45761706841d66d49a4978e260f0b6f75fa7b4160e930201_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7838688d45761706841d66d49a4978e260f0b6f75fa7b4160e930201_5of8.root
+DELETE: /scratch/fglessge//tmp_7838688d45761706841d66d49a4978e260f0b6f75fa7b4160e930201_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e3d550acec12aebb080710f84f7815d62fa79003a8f26c74f5665b5a_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e3d550acec12aebb080710f84f7815d62fa79003a8f26c74f5665b5a_5of8.root
+DELETE: /scratch/fglessge//tmp_e3d550acec12aebb080710f84f7815d62fa79003a8f26c74f5665b5a_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_e4da820d8c83346594b4be56d647af549e03c63d349bfc5a1ed7adbe_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e4da820d8c83346594b4be56d647af549e03c63d349bfc5a1ed7adbe_5of8.root
+DELETE: /scratch/fglessge//tmp_e4da820d8c83346594b4be56d647af549e03c63d349bfc5a1ed7adbe_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_7eef3e2d58dbe80d6c3926d6c78da68449ec3fe3cefb5fd4a2a4e5cb_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7eef3e2d58dbe80d6c3926d6c78da68449ec3fe3cefb5fd4a2a4e5cb_5of8.root
+DELETE: /scratch/fglessge//tmp_7eef3e2d58dbe80d6c3926d6c78da68449ec3fe3cefb5fd4a2a4e5cb_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_80279b981ad42c707eb7ff62c51e4c574cc28ea76c7817e4276278b5_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_80279b981ad42c707eb7ff62c51e4c574cc28ea76c7817e4276278b5_5of8.root
+DELETE: /scratch/fglessge//tmp_80279b981ad42c707eb7ff62c51e4c574cc28ea76c7817e4276278b5_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_2c0800df3cf885cd3e6c2e651223b8c1ea664f40826554562e73df81_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_2c0800df3cf885cd3e6c2e651223b8c1ea664f40826554562e73df81_5of8.root
+DELETE: /scratch/fglessge//tmp_2c0800df3cf885cd3e6c2e651223b8c1ea664f40826554562e73df81_5of8.root
+DEBUG: max mem used A: 3094676
+DEBUG: max mem used B: 3094676
+copy  /scratch/fglessge//tmp_22f875ab9fca9de5095ac48395a70bb551519e74be1fe06651440bac_5of8.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_22f875ab9fca9de5095ac48395a70bb551519e74be1fe06651440bac_5of8.root
+DELETE: /scratch/fglessge//tmp_22f875ab9fca9de5095ac48395a70bb551519e74be1fe06651440bac_5of8.root
+INFO: done. time  Mon Feb 21 12:55:04 2022  events read: 169506
+ > [34mplot:ttbar_med_Zmm_HT600to800ZJets_0b_udsg[0m 4 (0.00235979847321%) => /scratch/fglessge//tmp_031322570c8d71b736b2a00941ba23a3e8cb936efd9afdf47fb8f7dd_5of8.root
+ > [34mplot:SR_high2_Zmm_HT600to800ZJets_0b_udsg[0m 10 (0.00589949618303%) => /scratch/fglessge//tmp_2103d40ea521175d669493b4e3a1a528a54a78b85612a6548aa928e9_5of8.root
+ > [34mplot:SR_high1_Zmm_HT600to800ZJets_0b_udsg[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_bd116639db0a110a599334eecd31133109c2beb47324da3311e135da_5of8.root
+ > [34mplot:SR_low_Zee_HT600to800ZJets_0b_udsg[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_0ec84ca3ac10bf3884a4294d1116c4da2241b072f72b02cd883fd9a1_5of8.root
+ > [34mplot:ttbar_med_Zee_HT600to800ZJets_0b_udsg[0m 1 (0.000589949618303%) => /scratch/fglessge//tmp_4be1a4d7878ec7952e2d267affc5776f3c3f2b9a90a198669b74084f_5of8.root
+ > [34mplot:Zlf_med_Zee_HT600to800ZJets_0b_udsg[0m 196 (0.115630125187%) => /scratch/fglessge//tmp_8b6edfade74dcbb2768f22d4f2949f48f467c46b66fd26e113480529_5of8.root
+ > [34mplot:SR_high1_Zee_HT600to800ZJets_0b_udsg[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_02a3ab796268f8006316656c7fcc30edbe8e903e364f380248fcf182_5of8.root
+ > [34mplot:SR_high1_Zmm_BOOST_HT600to800ZJets_0b_udsg[0m 26 (0.0153386900759%) => /scratch/fglessge//tmp_eb34ea9d59c200135df0bcb73a3bd45a1627942d8fca18e854edaa4e_5of8.root
+ > [34mplot:SR_high2_Zmm_BOOST_HT600to800ZJets_0b_udsg[0m 30 (0.0176984885491%) => /scratch/fglessge//tmp_309ab3c0bf892c26de13aa8e2c3750ccdf3ae9bd0751b580f9b4bf76_5of8.root
+ > [34mplot:Zhf_low_Zee_HT600to800ZJets_0b_udsg[0m 12 (0.00707939541963%) => /scratch/fglessge//tmp_c0d161e627734b8760dba8a87eb2dc86ee59a0005638f5875ea1f196_5of8.root
+ > [34mplot:Zlf_low_Zee_HT600to800ZJets_0b_udsg[0m 200 (0.117989923661%) => /scratch/fglessge//tmp_8faa0f3ea7404bb2b1c53f516ffc82928e1a9098d056c8d29ca3b65a_5of8.root
+ > [34mplot:SR_med_Zmm_ge1j_HT600to800ZJets_0b_udsg[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_0265ecf196874ff8b6fc6b93a3c7922c29a08f67fb5238818fe958cb_5of8.root
+ > [34mplot:ttbar_high_Zmm_BOOST_HT600to800ZJets_0b_udsg[0m 20 (0.0117989923661%) => /scratch/fglessge//tmp_9e24005c08c983343781ec32c72aed6f5521f3d52df790a9d3faf5c4_5of8.root
+ > [34mplot:ttbar_low_Zee_HT600to800ZJets_0b_udsg[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_a154a06f878c01c5959d80777ec4bf219bf1aea3c615f86f449aa514_5of8.root
+ > [34mplot:Zlf_high_Zmm_BOOST_HT600to800ZJets_0b_udsg[0m 2704 (1.59522376789%) => /scratch/fglessge//tmp_c51a6463d053ed6841470d755905c3dd3de4d0a229f698ec781f21d6_5of8.root
+ > [34mplot:ttbar_high_Zee_HT600to800ZJets_0b_udsg[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_445d93f9d1f2e44058d540d451f67eda9ce700efc71c1a9703957501_5of8.root
+ > [34mplot:SR_high2_Zee_HT600to800ZJets_0b_udsg[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_1a8675db94f10dce349f6d04a486687e3947853d4a3e291a33d55423_5of8.root
+ > [34mplot:SR_med_Zmm_0j_HT600to800ZJets_0b_udsg[0m 0 (0.0%) => /scratch/fglessge//tmp_ed8ceb8474115353825d018f03dea1e47a0001599db9645aedb12f4b_5of8.root
+ > [34mplot:Zlf_high_Zee_BOOST_HT600to800ZJets_0b_udsg[0m 2112 (1.24597359386%) => /scratch/fglessge//tmp_1ef2a8fdcdc5979b966a8dd1fdd7b1cf952ed323c1bcfb8284596418_5of8.root
+ > [34mplot:Zlf_low_Zmm_HT600to800ZJets_0b_udsg[0m 199 (0.117399974042%) => /scratch/fglessge//tmp_b892f238e2b059c0291c754844f47f8e2979bedea314a3784a8905fb_5of8.root
+ > [34mplot:SR_med_Zee_ge1j_HT600to800ZJets_0b_udsg[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_36404b81e54811479dcd4ada43bcaa8e49db39813fb2a230c61a133d_5of8.root
+ > [34mplot:SR_high2_Zee_BOOST_HT600to800ZJets_0b_udsg[0m 17 (0.0100291435111%) => /scratch/fglessge//tmp_7de30dad90c6abe4a26092e3df3e50b0150e123ad50a120dc1f8f2ec_5of8.root
+ > [34mplot:ttbar_low_Zmm_HT600to800ZJets_0b_udsg[0m 1 (0.000589949618303%) => /scratch/fglessge//tmp_e264703d39d687f1d31fd6b75ff813da412b02ec99b2cccd40a972ba_5of8.root
+ > [34mplot:Zhf_med_Zmm_HT600to800ZJets_0b_udsg[0m 15 (0.00884924427454%) => /scratch/fglessge//tmp_a44505d17df231f8f6bf071dd665bf9076e0f2fe1562cb5949818da1_5of8.root
+ > [34mplot:Zhf_high_Zee_HT600to800ZJets_0b_udsg[0m 17 (0.0100291435111%) => /scratch/fglessge//tmp_a1fb2741ef95c656552dd7050ee39de5e2eb316718cb077b87d644eb_5of8.root
+ > [34mplot:SR_high1_Zee_BOOST_HT600to800ZJets_0b_udsg[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_22a38cb7b140b0b77e1d641d0a2c04e50e6596cf56621985b6806a26_5of8.root
+ > [34mplot:Zhf_low_Zmm_HT600to800ZJets_0b_udsg[0m 20 (0.0117989923661%) => /scratch/fglessge//tmp_7587141d6fa77bbde212d2dd9e4b98e9c85b558ed3af9cfaba052e45_5of8.root
+ > [34mplot:Zhf_high_Zee_BOOST_HT600to800ZJets_0b_udsg[0m 49 (0.0289075312968%) => /scratch/fglessge//tmp_2b3fd5ff766418e47ac1f7f99ffff2a9bb20a88ca3f9654dc0b1c9b4_5of8.root
+ > [34mplot:ttbar_high_Zmm_HT600to800ZJets_0b_udsg[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_bae6a2ed2d21850b55a558ec84346d57aa18a31adddc5c0a7fb5b22f_5of8.root
+ > [34mplot:ttbar_high_Zee_BOOST_HT600to800ZJets_0b_udsg[0m 17 (0.0100291435111%) => /scratch/fglessge//tmp_e8904e4ce762efe20a2fecc18b3975bf73a0719e41de0d754c7bccb8_5of8.root
+ > [34mplot:Zlf_high_Zmm_HT600to800ZJets_0b_udsg[0m 559 (0.329781836631%) => /scratch/fglessge//tmp_bd4c9823684a5c29ca18f80d939d61552b2d2d5107b8f03e8a614039_5of8.root
+ > [34mplot:SR_med_Zee_0j_HT600to800ZJets_0b_udsg[0m 0 (0.0%) => /scratch/fglessge//tmp_1ca693715f58a65f49674d3bc93a532a183f5f08eb9dbee64e01971c_5of8.root
+ > [34mplot:Zhf_high_Zmm_HT600to800ZJets_0b_udsg[0m 13 (0.00766934503793%) => /scratch/fglessge//tmp_4e836b5a12196ca2f93a779bc492e1bbfe70e55a5812bad2d87ff2aa_5of8.root
+ > [34mplot:Zlf_med_Zmm_HT600to800ZJets_0b_udsg[0m 202 (0.119169822897%) => /scratch/fglessge//tmp_4d9ce9e51cd27d788399e079eaa4fa378fffe17185d66825e6a2021b_5of8.root
+ > [34mplot:Zlf_high_Zee_HT600to800ZJets_0b_udsg[0m 470 (0.277276320602%) => /scratch/fglessge//tmp_3bb212ae1f09a8645341b81d858cce6757c42efe98d87c2b23c5d241_5of8.root
+ > [34mplot:Zhf_high_Zmm_BOOST_HT600to800ZJets_0b_udsg[0m 65 (0.0383467251897%) => /scratch/fglessge//tmp_e08e15db1bcf5b2c9775c1b3f837ccdb91ed84742f611c0e7b9e9892_5of8.root
+ > [34mplot:Zhf_med_Zee_HT600to800ZJets_0b_udsg[0m 11 (0.00648944580133%) => /scratch/fglessge//tmp_a350abf4b5ce2c3aa888cecd642214b24fba3dccd406fdaed9fbd140_5of8.root
+ > [34mplot:ttbar_med_Zmm_HT600to800ZJets_0b_c[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_daa6d92269bcfb6f5243c6fe3adf22f204deddf4baaad9a590617fe8_5of8.root
+ > [34mplot:SR_high2_Zmm_HT600to800ZJets_0b_c[0m 4 (0.00235979847321%) => /scratch/fglessge//tmp_bf9e80f742af47255c2b565bdd02bfe2c61375ba4559d83593987159_5of8.root
+ > [34mplot:SR_high1_Zmm_HT600to800ZJets_0b_c[0m 3 (0.00176984885491%) => /scratch/fglessge//tmp_17f0f225f73e27cbbd9ff49bcc4bb02e668e70a935c0b9523b054ef6_5of8.root
+ > [34mplot:SR_low_Zee_HT600to800ZJets_0b_c[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_cdbdea6577ffc240f087388e5707bc3fae8c4dec348d90a9f5ce85fd_5of8.root
+ > [34mplot:ttbar_med_Zee_HT600to800ZJets_0b_c[0m 1 (0.000589949618303%) => /scratch/fglessge//tmp_d135f489609646bcb75c90c20b2ebd08c79dca866782df2be58b1504_5of8.root
+ > [34mplot:Zlf_med_Zee_HT600to800ZJets_0b_c[0m 14 (0.00825929465624%) => /scratch/fglessge//tmp_e74cc1c39149548434328c19f2ed82546447b0786565329218168b25_5of8.root
+ > [34mplot:SR_high1_Zee_HT600to800ZJets_0b_c[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_412399e408661a0dab7272b8b4ce8634392ed2e36b6ba0f9d2f7e225_5of8.root
+ > [34mplot:SR_high1_Zmm_BOOST_HT600to800ZJets_0b_c[0m 27 (0.0159286396942%) => /scratch/fglessge//tmp_e538c310e0b849cea93d5f7506560425493d8ecfcbce3a7a682cd343_5of8.root
+ > [34mplot:SR_high2_Zmm_BOOST_HT600to800ZJets_0b_c[0m 25 (0.0147487404576%) => /scratch/fglessge//tmp_ed57cd5586a27f3ad9fd1552170f3d5c068410cdd103f3b64b4d9dfc_5of8.root
+ > [34mplot:Zhf_low_Zee_HT600to800ZJets_0b_c[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_8138cab9a497807cb1674546329b588c7de0ca480fbdec3a63d705d2_5of8.root
+ > [34mplot:Zlf_low_Zee_HT600to800ZJets_0b_c[0m 9 (0.00530954656472%) => /scratch/fglessge//tmp_586e546929ee89ac49b7243e6da48f50407508746af0bc1b33cc7227_5of8.root
+ > [34mplot:SR_med_Zmm_ge1j_HT600to800ZJets_0b_c[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_2b4c112638b84407c8872bae32a1a9548766a47473fb4b8e4bfea1b6_5of8.root
+ > [34mplot:ttbar_high_Zmm_BOOST_HT600to800ZJets_0b_c[0m 18 (0.0106190931294%) => /scratch/fglessge//tmp_7aa1dfc66512c0b3ba638a087034cb9697396c75c12c4dc211680c71_5of8.root
+ > [34mplot:ttbar_low_Zee_HT600to800ZJets_0b_c[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_4e5f0ee51e78365ce4673a8726d1f80576f04b99918dcca25bfde13f_5of8.root
+ > [34mplot:Zlf_high_Zmm_BOOST_HT600to800ZJets_0b_c[0m 483 (0.28494566564%) => /scratch/fglessge//tmp_c426fa026787685df9ec44c5647eb35c89e89502a91450fb0ecd1610_5of8.root
+ > [34mplot:ttbar_high_Zee_HT600to800ZJets_0b_c[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_95c112e7f45439a0ce14b9dcebbf015e5037bcb9f8bb8063c8c4b446_5of8.root
+ > [34mplot:SR_high2_Zee_HT600to800ZJets_0b_c[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_7e22e2575810dad16cc6298ec1d6082dc1142f43820f09e84bbb6da9_5of8.root
+ > [34mplot:SR_med_Zmm_0j_HT600to800ZJets_0b_c[0m 0 (0.0%) => /scratch/fglessge//tmp_5a404f7006f2df8d0dbb3deb40487d170ddbeec188dffc12c363f429_5of8.root
+ > [34mplot:Zlf_high_Zee_BOOST_HT600to800ZJets_0b_c[0m 354 (0.208842164879%) => /scratch/fglessge//tmp_3777c00f7850d30176fe883d54a47a1b2136774a1e5ee923cd461207_5of8.root
+ > [34mplot:Zlf_low_Zmm_HT600to800ZJets_0b_c[0m 27 (0.0159286396942%) => /scratch/fglessge//tmp_868010e3d1a73b2c2ce08ca8ee862244d794c165de1034413e1a8539_5of8.root
+ > [34mplot:SR_med_Zee_ge1j_HT600to800ZJets_0b_c[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_a3b43e22943895fe92c96634994ff4755637db0ae712d41c24c7a735_5of8.root
+ > [34mplot:SR_high2_Zee_BOOST_HT600to800ZJets_0b_c[0m 11 (0.00648944580133%) => /scratch/fglessge//tmp_349500121befd206701dc412d9d225df5d7a257575e94960a8b1cadd_5of8.root
+ > [34mplot:ttbar_low_Zmm_HT600to800ZJets_0b_c[0m 4 (0.00235979847321%) => /scratch/fglessge//tmp_4475c6f5962e126a3865214e3f19559fcf5d9c28d72bd1035b1165de_5of8.root
+ > [34mplot:Zhf_med_Zmm_HT600to800ZJets_0b_c[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_518ff95ab502407493cc090c3df23e78ba3116f80a1274c01cbfa62a_5of8.root
+ > [34mplot:Zhf_high_Zee_HT600to800ZJets_0b_c[0m 14 (0.00825929465624%) => /scratch/fglessge//tmp_925adc9b0019c49aef18ef86e02ac1a62eecdc7c7ba1ec660b33e10a_5of8.root
+ > [34mplot:SR_high1_Zee_BOOST_HT600to800ZJets_0b_c[0m 27 (0.0159286396942%) => /scratch/fglessge//tmp_7498564a1425e92a261b316a36aec65ec74f939a0e7f28c24b733e87_5of8.root
+ > [34mplot:Zhf_low_Zmm_HT600to800ZJets_0b_c[0m 14 (0.00825929465624%) => /scratch/fglessge//tmp_a9ed42ef245de19846c0a315ac490ffa6372fa773720fb959b64c0cb_5of8.root
+ > [34mplot:Zhf_high_Zee_BOOST_HT600to800ZJets_0b_c[0m 40 (0.0235979847321%) => /scratch/fglessge//tmp_3394ad47065c8ac38747b7bb654a28f07c72acfe52f7e8228c9a2e49_5of8.root
+ > [34mplot:ttbar_high_Zmm_HT600to800ZJets_0b_c[0m 3 (0.00176984885491%) => /scratch/fglessge//tmp_419282d977dab2439d9fe46e10ab6e8b6a95687ab8e8be438998f6e2_5of8.root
+ > [34mplot:ttbar_high_Zee_BOOST_HT600to800ZJets_0b_c[0m 10 (0.00589949618303%) => /scratch/fglessge//tmp_81ade0f64754eb44f80f3100a5888c357649f298c9084716c168446a_5of8.root
+ > [34mplot:Zlf_high_Zmm_HT600to800ZJets_0b_c[0m 31 (0.0182884381674%) => /scratch/fglessge//tmp_86bc453df53b6e04d9001b74d9875c055775c3cab4eade55be990dcf_5of8.root
+ > [34mplot:SR_med_Zee_0j_HT600to800ZJets_0b_c[0m 0 (0.0%) => /scratch/fglessge//tmp_51d25b499b9aae5d59c7a64dbbe3a0d99a5df0d881d15f21003f2caf_5of8.root
+ > [34mplot:Zhf_high_Zmm_HT600to800ZJets_0b_c[0m 13 (0.00766934503793%) => /scratch/fglessge//tmp_411a4bb3274aed520440609e84373265ed51723efd0f656590f98827_5of8.root
+ > [34mplot:Zlf_med_Zmm_HT600to800ZJets_0b_c[0m 20 (0.0117989923661%) => /scratch/fglessge//tmp_227a1b593edc0819dcaac259c3a9f7d29589e322567d07c42b87ae12_5of8.root
+ > [34mplot:Zlf_high_Zee_HT600to800ZJets_0b_c[0m 33 (0.019468337404%) => /scratch/fglessge//tmp_3d2205c73f7032d45ea3a85d6045860bb008b64bcb2a9f9ae301c15e_5of8.root
+ > [34mplot:Zhf_high_Zmm_BOOST_HT600to800ZJets_0b_c[0m 51 (0.0300874305334%) => /scratch/fglessge//tmp_4c48fb80e2cc3ab8da7a497604926402b4dcf93e208aec5dc0c072c1_5of8.root
+ > [34mplot:Zhf_med_Zee_HT600to800ZJets_0b_c[0m 12 (0.00707939541963%) => /scratch/fglessge//tmp_f181d7f0ea2bd6e22224c5a58fd03788d442bcababe9d503906c1568_5of8.root
+ > [34mplot:ttbar_med_Zmm_HT600to800ZJets_1b[0m 13 (0.00766934503793%) => /scratch/fglessge//tmp_17b21fbf62c82b2b0200cb2437be1d505e477373ebe459fdc5d59239_5of8.root
+ > [34mplot:SR_high2_Zmm_HT600to800ZJets_1b[0m 6 (0.00353969770982%) => /scratch/fglessge//tmp_7dfcfa3d21eb95c449c0e4afd362505a98869dab303738f2a2abd55d_5of8.root
+ > [34mplot:SR_high1_Zmm_HT600to800ZJets_1b[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_d57a9454e369041566bc019bb302b41f22e43cb8f332c0a2c427aac5_5of8.root
+ > [34mplot:SR_low_Zee_HT600to800ZJets_1b[0m 11 (0.00648944580133%) => /scratch/fglessge//tmp_2fc5e9352b56e4c54f195e18a9aa0b4e17a03392d58a1c1e77757d13_5of8.root
+ > [34mplot:ttbar_med_Zee_HT600to800ZJets_1b[0m 11 (0.00648944580133%) => /scratch/fglessge//tmp_bc6fbb8e1f1d233a496ae5c0f086321ea5386e04ace3f681adb3838e_5of8.root
+ > [34mplot:Zlf_med_Zee_HT600to800ZJets_1b[0m 0 (0.0%) => /scratch/fglessge//tmp_030d18c9e779a1907bdf1618455c4a177b2eaf6ce3d6b5b08feaedf7_5of8.root
+ > [34mplot:SR_high1_Zee_HT600to800ZJets_1b[0m 3 (0.00176984885491%) => /scratch/fglessge//tmp_11cd70b31d05e3bc29e8bd45d129ecf668975df921b81aec15cd044f_5of8.root
+ > [34mplot:SR_high1_Zmm_BOOST_HT600to800ZJets_1b[0m 24 (0.0141587908393%) => /scratch/fglessge//tmp_07c30f07c8d1baa3532a601dcd2adba31425a06298d093da48a2bac7_5of8.root
+ > [34mplot:SR_high2_Zmm_BOOST_HT600to800ZJets_1b[0m 13 (0.00766934503793%) => /scratch/fglessge//tmp_c2d7d2d44c919b915397c80c86c11dde7f60e46be25b9f8e2d82b9a8_5of8.root
+ > [34mplot:Zhf_low_Zee_HT600to800ZJets_1b[0m 15 (0.00884924427454%) => /scratch/fglessge//tmp_51b4b98654b37815b87e1e8cd4827a51726f5c9f0b68a1402c2000e6_5of8.root
+ > [34mplot:Zlf_low_Zee_HT600to800ZJets_1b[0m 1 (0.000589949618303%) => /scratch/fglessge//tmp_b9cb8dd5ce5e5de372f635feb6e58b2e1da9f86f05ad5af88d57f197_5of8.root
+ > [34mplot:SR_med_Zmm_ge1j_HT600to800ZJets_1b[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_b5a6ac48c0e7acc31e743f9b61b298dd5c8b14107c45910d5f247a63_5of8.root
+ > [34mplot:ttbar_high_Zmm_BOOST_HT600to800ZJets_1b[0m 4 (0.00235979847321%) => /scratch/fglessge//tmp_e35a0a1519d1c5749599178e67e83fb18bebd1c542cff68631bfb7c2_5of8.root
+ > [34mplot:ttbar_low_Zee_HT600to800ZJets_1b[0m 3 (0.00176984885491%) => /scratch/fglessge//tmp_ef90e1d3d624290df497ebaad4a846f075584de3b4adcb1f4a70af2a_5of8.root
+ > [34mplot:Zlf_high_Zmm_BOOST_HT600to800ZJets_1b[0m 122 (0.0719738534329%) => /scratch/fglessge//tmp_b9ef94ae362bfdb71f32ca42db3fd6987f4ffdbba753e2c73ea1d8b1_5of8.root
+ > [34mplot:ttbar_high_Zee_HT600to800ZJets_1b[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_7d857285f009d1030ad1f2233e7bc90638ae720dabb15b65fb01834e_5of8.root
+ > [34mplot:SR_high2_Zee_HT600to800ZJets_1b[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_99d6fe6178f5dd0faa07f4425f958c82a1e7a2fbe49deb3cb498d1c0_5of8.root
+ > [34mplot:SR_med_Zmm_0j_HT600to800ZJets_1b[0m 0 (0.0%) => /scratch/fglessge//tmp_df139d258ee6e57ba505c2cb39d3dc4b37e4506932d16c17b714696c_5of8.root
+ > [34mplot:Zlf_high_Zee_BOOST_HT600to800ZJets_1b[0m 106 (0.0625346595401%) => /scratch/fglessge//tmp_e0455822ae9e3e06d646635134ac6c1ef25df33d35a2dc4e0c027261_5of8.root
+ > [34mplot:Zlf_low_Zmm_HT600to800ZJets_1b[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_0860f3179f4eaf6b7fb386019ebf9015aff61d03b722b69166c8a3e9_5of8.root
+ > [34mplot:SR_med_Zee_ge1j_HT600to800ZJets_1b[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_d1a1b60d3cf3b5ecf018a1f91b1ade96d111f6a1b539008a9c90b2c9_5of8.root
+ > [34mplot:SR_high2_Zee_BOOST_HT600to800ZJets_1b[0m 20 (0.0117989923661%) => /scratch/fglessge//tmp_4c1a78f2c7dcea220441abc7ccfeed025f79ed727664fff6ab904fb9_5of8.root
+ > [34mplot:ttbar_low_Zmm_HT600to800ZJets_1b[0m 9 (0.00530954656472%) => /scratch/fglessge//tmp_7894b6e53d25acbf20917f80244d05201814cd2756373e1bad95df81_5of8.root
+ > [34mplot:Zhf_med_Zmm_HT600to800ZJets_1b[0m 12 (0.00707939541963%) => /scratch/fglessge//tmp_8a6c88b6e611ac717a5fb9f082cc26bdb4c093aa3b8e07b1c0c8c56a_5of8.root
+ > [34mplot:Zhf_high_Zee_HT600to800ZJets_1b[0m 19 (0.0112090427477%) => /scratch/fglessge//tmp_4d64536ddc4ed5925052bfbbd3551f18adf123f2e8cca3d33d28a3b3_5of8.root
+ > [34mplot:SR_high1_Zee_BOOST_HT600to800ZJets_1b[0m 14 (0.00825929465624%) => /scratch/fglessge//tmp_4cdca7d44aefefb9adab0d90785c511f82f209d2b2c7d9af6decaa80_5of8.root
+ > [34mplot:Zhf_low_Zmm_HT600to800ZJets_1b[0m 23 (0.013568841221%) => /scratch/fglessge//tmp_bac68a105ab997286e280fc33c1b1af79a5ed27b813abdb6504ae3c4_5of8.root
+ > [34mplot:Zhf_high_Zee_BOOST_HT600to800ZJets_1b[0m 41 (0.0241879343504%) => /scratch/fglessge//tmp_eaa75dbba82277ed646961531f06b0fae1139ca8e6a5d3398d95cd00_5of8.root
+ > [34mplot:ttbar_high_Zmm_HT600to800ZJets_1b[0m 12 (0.00707939541963%) => /scratch/fglessge//tmp_41e30f57a40ce011f87069ca5ea688fe3bcf5ae4dd60d1286383e4cd_5of8.root
+ > [34mplot:ttbar_high_Zee_BOOST_HT600to800ZJets_1b[0m 9 (0.00530954656472%) => /scratch/fglessge//tmp_a223f62b955c5ede1be5d8b35e547c27434bd6537abfd93c4664b406_5of8.root
+ > [34mplot:Zlf_high_Zmm_HT600to800ZJets_1b[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_97baa9e2fe9b881c2be11228bd939622b3cbfb0aec80c38d0df9fa0f_5of8.root
+ > [34mplot:SR_med_Zee_0j_HT600to800ZJets_1b[0m 0 (0.0%) => /scratch/fglessge//tmp_08789f481729704db05e3526ef6d18dd5099e5b1f43a308fe94a4cf3_5of8.root
+ > [34mplot:Zhf_high_Zmm_HT600to800ZJets_1b[0m 20 (0.0117989923661%) => /scratch/fglessge//tmp_95bd167baaf8ad30203bfea4f39b98e480f27ebc34897a5efbf69a3e_5of8.root
+ > [34mplot:Zlf_med_Zmm_HT600to800ZJets_1b[0m 1 (0.000589949618303%) => /scratch/fglessge//tmp_043ed48405d35fa57ac78f2341b4238d4ca5aef0cad5ccb253fade90_5of8.root
+ > [34mplot:Zlf_high_Zee_HT600to800ZJets_1b[0m 5 (0.00294974809151%) => /scratch/fglessge//tmp_5c9416d85811f3273b3e337ac0fa1997c7b5a949f79b611f1ce81ba2_5of8.root
+ > [34mplot:Zhf_high_Zmm_BOOST_HT600to800ZJets_1b[0m 41 (0.0241879343504%) => /scratch/fglessge//tmp_40e0d209e897798f2517fafe8dcc5db9f0b990c0c3987677fa9df901_5of8.root
+ > [34mplot:Zhf_med_Zee_HT600to800ZJets_1b[0m 7 (0.00412964732812%) => /scratch/fglessge//tmp_6df2ad8ceec1dd16981c140f09feeca523ccd98184afce2c7db2ed23_5of8.root
+ > [34mplot:ttbar_med_Zmm_HT600to800ZJets_2b[0m 18 (0.0106190931294%) => /scratch/fglessge//tmp_ee9c258c3949c0d5e5eff277850612282ed8dde7b8ef744e7cd69309_5of8.root
+ > [34mplot:SR_high2_Zmm_HT600to800ZJets_2b[0m 16 (0.00943919389284%) => /scratch/fglessge//tmp_47d8f5b2550a8d83ad1be41840bd8068436ed2ad8c7cb16460d262f3_5of8.root
+ > [34mplot:SR_high1_Zmm_HT600to800ZJets_2b[0m 15 (0.00884924427454%) => /scratch/fglessge//tmp_7f3fcf839436997506ba0a90d37562d88a1eeae7fa6fa6b717b9d6c6_5of8.root
+ > [34mplot:SR_low_Zee_HT600to800ZJets_2b[0m 24 (0.0141587908393%) => /scratch/fglessge//tmp_55501bde96003b3b5061f8966b3b6e61fc7405acc31bb90aed983d62_5of8.root
+ > [34mplot:ttbar_med_Zee_HT600to800ZJets_2b[0m 17 (0.0100291435111%) => /scratch/fglessge//tmp_45b9a06e0130ced755571d7545ada714ad6356bb349b94992dd56f8e_5of8.root
+ > [34mplot:Zlf_med_Zee_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_4f90fab76e83cd111627ad3f69ec824b0f968f1696e63dc19279ff97_5of8.root
+ > [34mplot:SR_high1_Zee_HT600to800ZJets_2b[0m 14 (0.00825929465624%) => /scratch/fglessge//tmp_eb2524275fafc270e63263f47d669f0330fc95a7dd5e996c11ac3bef_5of8.root
+ > [34mplot:SR_high1_Zmm_BOOST_HT600to800ZJets_2b[0m 50 (0.0294974809151%) => /scratch/fglessge//tmp_1c3f9a34f6dc71f05740d47badfad3271b5372b03fa7b9f95096f307_5of8.root
+ > [34mplot:SR_high2_Zmm_BOOST_HT600to800ZJets_2b[0m 77 (0.0454261206093%) => /scratch/fglessge//tmp_025deadb0fefc4836eafcacc64713ad2892239a90a72f5886015f042_5of8.root
+ > [34mplot:Zhf_low_Zee_HT600to800ZJets_2b[0m 18 (0.0106190931294%) => /scratch/fglessge//tmp_9095c31aa119e34aad887016f4c88dd4c34713d0e30ddf426aef6a95_5of8.root
+ > [34mplot:Zlf_low_Zee_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_9c256de06c084e9ba6c6f4ce95acd1aa1e2805fef8f81922a90619f6_5of8.root
+ > [34mplot:SR_med_Zmm_ge1j_HT600to800ZJets_2b[0m 16 (0.00943919389284%) => /scratch/fglessge//tmp_5f54fd025656e255d137af9988818abf73da053b970301a7e083289b_5of8.root
+ > [34mplot:ttbar_high_Zmm_BOOST_HT600to800ZJets_2b[0m 27 (0.0159286396942%) => /scratch/fglessge//tmp_90aa84d2bd3ca394d471b04a8e6521670f01d0ae966ad6e50a50f626_5of8.root
+ > [34mplot:ttbar_low_Zee_HT600to800ZJets_2b[0m 22 (0.0129788916027%) => /scratch/fglessge//tmp_d2b1af8d97059dbbfb65e65d4e5c2c5cc7cbae90836928bc76da3cbd_5of8.root
+ > [34mplot:Zlf_high_Zmm_BOOST_HT600to800ZJets_2b[0m 89 (0.0525055160289%) => /scratch/fglessge//tmp_961b02aa019ad7e587c8894d8c82f2b695a454b960406d03ddec5a65_5of8.root
+ > [34mplot:ttbar_high_Zee_HT600to800ZJets_2b[0m 26 (0.0153386900759%) => /scratch/fglessge//tmp_6746f1df788c4f17ef8a12dead26cd8d0c72b17c6742b3bcf9b62742_5of8.root
+ > [34mplot:SR_high2_Zee_HT600to800ZJets_2b[0m 17 (0.0100291435111%) => /scratch/fglessge//tmp_8ce6369f637b5f6e07eb21315704d8eda8b0a5dfca4eec197dce0e1e_5of8.root
+ > [34mplot:SR_med_Zmm_0j_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_05197e6ccb85362463da4dd4f4cf0e5bf2e62eb750b694b309b0017e_5of8.root
+ > [34mplot:Zlf_high_Zee_BOOST_HT600to800ZJets_2b[0m 56 (0.0330371786249%) => /scratch/fglessge//tmp_71fd71d712dc8dd5522528c634f606c0c4ab74014b7611007447dc1e_5of8.root
+ > [34mplot:Zlf_low_Zmm_HT600to800ZJets_2b[0m 2 (0.00117989923661%) => /scratch/fglessge//tmp_fd14209bf9aa033ae1b3481d42b8ea19b094f13e82ef0026ae015a2f_5of8.root
+ > [34mplot:SR_med_Zee_ge1j_HT600to800ZJets_2b[0m 12 (0.00707939541963%) => /scratch/fglessge//tmp_7631ea8b1f77c87243c4569492faac3857255506442becbb6b9a6408_5of8.root
+ > [34mplot:SR_high2_Zee_BOOST_HT600to800ZJets_2b[0m 38 (0.0224180854955%) => /scratch/fglessge//tmp_2b450ed0f7548e28034acf8ee0ed07341bd4db23e80204bff56d7294_5of8.root
+ > [34mplot:ttbar_low_Zmm_HT600to800ZJets_2b[0m 21 (0.0123889419844%) => /scratch/fglessge//tmp_d160735ac12dd82f6336adb5be609aedb9763bcaeab48f1d010df6f2_5of8.root
+ > [34mplot:Zhf_med_Zmm_HT600to800ZJets_2b[0m 27 (0.0159286396942%) => /scratch/fglessge//tmp_24f7abc30702fa33d40fbd9ac10845da4d60bd06fd312fcc4d9f04bb_5of8.root
+ > [34mplot:Zhf_high_Zee_HT600to800ZJets_2b[0m 31 (0.0182884381674%) => /scratch/fglessge//tmp_fa3684eb414a4d720faad7ca6c0440416ac9f98bb6cfe23d54daf58a_5of8.root
+ > [34mplot:SR_high1_Zee_BOOST_HT600to800ZJets_2b[0m 48 (0.0283175816785%) => /scratch/fglessge//tmp_adb4133a51708bebeb0cc6d4e0e851042e74642b2f6aeffabc867952_5of8.root
+ > [34mplot:Zhf_low_Zmm_HT600to800ZJets_2b[0m 36 (0.0212381862589%) => /scratch/fglessge//tmp_a07fae780118a7d133b566a538d4f54b43a67d79a9d1de2457a249ca_5of8.root
+ > [34mplot:Zhf_high_Zee_BOOST_HT600to800ZJets_2b[0m 127 (0.0749236015244%) => /scratch/fglessge//tmp_a7c4e7d9d0b7f5ce5bd8d75039a14c6ba70e2d21ace7bba00021146a_5of8.root
+ > [34mplot:ttbar_high_Zmm_HT600to800ZJets_2b[0m 26 (0.0153386900759%) => /scratch/fglessge//tmp_10272f93284156ab87065bf6c806bea4d82750a553d4dd4fd6176f98_5of8.root
+ > [34mplot:ttbar_high_Zee_BOOST_HT600to800ZJets_2b[0m 21 (0.0123889419844%) => /scratch/fglessge//tmp_5b4ef9517e5546eae81846bc0367edb61f9aa51749485e6993c2fb56_5of8.root
+ > [34mplot:Zlf_high_Zmm_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_7838688d45761706841d66d49a4978e260f0b6f75fa7b4160e930201_5of8.root
+ > [34mplot:SR_med_Zee_0j_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_e3d550acec12aebb080710f84f7815d62fa79003a8f26c74f5665b5a_5of8.root
+ > [34mplot:Zhf_high_Zmm_HT600to800ZJets_2b[0m 48 (0.0283175816785%) => /scratch/fglessge//tmp_e4da820d8c83346594b4be56d647af549e03c63d349bfc5a1ed7adbe_5of8.root
+ > [34mplot:Zlf_med_Zmm_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_7eef3e2d58dbe80d6c3926d6c78da68449ec3fe3cefb5fd4a2a4e5cb_5of8.root
+ > [34mplot:Zlf_high_Zee_HT600to800ZJets_2b[0m 0 (0.0%) => /scratch/fglessge//tmp_80279b981ad42c707eb7ff62c51e4c574cc28ea76c7817e4276278b5_5of8.root
+ > [34mplot:Zhf_high_Zmm_BOOST_HT600to800ZJets_2b[0m 160 (0.0943919389284%) => /scratch/fglessge//tmp_2c0800df3cf885cd3e6c2e651223b8c1ea664f40826554562e73df81_5of8.root
+ > [34mplot:Zhf_med_Zee_HT600to800ZJets_2b[0m 33 (0.019468337404%) => /scratch/fglessge//tmp_22f875ab9fca9de5095ac48395a70bb551519e74be1fe06651440bac_5of8.root
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-21 12:55:55
+duration (real time): 79 minutes
+--- OK ---
+
+Exiting runAll.sh
+

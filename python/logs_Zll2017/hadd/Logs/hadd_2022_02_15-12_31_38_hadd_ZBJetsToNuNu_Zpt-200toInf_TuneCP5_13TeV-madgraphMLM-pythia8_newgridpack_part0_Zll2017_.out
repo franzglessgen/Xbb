@@ -1,0 +1,65 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn33
+User: fglessge
+StartTime: 2022-02-15 12:32:36
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrd1ttKxDAQgOEnqpNJW9vilQcWK24tUnuxNyF1s0mxJiEHZd9eFp9i5wmGjxmYH2JyQYEOLnvw5hyFWbWOYJYFbMp+UxHm52UZXUyDtA44wwZmRDg8vKgUJzfkIYuDTwVnLLnensSUrXoca4HlpObiWx51kN7sX/eFPyezylZY9avDevTy8wves+37ndw2bC4D7t+efqpi/LjMEcgREbBjFW8E1qwrW2CMMUhBKYE3wbl0B9dMYAQMFPbACRhKAoaKgKEmYLglYGgIGFoChu76DQTeAyeQGpxAanACt0SgNAiEBoHOIJAZBCqDQGT8N8YfB/iOtA== --sampleIdentifier ZBJetsToNuNu_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 22
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       16913.0                  33L                      9L                       16869.0                  16913L                   
+2                         1L                       25301.0                  33L                      9L                       25229.0                  25301L                   
+3                         1L                       8504.0                   33L                      9L                       8482.0                   8504L                    
+4                         1L                       592.0                    33L                      9L                       592.0                    592L                     
+5                         1L                       18094.0                  33L                      9L                       18024.0                  18094L                   
+6                         1L                       34228.0                  33L                      9L                       34130.0                  34228L                   
+7                         1L                       543.0                    33L                      9L                       541.0                    543L                     
+8                         1L                       15860.0                  33L                      9L                       15814.0                  15860L                   
+9                         1L                       13634.0                  33L                      9L                       13602.0                  13634L                   
+10                        1L                       55608.0                  33L                      9L                       55432.0                  55608L                   
+11                        1L                       35064.0                  33L                      9L                       34952.0                  35064L                   
+12                        1L                       13451.0                  33L                      9L                       13411.0                  13451L                   
+13                        1L                       3335.0                   33L                      9L                       3325.0                   3335L                    
+14                        1L                       8948.0                   33L                      9L                       8920.0                   8948L                    
+15                        1L                       10731.0                  33L                      9L                       10709.0                  10731L                   
+16                        1L                       34713.0                  33L                      9L                       34607.0                  34713L                   
+17                        1L                       39951.0                  33L                      9L                       39827.0                  39951L                   
+18                        1L                       2822.0                   33L                      9L                       2808.0                   2822L                    
+19                        1L                       25381.0                  33L                      9L                       25315.0                  25381L                   
+20                        1L                       61438.0                  33L                      9L                       61250.0                  61438L                   
+21                        1L                       16389.0                  33L                      9L                       16349.0                  16389L                   
+22                        1L                       72317.0                  33L                      9L                       72127.0                  72317L                   
+[34m sum                      22L                      513817.0                 726L                     198L                     512315.0                 513817L                   [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/ZBJetsToNuNu_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_f62ff8b7568c265dfe6fca474eb206e6715851aeb3972dc8d9f68486_000000_000000_0000_0_7f3a9c23f5612f577530d0f3ef4973f95471e6ccd6bd06b94fe80305.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: end of processing. time  Tue Feb 15 12:32:40 2022
+INFO: throughput: INPUT: 0.0000/s, OUTPUT: 0.0000/s 
+INFO: number of trees processed: 0
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:32:40 2022  events read: 0
+ > [34m[0m 0 (?%) => /scratch/fglessge//hadd/ZBJetsToNuNu_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_f62ff8b7568c265dfe6fca474eb206e6715851aeb3972dc8d9f68486_000000_000000_0000_0_7f3a9c23f5612f577530d0f3ef4973f95471e6ccd6bd06b94fe80305.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//ZBJetsToNuNu_Zpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_f62ff8b7568c265dfe6fca474eb206e6715851aeb3972dc8d9f68486_000000_000000_0000_0_7f3a9c23f5612f577530d0f3ef4973f95471e6ccd6bd06b94fe80305.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:32:41
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

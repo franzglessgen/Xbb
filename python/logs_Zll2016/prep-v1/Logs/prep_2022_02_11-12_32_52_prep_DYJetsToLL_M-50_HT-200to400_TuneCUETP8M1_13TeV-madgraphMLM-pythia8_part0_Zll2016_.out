@@ -1,0 +1,25 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn30
+User: fglessge
+StartTime: 2022-02-11 17:53:35
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrV0UEKwjAQQNETxZlJrbS4VEGkFRex4GpoMTSCNiGZit5ecOfKbXuDx/+QxEcLffRjgODeid2t7xO4roNBxnC3CZp91518kmM7eNBIK2iI+JnB9nKwkoyvKq5Vjrw3SiOKXyKyGQe7Oe/MqaiJKTO2UY/22sc2uLqqVXiLu7UFqCcBlZjrjDVhoZeAiAgSrWVaRO9lDRMm6mkQ2b6Efp0lZtNL+d+JM4HOZXw+E2f5dX4A3U93zw== --sampleIdentifier DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 7 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/DYJetsToLL_M-50_HT-200to400_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_210824/0000/tree_1.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:53:57
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

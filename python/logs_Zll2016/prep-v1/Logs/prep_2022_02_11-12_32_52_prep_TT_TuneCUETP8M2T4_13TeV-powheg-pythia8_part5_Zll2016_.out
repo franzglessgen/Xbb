@@ -1,0 +1,55 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn32
+User: fglessge
+StartTime: 2022-02-11 17:53:57
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrN0kEKwjAQAMAX1d0ktrZ4FMGL0kPsNTSwJIJ0Q5JW+nvBT7g/mMNAqZwJQuY1QYp7cfEVQoHoPSx1TW8qMN28H7nUx7wwaFQdTEq5zYC1zq4LXZ5XO/Z3bY9OGUtTk/gTKTRpr/E199BsCtSArTZOI6I2gIgINRO5tj1k5nqGfzs6IY6TEEcvxDHIcAjp0aEQhxLi0EIc5uf4AgC5uKU= --sampleIdentifier TT_TuneCUETP8M2T4_13TeV-powheg-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_55.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_56.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_57.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_58.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_59.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_6.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_60.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_61.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_62.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_63.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_55.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_55.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_56.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_57.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_58.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_59.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_6.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_60.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_61.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_62.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/TT_TuneCUETP8M2T4_13TeV-powheg-pythia8/-v1/190523_200023/0000/tree_63.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:16
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

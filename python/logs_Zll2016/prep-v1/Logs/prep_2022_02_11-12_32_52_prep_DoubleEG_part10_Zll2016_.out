@@ -1,0 +1,25 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn50
+User: fglessge
+StartTime: 2022-02-11 17:53:35
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrF0rsKwkAQheEnimdms4kJthGtRCzSBleWRAg7YS+Cby/Bh5j2/MXXHKQs0WOOUjZsyzdNy3ueExbnEHLZVp8wXp27S8q3ZxAY4hYjMwYpbvXnCx4l7ONQ7Z3t4F+GuKs+3NXgnqxpJ+praxsQESFH7ydDhyiST1DiWZc3unyty1tdvtHlW13+qMt3qvz/+D/Yno2Q --sampleIdentifier DoubleEG --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleEG/Run2016D-Nano14Dec2018-v183/190426_093445/0000/tree_20.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:02
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

@@ -1,0 +1,25 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: cachetraining
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn51
+User: fglessge
+StartTime: 2022-02-22 11:34:24
+
+Parsing files in Zll2017config...
+
+python ./cache_training.py --trainingRegions BDT_VZ_Zll_BOOSTFinal_wdB --splitFilesChunkSize 3 --splitFilesChunks 15 --chunkNumber 1 --fileList base64:eNrV0M1qHEEMBOA3cqvVrf5xjgHjk3FgWYwvjaSWvAvrnWVmHMjbB5xLDn4B16WKOn7rsuz3IexpKuvJpkC6u23nOz3dR+g5hNvVt/DvCfq+hX09/1bew7Yvq4WPzdbgbxfbtjcLx0eR8Hq5fI7nZduf+LogxDqOMQYEhAFlQAuyLNseXl8PC/7Cp49x+Ljaz2caMR3sOPhdeb9eloeXh5fxznO7na/j9mc/nbmFfTUbBZKVzEIkfVqKonMSUCk9G+dMEqm6U3SYU9Eq9ETZKw74zP81YNCMZhpba+4WS46SIIJm7zghJc0FUpdZq/UM6L2rZiWsd+uy7D/WbynYuUwQzCCeM+WotdbsJVZ2USlUIjt3b15AE9aZYwE14K8E46BIwC2CqTJTbJiiN0zelDpTQWb0DK0gmZh255a0Ve7fWdCw16lRxb3WLgkKQ5c2CXAmc44zFROahT0lL70BqWKUrwRx5C6ZcLJAmZipsWguKfs0z9RFpmNxaZWAGbDahD49FfkU/Av2ni6o --sampleIdentifier ZZTo2Q2Nu_TuneCP5_13TeV_amcatnloFXFX_madspin_pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//cachetraining-v1/config//submission_20220222_113422.ini
+REGION:                  CUT:
+ >  BDT_VZ_Zll_BOOSTFinal_wdB (((Hbb_fjidx>-1) && (!(resolvedSR_VZ||resolvedCR_VZ)||(boostedSR_VZ&&resolvedCR_VZ))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && (FatJet_Msoftdrop[Hbb_fjidx] > 60 && FatJet_Msoftdrop[Hbb_fjidx] < 120))
+********************************************************************************
+  ZZTo2Q2Nu_TuneCP5_13TeV_amcatnloFXFX_madspin_pythia8
+********************************************************************************
+DOES NOT EXIST: /scratch/fglessge/
+nothing to do!
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-22 11:34:39
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

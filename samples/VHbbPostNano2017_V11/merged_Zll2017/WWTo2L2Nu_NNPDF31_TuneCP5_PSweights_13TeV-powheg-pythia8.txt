@@ -1,0 +1,3 @@
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/WWTo2L2Nu_NNPDF31_TuneCP5_PSweights_13TeV-powheg-pythia8/e068c537fee4bd8f01a36b113d9009496d995e2dd8ef4e4079f8dcb3/000000_000000/0000/tree_0.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/WWTo2L2Nu_NNPDF31_TuneCP5_PSweights_13TeV-powheg-pythia8/2925f6a012598f972a933948580054c682d569d319d12b9ab6d32277/000000_000000/0000/tree_1.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/WWTo2L2Nu_NNPDF31_TuneCP5_PSweights_13TeV-powheg-pythia8/998c051308a51d61f80e774916eeff9433cdf3d5d7010aa57436e1b1/000000_000000/0000/tree_2.root

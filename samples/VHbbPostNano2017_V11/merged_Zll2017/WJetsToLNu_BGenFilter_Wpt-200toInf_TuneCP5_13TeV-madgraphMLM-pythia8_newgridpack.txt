@@ -1,0 +1,1 @@
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/WJetsToLNu_BGenFilter_Wpt-200toInf_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/a389e94bf5a32a74f5f7a1a186f66412d1b9308790abffc12bf224db/000000_000000/0000/tree_0.root

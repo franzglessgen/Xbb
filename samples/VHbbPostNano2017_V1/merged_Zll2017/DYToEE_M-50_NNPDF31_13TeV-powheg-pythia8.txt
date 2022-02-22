@@ -1,0 +1,5 @@
+/store/user/scoopers/VHbbPostNano2017_V1/DYToEE_M-50_NNPDF31_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124413/0000/tree_3.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYToEE_M-50_NNPDF31_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124413/0000/tree_2.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYToEE_M-50_NNPDF31_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124413/0000/tree_4.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYToEE_M-50_NNPDF31_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124413/0000/tree_5.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYToEE_M-50_NNPDF31_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124413/0000/tree_1.root

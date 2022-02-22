@@ -1,0 +1,12 @@
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/57736b883107faf4d189ffc37c70731df3071d97e70e03d0110ec571/000000_000000/0000/tree_0.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/26ab5c105d95994a607fcf48738d67236be529b1ba48bf4fd3cf5a3d/000000_000000/0000/tree_5.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/1d5205c46d29414a2545ebe643fc970325c6a125c32833dc7622776a/000000_000000/0000/tree_10.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/70e9b8b9357ce0a5ecfd0276688826a9fc0f78a4a4fa8f61fd163a48/000000_000000/0000/tree_15.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/4e25dad1f2c32008aa306b9f6636ee648e2db51292bf8fdb057c7434/000000_000000/0000/tree_20.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/513ab89b1237b3f25e0665cd5d31e6bc1aa3360e6313401bca58b6c0/000000_000000/0000/tree_25.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/1a79127d5088133df936b4595991f3749fe946eb877acd405bcb4b06/000000_000000/0000/tree_30.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/a7c7721e807ceae808220e8fce723e14cd102b0db281a6adc8367261/000000_000000/0000/tree_35.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/90c2d453678080cac3e61fa0cf1bdffae7086941c90344cd96d42293/000000_000000/0000/tree_50.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/b539bea25274d69c788d81d9d70dde0a460218269a228c7e565adf74/000000_000000/0000/tree_55.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/d93a18af025a2407b0d2d89b5a54eb54e26d606f71a97f788b357b97/000000_000000/0000/tree_65.root
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/518c339b5b40723940dc80b04f8d3b128b75bbee24ac5e7fa02958d4/000000_000000/0000/tree_70.root

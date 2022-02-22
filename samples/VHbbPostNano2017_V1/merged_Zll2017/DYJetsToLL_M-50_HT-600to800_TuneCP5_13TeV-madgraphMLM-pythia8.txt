@@ -1,0 +1,5 @@
+/store/user/scoopers/VHbbPostNano2017_V1/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_160403/0000/tree_5.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_160403/0000/tree_3.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_160403/0000/tree_4.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_160403/0000/tree_1.root
+/store/user/scoopers/VHbbPostNano2017_V1/DYJetsToLL_M-50_HT-600to800_TuneCP5_13TeV-madgraphMLM-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_160403/0000/tree_2.root

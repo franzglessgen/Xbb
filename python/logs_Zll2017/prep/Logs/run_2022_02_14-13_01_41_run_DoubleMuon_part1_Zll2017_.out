@@ -1,0 +1,260 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn70
+User: fglessge
+StartTime: 2022-02-14 13:02:36
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections Prep.Step1 --fileList base64:eNoVyssKwjAQBdAvqncmtDVupQs3inTRbTAyJELJhDwE/166PRzUpkUQivaMHH/VxU8IFdF7pNbzLhXbzfun1vZ4JYUhPmNjxqLd73LvmrD2dPB1OAaPi7wNsR2+bCfwhUYzOyY2kwUREVoRceZUVNsf4cMoag== --sampleIdentifier DoubleMuon --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//prep/config//submission_20220214_130141.ini --inputDir PREPin --outputDir PREPout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+TClass::Init:0: RuntimeWarning: no dictionary for class ROOT::TIOFeatures is available
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleMuon/Run2017B-Nano14Dec2018-v185/190426_101258/0000/tree_2.root
+INput samples:	root://eoscms.cern.ch/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting/
+collections to add: ['Prep.Step1']
+after parsing: ['VHbbCommon.Clean', 'VHbbCommon.JetSmearer', 'VHbbCommon.JECcorrelator', 'Prep.LeptonSelection']
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//DoubleMuon/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//DoubleMuon/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://eoscms.cern.ch//DoubleMuon/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root[0m
+INFO: # files chained: 0
+trying fallback... 1
+FO: root://eoscms.cern.ch///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleMuon/Run2017B-Nano14Dec2018-v185/190426_101258/0000/tree_2.root
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      
+1                         297050                   
+2                         297056                   
+3                         297057                   
+4                         297099                   
+5                         297101                   
+6                         297113                   
+7                         297114                   
+8                         297175                   
+9                         297176                   
+10                        297177                   
+11                        297178                   
+12                        297215                   
+13                        297219                   
+14                        297225                   
+15                        297292                   
+16                        297296                   
+17                        297308                   
+18                        297359                   
+19                        297424                   
+20                        297425                   
+21                        297426                   
+22                        297429                   
+23                        297430                   
+24                        297431                   
+25                        297432                   
+26                        297433                   
+27                        297434                   
+28                        297435                   
+29                        297467                   
+30                        297468                   
+31                        297483                   
+32                        297505                   
+33                        297557                   
+34                        297558                   
+35                        297562                   
+36                        297563                   
+37                        297598                   
+38                        297599                   
+39                        297603                   
+40                        297604                   
+41                        297605                   
+42                        297620                   
+43                        297656                   
+44                        297665                   
+45                        297666                   
+46                        297670                   
+47                        297674                   
+48                        297675                   
+49                        297722                   
+50                        297723                   
+51                        298996                   
+52                        298997                   
+53                        299061                   
+54                        299062                   
+55                        299064                   
+56                        299065                   
+57                        299067                   
+58                        299096                   
+59                        299149                   
+60                        299178                   
+61                        299180                   
+62                        299184                   
+63                        299185                   
+64                        299327                   
+65                        299329                   
+66                        297050                   
+67                        297056                   
+68                        297057                   
+69                        297100                   
+70                        297101                   
+71                        297113                   
+72                        297114                   
+73                        297175                   
+74                        297176                   
+75                        297177                   
+76                        297178                   
+77                        297215                   
+78                        297218                   
+79                        297219                   
+80                        297292                   
+81                        297293                   
+82                        297308                   
+83                        297359                   
+84                        297411                   
+85                        297424                   
+86                        297425                   
+87                        297430                   
+88                        297431                   
+89                        297432                   
+90                        297433                   
+91                        297434                   
+92                        297435                   
+93                        297468                   
+94                        297469                   
+95                        297484                   
+96                        297485                   
+97                        297486                   
+98                        297488                   
+99                        297503                   
+100                       297504                   
+101                       297505                   
+102                       297557                   
+103                       297558                   
+104                       297562                   
+105                       297563                   
+106                       297599                   
+107                       297603                   
+108                       297604                   
+109                       297605                   
+110                       297606                   
+111                       297620                   
+112                       297665                   
+113                       297666                   
+114                       297670                   
+115                       297674                   
+116                       297675                   
+117                       297723                   
+118                       299061                   
+119                       299062                   
+120                       299065        TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> GenVisTau_*
+           
+121                       299067                   
+122                       299096                   
+123                       299149                   
+124                       299180                   
+125                       299184                   
+126                       299185                   
+127                       299329                   
+128                       297050                   
+129                       297057                   
+130                       297100                   
+131                       297176                   
+132                       297178                   
+133                       297219                   
+134                       297296                   
+135                       297359                   
+136                       297411                   
+137                       297431                   
+138                       297432                   
+139                       297433                   
+140                       297483                   
+141                       297484                   
+142                       297485                   
+143                       297486                   
+144                       297503                   
+145                       297505                   
+146                       297557                   
+147                       297558                   
+148                       297599                   
+149                       297604                   
+150                       297620                   
+151                       297656                   
+152                       297675                   
+153                       297722                   
+154                       297723                   
+155                       299061                   
+156                       299065                   
+157                       299067                   
+158                       299149                   
+159                       299184                   
+[34m sum                      47340796                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: scale/smear parameters: 1.0 0.022 0.051 0.068
+DEBUG: sample identifier: DoubleMuon  lep flav {'SingleElectron': 3, 'MET': 4, 'SingleMuon': 2, 'DoubleMuon': 0, 'DoubleEG': 1}  ->  0
+ > Drop:0
+ > JetSmearer:2
+ > JECcorrelator:0
+ > VHbbSelection:7
+OUTPUT TREES:
+ >  /scratch/fglessge//DoubleMuon/e86845b523874743af75065b45c83f20/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: isZee, isZmm, isWmunu, isWenu, isZnn, vLidx, lepMetDPhi, V_mt, V_pt, V_eta, V_phi, V_mass
+ADD NEW BRANCHES:
+ > [32misZee                         [0m function:[33mgetBranch[0m
+ > [32misZmm                         [0m function:[33mgetBranch[0m
+ > [32misWmunu                       [0m function:[33mgetBranch[0m
+ > [32misWenu                        [0m function:[33mgetBranch[0m
+ > [32misZnn                         [0m function:[33mgetBranch[0m
+ > [32mvLidx[2]                      [0m function:[33mfillVectorBranch[0m
+ > [32mlepMetDPhi                    [0m function:[33mgetBranch[0m
+ > [32mV_mt                          [0m function:[33mgetBranch[0m
+ > [32mV_pt                          [0m function:[33mgetBranch[0m
+ > [32mV_eta                         [0m function:[33mgetBranch[0m
+ > [32mV_phi                         [0m function:[33mgetBranch[0m
+ > [32mV_mass                        [0m function:[33mgetBranch[0m
+------------------
+ start processing 
+------------------
+INFO: time  Mon Feb 14 13:02:50 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Mon Feb 14 13:24:12 2022
+INFO: throughput: INPUT: 898.2768/s, OUTPUT: 18.4362/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Mon Feb 14 13:24:12 2022  events read: 1151387
+ > [34m[0m 23631 (2.05239419934%) => /scratch/fglessge//DoubleMuon/e86845b523874743af75065b45c83f20/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root
+INFO: statistics:
+  fail_lepton_selection :  3536.0
+cut-flow:
+  beginning           1151387
+  HLT                 602488
+  Leptons             485448
+  Channel             485448
+  Vector boson        481912
+  Vpt                 23631
+  Jets                0
+  end                 23631
+efficiency: 0.0205239419934
+copy  /scratch/fglessge//DoubleMuon/e86845b523874743af75065b45c83f20/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting//DoubleMuon/tree_Run2017B-Nano14Dec2018-v185_190426_101258_0000_2_7be73e0008be67daaee6f7a006141969ed3901f6c44a54f6ff9a4b08.root
+INFO: max memory used (MB): 295.4
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-14 13:24:13
+duration (real time): 21 minutes
+--- OK ---
+
+Exiting runAll.sh
+

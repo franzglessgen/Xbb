@@ -1,0 +1,221 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn71
+User: fglessge
+StartTime: 2022-02-14 13:03:03
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections Prep.Step1 --fileList base64:eNoVyssKwjAQBdAvqncmxNrui7ipiItug5EhEUom5CH499Lt4aA2LYJQtGfk+KsufkKoiN4jtZ53qdhu3j+0tvsrKQzxBRszFu1+l7VrwrOng6/DMdgu8jbE0/DlaQbPZM3omHi0FkREaEXEnU9Ftf0B4xYodA== --sampleIdentifier DoubleMuon --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//prep/config//submission_20220214_130141.ini --inputDir PREPin --outputDir PREPout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+TClass::Init:0: RuntimeWarning: no dictionary for class ROOT::TIOFeatures is available
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleMuon/Run2017F-Nano14Dec2018-v189/190426_101644/0000/tree_5.root
+INput samples:	root://eoscms.cern.ch/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting/
+collections to add: ['Prep.Step1']
+after parsing: ['VHbbCommon.Clean', 'VHbbCommon.JetSmearer', 'VHbbCommon.JECcorrelator', 'Prep.LeptonSelection']
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//DoubleMuon/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//DoubleMuon/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://eoscms.cern.ch//DoubleMuon/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root[0m
+INFO: # files chained: 0
+trying fallback... 1
+FO: root://eoscms.cern.ch///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleMuon/Run2017F-Nano14Dec2018-v189/190426_101644/0000/tree_5.root
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      
+1                         305044                   
+2                         305045                   
+3                         305046                   
+4                         305059                   
+5                         305063                   
+6                         305064                   
+7                         305081                   
+8                         305112                   
+9                         305113                   
+10                        305114                   
+11                        305178                   
+12                        305179                   
+13                        305183                   
+14                        305186                   
+15                        305188                   
+16                        305202                   
+17                        305204                   
+18                        305207                   
+19                        305208                   
+20                        305234                   
+21                        305237                   
+22                        305247                   
+23                        305252                   
+24                        305282                   
+25                        305310                   
+26                        305311                   
+27                        305313                   
+28                        305314                   
+29                        305336                   
+30                        305338                   
+31                        305341                   
+32                        305351                   
+33                        305358                   
+34                        305364                   
+35                        305365                   
+36                        305366                   
+37                        305376                   
+38                        305377                   
+39                        305405                   
+40                        305406                   
+41                        305440                   
+42                        305441                   
+43                        305516                   
+44                        305517                   
+45                        305518                   
+46                        306041                   
+47                        306042                   
+48                        306048                   
+49                        306049                   
+50                        306051                   
+51                        306091                   
+52                        306092                   
+53                        306121                   
+54                        306125                   
+55                        306126                   
+56                        306135                   
+57                        306138                   
+58                        306139                   
+59                        306153                   
+60                        306154                   
+61                        306155                   
+62                        306169                   
+63                        306418                   
+64                        306419                   
+65                        306420                   
+66                        306423                   
+67                        306432                   
+68                        306454                   
+69                        306455                   
+70                        306456                   
+71                        306457                   
+72                        306459                   
+73                        305044                   
+74                        305045                   
+75                        305046                   
+76                        305059                   
+77                        305063                   
+78                        305064                   
+79                        305081                   
+80                        305112                   
+81                        305113                   
+82                        305114                   
+83                        305178                   
+84                        305179                   
+85                        305183                   
+86                        305186                   
+87                        305188                   
+88                        305202                   
+89                        305204                   
+90                        305207                   
+91                        305208                   
+92                        305234                   
+93                        305236                   
+94                        305237                   
+95                        305247                   
+96                        305248                   
+97                        305252                   
+98                        305282                   
+99                        305310                   
+100                       305311                   
+101                       305313                   
+102                       305314                   
+103                       305336                   
+104                       305338                   
+105                       305341                   
+106                       305350                   
+107                       305351                   
+108                       305358                   
+109                       305364                   
+110                       305365                   
+111                       305366                   
+112                       305376                   
+113                       305377                   
+114                       305405                   
+115                       305406                   
+116                       305440                   
+117                       305441                   
+118                       305516                   
+119                       305517                   
+120                       305518        TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> GenVisTau_*
+           
+[34m sum                      36657638                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: scale/smear parameters: 1.0 0.022 0.051 0.068
+DEBUG: sample identifier: DoubleMuon  lep flav {'SingleElectron': 3, 'MET': 4, 'SingleMuon': 2, 'DoubleMuon': 0, 'DoubleEG': 1}  ->  0
+ > Drop:0
+ > JetSmearer:2
+ > JECcorrelator:0
+ > VHbbSelection:7
+OUTPUT TREES:
+ >  /scratch/fglessge//DoubleMuon/347791206f054c8c8032290db9563da1/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: isZee, isZmm, isWmunu, isWenu, isZnn, vLidx, lepMetDPhi, V_mt, V_pt, V_eta, V_phi, V_mass
+ADD NEW BRANCHES:
+ > [32misZee                         [0m function:[33mgetBranch[0m
+ > [32misZmm                         [0m function:[33mgetBranch[0m
+ > [32misWmunu                       [0m function:[33mgetBranch[0m
+ > [32misWenu                        [0m function:[33mgetBranch[0m
+ > [32misZnn                         [0m function:[33mgetBranch[0m
+ > [32mvLidx[2]                      [0m function:[33mfillVectorBranch[0m
+ > [32mlepMetDPhi                    [0m function:[33mgetBranch[0m
+ > [32mV_mt                          [0m function:[33mgetBranch[0m
+ > [32mV_pt                          [0m function:[33mgetBranch[0m
+ > [32mV_eta                         [0m function:[33mgetBranch[0m
+ > [32mV_phi                         [0m function:[33mgetBranch[0m
+ > [32mV_mass                        [0m function:[33mgetBranch[0m
+------------------
+ start processing 
+------------------
+INFO: time  Mon Feb 14 13:03:15 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Mon Feb 14 13:15:17 2022
+INFO: throughput: INPUT: 1110.5134/s, OUTPUT: 16.7093/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Mon Feb 14 13:15:17 2022  events read: 801519
+ > [34m[0m 12060 (1.50464305899%) => /scratch/fglessge//DoubleMuon/347791206f054c8c8032290db9563da1/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root
+INFO: statistics:
+  fail_lepton_selection :  1478.0
+cut-flow:
+  beginning           801519
+  HLT                 317244
+  Leptons             246361
+  Channel             246361
+  Vector boson        244883
+  Vpt                 12060
+  Jets                0
+  end                 12060
+efficiency: 0.0150464305899
+copy  /scratch/fglessge//DoubleMuon/347791206f054c8c8032290db9563da1/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting//DoubleMuon/tree_Run2017F-Nano14Dec2018-v189_190426_101644_0000_5_8583bf8d189e8d062e4a50b9ca761861c646ead893ec30ac325e9d72.root
+INFO: max memory used (MB): 274.5
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-14 13:15:17
+duration (real time): 12 minutes
+--- OK ---
+
+Exiting runAll.sh
+

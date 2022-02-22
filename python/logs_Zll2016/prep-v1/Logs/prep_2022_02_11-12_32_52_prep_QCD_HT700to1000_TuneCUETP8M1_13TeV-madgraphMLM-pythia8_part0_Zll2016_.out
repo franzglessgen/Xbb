@@ -1,0 +1,55 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn33
+User: fglessge
+StartTime: 2022-02-11 17:53:57
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrN0dEKgjAUgOEnsnPO1FK6rMCLDIPl7dhoOKHc2Kbg2wc9xXmDj/+HlH20MEW/BghuT8rN05TAGQNLXsPHJhg7Ywaf8kMvHgTSEUYitZXwvFxVJ0+I2RMiKrku9vK6yaHpSVEp7Vh89XuKOrj+3hdhz27WDRQbAbVYi1JRW1e1AEREyNFaRYfofT4DNxYydXHtJZi6SqauiqeL6UamF5lOrP+sH0O95UM= --sampleIdentifier QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_10.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_11.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_12.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_13.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_14.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_2.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_3.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_4.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_5.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_1.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_10.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_11.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_12.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_13.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_14.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_2.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_3.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_4.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/QCD_HT700to1000_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/-v1/190523_195452/0000/tree_5.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:16
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

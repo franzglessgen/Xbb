@@ -1,0 +1,119 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn41
+User: fglessge
+StartTime: 2022-02-15 12:33:12
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrV2c1qhDAYheErst9P1ChdlRnKzKa1xboNygQdsEY0Fubui3TftecGwot48ixCawyLp34J20zz8FjdcO/7lYauoylu8+hXai5dV4U1vrVTIGWx1IjQx+nsLrVljkGY2dXb5E9V5sTUvkm+21u/tPOQzI843NuCPrfpen1tx1Hsfs7L+/knTaqv/TgnWjBJyZmKkzSVTIiZmeLivZOnJYT4TMcPZZhSnG+qMKUGpjSFKc1gSnOYUgtTWsCUliilCmOUwhilMEYpjFEKY5TCGKUwRimMUQpjlMIYBXNJGRhMDQymBgZTg/OfwmBqYDA1MJgaGEwNDKYGBlOY6cMsH2b4MLuHmf2xVl/KHppq7kTEZuVh30z+C2WUUkUJNSihOUqoRQn9u59+AcrTd9Q= --sampleIdentifier QCD_HT700to1000_TuneCP5_13TeV-madgraph-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 45
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       337035.0                 33L                      9L                       335529.0                 337035L                  
+2                         1L                       1375360.0                33L                      9L                       1369380.0                1375360L                 
+3                         1L                       1354862.0                33L                      9L                       1348986.0                1354862L                 
+4                         1L                       924372.0                 33L                      9L                       920504.0                 924372L                  
+5                         1L                       1433018.0                33L                      9L                       1426960.0                1433018L                 
+6                         1L                       1251852.0                33L                      9L                       1246350.0                1251852L                 
+7                         1L                       1758143.0                33L                      9L                       1750595.0                1758143L                 
+8                         1L                       1185623.0                33L                      9L                       1180625.0                1185623L                 
+9                         1L                       1519346.0                33L                      9L                       1512784.0                1519346L                 
+10                        1L                       1020691.0                33L                      9L                       1016245.0                1020691L                 
+11                        1L                       1601841.0                33L                      9L                       1594911.0                1601841L                 
+12                        1L                       1517459.0                33L                      9L                       1511079.0                1517459L                 
+13                        1L                       929565.0                 33L                      9L                       925539.0                 929565L                  
+14                        1L                       168811.0                 33L                      9L                       168067.0                 168811L                  
+15                        1L                       1181468.0                33L                      9L                       1176408.0                1181468L                 
+16                        1L                       1772720.0                33L                      9L                       1765048.0                1772720L                 
+17                        1L                       1433656.0                33L                      9L                       1427474.0                1433656L                 
+18                        1L                       1773221.0                33L                      9L                       1765575.0                1773221L                 
+19                        1L                       1773158.0                33L                      9L                       1765308.0                1773158L                 
+20                        1L                       1776157.0                33L                      9L                       1768509.0                1776157L                 
+21                        1L                       1759301.0                33L                      9L                       1751679.0                1759301L                 
+22                        1L                       421669.0                 33L                      9L                       419873.0                 421669L                  
+23                        1L                       929199.0                 33L                      9L                       925183.0                 929199L                  
+24                        1L                       1018606.0                33L                      9L                       1014078.0                1018606L                 
+25                        1L                       1095590.0                33L                      9L                       1090786.0                1095590L                 
+26                        1L                       1776456.0                33L                      9L                       1768848.0                1776456L                 
+27                        1L                       1769053.0                33L                      9L                       1761453.0                1769053L                 
+28                        1L                       1688524.0                33L                      9L                       1681366.0                1688524L                 
+29                        1L                       1354507.0                33L                      9L                       1348681.0                1354507L                 
+30                        1L                       1097993.0                33L                      9L                       1093151.0                1097993L                 
+31                        1L                       1009532.0                33L                      9L                       1005256.0                1009532L                 
+32                        1L                       510678.0                 33L                      9L                       508626.0                 510678L                  
+33                        1L                       1776578.0                33L                      9L                       1768786.0                1776578L                 
+34                        1L                       926930.0                 33L                      9L                       922918.0                 926930L                  
+35                        1L                       931707.0                 33L                      9L                       927773.0                 931707L                  
+36                        1L                       927473.0                 33L                      9L                       923305.0                 927473L                  
+37                        1L                       928091.0                 33L                      9L                       923979.0                 928091L                  
+38                        1L                       1210728.0                33L                      9L                       1205542.0                1210728L                 
+39                        2L                       840862.0                 66L                      18L                      837294.0                 840862L                  
+40                        3L                       2618203.0                99L                      27L                      2607033.0                2618203L                 
+41                        1L                       421669.0                 33L                      9L                       419873.0                 421669L                  
+42                        5L                       5490779.0                165L                     45L                      5466761.0                5490779L                 
+43                        5L                       5399144.0                165L                     45L                      5376004.0                5399144L                 
+44                        5L                       8528912.0                165L                     45L                      8491914.0                8528912L                 
+45                        3L                       4812084.0                99L                      27L                      4791500.0                4812084L                 
+[34m sum                      62L                      75332626.0               2046L                    558L                     75007538.0               75332626L                 [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/QCD_HT700to1000_TuneCP5_13TeV-madgraph-pythia8/tree_9b1ed55c14336ae1e0e48071f1f16adec604d50122c38b5b0c67b672_000000_000000_0000_0_6e4e26014bb59c0ab3f212c65db830981669cb2239d3ba818e44f3d9.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: switching trees --> 2 (=4.4 %, ETA: 4.1 min, INPUT: 0.0872384458464/s, OUTPUT: 0.0/s )
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 3 (=6.7 %, ETA: 2.8 min, INPUT: 0.16879423271/s, OUTPUT: 0.0843971163551/s )
+INFO: switching trees --> 5 (=11.1 %, ETA: 1.6 min, INPUT: 0.246399710436/s, OUTPUT: 0.164266473624/s )
+INFO: switching trees --> 6 (=13.3 %, ETA: 1.4 min, INPUT: 0.392775323271/s, OUTPUT: 0.314220258617/s )
+INFO: switching trees --> 8 (=17.8 %, ETA: 1.0 min, INPUT: 0.612863718537/s, OUTPUT: 0.53625575372/s )
+INFO: switching trees --> 9 (=20.0 %, ETA: 0.9 min, INPUT: 0.674461896728/s, OUTPUT: 0.59952168598/s )
+INFO: switching trees --> 10 (=22.2 %, ETA: 0.8 min, INPUT: 0.805770838924/s, OUTPUT: 0.732518944477/s )
+INFO: switching trees --> 11 (=24.4 %, ETA: 0.7 min, INPUT: 0.931512151387/s, OUTPUT: 0.859857370511/s )
+INFO: switching trees --> 14 (=31.1 %, ETA: 0.5 min, INPUT: 1.12298126435/s, OUTPUT: 1.05279493533/s )
+INFO: switching trees --> 15 (=33.3 %, ETA: 0.5 min, INPUT: 1.24087055622/s, OUTPUT: 1.17193330309/s )
+INFO: switching trees --> 17 (=37.8 %, ETA: 0.4 min, INPUT: 1.42245073207/s, OUTPUT: 1.35471498293/s )
+INFO: switching trees --> 18 (=40.0 %, ETA: 0.4 min, INPUT: 1.53129751971/s, OUTPUT: 1.46471936668/s )
+INFO: switching trees --> 19 (=42.2 %, ETA: 0.3 min, INPUT: 1.56889056402/s, OUTPUT: 1.50352012385/s )
+INFO: switching trees --> 20 (=44.4 %, ETA: 0.3 min, INPUT: 1.67149804703/s, OUTPUT: 1.60720966061/s )
+INFO: switching trees --> 21 (=46.7 %, ETA: 0.3 min, INPUT: 1.70790606917/s, OUTPUT: 1.64465028883/s )
+INFO: switching trees --> 23 (=51.1 %, ETA: 0.3 min, INPUT: 1.74364223658/s, OUTPUT: 1.68136929956/s )
+INFO: switching trees --> 25 (=55.6 %, ETA: 0.2 min, INPUT: 1.77802564261/s, OUTPUT: 1.71671441355/s )
+INFO: switching trees --> 27 (=60.0 %, ETA: 0.2 min, INPUT: 1.81022286599/s, OUTPUT: 1.74988210379/s )
+INFO: switching trees --> 28 (=62.2 %, ETA: 0.2 min, INPUT: 1.84186452637/s, OUTPUT: 1.78244954165/s )
+INFO: switching trees --> 29 (=64.4 %, ETA: 0.2 min, INPUT: 1.93071753706/s, OUTPUT: 1.87221094503/s )
+INFO: switching trees --> 31 (=68.9 %, ETA: 0.1 min, INPUT: 1.96045441479/s, OUTPUT: 1.90279399083/s )
+INFO: switching trees --> 32 (=71.1 %, ETA: 0.1 min, INPUT: 1.98870722672/s, OUTPUT: 1.93188702025/s )
+INFO: switching trees --> 38 (=84.4 %, ETA: 0.1 min, INPUT: 2.18339830446/s, OUTPUT: 2.12741373255/s )
+INFO: switching trees --> 39 (=86.7 %, ETA: 0.0 min, INPUT: 2.20797855816/s, OUTPUT: 2.1527790942/s )
+INFO: switching trees --> 40 (=88.9 %, ETA: 0.0 min, INPUT: 2.28600502561/s, OUTPUT: 2.23157633452/s )
+INFO: switching trees --> 41 (=91.1 %, ETA: 0.0 min, INPUT: 2.30757407165/s, OUTPUT: 2.25390955836/s )
+INFO: switching trees --> 42 (=93.3 %, ETA: 0.0 min, INPUT: 2.48447862272/s, OUTPUT: 2.43161737542/s )
+INFO: switching trees --> 43 (=95.6 %, ETA: 0.0 min, INPUT: 2.81317591143/s, OUTPUT: 2.76108006122/s )
+INFO: switching trees --> 44 (=97.8 %, ETA: 0.0 min, INPUT: 3.1839342351/s, OUTPUT: 3.13258045711/s )
+INFO: end of processing. time  Tue Feb 15 12:33:35 2022
+INFO: throughput: INPUT: 3.2855/s, OUTPUT: 3.2855/s 
+INFO: number of trees processed: 29
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:33:36 2022  events read: 64
+ > [34m[0m 64 (100.0%) => /scratch/fglessge//hadd/QCD_HT700to1000_TuneCP5_13TeV-madgraph-pythia8/tree_9b1ed55c14336ae1e0e48071f1f16adec604d50122c38b5b0c67b672_000000_000000_0000_0_6e4e26014bb59c0ab3f212c65db830981669cb2239d3ba818e44f3d9.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//QCD_HT700to1000_TuneCP5_13TeV-madgraph-pythia8/tree_9b1ed55c14336ae1e0e48071f1f16adec604d50122c38b5b0c67b672_000000_000000_0000_0_6e4e26014bb59c0ab3f212c65db830981669cb2239d3ba818e44f3d9.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:33:36
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

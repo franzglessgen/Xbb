@@ -1,0 +1,55 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn40
+User: fglessge
+StartTime: 2022-02-11 17:53:57
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrV1MGKwjAQxvEn0plpm6rszVMvWxYsRbwMiRuSgnRCkiK+/bIsLF703LzAx48/w0DKEi24KEuA4B+J/eRcAm8MzHkJN5tg7Iz5kpR7PQtUSC2MRJvTcD6Bc5eOu0GOR74M0i/9wp9UKaZ6sCMHuXvrODyyn/Qe9Le9T3lzjdrwrGf5neL/hb0COmCLO0bVIDWAiAg5Wsu0jSL5A0qwVquztk9WQrXqrq+tJXWtC7I2q7Punq2qXvW9vrFiSdiSyv59gh9dMzxh --sampleIdentifier ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB85/190607_054014/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB85/190607_054014/0000/tree_2.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_2.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_3.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_4.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_10.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_11.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_2.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB85/190607_054014/0000/tree_1.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB85/190607_054014/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB85/190607_054014/0000/tree_2.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_2.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_3.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB86/190607_054105/0000/tree_4.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_10.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_11.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11-STXS/ggZH_HToBB_ZToNuNu_M125_13TeV_powheg_pythia8/adewit-crab_nano2016_ggZH_HToB87/190607_054153/0000/tree_2.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:25
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

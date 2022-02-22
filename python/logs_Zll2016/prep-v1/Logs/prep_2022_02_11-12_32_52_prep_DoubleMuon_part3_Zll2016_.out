@@ -1,0 +1,25 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn36
+User: fglessge
+StartTime: 2022-02-11 17:53:35
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrN08sKwjAQheEn0pmksTa4ky7cKOKi22BkSISSKbkUfHspPoSzPZzFt/mhVM4EIXNbYImf4uI7hALRe0i1LTMVmC7e37nU2zMxaFQ9TErByM3PdG2c4NHSNp/dSlnvtpsyI700qsGtNFhQFo3uHdrOogFERKiZyHXHfWauJ/ivYhChsBIURgQCJSgOEhC9BISISkVE+mv0CwFArkE= --sampleIdentifier DoubleMuon --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11/DoubleMuon/Run2016B_ver2-Nano14Dec2018_ve89/190426_093904/0000/tree_37.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:53:58
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

@@ -1,0 +1,55 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn46
+User: fglessge
+StartTime: 2022-02-11 17:53:35
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrN0EsKwjAQANAT1ZlJ+qF4geKiuAhduAkNhkRQJyRp0dsLLj2AzA0eD0rl7CFk3hKk+C423kIoEJ2DZ93S3RdYJufOXOq8PhkUUg8Lkd01XE6+FsPzNm92Mk2LaLhHtKSNX5rHeg15TRGanYBG7JS2ivSIHSAiQs3eWzpk5nqEPzCsf1X6sbSDVAtKwkiaUYIsWpClFWTpBFl6QZbha/kAJMTFoA== --sampleIdentifier ZJetsToNuNu_HT-400To600_13TeV-madgraph --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/-v1/190523_213905/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_10.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_11.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_2.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_3.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_4.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_5.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_6.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_7.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 10 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/-v1/190523_213905/0000/tree_1.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/-v1/190523_213905/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_10.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_11.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_2.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_3.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_4.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_5.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_6.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-400To600_13TeV-madgraph/_ext1-v1/190523_213947/0000/tree_7.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:02
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

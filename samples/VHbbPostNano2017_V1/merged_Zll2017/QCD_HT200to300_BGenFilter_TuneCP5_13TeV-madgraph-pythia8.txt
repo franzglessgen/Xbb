@@ -1,0 +1,4 @@
+/store/user/scoopers/VHbbPostNano2017_V1/QCD_HT200to300_BGenFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124532/0000/tree_4.root
+/store/user/scoopers/VHbbPostNano2017_V1/QCD_HT200to300_BGenFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124532/0000/tree_1.root
+/store/user/scoopers/VHbbPostNano2017_V1/QCD_HT200to300_BGenFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124532/0000/tree_2.root
+/store/user/scoopers/VHbbPostNano2017_V1/QCD_HT200to300_BGenFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_124532/0000/tree_3.root

@@ -1,0 +1,92 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn32
+User: fglessge
+StartTime: 2022-02-15 12:32:36
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrV1l1qwzAQBOATubsrxz+hT6WlJCVJTXHdRyFTYQVcS+inkNuX0FPMBZbvYdgZStlHS0v0JVBwt6TddVkSuXmmLZew2kTTYZ4Hn/LFbJ4US0eTCH292ZxGf7oUfRirlnn0PbMey2afh0ZLPdqp+jHfSzTBnU/nKtyyu5qePsp2PL6adZXufvHp/eV3Vw2f98NaVN+Q7LlRoqVWrdTEzEw5WqvlIXqfHwmJjGhWgOYa0NwAmltAcwdo7gHNezwz4KtTDGgGrEGFmA3AGlQ7QDNgdQNGAzAZgMEAnHSAiw5w0P3vuT9paStr --sampleIdentifier WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 23
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       44128.0                  33L                      9L                       43886.0                  44128L                   
+2                         1L                       1226890.0                33L                      9L                       1219628.0                1226890L                 
+3                         1L                       338444.0                 33L                      9L                       336402.0                 338444L                  
+4                         1L                       931943.0                 33L                      9L                       926503.0                 931943L                  
+5                         1L                       1048149.0                33L                      9L                       1041961.0                1048149L                 
+6                         1L                       1139224.0                33L                      9L                       1132694.0                1139224L                 
+7                         1L                       69210.0                  33L                      9L                       68848.0                  69210L                   
+8                         1L                       1099658.0                33L                      9L                       1093148.0                1099658L                 
+9                         1L                       925866.0                 33L                      9L                       920490.0                 925866L                  
+10                        1L                       315837.0                 33L                      9L                       313997.0                 315837L                  
+11                        1L                       1254487.0                33L                      9L                       1247105.0                1254487L                 
+12                        1L                       925742.0                 33L                      9L                       920224.0                 925742L                  
+13                        1L                       855331.0                 33L                      9L                       850293.0                 855331L                  
+14                        1L                       1031536.0                33L                      9L                       1025610.0                1031536L                 
+15                        1L                       931369.0                 33L                      9L                       925873.0                 931369L                  
+16                        1L                       254483.0                 33L                      9L                       252985.0                 254483L                  
+17                        1L                       852231.0                 33L                      9L                       847319.0                 852231L                  
+18                        1L                       50002.0                  33L                      9L                       49722.0                  50002L                   
+19                        1L                       1282452.0                33L                      9L                       1274888.0                1282452L                 
+20                        1L                       1184010.0                33L                      9L                       1177184.0                1184010L                 
+21                        1L                       1097877.0                33L                      9L                       1091423.0                1097877L                 
+22                        1L                       1030090.0                33L                      9L                       1024144.0                1030090L                 
+23                        1L                       930239.0                 33L                      9L                       924715.0                 930239L                  
+[34m sum                      23L                      18819198.0               759L                     207L                     18709042.0               18819198L                 [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_c15d391398942de199036978cb1be0c5d431c65de02274c6a614a6f0_000000_000000_0000_0_cf0d69ecc2238b23a432c24588d5279d71296266cefb90372c42a158.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 12:32:41 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 1 (=4.3 %, ETA: 0.1 min, INPUT: 21.2424676752/s, OUTPUT: 15.9318507564/s )
+INFO: switching trees --> 2 (=8.7 %, ETA: 0.1 min, INPUT: 232.804044039/s, OUTPUT: 229.929920039/s )
+INFO: switching trees --> 3 (=13.0 %, ETA: 0.1 min, INPUT: 193.134595018/s, OUTPUT: 191.101599281/s )
+INFO: switching trees --> 4 (=17.4 %, ETA: 0.1 min, INPUT: 207.361339304/s, OUTPUT: 205.813866623/s )
+INFO: switching trees --> 5 (=21.7 %, ETA: 0.1 min, INPUT: 210.521170415/s, OUTPUT: 209.358070026/s )
+INFO: switching trees --> 6 (=26.1 %, ETA: 0.0 min, INPUT: 236.187986668/s, OUTPUT: 235.191412884/s )
+INFO: switching trees --> 7 (=30.4 %, ETA: 0.0 min, INPUT: 208.086984644/s, OUTPUT: 207.216327805/s )
+INFO: switching trees --> 8 (=34.8 %, ETA: 0.0 min, INPUT: 226.269592084/s, OUTPUT: 225.510298151/s )
+INFO: switching trees --> 9 (=39.1 %, ETA: 0.0 min, INPUT: 233.739763369/s, OUTPUT: 233.058306333/s )
+INFO: switching trees --> 10 (=43.5 %, ETA: 0.0 min, INPUT: 216.502180506/s, OUTPUT: 215.897425812/s )
+INFO: switching trees --> 11 (=47.8 %, ETA: 0.0 min, INPUT: 235.197128941/s, OUTPUT: 234.67213535/s )
+INFO: switching trees --> 12 (=52.2 %, ETA: 0.0 min, INPUT: 229.543853206/s, OUTPUT: 229.072510592/s )
+INFO: switching trees --> 13 (=56.5 %, ETA: 0.0 min, INPUT: 234.526189376/s, OUTPUT: 234.088640515/s )
+INFO: switching trees --> 14 (=60.9 %, ETA: 0.0 min, INPUT: 232.377883041/s, OUTPUT: 231.977921108/s )
+INFO: switching trees --> 15 (=65.2 %, ETA: 0.0 min, INPUT: 236.848101675/s, OUTPUT: 236.469144713/s )
+INFO: switching trees --> 16 (=69.6 %, ETA: 0.0 min, INPUT: 227.430724028/s, OUTPUT: 227.071433785/s )
+INFO: switching trees --> 17 (=73.9 %, ETA: 0.0 min, INPUT: 230.62778502/s, OUTPUT: 230.285607297/s )
+INFO: switching trees --> 18 (=78.3 %, ETA: 0.0 min, INPUT: 220.157795556/s, OUTPUT: 219.832118344/s )
+INFO: switching trees --> 19 (=82.6 %, ETA: 0.0 min, INPUT: 225.693854719/s, OUTPUT: 225.390502763/s )
+INFO: switching trees --> 20 (=87.0 %, ETA: 0.0 min, INPUT: 235.192781964/s, OUTPUT: 234.904908302/s )
+INFO: switching trees --> 21 (=91.3 %, ETA: 0.0 min, INPUT: 238.713638972/s, OUTPUT: 238.439255479/s )
+INFO: switching trees --> 22 (=95.7 %, ETA: 0.0 min, INPUT: 239.929578569/s, OUTPUT: 239.669914523/s )
+INFO: end of processing. time  Tue Feb 15 12:32:45 2022
+INFO: throughput: INPUT: 247.7282/s, OUTPUT: 247.7282/s 
+INFO: number of trees processed: 23
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:32:45 2022  events read: 958
+ > [34m[0m 958 (100.0%) => /scratch/fglessge//hadd/WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_c15d391398942de199036978cb1be0c5d431c65de02274c6a614a6f0_000000_000000_0000_0_cf0d69ecc2238b23a432c24588d5279d71296266cefb90372c42a158.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8/tree_c15d391398942de199036978cb1be0c5d431c65de02274c6a614a6f0_000000_000000_0000_0_cf0d69ecc2238b23a432c24588d5279d71296266cefb90372c42a158.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:32:46
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

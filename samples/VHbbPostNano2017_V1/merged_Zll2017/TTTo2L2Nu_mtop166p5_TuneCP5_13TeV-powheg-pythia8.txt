@@ -1,0 +1,2 @@
+/store/user/scoopers/VHbbPostNano2017_V1/TTTo2L2Nu_mtop166p5_TuneCP5_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_161834/0000/tree_1.root
+/store/user/scoopers/VHbbPostNano2017_V1/TTTo2L2Nu_mtop166p5_TuneCP5_13TeV-powheg-pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180209_161834/0000/tree_2.root

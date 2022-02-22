@@ -1,0 +1,253 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn30
+User: fglessge
+StartTime: 2022-02-15 12:34:46
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrdnM2K2zAYAJ8oK0v69EdPZZeyueyGJs1VOEG1A8Y2sbwhb19C73vPPIEYpE8zukgtdboW1V2ndVZzf19yf+m6RfWnkxrrOg9lUcf302k3LfWjHSdlGh3UUWu1P+S6OfftOJYh12nO8jdvx/OwLpev8lbO7X3Jh3UsrzuXd/tbuXR9XbK2h3LczNOtL91mvtf+0kb1ex2321/tMOjwWOPn59uXbHZ/HktlbaJWOjXO6KxFjIhqmqZR9VpK1i/Xaao/1HNDNAgKxl5YBIUgKByCwiMoAoIiIigSgcIgIBDqNgh1G8aJQgSIQQSIQQSIQQSIQQSIQQSIQQQI4qK1CHVbhLot40Qh1G0R6rYIdVuEui1CeojhFsSrWxDqFoS6BaFuYUw3Qt2CULcg1C2IV7cgAgQx3A4RIA4RIA4RIA4RIA4RII5xRyECxCECxCECxCECxCOs5xHW8wjreYT1PMJ6HmE9j7CeR1jPI6yHOFAB8ewOiAAJiAAJiAAJiAAJiAAJiAAJDF8gAiQgAgSxFRERIBERIBERIBERIBERIBERIBERIBERIJFhPUSAJIS7E8LdCeHuhHB3Qrg7IdydEO5OCHen53F3Cg8KMT5rbaxzT/lBzncQDAqLoHAICo+gCAgKxkWbCBRP9J/JNxSIKwoxFf+H4h/ExBrK --sampleIdentifier ST_t-channel_top_4f_InclusiveDecays_TuneCP5_PSweights_13TeV-powheg-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 104
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       2028305.0                103L                     9L                       2029018.0                2029800L                 
+2                         1L                       1167313.375              103L                     9L                       1167736.25               1168200L                 
+3                         1L                       1446043.125              103L                     9L                       1446546.5                1447100L                 
+4                         1L                       1777388.5                103L                     9L                       1778014.125              1778700L                 
+5                         1L                       338553.15625             103L                     9L                       338670.8125              338800L                  
+6                         1L                       1100298.875              103L                     9L                       1100681.375              1101100L                 
+7                         1L                       1250386.75               103L                     9L                       1250822.875              1251300L                 
+8                         1L                       1775682.625              103L                     9L                       1776310.375              1777000L                 
+9                         1L                       1103788.125              103L                     9L                       1104173.75               1104600L                 
+10                        1L                       1608108.5                103L                     9L                       1608676.375              1609300L                 
+11                        1L                       1269566.125              103L                     9L                       1270010.0                1270500L                 
+12                        1L                       1100289.875              103L                     9L                       1100676.0                1101100L                 
+13                        1L                       1416458.125              103L                     9L                       1416954.625              1417500L                 
+14                        1L                       1046334.625              103L                     9L                       1046698.5625             1047100L                 
+15                        1L                       677092.5                 103L                     9L                       677334.375               677600L                  
+16                        1L                       1518701.5                103L                     9L                       1519224.875              1519800L                 
+17                        1L                       1253674.25               103L                     9L                       1254115.625              1254600L                 
+18                        1L                       1277350.375              103L                     9L                       1277802.625              1278300L                 
+19                        1L                       1692768.25               103L                     9L                       1693355.0                1694000L                 
+20                        1L                       1336028.0                103L                     9L                       1336491.5                1337000L                 
+21                        1L                       1012967.75               103L                     9L                       1013316.375              1013700L                 
+22                        1L                       1150864.625              103L                     9L                       1151264.25               1151700L                 
+23                        1L                       1438860.5                103L                     9L                       1439357.5                1439900L                 
+24                        1L                       1349609.875              103L                     9L                       1350081.875              1350600L                 
+25                        1L                       1692769.375              103L                     9L                       1693356.375              1694000L                 
+26                        1L                       1946152.125              103L                     9L                       1946842.5                1947600L                 
+27                        1L                       1523493.125              103L                     9L                       1524021.625              1524600L                 
+28                        1L                       169273.6875              103L                     9L                       169333.21875             169400L                  
+29                        1L                       1184934.875              103L                     9L                       1185348.75               1185800L                 
+30                        1L                       1692732.75               103L                     9L                       1693336.375              1694000L                 
+31                        1L                       1058130.375              103L                     9L                       1058497.625              1058900L                 
+32                        1L                       1038753.75               103L                     9L                       1039108.375              1039500L                 
+33                        1L                       84637.65625              103L                     9L                       84667.25                 84700L                   
+34                        1L                       1691440.875              103L                     9L                       1692042.0                1692700L                 
+35                        1L                       1283672.125              103L                     9L                       1284115.125              1284600L                 
+36                        1L                       1354204.25               103L                     9L                       1354678.625              1355200L                 
+37                        1L                       1184912.0                103L                     9L                       1185334.625              1185800L                 
+38                        1L                       1184928.625              103L                     9L                       1185344.25               1185800L                 
+39                        1L                       1946676.875              103L                     9L                       1947349.75               1948100L                 
+40                        1L                       1177814.375              103L                     9L                       1178235.5                1178700L                 
+41                        1L                       1269568.625              103L                     9L                       1270013.625              1270500L                 
+42                        1L                       761739.875               103L                     9L                       762005.875               762300L                  
+43                        1L                       1269390.125              103L                     9L                       1269825.375              1270300L                 
+44                        1L                       1336328.875              103L                     9L                       1336793.5                1337300L                 
+45                        1L                       1777411.875              103L                     9L                       1778027.375              1778700L                 
+46                        1L                       1438844.5                103L                     9L                       1439348.5                1439900L                 
+47                        1L                       1184960.125              103L                     9L                       1185361.0                1185800L                 
+48                        1L                       186462.046875            103L                     9L                       186527.140625            186600L                  
+49                        1L                       1025138.8125             103L                     9L                       1025501.5                1025900L                 
+50                        1L                       1184939.625              103L                     9L                       1185350.5                1185800L                 
+51                        1L                       1184941.875              103L                     9L                       1185351.5                1185800L                 
+52                        1L                       1233093.875              103L                     9L                       1233523.75               1234000L                 
+53                        1L                       1855749.625              103L                     9L                       1856393.875              1857100L                 
+54                        1L                       330551.8125              103L                     9L                       330670.125               330800L                  
+55                        1L                       1692764.75               103L                     9L                       1693355.75               1694000L                 
+56                        1L                       1174722.25               103L                     9L                       1175140.0                1175600L                 
+57                        1L                       423189.28125             103L                     9L                       423337.3125              423500L                  
+58                        1L                       1946685.25               103L                     9L                       1947360.5                1948100L                 
+59                        1L                       1184943.0                103L                     9L                       1185352.5                1185800L                 
+60                        1L                       1937104.625              103L                     9L                       1937772.25               1938500L                 
+61                        1L                       1466621.125              103L                     9L                       1467134.125              1467700L                 
+62                        1L                       2031300.0                103L                     9L                       2032014.0                2032800L                 
+63                        1L                       1608107.75               103L                     9L                       1608675.25               1609300L                 
+64                        1L                       584977.125               103L                     9L                       585178.125               585400L                  
+65                        1L                       1140371.25               103L                     9L                       1140768.25               1141200L                 
+66                        1L                       930801.875               103L                     9L                       931134.0                 931500L                  
+67                        1L                       1777389.5                103L                     9L                       1778014.875              1778700L                 
+68                        1L                       1100282.125              103L                     9L                       1100672.375              1101100L                 
+69                        1L                       253899.703125            103L                     9L                       253994.03125             254100L                  
+70                        1L                       1100292.75               103L                     9L                       1100678.25               1101100L                 
+71                        1L                       1181755.5                103L                     9L                       1182159.625              1182600L                 
+72                        1L                       1100301.0                103L                     9L                       1100682.125              1101100L                 
+73                        1L                       1180253.0                103L                     9L                       1180653.25               1181100L                 
+74                        1L                       1354197.375              103L                     9L                       1354674.75               1355200L                 
+75                        1L                       969296.5                 103L                     9L                       969631.9375              970000L                  
+76                        1L                       1354214.5                103L                     9L                       1354684.875              1355200L                 
+77                        1L                       1100283.625              103L                     9L                       1100672.5                1101100L                 
+78                        1L                       1078688.0                103L                     9L                       1079074.5                1079500L                 
+79                        1L                       1099885.75               103L                     9L                       1100273.5                1100700L                 
+80                        1L                       1100302.125              103L                     9L                       1100683.5                1101100L                 
+81                        1L                       1088494.0                103L                     9L                       1088877.625              1089300L                 
+82                        1L                       1269556.625              103L                     9L                       1270006.25               1270500L                 
+83                        1L                       1433434.625              103L                     9L                       1433943.75               1434500L                 
+84                        1L                       169276.109375            103L                     9L                       169334.875               169400L                  
+85                        1L                       1100306.5                103L                     9L                       1100687.125              1101100L                 
+86                        1L                       1100275.375              103L                     9L                       1100668.125              1101100L                 
+87                        1L                       1184929.125              103L                     9L                       1185344.5                1185800L                 
+88                        1L                       835109.25                103L                     9L                       835392.5                 835700L                  
+89                        1L                       423183.34375             103L                     9L                       423333.6875              423500L                  
+90                        1L                       1233904.75               103L                     9L                       1234333.0                1234800L                 
+91                        1L                       1184924.0                103L                     9L                       1185342.5                1185800L                 
+92                        1L                       1134469.375              103L                     9L                       1134866.375              1135300L                 
+93                        5L                       6268606.0                515L                     45L                      6270796.0                6273200L                 
+94                        5L                       5924007.5                515L                     45L                      5926057.5                5928300L                 
+95                        5L                       5476978.0                515L                     45L                      5478897.0                5481000L                 
+96                        5L                       5533822.0                515L                     45L                      5535767.5                5537900L                 
+97                        5L                       4990446.0                515L                     45L                      4992189.0                4994100L                 
+98                        5L                       5602368.5                515L                     45L                      5604337.5                5606500L                 
+99                        5L                       5061063.5                515L                     45L                      5062846.0                5064800L                 
+100                       5L                       4643803.5                515L                     45L                      4645426.0                4647200L                 
+101                       3L                       3553298.25               309L                     27L                      3554541.75               3555900L                 
+102                       5L                       5912261.0                515L                     45L                      5914328.0                5916600L                 
+103                       5L                       5283622.0                515L                     45L                      5285470.0                5287500L                 
+104                       5L                       5598867.0                515L                     45L                      5600837.5                5603000L                 
+[34m sum                      150L                     175269718.984375         15450L                   1350L                    175331035.453125         175398300L                [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_PSweights_13TeV-powheg-pythia8/tree_0ff4a5ae4861cb4e8e2c2021172c4e0b7219ab14abec725bafa62004_000000_000000_0000_0_ced81cb726d896db68a2e49094ad9a8885a10fd36dbbe6d2fec21e6a.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 12:35:00 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 1 (=1.0 %, ETA: 0.3 min, INPUT: 205.496935057/s, OUTPUT: 199.625594056/s )
+INFO: switching trees --> 2 (=1.9 %, ETA: 0.3 min, INPUT: 135.32387193/s, OUTPUT: 132.023289688/s )
+INFO: switching trees --> 3 (=2.9 %, ETA: 0.3 min, INPUT: 150.282506227/s, OUTPUT: 148.039483746/s )
+INFO: switching trees --> 4 (=3.8 %, ETA: 0.2 min, INPUT: 171.252777564/s, OUTPUT: 169.522951528/s )
+INFO: switching trees --> 5 (=4.8 %, ETA: 0.2 min, INPUT: 148.500775883/s, OUTPUT: 147.086482779/s )
+INFO: switching trees --> 6 (=5.8 %, ETA: 0.2 min, INPUT: 158.596550603/s, OUTPUT: 157.404095335/s )
+INFO: switching trees --> 7 (=6.7 %, ETA: 0.2 min, INPUT: 148.645910995/s, OUTPUT: 147.627788317/s )
+INFO: switching trees --> 8 (=7.7 %, ETA: 0.2 min, INPUT: 152.426943147/s, OUTPUT: 151.545862551/s )
+INFO: switching trees --> 9 (=8.7 %, ETA: 0.2 min, INPUT: 143.883067865/s, OUTPUT: 143.137559742/s )
+INFO: switching trees --> 10 (=9.6 %, ETA: 0.2 min, INPUT: 146.15456408/s, OUTPUT: 145.493231211/s )
+INFO: switching trees --> 11 (=10.6 %, ETA: 0.2 min, INPUT: 141.122092431/s, OUTPUT: 140.526640565/s )
+INFO: switching trees --> 12 (=11.5 %, ETA: 0.2 min, INPUT: 137.981909251/s, OUTPUT: 137.438673388/s )
+INFO: switching trees --> 13 (=12.5 %, ETA: 0.2 min, INPUT: 140.80096795/s, OUTPUT: 140.29989689/s )
+INFO: switching trees --> 14 (=13.5 %, ETA: 0.2 min, INPUT: 139.509908011/s, OUTPUT: 139.044874985/s )
+INFO: switching trees --> 15 (=14.4 %, ETA: 0.2 min, INPUT: 133.763262172/s, OUTPUT: 133.334533768/s )
+INFO: switching trees --> 16 (=15.4 %, ETA: 0.2 min, INPUT: 133.644888508/s, OUTPUT: 133.245948542/s )
+INFO: switching trees --> 17 (=16.3 %, ETA: 0.2 min, INPUT: 132.235369864/s, OUTPUT: 131.858630918/s )
+INFO: switching trees --> 18 (=17.3 %, ETA: 0.2 min, INPUT: 131.972351129/s, OUTPUT: 131.616630506/s )
+INFO: switching trees --> 19 (=18.3 %, ETA: 0.2 min, INPUT: 134.724987771/s, OUTPUT: 134.393968145/s )
+INFO: switching trees --> 20 (=19.2 %, ETA: 0.2 min, INPUT: 133.553544438/s, OUTPUT: 133.237815019/s )
+INFO: switching trees --> 21 (=20.2 %, ETA: 0.2 min, INPUT: 133.238204131/s, OUTPUT: 132.93676023/s )
+INFO: switching trees --> 22 (=21.2 %, ETA: 0.2 min, INPUT: 133.243818361/s, OUTPUT: 132.955411827/s )
+INFO: switching trees --> 23 (=22.1 %, ETA: 0.2 min, INPUT: 133.371739185/s, OUTPUT: 133.095607219/s )
+INFO: switching trees --> 24 (=23.1 %, ETA: 0.2 min, INPUT: 132.994688748/s, OUTPUT: 132.730285788/s )
+INFO: switching trees --> 25 (=24.0 %, ETA: 0.2 min, INPUT: 136.600461766/s, OUTPUT: 136.347028627/s )
+INFO: switching trees --> 26 (=25.0 %, ETA: 0.2 min, INPUT: 137.06647923/s, OUTPUT: 136.826011722/s )
+INFO: switching trees --> 27 (=26.0 %, ETA: 0.2 min, INPUT: 138.101732751/s, OUTPUT: 137.869238252/s )
+INFO: switching trees --> 28 (=26.9 %, ETA: 0.2 min, INPUT: 134.360174091/s, OUTPUT: 134.135115173/s )
+INFO: switching trees --> 29 (=27.9 %, ETA: 0.2 min, INPUT: 134.035717939/s, OUTPUT: 133.818127488/s )
+INFO: switching trees --> 30 (=28.8 %, ETA: 0.2 min, INPUT: 135.568134822/s, OUTPUT: 135.357625295/s )
+INFO: switching trees --> 31 (=29.8 %, ETA: 0.2 min, INPUT: 136.235196686/s, OUTPUT: 136.031251781/s )
+INFO: switching trees --> 33 (=31.7 %, ETA: 0.2 min, INPUT: 134.972024288/s, OUTPUT: 134.774696767/s )
+INFO: switching trees --> 34 (=32.7 %, ETA: 0.2 min, INPUT: 133.814129423/s, OUTPUT: 133.624590996/s )
+INFO: switching trees --> 35 (=33.7 %, ETA: 0.2 min, INPUT: 133.346138131/s, OUTPUT: 133.163221618/s )
+INFO: switching trees --> 36 (=34.6 %, ETA: 0.2 min, INPUT: 133.683669375/s, OUTPUT: 133.506134621/s )
+INFO: switching trees --> 37 (=35.6 %, ETA: 0.2 min, INPUT: 132.716339649/s, OUTPUT: 132.545533549/s )
+INFO: switching trees --> 38 (=36.5 %, ETA: 0.2 min, INPUT: 131.532993887/s, OUTPUT: 131.368165573/s )
+INFO: switching trees --> 39 (=37.5 %, ETA: 0.2 min, INPUT: 132.51231763/s, OUTPUT: 132.35150171/s )
+INFO: switching trees --> 40 (=38.5 %, ETA: 0.2 min, INPUT: 131.361425281/s, OUTPUT: 131.20429439/s )
+INFO: switching trees --> 41 (=39.4 %, ETA: 0.2 min, INPUT: 131.449137954/s, OUTPUT: 131.295396273/s )
+INFO: switching trees --> 42 (=40.4 %, ETA: 0.2 min, INPUT: 130.148845858/s, OUTPUT: 129.998558507/s )
+INFO: switching trees --> 43 (=41.3 %, ETA: 0.2 min, INPUT: 130.392245073/s, OUTPUT: 130.245406959/s )
+INFO: switching trees --> 44 (=42.3 %, ETA: 0.2 min, INPUT: 130.568120048/s, OUTPUT: 130.424638598/s )
+INFO: switching trees --> 45 (=43.3 %, ETA: 0.2 min, INPUT: 131.829484457/s, OUTPUT: 131.690276976/s )
+INFO: switching trees --> 46 (=44.2 %, ETA: 0.2 min, INPUT: 133.753701269/s, OUTPUT: 133.617495871/s )
+INFO: switching trees --> 47 (=45.2 %, ETA: 0.2 min, INPUT: 133.638670174/s, OUTPUT: 133.505165009/s )
+INFO: switching trees --> 48 (=46.2 %, ETA: 0.1 min, INPUT: 132.042980117/s, OUTPUT: 131.911985098/s )
+INFO: switching trees --> 49 (=47.1 %, ETA: 0.1 min, INPUT: 131.80154112/s, OUTPUT: 131.673079579/s )
+INFO: switching trees --> 50 (=48.1 %, ETA: 0.1 min, INPUT: 132.50136159/s, OUTPUT: 132.375289885/s )
+INFO: switching trees --> 51 (=49.0 %, ETA: 0.1 min, INPUT: 132.037329619/s, OUTPUT: 131.913583293/s )
+INFO: switching trees --> 52 (=50.0 %, ETA: 0.1 min, INPUT: 132.034882143/s, OUTPUT: 131.91341491/s )
+INFO: switching trees --> 53 (=51.0 %, ETA: 0.1 min, INPUT: 133.396539855/s, OUTPUT: 133.277222735/s )
+INFO: switching trees --> 54 (=51.9 %, ETA: 0.1 min, INPUT: 131.862257837/s, OUTPUT: 131.745046941/s )
+INFO: switching trees --> 55 (=52.9 %, ETA: 0.1 min, INPUT: 132.030482/s, OUTPUT: 131.916169894/s )
+INFO: switching trees --> 56 (=53.8 %, ETA: 0.1 min, INPUT: 132.156041738/s, OUTPUT: 132.0439501/s )
+INFO: switching trees --> 57 (=54.8 %, ETA: 0.1 min, INPUT: 130.74577923/s, OUTPUT: 130.635631143/s )
+INFO: switching trees --> 58 (=55.8 %, ETA: 0.1 min, INPUT: 130.770563171/s, OUTPUT: 130.662398933/s )
+INFO: switching trees --> 59 (=56.7 %, ETA: 0.1 min, INPUT: 130.330036006/s, OUTPUT: 130.224076627/s )
+INFO: switching trees --> 60 (=57.7 %, ETA: 0.1 min, INPUT: 131.601981241/s, OUTPUT: 131.498030229/s )
+INFO: switching trees --> 61 (=58.7 %, ETA: 0.1 min, INPUT: 131.45987243/s, OUTPUT: 131.357648579/s )
+INFO: switching trees --> 62 (=59.6 %, ETA: 0.1 min, INPUT: 132.448969475/s, OUTPUT: 132.349007989/s )
+INFO: switching trees --> 63 (=60.6 %, ETA: 0.1 min, INPUT: 133.195092113/s, OUTPUT: 133.096647847/s )
+INFO: switching trees --> 64 (=61.5 %, ETA: 0.1 min, INPUT: 131.781456461/s, OUTPUT: 131.684415624/s )
+INFO: switching trees --> 65 (=62.5 %, ETA: 0.1 min, INPUT: 132.33495801/s, OUTPUT: 132.239340266/s )
+INFO: switching trees --> 66 (=63.5 %, ETA: 0.1 min, INPUT: 132.647790583/s, OUTPUT: 132.553513546/s )
+INFO: switching trees --> 67 (=64.4 %, ETA: 0.1 min, INPUT: 132.955296079/s, OUTPUT: 132.862320348/s )
+INFO: switching trees --> 68 (=65.4 %, ETA: 0.1 min, INPUT: 133.069007317/s, OUTPUT: 132.977235587/s )
+INFO: switching trees --> 69 (=66.3 %, ETA: 0.1 min, INPUT: 130.94754009/s, OUTPUT: 130.857355834/s )
+INFO: switching trees --> 70 (=67.3 %, ETA: 0.1 min, INPUT: 131.310945052/s, OUTPUT: 131.222101381/s )
+INFO: switching trees --> 71 (=68.3 %, ETA: 0.1 min, INPUT: 130.93626049/s, OUTPUT: 130.849027805/s )
+INFO: switching trees --> 72 (=69.2 %, ETA: 0.1 min, INPUT: 131.159167811/s, OUTPUT: 131.073105365/s )
+INFO: switching trees --> 73 (=70.2 %, ETA: 0.1 min, INPUT: 130.930487481/s, OUTPUT: 130.845852389/s )
+INFO: switching trees --> 74 (=71.2 %, ETA: 0.1 min, INPUT: 131.521040637/s, OUTPUT: 131.437482161/s )
+INFO: switching trees --> 75 (=72.1 %, ETA: 0.1 min, INPUT: 131.288372941/s, OUTPUT: 131.205801637/s )
+INFO: switching trees --> 76 (=73.1 %, ETA: 0.1 min, INPUT: 130.81813742/s, OUTPUT: 130.736630792/s )
+INFO: switching trees --> 77 (=74.0 %, ETA: 0.1 min, INPUT: 131.206301548/s, OUTPUT: 131.12590553/s )
+INFO: switching trees --> 78 (=75.0 %, ETA: 0.1 min, INPUT: 130.553751198/s, OUTPUT: 130.474723503/s )
+INFO: switching trees --> 79 (=76.0 %, ETA: 0.1 min, INPUT: 130.232085657/s, OUTPUT: 130.154335159/s )
+INFO: switching trees --> 80 (=76.9 %, ETA: 0.1 min, INPUT: 129.851936039/s, OUTPUT: 129.775417515/s )
+INFO: switching trees --> 81 (=77.9 %, ETA: 0.1 min, INPUT: 129.292849722/s, OUTPUT: 129.217195626/s )
+INFO: switching trees --> 82 (=78.8 %, ETA: 0.1 min, INPUT: 128.723632338/s, OUTPUT: 128.648879939/s )
+INFO: switching trees --> 83 (=79.8 %, ETA: 0.1 min, INPUT: 129.109973011/s, OUTPUT: 129.036026864/s )
+INFO: switching trees --> 84 (=80.8 %, ETA: 0.1 min, INPUT: 127.988157274/s, OUTPUT: 127.914979369/s )
+INFO: switching trees --> 85 (=81.7 %, ETA: 0.1 min, INPUT: 128.33766755/s, OUTPUT: 128.265283079/s )
+INFO: switching trees --> 86 (=82.7 %, ETA: 0.0 min, INPUT: 127.934141633/s, OUTPUT: 127.862509975/s )
+INFO: switching trees --> 87 (=83.7 %, ETA: 0.0 min, INPUT: 127.880030007/s, OUTPUT: 127.809143072/s )
+INFO: switching trees --> 88 (=84.6 %, ETA: 0.0 min, INPUT: 127.345413555/s, OUTPUT: 127.275212115/s )
+INFO: switching trees --> 89 (=85.6 %, ETA: 0.0 min, INPUT: 126.656018355/s, OUTPUT: 126.586503526/s )
+INFO: switching trees --> 90 (=86.5 %, ETA: 0.0 min, INPUT: 126.261482547/s, OUTPUT: 126.192862176/s )
+INFO: switching trees --> 91 (=87.5 %, ETA: 0.0 min, INPUT: 125.838439782/s, OUTPUT: 125.770565759/s )
+INFO: switching trees --> 92 (=88.5 %, ETA: 0.0 min, INPUT: 125.177915103/s, OUTPUT: 125.110831547/s )
+INFO: switching trees --> 93 (=89.4 %, ETA: 0.0 min, INPUT: 129.740294211/s, OUTPUT: 129.674469607/s )
+INFO: switching trees --> 94 (=90.4 %, ETA: 0.0 min, INPUT: 134.276616641/s, OUTPUT: 134.212430877/s )
+INFO: switching trees --> 95 (=91.3 %, ETA: 0.0 min, INPUT: 138.64513888/s, OUTPUT: 138.581888361/s )
+INFO: switching trees --> 96 (=92.3 %, ETA: 0.0 min, INPUT: 142.28330278/s, OUTPUT: 142.221116022/s )
+INFO: switching trees --> 97 (=93.3 %, ETA: 0.0 min, INPUT: 145.56197918/s, OUTPUT: 145.501023577/s )
+INFO: switching trees --> 98 (=94.2 %, ETA: 0.0 min, INPUT: 148.70081295/s, OUTPUT: 148.641069755/s )
+INFO: switching trees --> 99 (=95.2 %, ETA: 0.0 min, INPUT: 150.847005875/s, OUTPUT: 150.788150235/s )
+INFO: switching trees --> 100 (=96.2 %, ETA: 0.0 min, INPUT: 152.943661306/s, OUTPUT: 152.885662193/s )
+INFO: switching trees --> 101 (=97.1 %, ETA: 0.0 min, INPUT: 153.732565824/s, OUTPUT: 153.675224322/s )
+INFO: switching trees --> 102 (=98.1 %, ETA: 0.0 min, INPUT: 157.180359151/s, OUTPUT: 157.123758373/s )
+INFO: switching trees --> 103 (=99.0 %, ETA: 0.0 min, INPUT: 159.639741456/s, OUTPUT: 159.584001323/s )
+INFO: end of processing. time  Tue Feb 15 12:35:18 2022
+INFO: throughput: INPUT: 164.2955/s, OUTPUT: 164.2955/s 
+INFO: number of trees processed: 103
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:35:19 2022  events read: 2957
+ > [34m[0m 2957 (100.0%) => /scratch/fglessge//hadd/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_PSweights_13TeV-powheg-pythia8/tree_0ff4a5ae4861cb4e8e2c2021172c4e0b7219ab14abec725bafa62004_000000_000000_0000_0_ced81cb726d896db68a2e49094ad9a8885a10fd36dbbe6d2fec21e6a.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//ST_t-channel_top_4f_InclusiveDecays_TuneCP5_PSweights_13TeV-powheg-pythia8/tree_0ff4a5ae4861cb4e8e2c2021172c4e0b7219ab14abec725bafa62004_000000_000000_0000_0_ced81cb726d896db68a2e49094ad9a8885a10fd36dbbe6d2fec21e6a.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:35:20
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

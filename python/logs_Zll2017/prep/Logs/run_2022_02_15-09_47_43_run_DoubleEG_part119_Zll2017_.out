@@ -1,0 +1,99 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn52
+User: fglessge
+StartTime: 2022-02-15 09:53:05
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections Prep.Step2 --fileList base64:eNoVycsKwjAQBdAvqncmBlv31boScdFtMDIkQsmEPAT/Xro9B7VpEYSiPSPHX3XxE0JF9B6p9bxJxXrz/qG13V9JYYhHrMyYtftNLguePe14HfZnO8vbEE/DlycLPpM1J8fEhkYQEaEVEWeOh6La/phlJ4c= --sampleIdentifier DoubleEG --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//prep/config//submission_20220215_094743.ini --inputDir PREPout --outputDir PREP2out
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+Error in <TTreeFormula::Compile>:  Bad numerical expression : "GenPart_pdgId"
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleEG/Run2017F-Nano14Dec2018-v184/190426_101207/0000/tree_23.root
+INput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prepS1/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prepS2/
+collections to add: ['Prep.Step2']
+after parsing: ['VHbbCommon.METXY', 'Prep.Selection', 'VHbbCommon.isData', 'VHbbCommon.isSignal', 'VHbbCommon.isWH', 'VHbbCommon.isZH', 'VHbbCommon.HeppyStyleGen', 'VHbbCommon.genBstatus']
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      
+[34m sum                      29655782L                 [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: sample identifier: DoubleEG  lep flav {'SingleElectron': 3, 'MET': 4, 'SingleMuon': 2, 'DoubleMuon': 0, 'DoubleEG': 1}  ->  1
+ > METXY:0
+ > VHbbSelection:7
+ > PerSampleWeight:0
+ > PerSampleWeight:0
+ > PerSampleWeight:0
+ > PerSampleWeight:0
+ > HeppyStyleGen:4
+ > BranchTools:0
+OUTPUT TREES:
+ >  /scratch/fglessge//DoubleEG/bcbfc570b93b4c918c738c08560425eb/tree_Run2017F-Nano14Dec2018-v184_190426_101207_0000_23_098cd37bf49cd29585f3a95be8c8f33d36b9193c2fba3bf990d09288.root  <==    cut:  '1'
+FORMULAS:
+ > [35m Sum$((int(abs(GenPart_pdgId)/100)==5||int(abs(GenPart_pdgId)/1000)==5)&&GenPart_status==2) [0m ==>  <ROOT.TTreeFormula object ("Sum$((int(abs(GenPart_pdgId)/100)==5||int(abs(GenPart_pdgId)/1000)==5)&&GenPart_status==2)") at 0x6fed040>
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'abs', 'GenPart_pdgId', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'int', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'GenPart_status', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: MET_Pt_uncorrected, MET_Phi_uncorrected, isZee, isZmm, isWmunu, isWenu, isZnn, vLidx, hJidx, Hbb_fjidx, lepMetDPhi, V_mt, V_pt, V_eta, V_phi, V_mass, isData, isSignal, isWH, isZH, nGenStatus2bHad
+ADD NEW BRANCHES:
+ > [32mMET_Pt_uncorrected            [0m function:[33mgetBranch[0m
+ > [32mMET_Phi_uncorrected           [0m function:[33mgetBranch[0m
+ > [32misZee                         [0m function:[33mgetBranch[0m
+ > [32misZmm                         [0m function:[33mgetBranch[0m
+ > [32misWmunu                       [0m function:[33mgetBranch[0m
+ > [32misWenu                        [0m function:[33mgetBranch[0m
+ > [32misZnn                         [0m function:[33mgetBranch[0m
+ > [32mvLidx[2]                      [0m function:[33mfillVectorBranch[0m
+ > [32mhJidx[2]                      [0m function:[33mfillVectorBranch[0m
+ > [32mHbb_fjidx                     [0m function:[33mgetBranch[0m
+ > [32mlepMetDPhi                    [0m function:[33mgetBranch[0m
+ > [32mV_mt                          [0m function:[33mgetBranch[0m
+ > [32mV_pt                          [0m function:[33mgetBranch[0m
+ > [32mV_eta                         [0m function:[33mgetBranch[0m
+ > [32mV_phi                         [0m function:[33mgetBranch[0m
+ > [32mV_mass                        [0m function:[33mgetBranch[0m
+ > [32misData                        [0m function:[33mgetTheWeight[0m
+ > [32misSignal                      [0m function:[33mgetTheWeight[0m
+ > [32misWH                          [0m function:[33mgetTheWeight[0m
+ > [32misZH                          [0m function:[33mgetTheWeight[0m
+ > [32mnGenStatus2bHad               [0m function:[33m<lambda>[0m
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 09:53:08 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Tue Feb 15 09:53:22 2022
+INFO: throughput: INPUT: 516.8342/s, OUTPUT: 256.4792/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 09:53:22 2022  events read: 6934
+ > [34m[0m 3441 (49.6250360542%) => /scratch/fglessge//DoubleEG/bcbfc570b93b4c918c738c08560425eb/tree_Run2017F-Nano14Dec2018-v184_190426_101207_0000_23_098cd37bf49cd29585f3a95be8c8f33d36b9193c2fba3bf990d09288.root
+INFO: statistics:
+  pass_boosted :  35.0
+  pass_tagger_Jet_btagDeepB :  3440.0
+cut-flow:
+  beginning           6934
+  HLT                 6934
+  Leptons             6934
+  Channel             6934
+  Vector boson        6934
+  Vpt                 6934
+  Jets                3441
+  end                 3441
+efficiency: 0.496250360542
+copy  /scratch/fglessge//DoubleEG/bcbfc570b93b4c918c738c08560425eb/tree_Run2017F-Nano14Dec2018-v184_190426_101207_0000_23_098cd37bf49cd29585f3a95be8c8f33d36b9193c2fba3bf990d09288.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prepS2//DoubleEG/tree_Run2017F-Nano14Dec2018-v184_190426_101207_0000_23_098cd37bf49cd29585f3a95be8c8f33d36b9193c2fba3bf990d09288.root
+INFO: max memory used (MB): 178.5
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 09:53:22
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

@@ -1,0 +1,25 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn35
+User: fglessge
+StartTime: 2022-02-15 09:47:46
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections Prep.Step2 --fileList base64:eNoVzN0KgjAUAOAnsnPONLXLUEJvysK8HRuNTbBt7Cfw7cPvAT6IyQUFOrjswZs9crNqHcFICTZlv6kIyyDl5GK6C+uAITWwEMGz6/kwM8TkSkQ+Z6u66cypnNVSfMVHB+FN4fdkVtHCK9txvIlto+Zoro/+VxXT+9g4sbYGumDFak5EZUWAiAgpKMXpFJxLf4r9NUs= --sampleIdentifier QCD_HT200to300_TuneCP5_13TeV-madgraph-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//prep/config//submission_20220215_094743.ini --inputDir PREPout --outputDir PREP2out
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/QCD_HT200to300_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17NanoAODv4-PU2017_1286/190426_111341/0000/tree_1.root
+INput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prepS1/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prepS2/
+collections to add: ['Prep.Step2']
+after parsing: ['VHbbCommon.METXY', 'Prep.Selection', 'VHbbCommon.isData', 'VHbbCommon.isSignal', 'VHbbCommon.isWH', 'VHbbCommon.isZH', 'VHbbCommon.HeppyStyleGen', 'VHbbCommon.genBstatus']
+SKIP: ['/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/QCD_HT200to300_TuneCP5_13TeV-madgraph-pythia8/RunIIFall17NanoAODv4-PU2017_1286/190426_111341/0000/tree_1.root']
+INFO: max memory used (MB): 134.5
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 09:48:02
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

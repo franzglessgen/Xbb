@@ -1,0 +1,93 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: cachetraining
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn51
+User: fglessge
+StartTime: 2022-02-22 11:34:30
+
+Parsing files in Zll2017config...
+
+python ./cache_training.py --trainingRegions BDT_VZ_Zll_BOOSTFinal_wdB --splitFilesChunkSize 3 --splitFilesChunks 12 --chunkNumber 6 --fileList base64:eNrV0LtuG0EMBdAvsoaPeXCc0k2KwBAQwUWaBTnDkQQoWmF3FSN/H0RpUvgHzOYSt7tnmeftOYSNe9N28m7Au9t63rXTM0KNIdyuYw3/mtB+rmFbzr+abmHd5sXDffUljOPF1/Xo4e2rWfhxuTye/bxur3qdCbBMb4iBgGCCPIEEm+d1C4fDYaZv9HqfDverv+zTtP/+7ufjaVsn5IO/Pd3m95Mfn26/t9NZJWyL+9SQc8Thwg4pocWejRukkrF3rmBZJCuKdimVO2hVHEw2weP+jwnTFLFEiTVhK1BHVoBkhj1RjdFHZ0uMSQpYpMGtDKPEqIV3yzxvX5ZPx1dbchHOpjZwcM4xgjQbNTXN0EnIunYsg9QqcAInx1bwQ748dSABq2YjQy2xavIimqWQp6hDcDRE1dE8csPWKhTp0vCz8gl36gzWmAYhA/7dOoAGjOg1GzJ2LK0RNQQsSIoKXdKHfGWyiimSUPYkRSOIkdYIhfqoXlQq5G4Fs6vH0ign5eKW+4PvDyKhJwk= --sampleIdentifier TTTo2L2Nu_TuneCP5_PSweights_13TeV-powheg-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//cachetraining-v1/config//submission_20220222_113422.ini
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> DoubleMu*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *BDT*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> top_mass2_05_neutrino*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *DNN*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> FitCorr*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> nAddJet*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> DoubleMu*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *BDT*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> top_mass2_05_neutrino*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *DNN*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> FitCorr*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> nAddJet*
+REGION:                  CUT:
+ >  BDT_VZ_Zll_BOOSTFinal_wdB (((Hbb_fjidx>-1) && (!(resolvedSR_VZ||resolvedCR_VZ)||(boostedSR_VZ&&resolvedCR_VZ))) && ((FatJet_Pt[Hbb_fjidx]>250 && abs(FatJet_eta[Hbb_fjidx])<2.5 && V_pt>250) && (V_mass>75 && V_mass<105) && FatJet_deepTagMD_bbvsLight[Hbb_fjidx]>0.8) && (FatJet_Msoftdrop[Hbb_fjidx] > 60 && FatJet_Msoftdrop[Hbb_fjidx] < 120))
+********************************************************************************
+  TTTo2L2Nu_TuneCP5_PSweights_13TeV-powheg-pythia8
+********************************************************************************
+DOES NOT EXIST: /scratch/fglessge/
+INFO: found  36  files.
+INFO: reading part  6  of  12
+INFO: # files chained: 3
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       6664380928.0             33L                      9L                       90955728.0               1261936L                 
+2                         1L                       5326746112.0             33L                      9L                       72713664.0               1008650L                 
+3                         1L                       4891449344.0             33L                      9L                       66764456.0               926240L                  
+[34m sum                      3L                       16882576384.0            99L                      27L                      230433848.0              3196826L                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+[32mDEBUG: output file for  TT_2l2n[(!((event%2)==0||isData))&&((((Hbb_fjidx>-1)&&(!(r...]of12  is  /scratch/fglessge//tmp_e20374fd6438fd4d20b4ac726a3dce357e68e89487e1e4509ea37cf6_6of12.root [0m
+[32mDEBUG: output file for  TT_2l2n[((((Hbb_fjidx>-1)&&(!(resolvedSR_VZ||resolvedCR_VZ...]of12  is  /scratch/fglessge//tmp_7988e990e45a4232c87d24d08bc7265fb4ec59670a3b9b73f3ea75c3_6of12.root [0m
+OUTPUT TREES:
+ >  /scratch/fglessge//tmp_e20374fd6438fd4d20b4ac726a3dce357e68e89487e1e4509ea37cf6_6of12.root  <==  BDT_VZ_Zll_BOOSTFinal_wdB_TT_2l2n_TRAIN  cut:  ['1', '!((event%2)==0||isData)', '(((Hbb_fjidx>-1)...(299 more chars)
+ >  /scratch/fglessge//tmp_7988e990e45a4232c87d24d08bc7265fb4ec59670a3b9b73f3ea75c3_6of12.root  <==  BDT_VZ_Zll_BOOSTFinal_wdB_TT_2l2n_EVAL  cut:  ['1', '((event%2)==0||isData)', '(((Hbb_fjidx>-1) ...(298 more chars)
+FORMULAS:
+listOfBranchesToKeep    ['boostedSR_VZ', 'muonSF_trigger', 'weight*', 'nGen*', 'FatJet_Msoftdrop', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', 'hJets_FSRrecovered_dEta', '*BDT*', 'Pileup_nTrueInt', 'resolvedCR_VZ', 'boostedSR', 'resolvedSR', 'weightJetPUID', 'muonSF*', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'SA5', 'bTagWeightDoubleB', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'hJets_1_pt_FSRrecovered', 'electronSF', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'puWeightDown', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'abs', 'run', 'resolvedCR', 'V_phi', 'nAddLeptons', 'LHE_Nuds', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'V_mass', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'muonSF_Id', 'kinFit*', 'V_*', 'Vtype', 'FatJet_eta', 'MET_Pt', 'bTagWeightDeepCSV', 'LHE_weights_scale_wgt', 'resolvedSR_VZ', 'FatJet_Pt', 'DY_specialWeight', 'GenJet_eta', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', 'nGenBs', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'weightLOtoNLO_LHEVptV7', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'resolved*', 'FatJet_phi', 'EWKW', 'FatJet_deepTagMD_bbvsLight', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'EWKwVJets', 'luminosityBlock', 'hJidx', 'EWKw', 'TVector2', 'FitCorr*', 'muonSF_Iso', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'Jet_jetId', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'hJets_0_pt_FSRrecovered', 'min', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'Phi_mpi_pi', 'genWeight', 'H_pt_noFSR', 'V_pt', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'max', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: reduced number of enabled branches from 3710  to 113  (branches with wildcards may not be correctly counted)
+INFO: branches: 111 branches: [35mweightLOtoNLO[0m, [35mboosted[0m, [35mVtype[0m, [35mweight[0m, [35mis[0m, [35mnGenStatus2bHad[0m, [35mEWKwVJets[0m, [35mbtagWeight[0m, 4 like [34mmuonSF_*[0m, [35mbTagWeightDeepCSV[0m, [35mDY[0m, [35mvLidx[0m, [35melectronSF[0m, [35mevent[0m, [35mpuWeightUp[0m, [35mnGenBs[0m, 9 like [34mJet_*[0m, 3 like [34mMET_*[0m, [35mtop[0m, 3 like [34mGenJet_*[0m, [35mkinFit[0m, 2 like [34mboostedSR_*[0m, 3 like [34mhJets_*[0m, [35mElectron[0m, [35mMETFix[0m, 7 like [34mH_*[0m, 2 like [34mresolvedSR_*[0m, [35mweightJetPUID[0m, [35mGenPart[0m, [35mgenWeight[0m, [35mresolved[0m, 7 like [34mLHE_*[0m, [35mnAddLeptons[0m, [35mrun[0m, [35msampleIndex[0m, 2 like [34mresolvedCR_*[0m, [35mDNN[0m, [35mFitCorr[0m, [35mHbb[0m, [35mBDT[0m, [35melectron[0m, [35mnFSRrecovered[0m, [35mPrefireWeight[0m, 4 like [34mV_*[0m, [35mDoubleMu[0m, [35mSA5[0m, [35mbTagWeightDoubleB[0m, [35mGenJetAK8[0m, [35misData[0m, [35mpuWeight[0m, [35mfixedGridRhoFastjetAll[0m, 9 like [34mHLT_*[0m, [35mnGen[0m, [35mbTagWeight[0m, [35mpuWeightDown[0m, [35mLHEScaleWeight[0m, 5 like [34mFatJet_*[0m, [35mluminosityBlock[0m, [35mhJidx[0m, [35mPileup[0m, [35mEWKw[0m, [35mSoftActivity[0m, [35mGenB[0m, [35mnAddJet[0m
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 22 11:34:46 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> DoubleMu*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *BDT*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> top_mass2_05_neutrino*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *DNN*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> FitCorr*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> nAddJet*
+INFO: switching trees --> 1 (=33.3 %, ETA: 2.5 min, INPUT: 616.645581142/s, OUTPUT: 0.0/s )
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> DoubleMu*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *BDT*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> top_mass2_05_neutrino*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> *DNN*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> FitCorr*
+Error in <TTree::SetBranchStatus>: No branch name is matching wildcard -> nAddJet*
+INFO: switching trees --> 2 (=66.7 %, ETA: 0.9 min, INPUT: 771.644612658/s, OUTPUT: 0.0185558401505/s )
+INFO: end of processing. time  Tue Feb 22 11:36:54 2022
+INFO: throughput: INPUT: 918.0055/s, OUTPUT: 0.0235/s 
+INFO: number of trees processed: 3
+INFO: files written
+INFO: saveMemory is  True
+INFO: trees in memory destroyed!
+DEBUG: max mem used A: 286292
+DEBUG: max mem used B: 286292
+copy  /scratch/fglessge//tmp_e20374fd6438fd4d20b4ac726a3dce357e68e89487e1e4509ea37cf6_6of12.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_e20374fd6438fd4d20b4ac726a3dce357e68e89487e1e4509ea37cf6_6of12.root
+DELETE: /scratch/fglessge//tmp_e20374fd6438fd4d20b4ac726a3dce357e68e89487e1e4509ea37cf6_6of12.root
+DEBUG: max mem used A: 286292
+DEBUG: max mem used B: 286292
+copy  /scratch/fglessge//tmp_7988e990e45a4232c87d24d08bc7265fb4ec59670a3b9b73f3ea75c3_6of12.root  to  root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/tmp///tmp_7988e990e45a4232c87d24d08bc7265fb4ec59670a3b9b73f3ea75c3_6of12.root
+DELETE: /scratch/fglessge//tmp_7988e990e45a4232c87d24d08bc7265fb4ec59670a3b9b73f3ea75c3_6of12.root
+INFO: done. time  Tue Feb 22 11:36:54 2022  events read: 117319
+ > [34mBDT_VZ_Zll_BOOSTFinal_wdB_TT_2l2n_TRAIN[0m 2 (0.00170475370571%) => /scratch/fglessge//tmp_e20374fd6438fd4d20b4ac726a3dce357e68e89487e1e4509ea37cf6_6of12.root
+ > [34mBDT_VZ_Zll_BOOSTFinal_wdB_TT_2l2n_EVAL[0m 1 (0.000852376852854%) => /scratch/fglessge//tmp_7988e990e45a4232c87d24d08bc7265fb4ec59670a3b9b73f3ea75c3_6of12.root
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-22 11:36:54
+duration (real time): 2 minutes
+--- OK ---
+
+Exiting runAll.sh
+

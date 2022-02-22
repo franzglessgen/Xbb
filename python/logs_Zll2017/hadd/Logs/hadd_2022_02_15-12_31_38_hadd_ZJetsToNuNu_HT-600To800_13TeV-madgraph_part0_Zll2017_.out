@@ -1,0 +1,61 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn35
+User: fglessge
+StartTime: 2022-02-15 12:34:32
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrN07sKwkAQheEnijOzuRmsBJHEIgaJKWyWBJeNELNhL4JvL8HGxn4e4By+5gfnjVWgrQkLLOPbyfGhtYNxGGD2YZmUg64chsY4X/ezAYGUQ0cEt5PyrjV1qIMs2yhDbM0WUVLcqi569ndt+2WES5ir6thPE+Xrfn8+vJKoua43kkSRAxWYYiEppYwQEBHBW6UkbawxfgdsgYI7MOYOTLgDU+7AjAdw+wPMKeFX8X+g4A6MuQMT7sCUO/Bb8QfK4Ge2 --sampleIdentifier ZJetsToNuNu_HT-600To800_13TeV-madgraph --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 12
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       1090715.0                33L                      9L                       1084295.0                1090715L                 
+2                         1L                       1234410.0                33L                      9L                       1227218.0                1234410L                 
+3                         1L                       938652.0                 33L                      9L                       933170.0                 938652L                  
+4                         1L                       167023.0                 33L                      9L                       166111.0                 167023L                  
+5                         1L                       1180038.0                33L                      9L                       1173226.0                1180038L                 
+6                         1L                       1086756.0                33L                      9L                       1080622.0                1086756L                 
+7                         1L                       1726821.0                33L                      9L                       1716519.0                1726821L                 
+8                         1L                       1177116.0                33L                      9L                       1170256.0                1177116L                 
+9                         1L                       674535.0                 33L                      9L                       670521.0                 674535L                  
+10                        1L                       853757.0                 33L                      9L                       848683.0                 853757L                  
+11                        1L                       1011041.0                33L                      9L                       1005179.0                1011041L                 
+12                        1L                       205971.0                 33L                      9L                       204763.0                 205971L                  
+[34m sum                      12L                      11346835.0               396L                     108L                     11280563.0               11346835L                 [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/ZJetsToNuNu_HT-600To800_13TeV-madgraph/tree_da488d706084164521f7d71a5d6a5beb023d3e5baa7d917dded691c4_000000_000000_0000_0_98bc072b14582210891f8fc710a7a41fc3d327b33862f95fda491602.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: switching trees --> 4 (=33.3 %, ETA: 0.4 min, INPUT: 0.0891828359086/s, OUTPUT: 0.0/s )
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 6 (=50.0 %, ETA: 0.2 min, INPUT: 0.263591159397/s, OUTPUT: 0.175727439598/s )
+INFO: switching trees --> 7 (=58.3 %, ETA: 0.1 min, INPUT: 0.347573181319/s, OUTPUT: 0.26067988599/s )
+INFO: switching trees --> 10 (=83.3 %, ETA: 0.0 min, INPUT: 0.51554094566/s, OUTPUT: 0.429617454717/s )
+INFO: end of processing. time  Tue Feb 15 12:34:47 2022
+INFO: throughput: INPUT: 0.5155/s, OUTPUT: 0.5155/s 
+INFO: number of trees processed: 4
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:34:47 2022  events read: 6
+ > [34m[0m 6 (100.0%) => /scratch/fglessge//hadd/ZJetsToNuNu_HT-600To800_13TeV-madgraph/tree_da488d706084164521f7d71a5d6a5beb023d3e5baa7d917dded691c4_000000_000000_0000_0_98bc072b14582210891f8fc710a7a41fc3d327b33862f95fda491602.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//ZJetsToNuNu_HT-600To800_13TeV-madgraph/tree_da488d706084164521f7d71a5d6a5beb023d3e5baa7d917dded691c4_000000_000000_0000_0_98bc072b14582210891f8fc710a7a41fc3d327b33862f95fda491602.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:34:47
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

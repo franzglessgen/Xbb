@@ -1,0 +1,1 @@
+/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/ST_t-channel_top_4f_InclusiveDecays_TuneCP5_PSweights_13TeV-powheg-pythia8/0ff4a5ae4861cb4e8e2c2021172c4e0b7219ab14abec725bafa62004/000000_000000/0000/tree_0.root

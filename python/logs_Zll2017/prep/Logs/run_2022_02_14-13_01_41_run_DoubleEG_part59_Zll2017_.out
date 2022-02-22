@@ -1,0 +1,308 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn30
+User: fglessge
+StartTime: 2022-02-14 14:21:30
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections Prep.Step1 --fileList base64:eNoVycsKwjAQBdAvqncmFG3WVnQl0kW3wciQCCUT8hD8+9LtOahNiyAU7Rk5/quL3xAqovdIredNKtaH9y+t7flOCkN8wcqMWbvf5HbH0tOB1+F4Hmf5GOJp+PHEYEujOTsmsoZARIRWRJw9FdW2A3EhJ1Y= --sampleIdentifier DoubleEG --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//prep/config//submission_20220214_130141.ini --inputDir PREPin --outputDir PREPout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+TClass::Init:0: RuntimeWarning: no dictionary for class ROOT::TIOFeatures is available
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleEG/Run2017C-Nano14Dec2018-v181/190426_100920/0000/tree_9.root
+INput samples:	root://eoscms.cern.ch/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting/
+collections to add: ['Prep.Step1']
+after parsing: ['VHbbCommon.Clean', 'VHbbCommon.JetSmearer', 'VHbbCommon.JECcorrelator', 'Prep.LeptonSelection']
+INFO: reading part  1  of  1
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//DoubleEG/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root, trying 2 more times...
+INFO: wait 1 seconds before trying again
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_VOMS_DIR = /etc/grid-security/vomsdir
+DEBUG: X509_USER_PROXY = /t3home/fglessge/.x509up_u742
+INFO: file was not found:root://eoscms.cern.ch//DoubleEG/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root, trying 1 more times...
+INFO: wait 2 seconds before trying again
+[31mERROR: file is missing: root://eoscms.cern.ch//DoubleEG/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root[0m
+INFO: # files chained: 0
+trying fallback... 1
+FO: root://eoscms.cern.ch///store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleEG/Run2017C-Nano14Dec2018-v181/190426_100920/0000/tree_9.root
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      
+1                         299368                   
+2                         299369                   
+3                         299370                   
+4                         299380                   
+5                         299395                   
+6                         299450                   
+7                         299479                   
+8                         299480                   
+9                         299481                   
+10                        299593                   
+11                        299594                   
+12                        299597                   
+13                        300087                   
+14                        300117                   
+15                        300122                   
+16                        300123                   
+17                        300155                   
+18                        300157                   
+19                        300226                   
+20                        300235                   
+21                        300236                   
+22                        300237                   
+23                        300280                   
+24                        300283                   
+25                        300284                   
+26                        300389                   
+27                        300400                   
+28                        300462                   
+29                        300466                   
+30                        300467                   
+31                        300497                   
+32                        300514                   
+33                        300515                   
+34                        300517                   
+35                        300558                   
+36                        300560                   
+37                        300575                   
+38                        300576                   
+39                        300631                   
+40                        300635                   
+41                        300636                   
+42                        300777                   
+43                        300785                   
+44                        300816                   
+45                        300817                   
+46                        301283                   
+47                        301298                   
+48                        301323                   
+49                        301359                   
+50                        301384                   
+51                        301392                   
+52                        301461                   
+53                        301472                   
+54                        301519                   
+55                        301531                   
+56                        301664                   
+57                        301665                   
+58                        301912                   
+59                        301914                   
+60                        301941                   
+61                        301959                   
+62                        301970                   
+63                        301984                   
+64                        301985                   
+65                        301986                   
+66                        301987                   
+67                        301997                   
+68                        301998                   
+69                        302029                   
+70                        299368                   
+71                        299369                   
+72                        299380                   
+73                        299395                   
+74                        299396                   
+75                        299450                   
+76                        299479                   
+77                        299480                   
+78                        299481                   
+79                        300087                   
+80                        300117                   
+81                        300122                   
+82                        300155                   
+83                        300226                   
+84                        300235                   
+85                        300237                   
+86                        300282                   
+87                        300284                   
+88                        300365                   
+89                        300389                   
+90                        300400                   
+91                        300459                   
+92                        300461                   
+93                        300462                   
+94                        300464                   
+95                        300466                   
+96                        300467                   
+97                        300497                   
+98                        300514                   
+99                        300515                   
+100                       300517                   
+101                       300558                   
+102                       300560                   
+103                       300575                   
+104                       300576                   
+105                       300631                   
+106                       300632                   
+107                       300633                   
+108                       300635                   
+109                       300636                   
+110                       300777                   
+111                       300780                   
+112                       300785                   
+113                       300806                   
+114                       300816                   
+115                       300817                   
+116                       301165                   
+117                       301180                   
+118                       301283                   
+119                       301298                   
+120                       301323                  TTree::SetBranchStatus:0: RuntimeWarning: No branch name is matching wildcard -> GenVisTau_*
+ 
+121                       301330                   
+122                       301359                   
+123                       301384                   
+124                       301392                   
+125                       301397                   
+126                       301447                   
+127                       301461                   
+128                       301472                   
+129                       301519                   
+130                       301524                   
+131                       301531                   
+132                       301567                   
+133                       301664                   
+134                       301665                   
+135                       301694                   
+136                       301912                   
+137                       301913                   
+138                       301914                   
+139                       301941                   
+140                       301959                   
+141                       301960                   
+142                       301984                   
+143                       301985                   
+144                       301986                   
+145                       301997                   
+146                       301998                   
+147                       302019                   
+148                       299369                   
+149                       299370                   
+150                       299380                   
+151                       299450                   
+152                       299481                   
+153                       299593                   
+154                       299594                   
+155                       299597                   
+156                       300087                   
+157                       300122                   
+158                       300123                   
+159                       300155                   
+160                       300157                   
+161                       300226                   
+162                       300234                   
+163                       300236                   
+164                       300237                   
+165                       300280                   
+166                       300283                   
+167                       300284                   
+168                       300389                   
+169                       300400                   
+170                       300459                   
+171                       300464                   
+172                       300467                   
+173                       300497                   
+174                       300515                   
+175                       300517                   
+176                       300558                   
+177                       300560                   
+178                       300576                   
+179                       300633                   
+180                       300635                   
+181                       300636                   
+182                       300777                   
+183                       300780                   
+184                       300785                   
+185                       300806                   
+186                       300816                   
+187                       301283                   
+188                       301298                   
+189                       301323                   
+190                       301330                   
+191                       301384                   
+192                       301392                   
+193                       301397                   
+194                       301461                   
+195                       301472                   
+196                       301524                   
+197                       301665                   
+198                       301912                   
+199                       301914                   
+200                       301941                   
+201                       301959                   
+202                       301970                   
+203                       301984                   
+204                       301985                   
+205                       301986                   
+206                       301987                   
+207                       301998                   
+[34m sum                      62258356                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: scale/smear parameters: 1.0 0.022 0.051 0.068
+DEBUG: sample identifier: DoubleEG  lep flav {'SingleElectron': 3, 'MET': 4, 'SingleMuon': 2, 'DoubleMuon': 0, 'DoubleEG': 1}  ->  1
+ > Drop:0
+ > JetSmearer:2
+ > JECcorrelator:0
+ > VHbbSelection:7
+OUTPUT TREES:
+ >  /scratch/fglessge//DoubleEG/19e706232a7b41d69c4902d38c3bc4e8/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: isZee, isZmm, isWmunu, isWenu, isZnn, vLidx, lepMetDPhi, V_mt, V_pt, V_eta, V_phi, V_mass
+ADD NEW BRANCHES:
+ > [32misZee                         [0m function:[33mgetBranch[0m
+ > [32misZmm                         [0m function:[33mgetBranch[0m
+ > [32misWmunu                       [0m function:[33mgetBranch[0m
+ > [32misWenu                        [0m function:[33mgetBranch[0m
+ > [32misZnn                         [0m function:[33mgetBranch[0m
+ > [32mvLidx[2]                      [0m function:[33mfillVectorBranch[0m
+ > [32mlepMetDPhi                    [0m function:[33mgetBranch[0m
+ > [32mV_mt                          [0m function:[33mgetBranch[0m
+ > [32mV_pt                          [0m function:[33mgetBranch[0m
+ > [32mV_eta                         [0m function:[33mgetBranch[0m
+ > [32mV_phi                         [0m function:[33mgetBranch[0m
+ > [32mV_mass                        [0m function:[33mgetBranch[0m
+------------------
+ start processing 
+------------------
+INFO: time  Mon Feb 14 14:21:40 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Mon Feb 14 14:25:30 2022
+INFO: throughput: INPUT: 1214.3698/s, OUTPUT: 35.6596/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Mon Feb 14 14:25:31 2022  events read: 279962
+ > [34m[0m 8221 (2.93646994949%) => /scratch/fglessge//DoubleEG/19e706232a7b41d69c4902d38c3bc4e8/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root
+INFO: statistics:
+  fail_lepton_selection :  937.0
+cut-flow:
+  beginning           279962
+  HLT                 224590
+  Leptons             160488
+  Channel             160488
+  Vector boson        159551
+  Vpt                 8221
+  Jets                0
+  end                 8221
+efficiency: 0.0293646994949
+copy  /scratch/fglessge//DoubleEG/19e706232a7b41d69c4902d38c3bc4e8/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/prep-csplitting//DoubleEG/tree_Run2017C-Nano14Dec2018-v181_190426_100920_0000_9_d9812c9928d492bc0c8ae62f08f58f726be2b5b45a5f03837d2951d4.root
+INFO: max memory used (MB): 322.4
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-14 14:25:31
+duration (real time): 4 minutes
+--- OK ---
+
+Exiting runAll.sh
+

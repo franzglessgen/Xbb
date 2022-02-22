@@ -1,0 +1,3 @@
+/store/user/scoopers/VHbbPostNano2017_V1/ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_125712/0000/tree_1.root
+/store/user/scoopers/VHbbPostNano2017_V1/ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_125712/0000/tree_2.root
+/store/user/scoopers/VHbbPostNano2017_V1/ZH_HToBB_ZToLL_M125_13TeV_powheg_pythia8/RunIISummer17MiniAOD-92X-VHbbPostNano2017_V1/180215_125712/0000/tree_3.root

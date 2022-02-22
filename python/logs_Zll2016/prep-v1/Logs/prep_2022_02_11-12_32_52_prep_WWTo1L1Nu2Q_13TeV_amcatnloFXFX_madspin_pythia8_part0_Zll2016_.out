@@ -1,0 +1,43 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn39
+User: fglessge
+StartTime: 2022-02-11 17:53:57
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrNztEKgjAUANAvqnvvllL0Lj2EFIj6NrYaTtDdsU3Bvw/6ip0vOJAyRwtT5C1AcEdSbp6mBM4Y8HkLi03QP4x5ccqt9gwCqYaeSO0ShqFjelK7ibci2dle6fWjs1+4GZtRrfqbwuxVOLKb9RVOOwHdsBJSCURCAkREyNFaRefInO9QSEeU1ZFldS5ldaqyOvW/8wPxHB1E --sampleIdentifier WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_2.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_3.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_4.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_5.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_6.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 6 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_1.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_2.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_3.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_4.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_5.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/WWTo1L1Nu2Q_13TeV_amcatnloFXFX_madspin_pythia8/-v1/190523_200101/0000/tree_6.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:54:25
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

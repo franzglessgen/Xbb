@@ -1,0 +1,928 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn41
+User: fglessge
+StartTime: 2022-02-15 17:26:54
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections KinematicFit.fitter --fileList base64:eNolx00KgzAQQOEbdZyoiV5AuiilBRFxE2Zi/AE1IYkLb1+wb/PxICYXLMzBnR78ckW9rPMcYWGGI51+sxG6J/PHxfSmw4HIUEGHCMPQOvESX415aztNu6F0bK7pm17vNEa/HtpfaVmpAiWNwpJYyazgQlQjS1lWJQskUsoYOTFazGU91ZTZYsorWWNeIGR3+s99kIK1unwE59IPop07Qw== --sampleIdentifier ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//kinfit/config//submission_20220215_172539.ini --inputDir KINFITin --outputDir KINFITout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8/76c715ab7604b428db66585b21aa77cc6fb1e1369f9a0e4f38691341/000000_000000/0000/tree_5.root
+INput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/kinfit_out
+collections to add: ['KinematicFit.fitter']
+after parsing: ['KinematicFit.fitter']
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+[34m sum                      1L                       131344448.0              33L                      9L                       9484677.0                1682871L                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: computing the fit for 31  variations.
+ > kinFitterXbb:4
+OUTPUT TREES:
+ >  /scratch/fglessge//ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8/4d5c2b7ce548437ab99a753d748a54ad/tree_76c715ab7604b428db66585b21aa77cc6fb1e1369f9a0e4f38691341_000000_000000_0000_5_6454acce702def1fd984f752f605b9fa86ae288e25bd42824b6ed286.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: kinFit_H_mass_fit, kinFit_H_eta_fit, kinFit_H_phi_fit, kinFit_H_pt_fit, kinFit_HVdPhi_fit, kinFit_jjVPtRatio_fit, kinFit_hJets_pt_0_fit, kinFit_hJets_pt_1_fit, kinFit_V_pt_fit, kinFit_V_eta_fit, kinFit_V_phi_fit, kinFit_V_mass_fit, kinFit_H_mass_sigma_fit, kinFit_H_pt_sigma_fit, kinFit_hJets_pt_0_sigma_fit, kinFit_hJets_pt_1_sigma_fit, kinFit_H_pt_corr_fit, kinFit_llbb_pt_fit, kinFit_llbb_eta_fit, kinFit_llbb_phi_fit, kinFit_llbb_mass_fit, kinFit_llbbr_pt_fit, kinFit_llbbr_eta_fit, kinFit_llbbr_phi_fit, kinFit_llbbr_mass_fit, kinFit_H_mass_fit_noJetMass, kinFit_n_recoil_jets_fit, kinFit_status, kinFit_H_mass_fit_jer_Up, kinFit_H_eta_fit_jer_Up, kinFit_H_phi_fit_jer_Up, kinFit_H_pt_fit_jer_Up, kinFit_HVdPhi_fit_jer_Up, kinFit_jjVPtRatio_fit_jer_Up, kinFit_hJets_pt_0_fit_jer_Up, kinFit_hJets_pt_1_fit_jer_Up, kinFit_V_pt_fit_jer_Up, kinFit_V_eta_fit_jer_Up, kinFit_V_phi_fit_jer_Up, kinFit_V_mass_fit_jer_Up, kinFit_H_mass_sigma_fit_jer_Up, kinFit_H_pt_sigma_fit_jer_Up, kinFit_hJets_pt_0_sigma_fit_jer_Up, kinFit_hJets_pt_1_sigma_fit_jer_Up, kinFit_H_pt_corr_fit_jer_Up, kinFit_llbb_pt_fit_jer_Up, kinFit_llbb_eta_fit_jer_Up, kinFit_llbb_phi_fit_jer_Up, kinFit_llbb_mass_fit_jer_Up, kinFit_llbbr_pt_fit_jer_Up, kinFit_llbbr_eta_fit_jer_Up, kinFit_llbbr_phi_fit_jer_Up, kinFit_llbbr_mass_fit_jer_Up, kinFit_H_mass_fit_noJetMass_jer_Up, kinFit_n_recoil_jets_fit_jer_Up, kinFit_status_jer_Up, kinFit_H_mass_fit_jerReg_Up, kinFit_H_eta_fit_jerReg_Up, kinFit_H_phi_fit_jerReg_Up, kinFit_H_pt_fit_jerReg_Up, kinFit_HVdPhi_fit_jerReg_Up, kinFit_jjVPtRatio_fit_jerReg_Up, kinFit_hJets_pt_0_fit_jerReg_Up, kinFit_hJets_pt_1_fit_jerReg_Up, kinFit_V_pt_fit_jerReg_Up, kinFit_V_eta_fit_jerReg_Up, kinFit_V_phi_fit_jerReg_Up, kinFit_V_mass_fit_jerReg_Up, kinFit_H_mass_sigma_fit_jerReg_Up, kinFit_H_pt_sigma_fit_jerReg_Up, kinFit_hJets_pt_0_sigma_fit_jerReg_Up, kinFit_hJets_pt_1_sigma_fit_jerReg_Up, kinFit_H_pt_corr_fit_jerReg_Up, kinFit_llbb_pt_fit_jerReg_Up, kinFit_llbb_eta_fit_jerReg_Up, kinFit_llbb_phi_fit_jerReg_Up, kinFit_llbb_mass_fit_jerReg_Up, kinFit_llbbr_pt_fit_jerReg_Up, kinFit_llbbr_eta_fit_jerReg_Up, kinFit_llbbr_phi_fit_jerReg_Up, kinFit_llbbr_mass_fit_jerReg_Up, kinFit_H_mass_fit_noJetMass_jerReg_Up, kinFit_n_recoil_jets_fit_jerReg_Up, kinFit_status_jerReg_Up, kinFit_H_mass_fit_jerRegScale_Up, kinFit_H_eta_fit_jerRegScale_Up, kinFit_H_phi_fit_jerRegScale_Up, kinFit_H_pt_fit_jerRegScale_Up, kinFit_HVdPhi_fit_jerRegScale_Up, kinFit_jjVPtRatio_fit_jerRegScale_Up, kinFit_hJets_pt_0_fit_jerRegScale_Up, kinFit_hJets_pt_1_fit_jerRegScale_Up, kinFit_V_pt_fit_jerRegScale_Up, kinFit_V_eta_fit_jerRegScale_Up, kinFit_V_phi_fit_jerRegScale_Up, kinFit_V_mass_fit_jerRegScale_Up, kinFit_H_mass_sigma_fit_jerRegScale_Up, kinFit_H_pt_sigma_fit_jerRegScale_Up, kinFit_hJets_pt_0_sigma_fit_jerRegScale_Up, kinFit_hJets_pt_1_sigma_fit_jerRegScale_Up, kinFit_H_pt_corr_fit_jerRegScale_Up, kinFit_llbb_pt_fit_jerRegScale_Up, kinFit_llbb_eta_fit_jerRegScale_Up, kinFit_llbb_phi_fit_jerRegScale_Up, kinFit_llbb_mass_fit_jerRegScale_Up, kinFit_llbbr_pt_fit_jerRegScale_Up, kinFit_llbbr_eta_fit_jerRegScale_Up, kinFit_llbbr_phi_fit_jerRegScale_Up, kinFit_llbbr_mass_fit_jerRegScale_Up, kinFit_H_mass_fit_noJetMass_jerRegScale_Up, kinFit_n_recoil_jets_fit_jerRegScale_Up, kinFit_status_jerRegScale_Up, kinFit_H_mass_fit_jerRegSmear_Up, kinFit_H_eta_fit_jerRegSmear_Up, kinFit_H_phi_fit_jerRegSmear_Up, kinFit_H_pt_fit_jerRegSmear_Up, kinFit_HVdPhi_fit_jerRegSmear_Up, kinFit_jjVPtRatio_fit_jerRegSmear_Up, kinFit_hJets_pt_0_fit_jerRegSmear_Up, kinFit_hJets_pt_1_fit_jerRegSmear_Up, kinFit_V_pt_fit_jerRegSmear_Up, kinFit_V_eta_fit_jerRegSmear_Up, kinFit_V_phi_fit_jerRegSmear_Up, kinFit_V_mass_fit_jerRegSmear_Up, kinFit_H_mass_sigma_fit_jerRegSmear_Up, kinFit_H_pt_sigma_fit_jerRegSmear_Up, kinFit_hJets_pt_0_sigma_fit_jerRegSmear_Up, kinFit_hJets_pt_1_sigma_fit_jerRegSmear_Up, kinFit_H_pt_corr_fit_jerRegSmear_Up, kinFit_llbb_pt_fit_jerRegSmear_Up, kinFit_llbb_eta_fit_jerRegSmear_Up, kinFit_llbb_phi_fit_jerRegSmear_Up, kinFit_llbb_mass_fit_jerRegSmear_Up, kinFit_llbbr_pt_fit_jerRegSmear_Up, kinFit_llbbr_eta_fit_jerRegSmear_Up, kinFit_llbbr_phi_fit_jerRegSmear_Up, kinFit_llbbr_mass_fit_jerRegSmear_Up, kinFit_H_mass_fit_noJetMass_jerRegSmear_Up, kinFit_n_recoil_jets_fit_jerRegSmear_Up, kinFit_status_jerRegSmear_Up, kinFit_H_mass_fit_jesAbsolute_Up, kinFit_H_eta_fit_jesAbsolute_Up, kinFit_H_phi_fit_jesAbsolute_Up, kinFit_H_pt_fit_jesAbsolute_Up, kinFit_HVdPhi_fit_jesAbsolute_Up, kinFit_jjVPtRatio_fit_jesAbsolute_Up, kinFit_hJets_pt_0_fit_jesAbsolute_Up, kinFit_hJets_pt_1_fit_jesAbsolute_Up, kinFit_V_pt_fit_jesAbsolute_Up, kinFit_V_eta_fit_jesAbsolute_Up, kinFit_V_phi_fit_jesAbsolute_Up, kinFit_V_mass_fit_jesAbsolute_Up, kinFit_H_mass_sigma_fit_jesAbsolute_Up, kinFit_H_pt_sigma_fit_jesAbsolute_Up, kinFit_hJets_pt_0_sigma_fit_jesAbsolute_Up, kinFit_hJets_pt_1_sigma_fit_jesAbsolute_Up, kinFit_H_pt_corr_fit_jesAbsolute_Up, kinFit_llbb_pt_fit_jesAbsolute_Up, kinFit_llbb_eta_fit_jesAbsolute_Up, kinFit_llbb_phi_fit_jesAbsolute_Up, kinFit_llbb_mass_fit_jesAbsolute_Up, kinFit_llbbr_pt_fit_jesAbsolute_Up, kinFit_llbbr_eta_fit_jesAbsolute_Up, kinFit_llbbr_phi_fit_jesAbsolute_Up, kinFit_llbbr_mass_fit_jesAbsolute_Up, kinFit_H_mass_fit_noJetMass_jesAbsolute_Up, kinFit_n_recoil_jets_fit_jesAbsolute_Up, kinFit_status_jesAbsolute_Up, kinFit_H_mass_fit_jesAbsolute_2017_Up, kinFit_H_eta_fit_jesAbsolute_2017_Up, kinFit_H_phi_fit_jesAbsolute_2017_Up, kinFit_H_pt_fit_jesAbsolute_2017_Up, kinFit_HVdPhi_fit_jesAbsolute_2017_Up, kinFit_jjVPtRatio_fit_jesAbsolute_2017_Up, kinFit_hJets_pt_0_fit_jesAbsolute_2017_Up, kinFit_hJets_pt_1_fit_jesAbsolute_2017_Up, kinFit_V_pt_fit_jesAbsolute_2017_Up, kinFit_V_eta_fit_jesAbsolute_2017_Up, kinFit_V_phi_fit_jesAbsolute_2017_Up, kinFit_V_mass_fit_jesAbsolute_2017_Up, kinFit_H_mass_sigma_fit_jesAbsolute_2017_Up, kinFit_H_pt_sigma_fit_jesAbsolute_2017_Up, kinFit_hJets_pt_0_sigma_fit_jesAbsolute_2017_Up, kinFit_hJets_pt_1_sigma_fit_jesAbsolute_2017_Up, kinFit_H_pt_corr_fit_jesAbsolute_2017_Up, kinFit_llbb_pt_fit_jesAbsolute_2017_Up, kinFit_llbb_eta_fit_jesAbsolute_2017_Up, kinFit_llbb_phi_fit_jesAbsolute_2017_Up, kinFit_llbb_mass_fit_jesAbsolute_2017_Up, kinFit_llbbr_pt_fit_jesAbsolute_2017_Up, kinFit_llbbr_eta_fit_jesAbsolute_2017_Up, kinFit_llbbr_phi_fit_jesAbsolute_2017_Up, kinFit_llbbr_mass_fit_jesAbsolute_2017_Up, kinFit_H_mass_fit_noJetMass_jesAbsolute_2017_Up, kinFit_n_recoil_jets_fit_jesAbsolute_2017_Up, kinFit_status_jesAbsolute_2017_Up, kinFit_H_mass_fit_jesBBEC1_Up, kinFit_H_eta_fit_jesBBEC1_Up, kinFit_H_phi_fit_jesBBEC1_Up, kinFit_H_pt_fit_jesBBEC1_Up, kinFit_HVdPhi_fit_jesBBEC1_Up, kinFit_jjVPtRatio_fit_jesBBEC1_Up, kinFit_hJets_pt_0_fit_jesBBEC1_Up, kinFit_hJets_pt_1_fit_jesBBEC1_Up, kinFit_V_pt_fit_jesBBEC1_Up, kinFit_V_eta_fit_jesBBEC1_Up, kinFit_V_phi_fit_jesBBEC1_Up, kinFit_V_mass_fit_jesBBEC1_Up, kinFit_H_mass_sigma_fit_jesBBEC1_Up, kinFit_H_pt_sigma_fit_jesBBEC1_Up, kinFit_hJets_pt_0_sigma_fit_jesBBEC1_Up, kinFit_hJets_pt_1_sigma_fit_jesBBEC1_Up, kinFit_H_pt_corr_fit_jesBBEC1_Up, kinFit_llbb_pt_fit_jesBBEC1_Up, kinFit_llbb_eta_fit_jesBBEC1_Up, kinFit_llbb_phi_fit_jesBBEC1_Up, kinFit_llbb_mass_fit_jesBBEC1_Up, kinFit_llbbr_pt_fit_jesBBEC1_Up, kinFit_llbbr_eta_fit_jesBBEC1_Up, kinFit_llbbr_phi_fit_jesBBEC1_Up, kinFit_llbbr_mass_fit_jesBBEC1_Up, kinFit_H_mass_fit_noJetMass_jesBBEC1_Up, kinFit_n_recoil_jets_fit_jesBBEC1_Up, kinFit_status_jesBBEC1_Up, kinFit_H_mass_fit_jesBBEC1_2017_Up, kinFit_H_eta_fit_jesBBEC1_2017_Up, kinFit_H_phi_fit_jesBBEC1_2017_Up, kinFit_H_pt_fit_jesBBEC1_2017_Up, kinFit_HVdPhi_fit_jesBBEC1_2017_Up, kinFit_jjVPtRatio_fit_jesBBEC1_2017_Up, kinFit_hJets_pt_0_fit_jesBBEC1_2017_Up, kinFit_hJets_pt_1_fit_jesBBEC1_2017_Up, kinFit_V_pt_fit_jesBBEC1_2017_Up, kinFit_V_eta_fit_jesBBEC1_2017_Up, kinFit_V_phi_fit_jesBBEC1_2017_Up, kinFit_V_mass_fit_jesBBEC1_2017_Up, kinFit_H_mass_sigma_fit_jesBBEC1_2017_Up, kinFit_H_pt_sigma_fit_jesBBEC1_2017_Up, kinFit_hJets_pt_0_sigma_fit_jesBBEC1_2017_Up, kinFit_hJets_pt_1_sigma_fit_jesBBEC1_2017_Up, kinFit_H_pt_corr_fit_jesBBEC1_2017_Up, kinFit_llbb_pt_fit_jesBBEC1_2017_Up, kinFit_llbb_eta_fit_jesBBEC1_2017_Up, kinFit_llbb_phi_fit_jesBBEC1_2017_Up, kinFit_llbb_mass_fit_jesBBEC1_2017_Up, kinFit_llbbr_pt_fit_jesBBEC1_2017_Up, kinFit_llbbr_eta_fit_jesBBEC1_2017_Up, kinFit_llbbr_phi_fit_jesBBEC1_2017_Up, kinFit_llbbr_mass_fit_jesBBEC1_2017_Up, kinFit_H_mass_fit_noJetMass_jesBBEC1_2017_Up, kinFit_n_recoil_jets_fit_jesBBEC1_2017_Up, kinFit_status_jesBBEC1_2017_Up, kinFit_H_mass_fit_jesEC2_Up, kinFit_H_eta_fit_jesEC2_Up, kinFit_H_phi_fit_jesEC2_Up, kinFit_H_pt_fit_jesEC2_Up, kinFit_HVdPhi_fit_jesEC2_Up, kinFit_jjVPtRatio_fit_jesEC2_Up, kinFit_hJets_pt_0_fit_jesEC2_Up, kinFit_hJets_pt_1_fit_jesEC2_Up, kinFit_V_pt_fit_jesEC2_Up, kinFit_V_eta_fit_jesEC2_Up, kinFit_V_phi_fit_jesEC2_Up, kinFit_V_mass_fit_jesEC2_Up, kinFit_H_mass_sigma_fit_jesEC2_Up, kinFit_H_pt_sigma_fit_jesEC2_Up, kinFit_hJets_pt_0_sigma_fit_jesEC2_Up, kinFit_hJets_pt_1_sigma_fit_jesEC2_Up, kinFit_H_pt_corr_fit_jesEC2_Up, kinFit_llbb_pt_fit_jesEC2_Up, kinFit_llbb_eta_fit_jesEC2_Up, kinFit_llbb_phi_fit_jesEC2_Up, kinFit_llbb_mass_fit_jesEC2_Up, kinFit_llbbr_pt_fit_jesEC2_Up, kinFit_llbbr_eta_fit_jesEC2_Up, kinFit_llbbr_phi_fit_jesEC2_Up, kinFit_llbbr_mass_fit_jesEC2_Up, kinFit_H_mass_fit_noJetMass_jesEC2_Up, kinFit_n_recoil_jets_fit_jesEC2_Up, kinFit_status_jesEC2_Up, kinFit_H_mass_fit_jesEC2_2017_Up, kinFit_H_eta_fit_jesEC2_2017_Up, kinFit_H_phi_fit_jesEC2_2017_Up, kinFit_H_pt_fit_jesEC2_2017_Up, kinFit_HVdPhi_fit_jesEC2_2017_Up, kinFit_jjVPtRatio_fit_jesEC2_2017_Up, kinFit_hJets_pt_0_fit_jesEC2_2017_Up, kinFit_hJets_pt_1_fit_jesEC2_2017_Up, kinFit_V_pt_fit_jesEC2_2017_Up, kinFit_V_eta_fit_jesEC2_2017_Up, kinFit_V_phi_fit_jesEC2_2017_Up, kinFit_V_mass_fit_jesEC2_2017_Up, kinFit_H_mass_sigma_fit_jesEC2_2017_Up, kinFit_H_pt_sigma_fit_jesEC2_2017_Up, kinFit_hJets_pt_0_sigma_fit_jesEC2_2017_Up, kinFit_hJets_pt_1_sigma_fit_jesEC2_2017_Up, kinFit_H_pt_corr_fit_jesEC2_2017_Up, kinFit_llbb_pt_fit_jesEC2_2017_Up, kinFit_llbb_eta_fit_jesEC2_2017_Up, kinFit_llbb_phi_fit_jesEC2_2017_Up, kinFit_llbb_mass_fit_jesEC2_2017_Up, kinFit_llbbr_pt_fit_jesEC2_2017_Up, kinFit_llbbr_eta_fit_jesEC2_2017_Up, kinFit_llbbr_phi_fit_jesEC2_2017_Up, kinFit_llbbr_mass_fit_jesEC2_2017_Up, kinFit_H_mass_fit_noJetMass_jesEC2_2017_Up, kinFit_n_recoil_jets_fit_jesEC2_2017_Up, kinFit_status_jesEC2_2017_Up, kinFit_H_mass_fit_jesFlavorQCD_Up, kinFit_H_eta_fit_jesFlavorQCD_Up, kinFit_H_phi_fit_jesFlavorQCD_Up, kinFit_H_pt_fit_jesFlavorQCD_Up, kinFit_HVdPhi_fit_jesFlavorQCD_Up, kinFit_jjVPtRatio_fit_jesFlavorQCD_Up, kinFit_hJets_pt_0_fit_jesFlavorQCD_Up, kinFit_hJets_pt_1_fit_jesFlavorQCD_Up, kinFit_V_pt_fit_jesFlavorQCD_Up, kinFit_V_eta_fit_jesFlavorQCD_Up, kinFit_V_phi_fit_jesFlavorQCD_Up, kinFit_V_mass_fit_jesFlavorQCD_Up, kinFit_H_mass_sigma_fit_jesFlavorQCD_Up, kinFit_H_pt_sigma_fit_jesFlavorQCD_Up, kinFit_hJets_pt_0_sigma_fit_jesFlavorQCD_Up, kinFit_hJets_pt_1_sigma_fit_jesFlavorQCD_Up, kinFit_H_pt_corr_fit_jesFlavorQCD_Up, kinFit_llbb_pt_fit_jesFlavorQCD_Up, kinFit_llbb_eta_fit_jesFlavorQCD_Up, kinFit_llbb_phi_fit_jesFlavorQCD_Up, kinFit_llbb_mass_fit_jesFlavorQCD_Up, kinFit_llbbr_pt_fit_jesFlavorQCD_Up, kinFit_llbbr_eta_fit_jesFlavorQCD_Up, kinFit_llbbr_phi_fit_jesFlavorQCD_Up, kinFit_llbbr_mass_fit_jesFlavorQCD_Up, kinFit_H_mass_fit_noJetMass_jesFlavorQCD_Up, kinFit_n_recoil_jets_fit_jesFlavorQCD_Up, kinFit_status_jesFlavorQCD_Up, kinFit_H_mass_fit_jesHF_Up, kinFit_H_eta_fit_jesHF_Up, kinFit_H_phi_fit_jesHF_Up, kinFit_H_pt_fit_jesHF_Up, kinFit_HVdPhi_fit_jesHF_Up, kinFit_jjVPtRatio_fit_jesHF_Up, kinFit_hJets_pt_0_fit_jesHF_Up, kinFit_hJets_pt_1_fit_jesHF_Up, kinFit_V_pt_fit_jesHF_Up, kinFit_V_eta_fit_jesHF_Up, kinFit_V_phi_fit_jesHF_Up, kinFit_V_mass_fit_jesHF_Up, kinFit_H_mass_sigma_fit_jesHF_Up, kinFit_H_pt_sigma_fit_jesHF_Up, kinFit_hJets_pt_0_sigma_fit_jesHF_Up, kinFit_hJets_pt_1_sigma_fit_jesHF_Up, kinFit_H_pt_corr_fit_jesHF_Up, kinFit_llbb_pt_fit_jesHF_Up, kinFit_llbb_eta_fit_jesHF_Up, kinFit_llbb_phi_fit_jesHF_Up, kinFit_llbb_mass_fit_jesHF_Up, kinFit_llbbr_pt_fit_jesHF_Up, kinFit_llbbr_eta_fit_jesHF_Up, kinFit_llbbr_phi_fit_jesHF_Up, kinFit_llbbr_mass_fit_jesHF_Up, kinFit_H_mass_fit_noJetMass_jesHF_Up, kinFit_n_recoil_jets_fit_jesHF_Up, kinFit_status_jesHF_Up, kinFit_H_mass_fit_jesHF_2017_Up, kinFit_H_eta_fit_jesHF_2017_Up, kinFit_H_phi_fit_jesHF_2017_Up, kinFit_H_pt_fit_jesHF_2017_Up, kinFit_HVdPhi_fit_jesHF_2017_Up, kinFit_jjVPtRatio_fit_jesHF_2017_Up, kinFit_hJets_pt_0_fit_jesHF_2017_Up, kinFit_hJets_pt_1_fit_jesHF_2017_Up, kinFit_V_pt_fit_jesHF_2017_Up, kinFit_V_eta_fit_jesHF_2017_Up, kinFit_V_phi_fit_jesHF_2017_Up, kinFit_V_mass_fit_jesHF_2017_Up, kinFit_H_mass_sigma_fit_jesHF_2017_Up, kinFit_H_pt_sigma_fit_jesHF_2017_Up, kinFit_hJets_pt_0_sigma_fit_jesHF_2017_Up, kinFit_hJets_pt_1_sigma_fit_jesHF_2017_Up, kinFit_H_pt_corr_fit_jesHF_2017_Up, kinFit_llbb_pt_fit_jesHF_2017_Up, kinFit_llbb_eta_fit_jesHF_2017_Up, kinFit_llbb_phi_fit_jesHF_2017_Up, kinFit_llbb_mass_fit_jesHF_2017_Up, kinFit_llbbr_pt_fit_jesHF_2017_Up, kinFit_llbbr_eta_fit_jesHF_2017_Up, kinFit_llbbr_phi_fit_jesHF_2017_Up, kinFit_llbbr_mass_fit_jesHF_2017_Up, kinFit_H_mass_fit_noJetMass_jesHF_2017_Up, kinFit_n_recoil_jets_fit_jesHF_2017_Up, kinFit_status_jesHF_2017_Up, kinFit_H_mass_fit_jesRelativeBal_Up, kinFit_H_eta_fit_jesRelativeBal_Up, kinFit_H_phi_fit_jesRelativeBal_Up, kinFit_H_pt_fit_jesRelativeBal_Up, kinFit_HVdPhi_fit_jesRelativeBal_Up, kinFit_jjVPtRatio_fit_jesRelativeBal_Up, kinFit_hJets_pt_0_fit_jesRelativeBal_Up, kinFit_hJets_pt_1_fit_jesRelativeBal_Up, kinFit_V_pt_fit_jesRelativeBal_Up, kinFit_V_eta_fit_jesRelativeBal_Up, kinFit_V_phi_fit_jesRelativeBal_Up, kinFit_V_mass_fit_jesRelativeBal_Up, kinFit_H_mass_sigma_fit_jesRelativeBal_Up, kinFit_H_pt_sigma_fit_jesRelativeBal_Up, kinFit_hJets_pt_0_sigma_fit_jesRelativeBal_Up, kinFit_hJets_pt_1_sigma_fit_jesRelativeBal_Up, kinFit_H_pt_corr_fit_jesRelativeBal_Up, kinFit_llbb_pt_fit_jesRelativeBal_Up, kinFit_llbb_eta_fit_jesRelativeBal_Up, kinFit_llbb_phi_fit_jesRelativeBal_Up, kinFit_llbb_mass_fit_jesRelativeBal_Up, kinFit_llbbr_pt_fit_jesRelativeBal_Up, kinFit_llbbr_eta_fit_jesRelativeBal_Up, kinFit_llbbr_phi_fit_jesRelativeBal_Up, kinFit_llbbr_mass_fit_jesRelativeBal_Up, kinFit_H_mass_fit_noJetMass_jesRelativeBal_Up, kinFit_n_recoil_jets_fit_jesRelativeBal_Up, kinFit_status_jesRelativeBal_Up, kinFit_H_mass_fit_jesRelativeSample_2017_Up, kinFit_H_eta_fit_jesRelativeSample_2017_Up, kinFit_H_phi_fit_jesRelativeSample_2017_Up, kinFit_H_pt_fit_jesRelativeSample_2017_Up, kinFit_HVdPhi_fit_jesRelativeSample_2017_Up, kinFit_jjVPtRatio_fit_jesRelativeSample_2017_Up, kinFit_hJets_pt_0_fit_jesRelativeSample_2017_Up, kinFit_hJets_pt_1_fit_jesRelativeSample_2017_Up, kinFit_V_pt_fit_jesRelativeSample_2017_Up, kinFit_V_eta_fit_jesRelativeSample_2017_Up, kinFit_V_phi_fit_jesRelativeSample_2017_Up, kinFit_V_mass_fit_jesRelativeSample_2017_Up, kinFit_H_mass_sigma_fit_jesRelativeSample_2017_Up, kinFit_H_pt_sigma_fit_jesRelativeSample_2017_Up, kinFit_hJets_pt_0_sigma_fit_jesRelativeSample_2017_Up, kinFit_hJets_pt_1_sigma_fit_jesRelativeSample_2017_Up, kinFit_H_pt_corr_fit_jesRelativeSample_2017_Up, kinFit_llbb_pt_fit_jesRelativeSample_2017_Up, kinFit_llbb_eta_fit_jesRelativeSample_2017_Up, kinFit_llbb_phi_fit_jesRelativeSample_2017_Up, kinFit_llbb_mass_fit_jesRelativeSample_2017_Up, kinFit_llbbr_pt_fit_jesRelativeSample_2017_Up, kinFit_llbbr_eta_fit_jesRelativeSample_2017_Up, kinFit_llbbr_phi_fit_jesRelativeSample_2017_Up, kinFit_llbbr_mass_fit_jesRelativeSample_2017_Up, kinFit_H_mass_fit_noJetMass_jesRelativeSample_2017_Up, kinFit_n_recoil_jets_fit_jesRelativeSample_2017_Up, kinFit_status_jesRelativeSample_2017_Up, kinFit_H_mass_fit_jer_Down, kinFit_H_eta_fit_jer_Down, kinFit_H_phi_fit_jer_Down, kinFit_H_pt_fit_jer_Down, kinFit_HVdPhi_fit_jer_Down, kinFit_jjVPtRatio_fit_jer_Down, kinFit_hJets_pt_0_fit_jer_Down, kinFit_hJets_pt_1_fit_jer_Down, kinFit_V_pt_fit_jer_Down, kinFit_V_eta_fit_jer_Down, kinFit_V_phi_fit_jer_Down, kinFit_V_mass_fit_jer_Down, kinFit_H_mass_sigma_fit_jer_Down, kinFit_H_pt_sigma_fit_jer_Down, kinFit_hJets_pt_0_sigma_fit_jer_Down, kinFit_hJets_pt_1_sigma_fit_jer_Down, kinFit_H_pt_corr_fit_jer_Down, kinFit_llbb_pt_fit_jer_Down, kinFit_llbb_eta_fit_jer_Down, kinFit_llbb_phi_fit_jer_Down, kinFit_llbb_mass_fit_jer_Down, kinFit_llbbr_pt_fit_jer_Down, kinFit_llbbr_eta_fit_jer_Down, kinFit_llbbr_phi_fit_jer_Down, kinFit_llbbr_mass_fit_jer_Down, kinFit_H_mass_fit_noJetMass_jer_Down, kinFit_n_recoil_jets_fit_jer_Down, kinFit_status_jer_Down, kinFit_H_mass_fit_jerReg_Down, kinFit_H_eta_fit_jerReg_Down, kinFit_H_phi_fit_jerReg_Down, kinFit_H_pt_fit_jerReg_Down, kinFit_HVdPhi_fit_jerReg_Down, kinFit_jjVPtRatio_fit_jerReg_Down, kinFit_hJets_pt_0_fit_jerReg_Down, kinFit_hJets_pt_1_fit_jerReg_Down, kinFit_V_pt_fit_jerReg_Down, kinFit_V_eta_fit_jerReg_Down, kinFit_V_phi_fit_jerReg_Down, kinFit_V_mass_fit_jerReg_Down, kinFit_H_mass_sigma_fit_jerReg_Down, kinFit_H_pt_sigma_fit_jerReg_Down, kinFit_hJets_pt_0_sigma_fit_jerReg_Down, kinFit_hJets_pt_1_sigma_fit_jerReg_Down, kinFit_H_pt_corr_fit_jerReg_Down, kinFit_llbb_pt_fit_jerReg_Down, kinFit_llbb_eta_fit_jerReg_Down, kinFit_llbb_phi_fit_jerReg_Down, kinFit_llbb_mass_fit_jerReg_Down, kinFit_llbbr_pt_fit_jerReg_Down, kinFit_llbbr_eta_fit_jerReg_Down, kinFit_llbbr_phi_fit_jerReg_Down, kinFit_llbbr_mass_fit_jerReg_Down, kinFit_H_mass_fit_noJetMass_jerReg_Down, kinFit_n_recoil_jets_fit_jerReg_Down, kinFit_status_jerReg_Down, kinFit_H_mass_fit_jerRegScale_Down, kinFit_H_eta_fit_jerRegScale_Down, kinFit_H_phi_fit_jerRegScale_Down, kinFit_H_pt_fit_jerRegScale_Down, kinFit_HVdPhi_fit_jerRegScale_Down, kinFit_jjVPtRatio_fit_jerRegScale_Down, kinFit_hJets_pt_0_fit_jerRegScale_Down, kinFit_hJets_pt_1_fit_jerRegScale_Down, kinFit_V_pt_fit_jerRegScale_Down, kinFit_V_eta_fit_jerRegScale_Down, kinFit_V_phi_fit_jerRegScale_Down, kinFit_V_mass_fit_jerRegScale_Down, kinFit_H_mass_sigma_fit_jerRegScale_Down, kinFit_H_pt_sigma_fit_jerRegScale_Down, kinFit_hJets_pt_0_sigma_fit_jerRegScale_Down, kinFit_hJets_pt_1_sigma_fit_jerRegScale_Down, kinFit_H_pt_corr_fit_jerRegScale_Down, kinFit_llbb_pt_fit_jerRegScale_Down, kinFit_llbb_eta_fit_jerRegScale_Down, kinFit_llbb_phi_fit_jerRegScale_Down, kinFit_llbb_mass_fit_jerRegScale_Down, kinFit_llbbr_pt_fit_jerRegScale_Down, kinFit_llbbr_eta_fit_jerRegScale_Down, kinFit_llbbr_phi_fit_jerRegScale_Down, kinFit_llbbr_mass_fit_jerRegScale_Down, kinFit_H_mass_fit_noJetMass_jerRegScale_Down, kinFit_n_recoil_jets_fit_jerRegScale_Down, kinFit_status_jerRegScale_Down, kinFit_H_mass_fit_jerRegSmear_Down, kinFit_H_eta_fit_jerRegSmear_Down, kinFit_H_phi_fit_jerRegSmear_Down, kinFit_H_pt_fit_jerRegSmear_Down, kinFit_HVdPhi_fit_jerRegSmear_Down, kinFit_jjVPtRatio_fit_jerRegSmear_Down, kinFit_hJets_pt_0_fit_jerRegSmear_Down, kinFit_hJets_pt_1_fit_jerRegSmear_Down, kinFit_V_pt_fit_jerRegSmear_Down, kinFit_V_eta_fit_jerRegSmear_Down, kinFit_V_phi_fit_jerRegSmear_Down, kinFit_V_mass_fit_jerRegSmear_Down, kinFit_H_mass_sigma_fit_jerRegSmear_Down, kinFit_H_pt_sigma_fit_jerRegSmear_Down, kinFit_hJets_pt_0_sigma_fit_jerRegSmear_Down, kinFit_hJets_pt_1_sigma_fit_jerRegSmear_Down, kinFit_H_pt_corr_fit_jerRegSmear_Down, kinFit_llbb_pt_fit_jerRegSmear_Down, kinFit_llbb_eta_fit_jerRegSmear_Down, kinFit_llbb_phi_fit_jerRegSmear_Down, kinFit_llbb_mass_fit_jerRegSmear_Down, kinFit_llbbr_pt_fit_jerRegSmear_Down, kinFit_llbbr_eta_fit_jerRegSmear_Down, kinFit_llbbr_phi_fit_jerRegSmear_Down, kinFit_llbbr_mass_fit_jerRegSmear_Down, kinFit_H_mass_fit_noJetMass_jerRegSmear_Down, kinFit_n_recoil_jets_fit_jerRegSmear_Down, kinFit_status_jerRegSmear_Down, kinFit_H_mass_fit_jesAbsolute_Down, kinFit_H_eta_fit_jesAbsolute_Down, kinFit_H_phi_fit_jesAbsolute_Down, kinFit_H_pt_fit_jesAbsolute_Down, kinFit_HVdPhi_fit_jesAbsolute_Down, kinFit_jjVPtRatio_fit_jesAbsolute_Down, kinFit_hJets_pt_0_fit_jesAbsolute_Down, kinFit_hJets_pt_1_fit_jesAbsolute_Down, kinFit_V_pt_fit_jesAbsolute_Down, kinFit_V_eta_fit_jesAbsolute_Down, kinFit_V_phi_fit_jesAbsolute_Down, kinFit_V_mass_fit_jesAbsolute_Down, kinFit_H_mass_sigma_fit_jesAbsolute_Down, kinFit_H_pt_sigma_fit_jesAbsolute_Down, kinFit_hJets_pt_0_sigma_fit_jesAbsolute_Down, kinFit_hJets_pt_1_sigma_fit_jesAbsolute_Down, kinFit_H_pt_corr_fit_jesAbsolute_Down, kinFit_llbb_pt_fit_jesAbsolute_Down, kinFit_llbb_eta_fit_jesAbsolute_Down, kinFit_llbb_phi_fit_jesAbsolute_Down, kinFit_llbb_mass_fit_jesAbsolute_Down, kinFit_llbbr_pt_fit_jesAbsolute_Down, kinFit_llbbr_eta_fit_jesAbsolute_Down, kinFit_llbbr_phi_fit_jesAbsolute_Down, kinFit_llbbr_mass_fit_jesAbsolute_Down, kinFit_H_mass_fit_noJetMass_jesAbsolute_Down, kinFit_n_recoil_jets_fit_jesAbsolute_Down, kinFit_status_jesAbsolute_Down, kinFit_H_mass_fit_jesAbsolute_2017_Down, kinFit_H_eta_fit_jesAbsolute_2017_Down, kinFit_H_phi_fit_jesAbsolute_2017_Down, kinFit_H_pt_fit_jesAbsolute_2017_Down, kinFit_HVdPhi_fit_jesAbsolute_2017_Down, kinFit_jjVPtRatio_fit_jesAbsolute_2017_Down, kinFit_hJets_pt_0_fit_jesAbsolute_2017_Down, kinFit_hJets_pt_1_fit_jesAbsolute_2017_Down, kinFit_V_pt_fit_jesAbsolute_2017_Down, kinFit_V_eta_fit_jesAbsolute_2017_Down, kinFit_V_phi_fit_jesAbsolute_2017_Down, kinFit_V_mass_fit_jesAbsolute_2017_Down, kinFit_H_mass_sigma_fit_jesAbsolute_2017_Down, kinFit_H_pt_sigma_fit_jesAbsolute_2017_Down, kinFit_hJets_pt_0_sigma_fit_jesAbsolute_2017_Down, kinFit_hJets_pt_1_sigma_fit_jesAbsolute_2017_Down, kinFit_H_pt_corr_fit_jesAbsolute_2017_Down, kinFit_llbb_pt_fit_jesAbsolute_2017_Down, kinFit_llbb_eta_fit_jesAbsolute_2017_Down, kinFit_llbb_phi_fit_jesAbsolute_2017_Down, kinFit_llbb_mass_fit_jesAbsolute_2017_Down, kinFit_llbbr_pt_fit_jesAbsolute_2017_Down, kinFit_llbbr_eta_fit_jesAbsolute_2017_Down, kinFit_llbbr_phi_fit_jesAbsolute_2017_Down, kinFit_llbbr_mass_fit_jesAbsolute_2017_Down, kinFit_H_mass_fit_noJetMass_jesAbsolute_2017_Down, kinFit_n_recoil_jets_fit_jesAbsolute_2017_Down, kinFit_status_jesAbsolute_2017_Down, kinFit_H_mass_fit_jesBBEC1_Down, kinFit_H_eta_fit_jesBBEC1_Down, kinFit_H_phi_fit_jesBBEC1_Down, kinFit_H_pt_fit_jesBBEC1_Down, kinFit_HVdPhi_fit_jesBBEC1_Down, kinFit_jjVPtRatio_fit_jesBBEC1_Down, kinFit_hJets_pt_0_fit_jesBBEC1_Down, kinFit_hJets_pt_1_fit_jesBBEC1_Down, kinFit_V_pt_fit_jesBBEC1_Down, kinFit_V_eta_fit_jesBBEC1_Down, kinFit_V_phi_fit_jesBBEC1_Down, kinFit_V_mass_fit_jesBBEC1_Down, kinFit_H_mass_sigma_fit_jesBBEC1_Down, kinFit_H_pt_sigma_fit_jesBBEC1_Down, kinFit_hJets_pt_0_sigma_fit_jesBBEC1_Down, kinFit_hJets_pt_1_sigma_fit_jesBBEC1_Down, kinFit_H_pt_corr_fit_jesBBEC1_Down, kinFit_llbb_pt_fit_jesBBEC1_Down, kinFit_llbb_eta_fit_jesBBEC1_Down, kinFit_llbb_phi_fit_jesBBEC1_Down, kinFit_llbb_mass_fit_jesBBEC1_Down, kinFit_llbbr_pt_fit_jesBBEC1_Down, kinFit_llbbr_eta_fit_jesBBEC1_Down, kinFit_llbbr_phi_fit_jesBBEC1_Down, kinFit_llbbr_mass_fit_jesBBEC1_Down, kinFit_H_mass_fit_noJetMass_jesBBEC1_Down, kinFit_n_recoil_jets_fit_jesBBEC1_Down, kinFit_status_jesBBEC1_Down, kinFit_H_mass_fit_jesBBEC1_2017_Down, kinFit_H_eta_fit_jesBBEC1_2017_Down, kinFit_H_phi_fit_jesBBEC1_2017_Down, kinFit_H_pt_fit_jesBBEC1_2017_Down, kinFit_HVdPhi_fit_jesBBEC1_2017_Down, kinFit_jjVPtRatio_fit_jesBBEC1_2017_Down, kinFit_hJets_pt_0_fit_jesBBEC1_2017_Down, kinFit_hJets_pt_1_fit_jesBBEC1_2017_Down, kinFit_V_pt_fit_jesBBEC1_2017_Down, kinFit_V_eta_fit_jesBBEC1_2017_Down, kinFit_V_phi_fit_jesBBEC1_2017_Down, kinFit_V_mass_fit_jesBBEC1_2017_Down, kinFit_H_mass_sigma_fit_jesBBEC1_2017_Down, kinFit_H_pt_sigma_fit_jesBBEC1_2017_Down, kinFit_hJets_pt_0_sigma_fit_jesBBEC1_2017_Down, kinFit_hJets_pt_1_sigma_fit_jesBBEC1_2017_Down, kinFit_H_pt_corr_fit_jesBBEC1_2017_Down, kinFit_llbb_pt_fit_jesBBEC1_2017_Down, kinFit_llbb_eta_fit_jesBBEC1_2017_Down, kinFit_llbb_phi_fit_jesBBEC1_2017_Down, kinFit_llbb_mass_fit_jesBBEC1_2017_Down, kinFit_llbbr_pt_fit_jesBBEC1_2017_Down, kinFit_llbbr_eta_fit_jesBBEC1_2017_Down, kinFit_llbbr_phi_fit_jesBBEC1_2017_Down, kinFit_llbbr_mass_fit_jesBBEC1_2017_Down, kinFit_H_mass_fit_noJetMass_jesBBEC1_2017_Down, kinFit_n_recoil_jets_fit_jesBBEC1_2017_Down, kinFit_status_jesBBEC1_2017_Down, kinFit_H_mass_fit_jesEC2_Down, kinFit_H_eta_fit_jesEC2_Down, kinFit_H_phi_fit_jesEC2_Down, kinFit_H_pt_fit_jesEC2_Down, kinFit_HVdPhi_fit_jesEC2_Down, kinFit_jjVPtRatio_fit_jesEC2_Down, kinFit_hJets_pt_0_fit_jesEC2_Down, kinFit_hJets_pt_1_fit_jesEC2_Down, kinFit_V_pt_fit_jesEC2_Down, kinFit_V_eta_fit_jesEC2_Down, kinFit_V_phi_fit_jesEC2_Down, kinFit_V_mass_fit_jesEC2_Down, kinFit_H_mass_sigma_fit_jesEC2_Down, kinFit_H_pt_sigma_fit_jesEC2_Down, kinFit_hJets_pt_0_sigma_fit_jesEC2_Down, kinFit_hJets_pt_1_sigma_fit_jesEC2_Down, kinFit_H_pt_corr_fit_jesEC2_Down, kinFit_llbb_pt_fit_jesEC2_Down, kinFit_llbb_eta_fit_jesEC2_Down, kinFit_llbb_phi_fit_jesEC2_Down, kinFit_llbb_mass_fit_jesEC2_Down, kinFit_llbbr_pt_fit_jesEC2_Down, kinFit_llbbr_eta_fit_jesEC2_Down, kinFit_llbbr_phi_fit_jesEC2_Down, kinFit_llbbr_mass_fit_jesEC2_Down, kinFit_H_mass_fit_noJetMass_jesEC2_Down, kinFit_n_recoil_jets_fit_jesEC2_Down, kinFit_status_jesEC2_Down, kinFit_H_mass_fit_jesEC2_2017_Down, kinFit_H_eta_fit_jesEC2_2017_Down, kinFit_H_phi_fit_jesEC2_2017_Down, kinFit_H_pt_fit_jesEC2_2017_Down, kinFit_HVdPhi_fit_jesEC2_2017_Down, kinFit_jjVPtRatio_fit_jesEC2_2017_Down, kinFit_hJets_pt_0_fit_jesEC2_2017_Down, kinFit_hJets_pt_1_fit_jesEC2_2017_Down, kinFit_V_pt_fit_jesEC2_2017_Down, kinFit_V_eta_fit_jesEC2_2017_Down, kinFit_V_phi_fit_jesEC2_2017_Down, kinFit_V_mass_fit_jesEC2_2017_Down, kinFit_H_mass_sigma_fit_jesEC2_2017_Down, kinFit_H_pt_sigma_fit_jesEC2_2017_Down, kinFit_hJets_pt_0_sigma_fit_jesEC2_2017_Down, kinFit_hJets_pt_1_sigma_fit_jesEC2_2017_Down, kinFit_H_pt_corr_fit_jesEC2_2017_Down, kinFit_llbb_pt_fit_jesEC2_2017_Down, kinFit_llbb_eta_fit_jesEC2_2017_Down, kinFit_llbb_phi_fit_jesEC2_2017_Down, kinFit_llbb_mass_fit_jesEC2_2017_Down, kinFit_llbbr_pt_fit_jesEC2_2017_Down, kinFit_llbbr_eta_fit_jesEC2_2017_Down, kinFit_llbbr_phi_fit_jesEC2_2017_Down, kinFit_llbbr_mass_fit_jesEC2_2017_Down, kinFit_H_mass_fit_noJetMass_jesEC2_2017_Down, kinFit_n_recoil_jets_fit_jesEC2_2017_Down, kinFit_status_jesEC2_2017_Down, kinFit_H_mass_fit_jesFlavorQCD_Down, kinFit_H_eta_fit_jesFlavorQCD_Down, kinFit_H_phi_fit_jesFlavorQCD_Down, kinFit_H_pt_fit_jesFlavorQCD_Down, kinFit_HVdPhi_fit_jesFlavorQCD_Down, kinFit_jjVPtRatio_fit_jesFlavorQCD_Down, kinFit_hJets_pt_0_fit_jesFlavorQCD_Down, kinFit_hJets_pt_1_fit_jesFlavorQCD_Down, kinFit_V_pt_fit_jesFlavorQCD_Down, kinFit_V_eta_fit_jesFlavorQCD_Down, kinFit_V_phi_fit_jesFlavorQCD_Down, kinFit_V_mass_fit_jesFlavorQCD_Down, kinFit_H_mass_sigma_fit_jesFlavorQCD_Down, kinFit_H_pt_sigma_fit_jesFlavorQCD_Down, kinFit_hJets_pt_0_sigma_fit_jesFlavorQCD_Down, kinFit_hJets_pt_1_sigma_fit_jesFlavorQCD_Down, kinFit_H_pt_corr_fit_jesFlavorQCD_Down, kinFit_llbb_pt_fit_jesFlavorQCD_Down, kinFit_llbb_eta_fit_jesFlavorQCD_Down, kinFit_llbb_phi_fit_jesFlavorQCD_Down, kinFit_llbb_mass_fit_jesFlavorQCD_Down, kinFit_llbbr_pt_fit_jesFlavorQCD_Down, kinFit_llbbr_eta_fit_jesFlavorQCD_Down, kinFit_llbbr_phi_fit_jesFlavorQCD_Down, kinFit_llbbr_mass_fit_jesFlavorQCD_Down, kinFit_H_mass_fit_noJetMass_jesFlavorQCD_Down, kinFit_n_recoil_jets_fit_jesFlavorQCD_Down, kinFit_status_jesFlavorQCD_Down, kinFit_H_mass_fit_jesHF_Down, kinFit_H_eta_fit_jesHF_Down, kinFit_H_phi_fit_jesHF_Down, kinFit_H_pt_fit_jesHF_Down, kinFit_HVdPhi_fit_jesHF_Down, kinFit_jjVPtRatio_fit_jesHF_Down, kinFit_hJets_pt_0_fit_jesHF_Down, kinFit_hJets_pt_1_fit_jesHF_Down, kinFit_V_pt_fit_jesHF_Down, kinFit_V_eta_fit_jesHF_Down, kinFit_V_phi_fit_jesHF_Down, kinFit_V_mass_fit_jesHF_Down, kinFit_H_mass_sigma_fit_jesHF_Down, kinFit_H_pt_sigma_fit_jesHF_Down, kinFit_hJets_pt_0_sigma_fit_jesHF_Down, kinFit_hJets_pt_1_sigma_fit_jesHF_Down, kinFit_H_pt_corr_fit_jesHF_Down, kinFit_llbb_pt_fit_jesHF_Down, kinFit_llbb_eta_fit_jesHF_Down, kinFit_llbb_phi_fit_jesHF_Down, kinFit_llbb_mass_fit_jesHF_Down, kinFit_llbbr_pt_fit_jesHF_Down, kinFit_llbbr_eta_fit_jesHF_Down, kinFit_llbbr_phi_fit_jesHF_Down, kinFit_llbbr_mass_fit_jesHF_Down, kinFit_H_mass_fit_noJetMass_jesHF_Down, kinFit_n_recoil_jets_fit_jesHF_Down, kinFit_status_jesHF_Down, kinFit_H_mass_fit_jesHF_2017_Down, kinFit_H_eta_fit_jesHF_2017_Down, kinFit_H_phi_fit_jesHF_2017_Down, kinFit_H_pt_fit_jesHF_2017_Down, kinFit_HVdPhi_fit_jesHF_2017_Down, kinFit_jjVPtRatio_fit_jesHF_2017_Down, kinFit_hJets_pt_0_fit_jesHF_2017_Down, kinFit_hJets_pt_1_fit_jesHF_2017_Down, kinFit_V_pt_fit_jesHF_2017_Down, kinFit_V_eta_fit_jesHF_2017_Down, kinFit_V_phi_fit_jesHF_2017_Down, kinFit_V_mass_fit_jesHF_2017_Down, kinFit_H_mass_sigma_fit_jesHF_2017_Down, kinFit_H_pt_sigma_fit_jesHF_2017_Down, kinFit_hJets_pt_0_sigma_fit_jesHF_2017_Down, kinFit_hJets_pt_1_sigma_fit_jesHF_2017_Down, kinFit_H_pt_corr_fit_jesHF_2017_Down, kinFit_llbb_pt_fit_jesHF_2017_Down, kinFit_llbb_eta_fit_jesHF_2017_Down, kinFit_llbb_phi_fit_jesHF_2017_Down, kinFit_llbb_mass_fit_jesHF_2017_Down, kinFit_llbbr_pt_fit_jesHF_2017_Down, kinFit_llbbr_eta_fit_jesHF_2017_Down, kinFit_llbbr_phi_fit_jesHF_2017_Down, kinFit_llbbr_mass_fit_jesHF_2017_Down, kinFit_H_mass_fit_noJetMass_jesHF_2017_Down, kinFit_n_recoil_jets_fit_jesHF_2017_Down, kinFit_status_jesHF_2017_Down, kinFit_H_mass_fit_jesRelativeBal_Down, kinFit_H_eta_fit_jesRelativeBal_Down, kinFit_H_phi_fit_jesRelativeBal_Down, kinFit_H_pt_fit_jesRelativeBal_Down, kinFit_HVdPhi_fit_jesRelativeBal_Down, kinFit_jjVPtRatio_fit_jesRelativeBal_Down, kinFit_hJets_pt_0_fit_jesRelativeBal_Down, kinFit_hJets_pt_1_fit_jesRelativeBal_Down, kinFit_V_pt_fit_jesRelativeBal_Down, kinFit_V_eta_fit_jesRelativeBal_Down, kinFit_V_phi_fit_jesRelativeBal_Down, kinFit_V_mass_fit_jesRelativeBal_Down, kinFit_H_mass_sigma_fit_jesRelativeBal_Down, kinFit_H_pt_sigma_fit_jesRelativeBal_Down, kinFit_hJets_pt_0_sigma_fit_jesRelativeBal_Down, kinFit_hJets_pt_1_sigma_fit_jesRelativeBal_Down, kinFit_H_pt_corr_fit_jesRelativeBal_Down, kinFit_llbb_pt_fit_jesRelativeBal_Down, kinFit_llbb_eta_fit_jesRelativeBal_Down, kinFit_llbb_phi_fit_jesRelativeBal_Down, kinFit_llbb_mass_fit_jesRelativeBal_Down, kinFit_llbbr_pt_fit_jesRelativeBal_Down, kinFit_llbbr_eta_fit_jesRelativeBal_Down, kinFit_llbbr_phi_fit_jesRelativeBal_Down, kinFit_llbbr_mass_fit_jesRelativeBal_Down, kinFit_H_mass_fit_noJetMass_jesRelativeBal_Down, kinFit_n_recoil_jets_fit_jesRelativeBal_Down, kinFit_status_jesRelativeBal_Down, kinFit_H_mass_fit_jesRelativeSample_2017_Down, kinFit_H_eta_fit_jesRelativeSample_2017_Down, kinFit_H_phi_fit_jesRelativeSample_2017_Down, kinFit_H_pt_fit_jesRelativeSample_2017_Down, kinFit_HVdPhi_fit_jesRelativeSample_2017_Down, kinFit_jjVPtRatio_fit_jesRelativeSample_2017_Down, kinFit_hJets_pt_0_fit_jesRelativeSample_2017_Down, kinFit_hJets_pt_1_fit_jesRelativeSample_2017_Down, kinFit_V_pt_fit_jesRelativeSample_2017_Down, kinFit_V_eta_fit_jesRelativeSample_2017_Down, kinFit_V_phi_fit_jesRelativeSample_2017_Down, kinFit_V_mass_fit_jesRelativeSample_2017_Down, kinFit_H_mass_sigma_fit_jesRelativeSample_2017_Down, kinFit_H_pt_sigma_fit_jesRelativeSample_2017_Down, kinFit_hJets_pt_0_sigma_fit_jesRelativeSample_2017_Down, kinFit_hJets_pt_1_sigma_fit_jesRelativeSample_2017_Down, kinFit_H_pt_corr_fit_jesRelativeSample_2017_Down, kinFit_llbb_pt_fit_jesRelativeSample_2017_Down, kinFit_llbb_eta_fit_jesRelativeSample_2017_Down, kinFit_llbb_phi_fit_jesRelativeSample_2017_Down, kinFit_llbb_mass_fit_jesRelativeSample_2017_Down, kinFit_llbbr_pt_fit_jesRelativeSample_2017_Down, kinFit_llbbr_eta_fit_jesRelativeSample_2017_Down, kinFit_llbbr_phi_fit_jesRelativeSample_2017_Down, kinFit_llbbr_mass_fit_jesRelativeSample_2017_Down, kinFit_H_mass_fit_noJetMass_jesRelativeSample_2017_Down, kinFit_n_recoil_jets_fit_jesRelativeSample_2017_Down, kinFit_status_jesRelativeSample_2017_Down
+ADD NEW BRANCHES:
+ > [32mkinFit_H_mass_fit             [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit               [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit             [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit               [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit             [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit       [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit   [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit            [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit           [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit           [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit           [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass   [0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit      [0m function:[33mgetBranch[0m
+ > [32mkinFit_status                 [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jer_Up      [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jer_Up       [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jer_Up       [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jer_Up        [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jer_Up      [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jer_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jer_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jer_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jer_Up        [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jer_Up       [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jer_Up       [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jer_Up      [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jer_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jer_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jer_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jer_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jer_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jer_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jer_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jer_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jer_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jer_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jer_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jer_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jer_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jer_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jer_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jer_Up          [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jerReg_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jerReg_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jerReg_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jerReg_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jerReg_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jerReg_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jerReg_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jerReg_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jerReg_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jerReg_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jerReg_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jerReg_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jerReg_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jerReg_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jerReg_Up       [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jerRegScale_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jerRegScale_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jerRegSmear_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jerRegSmear_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesAbsolute_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesAbsolute_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesAbsolute_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesBBEC1_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesBBEC1_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesBBEC1_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesBBEC1_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesBBEC1_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesBBEC1_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesBBEC1_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesBBEC1_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesBBEC1_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesBBEC1_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesBBEC1_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesBBEC1_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesEC2_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesEC2_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesEC2_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesEC2_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesEC2_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesEC2_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesEC2_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesEC2_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesEC2_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesEC2_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesEC2_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesEC2_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesEC2_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesEC2_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesEC2_Up       [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesEC2_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesEC2_2017_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesFlavorQCD_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesFlavorQCD_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesHF_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesHF_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesHF_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesHF_Up      [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesHF_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesHF_Up      [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesHF_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesHF_Up     [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesHF_Up    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesHF_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesHF_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesHF_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesHF_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesHF_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesHF_Up  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesHF_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesHF_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesHF_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesHF_Up        [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesHF_2017_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesHF_2017_Up [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesHF_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesHF_2017_Up   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesRelativeBal_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesRelativeSample_2017_Up[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jer_Down    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jer_Down     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jer_Down     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jer_Down      [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jer_Down    [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jer_Down      [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jer_Down     [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jer_Down     [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jer_Down    [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jer_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jer_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jer_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jer_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jer_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jer_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jer_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jer_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jer_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jer_Down        [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jerReg_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jerReg_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jerReg_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jerReg_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jerReg_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jerReg_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jerReg_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jerReg_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jerReg_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jerReg_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jerReg_Down     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jerRegScale_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jerRegSmear_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesAbsolute_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesAbsolute_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesBBEC1_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesBBEC1_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesBBEC1_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesBBEC1_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesBBEC1_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesEC2_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesEC2_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesEC2_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesEC2_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesEC2_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesEC2_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesEC2_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesEC2_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesEC2_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesEC2_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesEC2_Down     [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesEC2_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesFlavorQCD_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesHF_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesHF_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesHF_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesHF_Down    [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesHF_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesHF_Down    [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesHF_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesHF_Down   [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesHF_Down  [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesHF_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesHF_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesHF_Down      [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesHF_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesHF_2017_Down [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesRelativeBal_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+ > [32mkinFit_status_jesRelativeSample_2017_Down[0m function:[33mgetBranch[0m
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 17:27:12 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Wed Feb 16 00:05:40 2022
+INFO: throughput: INPUT: 3.3750/s, OUTPUT: 3.3750/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Wed Feb 16 00:05:41 2022  events read: 80690
+ > [34m[0m 80690 (100.0%) => /scratch/fglessge//ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8/4d5c2b7ce548437ab99a753d748a54ad/tree_76c715ab7604b428db66585b21aa77cc6fb1e1369f9a0e4f38691341_000000_000000_0000_5_6454acce702def1fd984f752f605b9fa86ae288e25bd42824b6ed286.root
+INFO: statistics:
+  _debug_resolved_idx_syst_exists :  2501390.0
+  kinfit_failure_convergence :  3453.0
+  kinfit_success :  2465268.0
+copy  /scratch/fglessge//ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8/4d5c2b7ce548437ab99a753d748a54ad/tree_76c715ab7604b428db66585b21aa77cc6fb1e1369f9a0e4f38691341_000000_000000_0000_5_6454acce702def1fd984f752f605b9fa86ae288e25bd42824b6ed286.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/kinfit_out/ZZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8/tree_76c715ab7604b428db66585b21aa77cc6fb1e1369f9a0e4f38691341_000000_000000_0000_5_6454acce702def1fd984f752f605b9fa86ae288e25bd42824b6ed286.root
+INFO: max memory used (MB): 1481.2
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-16 00:06:05
+duration (real time): 399 minutes
+--- OK ---
+
+Exiting runAll.sh
+

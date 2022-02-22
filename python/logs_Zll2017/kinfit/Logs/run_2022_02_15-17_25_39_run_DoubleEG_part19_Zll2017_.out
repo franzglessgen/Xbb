@@ -1,0 +1,88 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: run
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn30
+User: fglessge
+StartTime: 2022-02-15 17:27:21
+
+Parsing files in Zll2017config...
+
+python ./sys_new.py --addCollections KinematicFit.fitter --fileList base64:eNolx7sOwjAMQNE/wrHV5rGDYEJMXSu7MS1SVVdJOvD3SOUuRxdqs6IwFzt22JdvHZfPPFdYRGBrx75qheEh8rLanrwZkMMAAyJc7ZBVb3cgiX0in1U0+y4IYSbW6KbJ9+yEMipjR9F5FsZALlHQtzK4s/HPedCK6ojpUszaD56CL7g= --sampleIdentifier DoubleEG --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//kinfit/config//submission_20220215_172539.ini --inputDir KINFITin --outputDir KINFITout
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] No such file
+
+len(filelist) 1 filelist[0]: /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2017/V11/DoubleEG/2b85926debed647b21d2ae80cc65a0b2d1ea142806aba1720927efea/000000_000000/0000/tree_19.root
+INput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/sys/
+OUTput samples:	root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/kinfit_out
+collections to add: ['KinematicFit.fitter']
+after parsing: ['KinematicFit.fitter']
+INFO: reading part  1  of  1
+INFO: # files chained: 1
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      
+[34m sum                      135332574L                [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO: computing the fit for 1  variations.
+ > kinFitterXbb:4
+OUTPUT TREES:
+ >  /scratch/fglessge//DoubleEG/2d7b61a6745841ecae716bc85bbf9920/tree_2b85926debed647b21d2ae80cc65a0b2d1ea142806aba1720927efea_000000_000000_0000_19_7ea1df5c7fb7fcb3ba0d615e1a2e0dce52de9bd4a6fbe546ab2b32b7.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches but the following:
+INFO: kinFit_H_mass_fit, kinFit_H_eta_fit, kinFit_H_phi_fit, kinFit_H_pt_fit, kinFit_HVdPhi_fit, kinFit_jjVPtRatio_fit, kinFit_hJets_pt_0_fit, kinFit_hJets_pt_1_fit, kinFit_V_pt_fit, kinFit_V_eta_fit, kinFit_V_phi_fit, kinFit_V_mass_fit, kinFit_H_mass_sigma_fit, kinFit_H_pt_sigma_fit, kinFit_hJets_pt_0_sigma_fit, kinFit_hJets_pt_1_sigma_fit, kinFit_H_pt_corr_fit, kinFit_llbb_pt_fit, kinFit_llbb_eta_fit, kinFit_llbb_phi_fit, kinFit_llbb_mass_fit, kinFit_llbbr_pt_fit, kinFit_llbbr_eta_fit, kinFit_llbbr_phi_fit, kinFit_llbbr_mass_fit, kinFit_H_mass_fit_noJetMass, kinFit_n_recoil_jets_fit, kinFit_status
+ADD NEW BRANCHES:
+ > [32mkinFit_H_mass_fit             [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_eta_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_phi_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_fit               [0m function:[33mgetBranch[0m
+ > [32mkinFit_HVdPhi_fit             [0m function:[33mgetBranch[0m
+ > [32mkinFit_jjVPtRatio_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_pt_fit               [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_eta_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_phi_fit              [0m function:[33mgetBranch[0m
+ > [32mkinFit_V_mass_fit             [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_sigma_fit       [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_sigma_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_0_sigma_fit   [0m function:[33mgetBranch[0m
+ > [32mkinFit_hJets_pt_1_sigma_fit   [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_pt_corr_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_pt_fit            [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_eta_fit           [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_phi_fit           [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbb_mass_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_pt_fit           [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_eta_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_phi_fit          [0m function:[33mgetBranch[0m
+ > [32mkinFit_llbbr_mass_fit         [0m function:[33mgetBranch[0m
+ > [32mkinFit_H_mass_fit_noJetMass   [0m function:[33mgetBranch[0m
+ > [32mkinFit_n_recoil_jets_fit      [0m function:[33mgetBranch[0m
+ > [32mkinFit_status                 [0m function:[33mgetBranch[0m
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 17:27:25 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: end of processing. time  Tue Feb 15 17:27:57 2022
+INFO: throughput: INPUT: 421.8779/s, OUTPUT: 421.8779/s 
+INFO: number of trees processed: 1
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 17:27:57 2022  events read: 13468
+ > [34m[0m 13468 (100.0%) => /scratch/fglessge//DoubleEG/2d7b61a6745841ecae716bc85bbf9920/tree_2b85926debed647b21d2ae80cc65a0b2d1ea142806aba1720927efea_000000_000000_0000_19_7ea1df5c7fb7fcb3ba0d615e1a2e0dce52de9bd4a6fbe546ab2b32b7.root
+INFO: statistics:
+  _debug_resolved_idx_syst_exists :  13468.0
+  kinfit_failure_convergence :  47.0
+  kinfit_success :  13411.0
+copy  /scratch/fglessge//DoubleEG/2d7b61a6745841ecae716bc85bbf9920/tree_2b85926debed647b21d2ae80cc65a0b2d1ea142806aba1720927efea_000000_000000_0000_19_7ea1df5c7fb7fcb3ba0d615e1a2e0dce52de9bd4a6fbe546ab2b32b7.root root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/kinfit_out/DoubleEG/tree_2b85926debed647b21d2ae80cc65a0b2d1ea142806aba1720927efea_000000_000000_0000_19_7ea1df5c7fb7fcb3ba0d615e1a2e0dce52de9bd4a6fbe546ab2b32b7.root
+INFO: max memory used (MB): 295.4
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 17:27:57
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

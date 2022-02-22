@@ -1,0 +1,31 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: prep
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn31
+User: fglessge
+StartTime: 2022-02-11 17:53:35
+
+Parsing files in Zll2016config...
+
+python ./prepare_environment_with_config.py --fileList base64:eNrFzk0KwjAQBtAT1W8moaJ4geoiuAhduAkNxkTQTshPwdsLXsJ3gofapATEIj0jp0916RljRfIea+v5FSrmyfur1GaWVaCI95iZ3aZxu4RWrZhuupvsoEYiK+f14VjbMA/v5R7LkhOGjcFHGpV2ivVBjSAiQishON4VkXbCvx/q9/gCcZtYew== --sampleIdentifier ZJetsToNuNu_HT-2500ToInf_13TeV-madgraph --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2016//prep-v1/config//submission_20220211_123252.ini
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-2500ToInf_13TeV-madgraph/-v1/190523_213825/0000/tree_1.root; No such file or directory
+
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Unable to open file /eos/cms/store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-2500ToInf_13TeV-madgraph/-v1/190523_213825/0000/tree_2.root; No such file or directory
+
+start prepare_environment_with_config.py
+start copytreePSI.py
+len(filenames) 2 /store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-2500ToInf_13TeV-madgraph/-v1/190523_213825/0000/tree_1.root 1
+##### COPY TREE - BEGIN ######
+remove_branches: [''] len(remove_branches): 1
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-2500ToInf_13TeV-madgraph/-v1/190523_213825/0000/tree_1.root
+input file NOT EXISTING: root://eoscms.cern.ch//store/group/phys_higgs/hbb/ntuples/VHbbPostNano/2016/V11_v3/ZJetsToNuNu_HT-2500ToInf_13TeV-madgraph/-v1/190523_213825/0000/tree_2.root
+##### COPY TREE - END ######
+end prepare_environment_with_config.py
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-11 17:53:57
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

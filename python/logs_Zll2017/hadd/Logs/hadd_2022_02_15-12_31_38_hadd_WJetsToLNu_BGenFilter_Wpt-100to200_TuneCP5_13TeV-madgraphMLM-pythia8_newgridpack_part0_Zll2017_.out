@@ -1,0 +1,134 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn50
+User: fglessge
+StartTime: 2022-02-15 12:31:56
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrdluFOgzAURp8Ib3tvGSP+cprpzDaJwe1nA64BItKmFM3e3iy+xfcEzUn79Ryak4+OuuiXQKG/zrYfum6mvm1pSksY3Uynl7at/JyOzeSJlS7opDWdX12aa78/Lnbz7KbtMCYX7TmkTCuVPCtl62Vyj1VutdTulH03ly42oT/sD1m4pn5o1nZyv10cLqH5/KL3Zdrtts046uJ20sPb04/Jqo/bgVZzyaRLlavCqjJfyYqUUopSdM7qu+h9uicEFAXEgnQvDMQiQCwGiCUHYlkBsRRALGsglhKHBUgvDJQwDJQwjPTGgBKGgRKGgRKGgRKGgRKGgRKGgRJGgLwvQN4XIO8LkPcFyPsC5H0B8r4AeV+AvC9A3gf6xgxQwhighDFACWOAEsYgbR9I+wZI+wZI+wZI+0DFD7R8oOED7f5/9n9Ug2B6 --sampleIdentifier WJetsToLNu_BGenFilter_Wpt-100to200_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 47
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         5L                       744.4008178710938        165L                     45L                      12771.2724609375         248063L                  
+2                         5L                       1235.4111328125          165L                     45L                      21241.13671875           413018L                  
+3                         5L                       900.4813842773438        165L                     45L                      15492.13671875           301104L                  
+4                         5L                       1372.4256591796875       165L                     45L                      23530.181640625          456510L                  
+5                         5L                       1318.700439453125        165L                     45L                      22632.13671875           439575L                  
+6                         4L                       1568.0474853515625       132L                     36L                      26919.13671875           522857L                  
+7                         5L                       831.6632080078125        165L                     45L                      14281.318359375          277398L                  
+8                         1L                       53.175621032714844       33L                      9L                       910.5908813476562        17732L                   
+9                         3L                       261.3574523925781        99L                      27L                      4489.95458984375         87226L                   
+10                        5L                       2747.406982421875        165L                     45L                      47225.2265625            917710L                  
+11                        1L                       77.9111557006836         33L                      9L                       1343.8636474609375       26119L                   
+12                        1L                       98.96900939941406        33L                      9L                       1705.227294921875        33159L                   
+13                        5L                       322.665283203125         165L                     45L                      5539.0                   107578L                  
+14                        5L                       829.0165405273438        165L                     45L                      14260.0                  277200L                  
+15                        1L                       26.807851791381836       33L                      9L                       459.2272644042969        8895L                    
+16                        2L                       9.119834899902344        66L                      18L                      163.90908813476562       3250L                    
+17                        5L                       3234.667236328125        165L                     45L                      55686.13671875           1082894L                 
+18                        2L                       431.2272644042969        66L                      18L                      7414.36376953125         144094L                  
+19                        5L                       503.6198425292969        165L                     45L                      8636.818359375           167723L                  
+20                        1L                       390.9380187988281        33L                      9L                       6726.9091796875          130819L                  
+21                        5L                       774.5908813476562        165L                     45L                      13268.0908203125         257422L                  
+22                        2L                       1084.3719482421875       66L                      18L                      18610.2734375            361344L                  
+23                        5L                       1567.0537109375          165L                     45L                      26904.63671875           522507L                  
+24                        1L                       101.72933959960938       33L                      9L                       1758.8636474609375       34275L                   
+25                        5L                       2237.165283203125        165L                     45L                      38471.81640625           747493L                  
+26                        2L                       254.17355346679688       66L                      18L                      4368.0908203125          84885L                   
+27                        5L                       700.7128295898438        165L                     45L                      12051.5                  234251L                  
+28                        2L                       380.3966979980469        66L                      18L                      6508.54541015625         126153L                  
+29                        5L                       1240.5867919921875       165L                     45L                      21336.181640625          414743L                  
+30                        4L                       1007.022705078125        132L                     36L                      17339.2265625            336913L                  
+31                        5L                       1133.4173583984375       165L                     45L                      19468.455078125          377969L                  
+32                        5L                       521.6239624023438        165L                     45L                      8933.2724609375          173288L                  
+33                        3L                       368.0351257324219        99L                      27L                      6318.318359375           122669L                  
+34                        5L                       1625.9400634765625       165L                     45L                      27894.681640625          541710L                  
+35                        5L                       3201.440185546875        165L                     45L                      54966.2265625            1067136L                 
+36                        5L                       1144.9442138671875       165L                     45L                      19633.681640625          381321L                  
+37                        1L                       186.2954559326172        33L                      9L                       3182.772705078125        61648L                   
+38                        4L                       373.2004089355469        132L                     36L                      6404.13623046875         124356L                  
+39                        3L                       408.0206604003906        99L                      27L                      7002.0                   136073L                  
+40                        5L                       771.0413208007812        165L                     45L                      13297.9091796875         258921L                  
+41                        2L                       468.7830505371094        66L                      18L                      8042.681640625           156117L                  
+42                        1L                       27.580577850341797       33L                      9L                       471.5                    9143L                    
+43                        5L                       624.9132080078125        165L                     45L                      10738.63671875           208593L                  
+44                        5L                       608.0475463867188        165L                     45L                      10432.2275390625         202647L                  
+45                        2L                       271.1983337402344        66L                      18L                      4683.36376953125         91143L                   
+46                        5L                       955.6053466796875        165L                     45L                      16456.955078125          320091L                  
+47                        5L                       1034.7169189453125       165L                     45L                      17774.2265625            345270L                  
+[34m sum                      173L                     40030.61969947815        5709L                    1557L                    687746.8173217773        13361005L                 [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/WJetsToLNu_BGenFilter_Wpt-100to200_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_4445f773646f2080e55849d454b80572d2db9e838b91316a5e12aacd_000000_000000_0000_0_d65d12b31a21741a382ed11b43ef5b1c3a2737e67eab670798d58be6.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 12:32:52 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 1 (=2.1 %, ETA: 0.3 min, INPUT: 13.9705199206/s, OUTPUT: 11.6420999338/s )
+INFO: switching trees --> 2 (=4.3 %, ETA: 0.3 min, INPUT: 24.923390619/s, OUTPUT: 23.7365624943/s )
+INFO: switching trees --> 3 (=6.4 %, ETA: 0.3 min, INPUT: 23.8953181725/s, OUTPUT: 23.0713416838/s )
+INFO: switching trees --> 4 (=8.5 %, ETA: 0.3 min, INPUT: 24.5680414352/s, OUTPUT: 23.9830880677/s )
+INFO: switching trees --> 5 (=10.6 %, ETA: 0.3 min, INPUT: 26.3905836543/s, OUTPUT: 25.9193232319/s )
+INFO: switching trees --> 6 (=12.8 %, ETA: 0.3 min, INPUT: 25.6124652012/s, OUTPUT: 25.2184272751/s )
+INFO: switching trees --> 8 (=17.0 %, ETA: 0.2 min, INPUT: 25.8000511781/s, OUTPUT: 25.4560504957/s )
+INFO: switching trees --> 9 (=19.1 %, ETA: 0.2 min, INPUT: 22.9517882066/s, OUTPUT: 22.6497909933/s )
+INFO: switching trees --> 11 (=23.4 %, ETA: 0.2 min, INPUT: 27.0161183584/s, OUTPUT: 26.748632038/s )
+INFO: switching trees --> 12 (=25.5 %, ETA: 0.2 min, INPUT: 24.8720673281/s, OUTPUT: 24.6282235308/s )
+INFO: switching trees --> 13 (=27.7 %, ETA: 0.2 min, INPUT: 23.568801978/s, OUTPUT: 23.3443371972/s )
+INFO: switching trees --> 16 (=34.0 %, ETA: 0.2 min, INPUT: 22.768020292/s, OUTPUT: 22.5610382894/s )
+INFO: switching trees --> 17 (=36.2 %, ETA: 0.2 min, INPUT: 26.8607812932/s, OUTPUT: 26.6716208616/s )
+INFO: switching trees --> 18 (=38.3 %, ETA: 0.2 min, INPUT: 26.1582867192/s, OUTPUT: 25.9815415386/s )
+INFO: switching trees --> 19 (=40.4 %, ETA: 0.2 min, INPUT: 23.9128485139/s, OUTPUT: 23.7523595977/s )
+INFO: switching trees --> 20 (=42.6 %, ETA: 0.1 min, INPUT: 23.5474655607/s, OUTPUT: 23.3965202686/s )
+INFO: switching trees --> 21 (=44.7 %, ETA: 0.1 min, INPUT: 23.5478239058/s, OUTPUT: 23.4051098215/s )
+INFO: switching trees --> 22 (=46.8 %, ETA: 0.1 min, INPUT: 23.4610185687/s, OUTPUT: 23.3261851286/s )
+INFO: switching trees --> 23 (=48.9 %, ETA: 0.1 min, INPUT: 23.8466848211/s, OUTPUT: 23.7191624424/s )
+INFO: switching trees --> 24 (=51.1 %, ETA: 0.1 min, INPUT: 22.5730755286/s, OUTPUT: 22.4536412665/s )
+INFO: switching trees --> 26 (=55.3 %, ETA: 0.1 min, INPUT: 23.4211226506/s, OUTPUT: 23.3068732718/s )
+INFO: switching trees --> 27 (=57.4 %, ETA: 0.1 min, INPUT: 22.8878961683/s, OUTPUT: 22.7783847034/s )
+INFO: switching trees --> 28 (=59.6 %, ETA: 0.1 min, INPUT: 22.189853371/s, OUTPUT: 22.0841874026/s )
+INFO: switching trees --> 29 (=61.7 %, ETA: 0.1 min, INPUT: 22.3877795447/s, OUTPUT: 22.2864773748/s )
+INFO: switching trees --> 30 (=63.8 %, ETA: 0.1 min, INPUT: 22.4405636955/s, OUTPUT: 22.3429960273/s )
+INFO: switching trees --> 31 (=66.0 %, ETA: 0.1 min, INPUT: 22.3412108228/s, OUTPUT: 22.2473401891/s )
+INFO: switching trees --> 32 (=68.1 %, ETA: 0.1 min, INPUT: 21.9566599884/s, OUTPUT: 21.8659299884/s )
+INFO: switching trees --> 33 (=70.2 %, ETA: 0.1 min, INPUT: 21.5029545047/s, OUTPUT: 21.414827642/s )
+INFO: switching trees --> 34 (=72.3 %, ETA: 0.1 min, INPUT: 22.3946163565/s, OUTPUT: 22.3088132287/s )
+INFO: switching trees --> 35 (=74.5 %, ETA: 0.1 min, INPUT: 24.1246921313/s, OUTPUT: 24.0415035377/s )
+INFO: switching trees --> 36 (=76.6 %, ETA: 0.1 min, INPUT: 23.7699822433/s, OUTPUT: 23.6891319636/s )
+INFO: switching trees --> 37 (=78.7 %, ETA: 0.1 min, INPUT: 23.3271580787/s, OUTPUT: 23.248615459/s )
+INFO: switching trees --> 38 (=80.9 %, ETA: 0.1 min, INPUT: 22.8602236208/s, OUTPUT: 22.783511461/s )
+INFO: switching trees --> 39 (=83.0 %, ETA: 0.0 min, INPUT: 22.5121429932/s, OUTPUT: 22.4373518205/s )
+INFO: switching trees --> 40 (=85.1 %, ETA: 0.0 min, INPUT: 22.5086801542/s, OUTPUT: 22.4356000238/s )
+INFO: switching trees --> 42 (=89.4 %, ETA: 0.0 min, INPUT: 22.0212998725/s, OUTPUT: 21.9502634213/s )
+INFO: switching trees --> 43 (=91.5 %, ETA: 0.0 min, INPUT: 22.1131096302/s, OUTPUT: 22.0440061626/s )
+INFO: switching trees --> 44 (=93.6 %, ETA: 0.0 min, INPUT: 21.8193517826/s, OUTPUT: 21.7517996099/s )
+INFO: switching trees --> 45 (=95.7 %, ETA: 0.0 min, INPUT: 21.4783116339/s, OUTPUT: 21.4124272424/s )
+INFO: switching trees --> 46 (=97.9 %, ETA: 0.0 min, INPUT: 21.4422575619/s, OUTPUT: 21.3782508229/s )
+INFO: end of processing. time  Tue Feb 15 12:33:07 2022
+INFO: throughput: INPUT: 22.1545/s, OUTPUT: 22.1545/s 
+INFO: number of trees processed: 41
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:33:08 2022  events read: 347
+ > [34m[0m 347 (100.0%) => /scratch/fglessge//hadd/WJetsToLNu_BGenFilter_Wpt-100to200_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_4445f773646f2080e55849d454b80572d2db9e838b91316a5e12aacd_000000_000000_0000_0_d65d12b31a21741a382ed11b43ef5b1c3a2737e67eab670798d58be6.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//WJetsToLNu_BGenFilter_Wpt-100to200_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_4445f773646f2080e55849d454b80572d2db9e838b91316a5e12aacd_000000_000000_0000_0_d65d12b31a21741a382ed11b43ef5b1c3a2737e67eab670798d58be6.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:33:09
+duration (real time): 1 minutes
+--- OK ---
+
+Exiting runAll.sh
+

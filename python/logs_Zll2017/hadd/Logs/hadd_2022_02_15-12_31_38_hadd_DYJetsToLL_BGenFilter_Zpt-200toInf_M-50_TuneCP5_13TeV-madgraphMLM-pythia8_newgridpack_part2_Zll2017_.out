@@ -1,0 +1,54 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn33
+User: fglessge
+StartTime: 2022-02-15 12:34:31
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 2 --fileList base64:eNrdz1FOhDAQANAT1Zl2JUD8UjerGFBikGT9mRS3tkRsm3bQ7O3NegxO8PIgc0gGbAprhOjOmdxsbQY3TeB5jYvJMD5OUx8yP2sfQKEsYZQS9scnw3kIbUt3D8Yf5oVNovfIQiFyaPwndaJAGlZv7vuC5G4wo/jWJ5t0dF3biXhmN+uKvPm1aT5F/fEFr6tvmoNeFlleuNuX/c+16N8uKklVVSBrLLAkrAu1KwERETgZQ7K8SiHwDWwmVG0tVG8spP4/f2mkE94= --sampleIdentifier DYJetsToLL_BGenFilter_Zpt-200toInf_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 4
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       114.6343002319336        33L                      9L                       1875.1363525390625       35983L                   
+2                         1L                       27.36570167541504        33L                      9L                       453.31817626953125       8696L                    
+3                         2L                       137.99586486816406       66L                      18L                      2238.818115234375        42606L                   
+4                         2L                       59.49586868286133        66L                      18L                      988.4545288085938        18997L                   
+[34m sum                      6L                       339.491735458374         198L                     54L                      5555.7271728515625       106282L                   [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/DYJetsToLL_BGenFilter_Zpt-200toInf_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_351039f6f7c12d740f0e6fb00558d67f86c3f12dd76d0062eb312313_000000_000000_0000_2_0ad8e09a0c3b8f22a7e444bd6b3115361f6c0af5aa5434e394c4ea09.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 12:34:51 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 1 (=25.0 %, ETA: 0.9 min, INPUT: 604.038002565/s, OUTPUT: 603.980348847/s )
+INFO: switching trees --> 2 (=50.0 %, ETA: 0.4 min, INPUT: 587.695206011/s, OUTPUT: 587.650123531/s )
+INFO: switching trees --> 3 (=75.0 %, ETA: 0.2 min, INPUT: 587.61371435/s, OUTPUT: 587.590775922/s )
+INFO: end of processing. time  Tue Feb 15 12:35:43 2022
+INFO: throughput: INPUT: 604.9062/s, OUTPUT: 604.9062/s 
+INFO: number of trees processed: 4
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:35:50 2022  events read: 31351
+ > [34m[0m 31351 (100.0%) => /scratch/fglessge//hadd/DYJetsToLL_BGenFilter_Zpt-200toInf_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_351039f6f7c12d740f0e6fb00558d67f86c3f12dd76d0062eb312313_000000_000000_0000_2_0ad8e09a0c3b8f22a7e444bd6b3115361f6c0af5aa5434e394c4ea09.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//DYJetsToLL_BGenFilter_Zpt-200toInf_M-50_TuneCP5_13TeV-madgraphMLM-pythia8_newgridpack/tree_351039f6f7c12d740f0e6fb00558d67f86c3f12dd76d0062eb312313_000000_000000_0000_2_0ad8e09a0c3b8f22a7e444bd6b3115361f6c0af5aa5434e394c4ea09.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:36:03
+duration (real time): 1 minutes
+--- OK ---
+
+Exiting runAll.sh
+

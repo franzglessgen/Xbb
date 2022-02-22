@@ -1,0 +1,62 @@
+cd /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/
+Task: hadd
+Pwd: /t3home/fglessge/CMSSW_10_1_0/src/Xbb/python
+Host: t3wn33
+User: fglessge
+StartTime: 2022-02-15 12:32:47
+
+Parsing files in Zll2017config...
+
+python ./hadd.py --chunkNumber 0 --fileList base64:eNrV0O0KgjAUgOErsnPO1DL6FUVUaEks+zkmDSeYG/sIuvuou9gNvDy84INxCgZnogWrP17ocRg86L6HOUQ7KQ/dse9b48NFzgYY0go6InicVfDc1JcojjwrELlZIgoeZ7VrS0E5V132ks/BSaubusnsJ+hRVnCL8+l0kNNEq19xe92/i6y9/8KCWFUArbFkJChnJUNARITglBK0cMaEDaRETtHMEjTn6ZkT3FykRy7TI1d/8hcVX8t6 --sampleIdentifier WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8 --config /t3home/fglessge/CMSSW_10_1_0/src//Xbb/python/logs_Zll2017//hadd/config//submission_20220215_123138.ini --inputDir HADDin --outputDir HADDout
+INFO: reading part  1  of  1
+INFO: # files chained: 8
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+tree                      run                      genEventSumw2            nLHEPdfSumw              nLHEScaleSumw            genEventSumw             genEventCount            
+1                         1L                       1104345.0                33L                      9L                       1099437.0                1104345L                 
+2                         1L                       323182.0                 33L                      9L                       321662.0                 323182L                  
+3                         1L                       485645.0                 33L                      9L                       483397.0                 485645L                  
+4                         1L                       169004.0                 33L                      9L                       168216.0                 169004L                  
+5                         1L                       808888.0                 33L                      9L                       805194.0                 808888L                  
+6                         1L                       1015999.0                33L                      9L                       1011505.0                1015999L                 
+7                         1L                       1468414.0                33L                      9L                       1461884.0                1468414L                 
+8                         1L                       253808.0                 33L                      9L                       252756.0                 253808L                  
+[34m sum                      8L                       5629285.0                264L                     72L                      5604051.0                5629285L                  [0m
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+DEBUG: could not disable branch: No option 'remove_branches' in section: 'General'
+OUTPUT TREES:
+ >  /scratch/fglessge//hadd/WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/tree_3428cebe3d1aed6018e7650f058e44c517bfc7cb0456028fc820016a_000000_000000_0000_0_b4f006751b10879d7976bd3f9787e8426c14caa9593c70c84732d394.root  <==    cut:  '1'
+FORMULAS:
+listOfBranchesToKeep    ['weight*', 'nGen*', 'vLidx', 'DoubleMu*', 'Jet_PtReg*', 'puWeightUp', '*BDT*', 'Pileup_nTrueInt', 'GenJet_eta', 'GenB*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass3p8', 'FitCorr', 'HLT_IsoMu27', 'LHE_Vpt', 'nFSRrecovered', 'top_mass2_05_top', 'fixedGridRhoFastjetAll', 'H_phi', 'GenJet_pt', 'weight', 'HLT_PFMET120_PFMHT120_IDTight', 'eTrigSFWeight_doubleEle80x', 'H_mass_noFSR', 'LHE_Nuds', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_Iso*', 'event', 'Sum$(Jet_PtReg>30&&abs(Jet_eta)<2.4&&Jet_puId==7&&Jet_jetId>0&&Jet_lepFilter>0)', 'EWKwVJets', 'HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL', 'Jet_puId', 'is*', 'nAddLeptons', 'run', 'H_eta', 'GenPart*', 'nAddLep15_2p5', 'top_mass2_05_neutrino*', 'H_pt', 'LHE_Nb', 'LHE_Nc', 'Jet_jetId', 'HLT_Ele32_WPTight_Gsf_L1DoubleEG', 'resolved*', 'kinFit*', 'V_*', 'Vtype', 'MET_Pt', 'LHE_weights_scale_wgt', 'DY_specialWeight', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass8', 'minDphiJetMet', '*', 'HLT_Mu17_TrkIsoVVL_Mu8_TrkIsoVVL_DZ_Mass*', 'LHE_*', 'boosted*', 'nGenStatus2bHad', 'LHE_HT', 'Jet_mass', 'sampleIndex', 'Jet_Pt', 'MET_phi', 'PrefireWeight', 'EWKW', 'dPhiLepMet', '*DNN*', 'isData', 'btagWeight*', 'puWeightDown', 'luminosityBlock', 'hJidx', 'FitCorr*', 'Jet_lepFilter', 'Jet_btag*', 'Jet_phi', 'hJets_1_pt_FSRrecovered', 'HLT_PFMET120_PFMHT120_IDTight_PFHT60', 'nGenBs', 'muonSF*', 'hJets_0_pt_FSRrecovered', 'GenWZQuark_pdgId', 'Hbb_fjidx', 'electron*', 'MET_pt', 'METFix*', 'genWeight', 'H_pt_noFSR', 'Jet_eta', 'GenJet_numBHadrons', 'nAddJet*', 'H_mass', 'bTagWeight*', 'puWeight', 'SoftActivity*', 'LHEScaleWeight', 'Jet_PtReg', 'puWeight*', 'GenJetAK8_nBhadrons', 'Electron_mva*', 'muTrigSFWeight_doublemu', 'GenJet_hadronFlavour', 'LHE_Njets', 'H_mass_jerReg*']
+INFO: keep all branches
+------------------
+ start processing 
+------------------
+INFO: time  Tue Feb 15 12:33:02 2022
+INFO: switching trees --> 0 (=0.0 %, ETA: ? min, ?)
+/t3home/fglessge/CMSSW_10_1_0/src/Xbb/python/myutils/sampleTree.py:664: RuntimeWarning: creating converter for unknown type "const char*[]"
+  return self.formulas[formulaName].EvalInstance()
+INFO: switching trees --> 1 (=12.5 %, ETA: 0.0 min, INPUT: 222.550949661/s, OUTPUT: 217.605373002/s )
+INFO: switching trees --> 2 (=25.0 %, ETA: 0.0 min, INPUT: 162.265970212/s, OUTPUT: 159.60587234/s )
+INFO: switching trees --> 3 (=37.5 %, ETA: 0.0 min, INPUT: 153.154497119/s, OUTPUT: 151.286759349/s )
+INFO: switching trees --> 4 (=50.0 %, ETA: 0.0 min, INPUT: 120.523525448/s, OUTPUT: 119.169328533/s )
+INFO: switching trees --> 5 (=62.5 %, ETA: 0.0 min, INPUT: 126.758099733/s, OUTPUT: 125.710512132/s )
+INFO: switching trees --> 6 (=75.0 %, ETA: 0.0 min, INPUT: 137.257708314/s, OUTPUT: 136.405175964/s )
+INFO: switching trees --> 7 (=87.5 %, ETA: 0.0 min, INPUT: 138.952565437/s, OUTPUT: 138.340439598/s )
+INFO: end of processing. time  Tue Feb 15 12:33:03 2022
+INFO: throughput: INPUT: 142.8306/s, OUTPUT: 142.8306/s 
+INFO: number of trees processed: 8
+INFO: files written
+INFO: saveMemory is  False
+INFO: done. time  Tue Feb 15 12:33:04 2022  events read: 234
+ > [34m[0m 234 (100.0%) => /scratch/fglessge//hadd/WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/tree_3428cebe3d1aed6018e7650f058e44c517bfc7cb0456028fc820016a_000000_000000_0000_0_b4f006751b10879d7976bd3f9787e8426c14caa9593c70c84732d394.root
+INFO: hadd returned  0
+move file to final destination: [34m root://t3dcachedb03.psi.ch:1094//pnfs/psi.ch/cms/trivcat/store/user/fglessge/VHbb/Zll/VHbbPostNano2017_V11/2020_06_08/hadd//WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8/tree_3428cebe3d1aed6018e7650f058e44c517bfc7cb0456028fc820016a_000000_000000_0000_0_b4f006751b10879d7976bd3f9787e8426c14caa9593c70c84732d394.root [0m
+INFO: done.
+--------------------------------------------------------------------------------
+exit code: 0
+EndTime: 2022-02-15 12:33:04
+duration (real time): 0 minutes
+--- OK ---
+
+Exiting runAll.sh
+

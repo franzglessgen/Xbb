@@ -164,8 +164,9 @@ class CopyTreePSI(object):
         print "##### COPY TREE - END ######"
 
 def filelist(pathIN,folderName):
-    filenames = open(pathIN+'/'+folderName+'.txt').readlines()
 
+    filenames = open(pathIN+'/'+folderName+'.txt').readlines()
+    
     ## search the folder containing the input files
     inputFiles = []
 
